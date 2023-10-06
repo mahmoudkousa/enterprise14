@@ -1,0 +1,65 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quality_control_picking_batch
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Language-Team: Hindi (https://www.transifex.com/odoo/teams/41243/hi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: quality_control_picking_batch
+#: model:ir.model,name:quality_control_picking_batch.model_stock_picking_batch
+#: model:ir.model.fields,field_description:quality_control_picking_batch.field_quality_check__batch_id
+msgid "Batch Transfer"
+msgstr ""
+
+#. module: quality_control_picking_batch
+#: model:ir.model.fields,help:quality_control_picking_batch.field_quality_check__batch_id
+msgid "Batch associated to this transfer"
+msgstr ""
+
+#. module: quality_control_picking_batch
+#: model:ir.model.fields,field_description:quality_control_picking_batch.field_quality_check__display_name
+#: model:ir.model.fields,field_description:quality_control_picking_batch.field_stock_picking_batch__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: quality_control_picking_batch
+#: model:ir.model.fields,field_description:quality_control_picking_batch.field_quality_check__id
+#: model:ir.model.fields,field_description:quality_control_picking_batch.field_stock_picking_batch__id
+msgid "ID"
+msgstr ""
+
+#. module: quality_control_picking_batch
+#: model:ir.model.fields,field_description:quality_control_picking_batch.field_quality_check____last_update
+#: model:ir.model.fields,field_description:quality_control_picking_batch.field_stock_picking_batch____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: quality_control_picking_batch
+#: model:ir.model,name:quality_control_picking_batch.model_quality_check
+msgid "Quality Check"
+msgstr ""
+
+#. module: quality_control_picking_batch
+#: model:ir.model.fields,field_description:quality_control_picking_batch.field_stock_picking_batch__quality_check_todo
+msgid "Quality Check Todo"
+msgstr ""
+
+#. module: quality_control_picking_batch
+#: model_terms:ir.ui.view,arch_db:quality_control_picking_batch.stock_picking_batch_form
+msgid "Quality Checks"
+msgstr ""
+
+#. module: quality_control_picking_batch
+#: model_terms:ir.ui.view,arch_db:quality_control_picking_batch.stock_picking_batch_form
+msgid "Validate"
+msgstr ""

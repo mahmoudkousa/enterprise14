@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hr_payroll.hr_work_entry_type_out_of_contract" model="hr.work.entry.type">
+        <field name="private_car" eval="False"/>
+        <field name="representation_fees" eval="False"/>
+    </record>
+    <record id="l10n_be_hr_payroll.work_entry_type_paternity_company" model="hr.work.entry.type">
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="l10n_be_hr_payroll.work_entry_type_training" model="hr.work.entry.type">
+        <field name="meal_voucher">True</field>
+        <field name="private_car">True</field>
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="l10n_be_hr_payroll.work_entry_type_breast_feeding" model="hr.work.entry.type">
+        <field name="meal_voucher">True</field>
+        <field name="private_car">True</field>
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="l10n_be_hr_payroll.work_entry_type_recovery" model="hr.work.entry.type">
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="hr_work_entry.work_entry_type_attendance" model="hr.work.entry.type">
+        <field name="private_car">True</field>
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="hr_work_entry_contract.work_entry_type_leave" model="hr.work.entry.type">
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="hr_work_entry_contract.work_entry_type_home_working" model="hr.work.entry.type">
+        <field name="meal_voucher">True</field>
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="hr_work_entry_contract.work_entry_type_sick_leave" model="hr.work.entry.type">
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="hr_work_entry_contract.work_entry_type_legal_leave" model="hr.work.entry.type">
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="l10n_be_hr_payroll.work_entry_type_bank_holiday" model="hr.work.entry.type">
+        <field name="representation_fees">True</field>
+    </record>
+    <record id="l10n_be_hr_payroll.work_entry_type_training" model="hr.work.entry.type">
+        <field name="private_car">True</field>
+        <field name="representation_fees">True</field>
+    </record>
+</odoo>

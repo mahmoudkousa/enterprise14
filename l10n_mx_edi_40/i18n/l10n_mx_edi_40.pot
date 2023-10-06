@@ -1,0 +1,216 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_mx_edi_40
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-10 22:09+0000\n"
+"PO-Revision-Date: 2023-01-10 22:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__622
+msgid "Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__606
+msgid "Arrendamiento"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__609
+msgid "Consolidación"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model,name:l10n_mx_edi_40.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__624
+msgid "Coordinados"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_res_partner__country_code
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_res_users__country_code
+msgid "Country Code"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__629
+msgid ""
+"De los Regímenes Fiscales Preferentes y de las Empresas Multinacionales"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__608
+msgid "Demás ingresos"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model,name:l10n_mx_edi_40.model_account_edi_format
+msgid "EDI format"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__630
+msgid "Enajenación de acciones en bolsa de valores"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_res_partner__l10n_mx_edi_fiscal_regime
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_res_users__l10n_mx_edi_fiscal_regime
+msgid "Fiscal Regime"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_res_partner__l10n_mx_edi_fiscal_regime
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_res_users__l10n_mx_edi_fiscal_regime
+msgid "Fiscal Regime is required for all partners (used in CFDI)"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__601
+msgid "General de Ley Personas Morales"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__628
+msgid "Hidrocarburos"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_res_partner__l10n_mx_edi_no_tax_breakdown
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_res_users__l10n_mx_edi_no_tax_breakdown
+msgid ""
+"Includes taxes in the price and does not add tax information to the CFDI. "
+"Particularly in handy for IEPS. "
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__621
+msgid "Incorporación Fiscal"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__611
+msgid "Ingresos por Dividendos (socios y accionistas)"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__614
+msgid "Ingresos por intereses"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model,name:l10n_mx_edi_40.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_40.l10n_mx_edi_inh_40_res_partner_form
+msgid "MX EDI"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_res_partner__l10n_mx_edi_no_tax_breakdown
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_res_users__l10n_mx_edi_no_tax_breakdown
+msgid "No Tax Breakdown"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__623
+msgid "Opcional para Grupos de Sociedades"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__612
+msgid "Personas Físicas con Actividades Empresariales y Profesionales"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__603
+msgid "Personas Morales con Fines no Lucrativos"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__610
+msgid "Residentes en el Extranjero sin Establecimiento Permanente en México"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__626
+msgid "Régimen Simplificado de Confianza - RESICO"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__607
+msgid "Régimen de Enajenación o Adquisición de Bienes"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__625
+msgid ""
+"Régimen de las Actividades Empresariales con ingresos a través de "
+"Plataformas Tecnológicas"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__615
+msgid "Régimen de los ingresos por obtención de premios"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__616
+msgid "Sin obligaciones fiscales"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__620
+msgid ""
+"Sociedades Cooperativas de Producción que optan por diferir sus ingresos"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__res_partner__l10n_mx_edi_fiscal_regime__605
+msgid "Sueldos y Salarios e Ingresos Asimilados a Salarios"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_res_partner__country_code
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_res_users__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_account_bank_statement_line__l10n_mx_edi_usage
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_account_move__l10n_mx_edi_usage
+#: model:ir.model.fields,field_description:l10n_mx_edi_40.field_account_payment__l10n_mx_edi_usage
+msgid "Usage"
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_account_bank_statement_line__l10n_mx_edi_usage
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_account_move__l10n_mx_edi_usage
+#: model:ir.model.fields,help:l10n_mx_edi_40.field_account_payment__l10n_mx_edi_usage
+msgid ""
+"Used in CFDI 3.3 to express the key to the usage that will gives the receiver to this invoice. This value is defined by the customer.\n"
+"Note: It is not cause for cancellation if the key set is not the usage that will give the receiver of the document."
+msgstr ""
+
+#. module: l10n_mx_edi_40
+#: model:ir.model.fields.selection,name:l10n_mx_edi_40.selection__account_move__l10n_mx_edi_usage__s01
+msgid "Without fiscal effects"
+msgstr ""

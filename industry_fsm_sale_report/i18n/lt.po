@@ -1,0 +1,125 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_sale_report
+# 
+# Translators:
+# Martin Trigaux, 2021
+# UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2021
+# Antanas Muliuolis <an.muliuolis@gmail.com>, 2021
+# Linas Versada <linaskrisiukenas@gmail.com>, 2021
+# Donatas F <osourcem@gmail.com>, 2021
+# grupoda2 <dmitrijus.ivanovas@gmail.com>, 2021
+# Jonas Zinkevicius <jozi@odoo.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:04+0000\n"
+"PO-Revision-Date: 2020-09-07 08:21+0000\n"
+"Last-Translator: Jonas Zinkevicius <jozi@odoo.com>, 2021\n"
+"Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<span>Disc.%</span>"
+msgstr "<span>Nuol. %</span>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Tarpinė suma</strong>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Tarpinė suma</strong>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Amount"
+msgstr "Suma"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_subtotal
+msgid "Delivered Subtotal"
+msgstr "Pristatyta tarpinė suma"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_total
+msgid "Delivered Total"
+msgstr "Pristatyta suma"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_tax
+msgid "Delivered Total Tax"
+msgstr "Pristatyta apmokestinta suma"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Description"
+msgstr "Aprašymas"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "Rodomas pavadinimas"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template____last_update
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "Paskutinį kartą keista"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.fsm_template_field4
+msgid "Model"
+msgstr "Šablonas"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_product_template
+msgid "Product Template"
+msgstr "Produkto šablonas"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Quantity"
+msgstr "Kiekis"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Pardavimo užsakymo eilutė"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Time &amp; Material"
+msgstr ""
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Total Price"
+msgstr "Bendra kaina"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Unit Price"
+msgstr "Vieneto kaina"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_product__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__worksheet_template_id
+msgid "Worksheet Template"
+msgstr ""

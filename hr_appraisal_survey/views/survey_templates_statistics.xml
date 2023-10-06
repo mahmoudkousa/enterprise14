@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+    <template id="hr_appraisal_survey_button_form_view" inherit_id="survey.survey_button_form_view">
+        <xpath expr="//div[hasclass('alert')]/div" position="inside">
+            <t t-if="appraisal_id">
+                or <a t-attf-href="/web#view_type=form&amp;model=hr.appraisal&amp;id=#{appraisal_id}&amp;action=hr_appraisal.open_view_hr_appraisal_tree" class="">Back to the appraisal</a>
+            </t>
+        </xpath>
+    </template>
+</data>
+</odoo>

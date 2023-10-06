@@ -1,0 +1,172 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_dashboard
+# 
+# Translators:
+# Rivo Zängov <eraser@eraser.ee>, 2020
+# Martin Trigaux, 2020
+# Arma Gedonsky <armagedonsky@hot.ee>, 2020
+# Piia Paurson <piia@avalah.ee>, 2020
+# Triine Aavik <triine@avalah.ee>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Triine Aavik <triine@avalah.ee>, 2021\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/js/dashboard_controller.js:0
+#, python-format
+msgid "%s Analysis"
+msgstr ""
+
+#. module: web_dashboard
+#: model:ir.model,name:web_dashboard.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "Tegevuseakna vaade"
+
+#. module: web_dashboard
+#: model:ir.model,name:web_dashboard.model_base
+msgid "Base"
+msgstr "Alus"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Column:"
+msgstr ""
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/js/dashboard_view.js:0
+#: model:ir.model.fields.selection,name:web_dashboard.selection__ir_actions_act_window_view__view_mode__dashboard
+#: model:ir.model.fields.selection,name:web_dashboard.selection__ir_ui_view__type__dashboard
+#, python-format
+msgid "Dashboard"
+msgstr "Töölaud"
+
+#. module: web_dashboard
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_actions_act_window_view__display_name
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_http__display_name
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_ui_view__display_name
+msgid "Display Name"
+msgstr "Kuva nimi"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Domain Label:"
+msgstr ""
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Domain:"
+msgstr "Domeen:"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Field:"
+msgstr "Väli:"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Group Operator:"
+msgstr ""
+
+#. module: web_dashboard
+#: model:ir.model,name:web_dashboard.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP Routing"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Help:"
+msgstr ""
+
+#. module: web_dashboard
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_actions_act_window_view__id
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_http__id
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_ui_view__id
+msgid "ID"
+msgstr "ID"
+
+#. module: web_dashboard
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_actions_act_window_view____last_update
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_http____last_update
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_ui_view____last_update
+msgid "Last Modified on"
+msgstr "Viimati muudetud (millal)"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Modifiers:"
+msgstr "Täpsustajad:"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Name:"
+msgstr "Nimi:"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "String:"
+msgstr ""
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Value Label:"
+msgstr ""
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Value:"
+msgstr ""
+
+#. module: web_dashboard
+#: model:ir.model,name:web_dashboard.model_ir_ui_view
+msgid "View"
+msgstr "Vaade"
+
+#. module: web_dashboard
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_actions_act_window_view__view_mode
+#: model:ir.model.fields,field_description:web_dashboard.field_ir_ui_view__type
+msgid "View Type"
+msgstr "Vaate tüüp"
+
+#. module: web_dashboard
+#. openerp-web
+#: code:addons/web_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Widget:"
+msgstr "Vidin:"

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <div t-name="FSMProductQuantity">
+        <span class="o_target_to_set oe_inline d-inline-block text-center" name="fsm_quantity" t-esc="qty" style="width: 40px; font-size: 24px"/>
+    </div>
+</templates>

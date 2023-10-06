@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="voip.PhoneCallTab">
+        <div>
+            <p class="o_spinner mt-3 text-center" t-attf-style="display: {{ widget._phoneCalls.length === 0 and widget.isLoading === true ? 'block' : 'none' }};">
+                <i class="fa fa-spin fa-spinner"/> Loading…
+            </p>
+            <div class="o_dial_phonecalls"></div>
+        </div>
+    </t>
+
+</templates>

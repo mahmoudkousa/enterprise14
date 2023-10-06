@@ -1,0 +1,38 @@
+// ===============================
+// Mass Mailing "Theme Newsletter"
+// ===============================
+
+$o-mm-news-color-1: #f5f5f5;
+$o-mm-news-color-2: #ffffff;
+$o-mm-news-color-3: #1cc1a9;
+$o-mm-news-color-4: #464646;
+$o-mm-news-color-5: darken($o-mm-news-color-3, 5%);
+$o-mm-news-color-6: #906784;
+$o-mm-news-color-7: #87a6b5;
+
+.o_newsletter_theme {
+    @include bg-variant(".bg-o-color-2", $o-mm-news-color-6);
+    @include text-emphasis-variant(".text-o-color-2", $o-mm-news-color-6);
+    @include bg-variant(".bg-o-color-4", $o-mm-news-color-7);
+
+    // ===== Snippets (general) =====
+    .o_mail_snippet_general {
+        .btn.btn-primary {
+            color: $o-mm-news-color-2;
+            background-color: $o-mm-news-color-3;
+        }
+        a:not(.btn), .btn.btn-link {
+            color: $o-mm-news-color-5;
+        }
+
+        .bg-o-color-4 {
+            .btn.btn-primary {
+                color: $o-mm-news-color-2;
+                background-color:  $o-mm-news-color-6;
+            }
+            a:not(.btn), .btn.btn-link {
+                color: $o-mm-news-color-6;
+            }
+        }
+    }
+}

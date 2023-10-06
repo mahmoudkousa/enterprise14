@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reports_tax
+# 
+# Translators:
+# Martin Trigaux, 2021
+# Bole <bole@dajmi5.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-02 13:14+0000\n"
+"PO-Revision-Date: 2021-03-14 17:25+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>, 2021\n"
+"Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid ""
+"<span class=\"fa fa-book\"/>\n"
+"                Tax Report:"
+msgstr ""
+"<span class=\"fa fa-book\"/>\n"
+"                Porezni izvještaj:"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.template_tax_report
+msgid ""
+"<span>Please note that the report may include some rounding differences "
+"towards the bookings.</span>"
+msgstr ""
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report__display_name
+msgid "Display Name"
+msgstr "Naziv"
+
+#. module: account_reports_tax
+#: model:ir.model,name:account_reports_tax.model_account_generic_tax_report
+msgid "Generic Tax Report"
+msgstr "Generički porezni izvještaj"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Global Summary"
+msgstr ""
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Group by: Account &gt; Tax"
+msgstr ""
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Group by: Tax &gt; Account"
+msgstr ""
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report____last_update
+msgid "Last Modified on"
+msgstr "Zadnja promjena"

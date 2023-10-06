@@ -1,0 +1,782 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_yodlee
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Matus Krnac <matus.krnac@gmail.com>, 2020
+# Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2020
+# Filip Brenčič <brencicf5@gmail.com>, 2020
+# Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
+# karolína schusterová <karolina.schusterova@vdp.sk>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: karolína schusterová <karolina.schusterova@vdp.sk>, 2020\n"
+"Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: sk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "(Diagnostic: %r for URL %s)"
+msgstr "(Diagnostické: %r for URL %s)"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Account"
+msgstr "Účet"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Already Registered (436):Your Auto-Registration could not be "
+"completed because the site reports that your account is already registered."
+"  Please log in to the site to confirm and then complete the site addition "
+"process with the correct login information."
+msgstr ""
+"Account Already Registered (436):Your Auto-Registration could not be "
+"completed because the site reports that your account is already registered. "
+"Please log in to the site to confirm and then complete the site addition "
+"process with the correct login information."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Locked (407): We could not update your account because it appears "
+"your account has been locked. This usually results from too many "
+"unsuccessful login attempts in a short period of time. Please visit the site"
+" or contact its customer support to resolve this issue.  Once done, please "
+"update your account credentials in case they are changed."
+msgstr ""
+"Účet uzamknutý (407): Váš účet sme nemohli aktualizovať, pretože sa zdá, že "
+"váš účet bol uzamknutý. Zvyčajne to vyplýva z príliš veľa neúspešných "
+"pokusov o prihlásenie v krátkom časovom období. Ak chcete vyriešiť tento "
+"problém, navštívte web alebo kontaktujte jeho zákaznícku podporu. Po "
+"dokončení aktualizujte poverenia svojho účtu pre prípad, že dôjde k ich "
+"zmene."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Not Found(408): We're sorry, we couldn't find any accounts for you "
+"at the site. Please log in at the site and confirm that your account is set "
+"up, then try again."
+msgstr ""
+"Účet nebol nájdený (408): Je nám ľúto, na vašom webe sme nenašli žiadne vaše"
+" účty. Prihláste sa na webe a potvrďte, že je váš účet nastavený. Potom to "
+"skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Reported Closed (422): We were unable to update your account "
+"information because it appears one or more of your related accounts have "
+"been closed.  Please deactivate or delete the relevant account and try "
+"again."
+msgstr ""
+"Účet bol nahlásený zatvorený (422): Nemohli sme aktualizovať informácie o "
+"vašom účte, pretože sa zdá, že jeden alebo viac vašich súvisiacich účtov "
+"bolo zrušených. Deaktivujte alebo odstráňte príslušný účet a skúste to "
+"znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Type Not Supported(417):The type of account we found is not "
+"currently supported.  Please remove this site and add as a  manual account."
+msgstr ""
+"Typ účtu nie je podporovaný (417): Typ účtu, ktorý sme našli, nie je "
+"momentálne podporovaný. Odstráňte tento web a pridajte ho ako manuálny účet."
+
+#. module: account_yodlee
+#: model:ir.model.fields,help:account_yodlee.field_account_online_journal__yodlee_account_status
+msgid "Active/Inactive on Yodlee system"
+msgstr "Aktívne / neaktívne v systéme Yodlee"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "An Error has occurred (code %s)"
+msgstr "Vyskytla sa chyba (kód %s)"
+
+#. module: account_yodlee
+#: model:ir.model,name:account_yodlee.model_res_company
+msgid "Companies"
+msgstr "Spoločnosti"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Could not make sense of parameters: %s"
+msgstr "Nepodarilo sa pochopiť parametre: %s"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Credential Re-Verification Required (402): We could not update your account "
+"because your username and/or password were reported to be incorrect.  Please"
+" re-verify your username and password."
+msgstr ""
+"Vyžaduje sa opätovné overenie poverenia (402): Váš účet sme nemohli "
+"aktualizovať, pretože sa uvádza, že vaše používateľské meno alebo heslo bolo"
+" nesprávne. Znova overte svoje používateľské meno a heslo."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Credential Re-Verification Required (420):The site has merged with another. "
+"Please re-verify your credentials at the site and update the same."
+msgstr ""
+"Vyžaduje sa opätovné overenie poverenia (420): Stránka bola zlúčená s inou. "
+"Znova overte svoje poverenia na webe a aktualizujte ich."
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal__display_name
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_provider__display_name
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__display_name
+msgid "Display Name"
+msgstr "Zobrazovaný názov"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Error %s, message: %s"
+msgstr "Chyba %s,správa: %s"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Error %s, message: %s, reference code: %s"
+msgstr "Chyba %s, správa: %s, referenčný kód: %s"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Home Value Not Found (511): The site is unable to provide home value for "
+"your property. We suggest you to delete this site."
+msgstr ""
+"Domáca hodnota sa nenašla (511): Stránka nedokáže poskytnúť domácu hodnotu "
+"pre vaše zariadenie. Navrhujeme vám tento web odstrániť."
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal__id
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_provider__id
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_yodlee
+#: model:ir.model,name:account_yodlee.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr "Rozhranie pre online denník účtov"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Invalid Language Setting (421): The language setting for your site account "
+"is not English. Please visit the site and change the language setting to "
+"English."
+msgstr ""
+"Neplatné nastavenie jazyka (421): Nastavenie jazyka pre váš účet na stránke "
+"nie je angličtina. Navštívte stránku a zmeňte nastavenie jazyka na "
+"angličtinu."
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal____last_update
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_provider____last_update
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company____last_update
+msgid "Last Modified on"
+msgstr "Posledná úprava"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Additional Authentication Enrollment Required (521) : Please "
+"enroll in the new security authentication system, <Account Name> has "
+"introduced. Ensure your account settings in <Cobrand> are updated with this "
+"information."
+msgstr ""
+"Chyba MFA: Vyžaduje sa ďalšia registrácia autentifikácie (521): "
+"Zaregistrujte sa do nového bezpečnostného autentifikačného systému, <Account"
+" Name> zaviedlo. Skontrolujte svoje nastavenia účtu v <Cobrand> sú "
+"aktualizované o tieto informácie."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Expired (524):We're sorry, the "
+"authentication information you provided has expired. Please try again."
+msgstr ""
+"Chyba MFA: Platnosť autentifikačných informácií vypršala (524): Je nám ľúto,"
+" platnosť autentifikačných informácií, ktoré ste poskytli, vypršala. Prosím "
+"skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Incorrect (520):We're sorry, the site "
+"indicates that the additional authentication information you provided is "
+"incorrect. Please try updating your account again."
+msgstr ""
+"Chyba MFA: Nesprávne informácie o overení (520): Je nám ľúto, web naznačuje,"
+" že ďalšie informácie o overení, ktoré ste poskytli, sú nesprávne. Skúste "
+"znova aktualizovať svoj účet."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Incorrect (523):We're sorry, the "
+"authentication information you  provided is incorrect. Please try again."
+msgstr ""
+"Chyba MFA: Nesprávne informácie o overení (523): Je nám ľúto, zadané "
+"informácie o overení sú nesprávne. Prosím skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Required (519): Your account was not "
+"updated as your authentication information like security question and answer"
+" was unavailable or incomplete. Please update your account settings."
+msgstr ""
+"Chyba MFA: Vyžadujú sa informácie o overení (519): Váš účet nebol "
+"aktualizovaný, pretože vaše informácie o overení, napríklad bezpečnostná "
+"otázka a odpoveď, boli nedostupné alebo neúplné. Aktualizujte svoje "
+"nastavenia účtu."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Unavailable (518):Your account was not"
+" updated as the required additional authentication information was "
+"unavailable. Please try now."
+msgstr ""
+"Chyba MFA: Informácie o overení nie sú k dispozícii (518): Váš účet nebol "
+"aktualizovaný, pretože požadované ďalšie informácie o overení neboli k "
+"dispozícii. Skúste to teraz."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Credential Re-Verification Required (526): We could not update "
+"your account because your username/password or additional security "
+"credentials are incorrect. Please try again."
+msgstr ""
+"Chyba MFA: Vyžaduje sa opätovné overenie poverenia (526): Váš účet sme "
+"nemohli aktualizovať, pretože vaše používateľské meno / heslo alebo ďalšie "
+"bezpečnostné údaje sú nesprávne. Prosím skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Problem Updating Account (525): We could not update your account "
+"for technical reasons. This type of error is usually resolved in a few days."
+" We apologize for the inconvenience. Please try again later."
+msgstr ""
+"Chyba MFA: Problém s aktualizáciou účtu (525): Z technických dôvodov sme váš"
+" účet nemohli aktualizovať. Tento typ chyby sa zvyčajne vyrieši za niekoľko "
+"dní. Ospravedlňujeme sa za spôsobené nepríjemnosti. Skúste neskôr prosím."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Request Timed Out (522) :Your request has timed out as the "
+"required security information was unavailable or was not provided within the"
+" expected time. Please try again."
+msgstr ""
+"Chyba MFA: Časový limit žiadosti vypršal (522): Časový limit vašej žiadosti "
+"vypršal, pretože požadované bezpečnostné informácie neboli k dispozícii "
+"alebo neboli poskytnuté v očakávanom čase. Prosím skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Site Device Information Expired(509): We're sorry, we can't "
+"update your account because your token is no longer valid at the site. "
+"Please update your information and try again, or contact customer support."
+msgstr ""
+"Chyba MFA: Informácie o zariadení stránky vypršali (509): Je nám ľúto, váš "
+"účet nemôžeme aktualizovať, pretože váš token už na webe nie je platný. "
+"Aktualizujte svoje informácie a skúste to znova, alebo kontaktujte "
+"zákaznícku podporu."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Multiple User Logins(416): We attempted to update your account, but another "
+"session was already established at the same time.  If you are currently "
+"logged on to this account directly, please log off and try after some time"
+msgstr ""
+"Viaceré prihlásenia používateľov (416): Pokúsili sme sa aktualizovať váš "
+"účet, ale v rovnakom čase už bola vytvorená iná relácia. Ak ste momentálne "
+"priamo prihlásený / -á do tohto účtu, odhláste sa a skúste to neskôr"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"New Login Information Required(506):We're sorry, to log in to this site, you"
+" need to provide additional information. Please update your account and try "
+"again."
+msgstr ""
+"Vyžadujú sa nové prihlasovacie údaje (506): Je nám ľúto, ak sa chcete "
+"prihlásiť na túto stránku, musíte poskytnúť ďalšie informácie. Aktualizujte "
+"svoj účet a skúste to znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"No Account Found (423): We were unable to detect an account. Please verify "
+"that you account information is available at this time and If the problem "
+"persists, please contact customer support at online@odoo.com for further "
+"assistance."
+msgstr ""
+"Nenašiel sa žiadny účet (423): Nepodarilo sa nám zistiť účet. Skontrolujte, "
+"či sú informácie o vašom účte momentálne k dispozícii. Ak problém pretrváva,"
+" kontaktujte podporu zákazníka na adrese online@odoo.com, kde získate ďalšiu"
+" pomoc."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"No Payees Found(512):Your request cannot be completed as no payees were "
+"found in your account."
+msgstr ""
+"Nenašli sa žiadni príjemcovia platby (512): Vašu požiadavku nie je možné "
+"dokončiť, pretože vo vašom účte neboli nájdení žiadni príjemcovia platby."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Online institution"
+msgstr "Online inštitúcia"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Please configure an email in the company settings."
+msgstr "Nakonfigurujte e-mail v nastaveniach spoločnosti."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account (406): We could not update your account because the"
+" site requires you to perform some additional action. Please visit the site "
+"or contact its customer support to resolve this issue. Once done, please "
+"update your account credentials in case they are changed else try again."
+msgstr ""
+"Problém s aktualizáciou účtu (406): Váš účet sme nemohli aktualizovať, "
+"pretože web vyžaduje, aby ste vykonali nejaké ďalšie kroky. Ak chcete "
+"vyriešiť tento problém, navštívte web alebo kontaktujte jeho zákaznícku "
+"podporu. Po dokončení aktualizujte poverenia svojho účtu pre prípad, že by "
+"boli zmenené, inak to skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account (517): We are sorry, there was a technical problem "
+"updating your account. Please try again."
+msgstr ""
+"Problém s aktualizáciou účtu (517): Je nám ľúto, pri aktualizácii vášho účtu"
+" sa vyskytol technický problém. Prosím skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(401):We're sorry, your request timed out. Please "
+"try again."
+msgstr ""
+"Problém s aktualizáciou účtu (401): Je nám ľúto, vaša požiadavka vypršala. "
+"Prosím skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(403):We're sorry, there was a technical problem "
+"updating your account. This kind of error is usually resolved in a few days."
+" Please try again later."
+msgstr ""
+"Problém s aktualizáciou účtu (403): Je nám ľúto, pri aktualizácii vášho účtu"
+" sa vyskytol technický problém. Tento druh chyby sa zvyčajne vyrieši za "
+"niekoľko dní. Skúste neskôr prosím."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(404):We're sorry, there was a technical problem "
+"updating your account. Please try again later."
+msgstr ""
+"Problém s aktualizáciou účtu (404): Je nám ľúto, pri aktualizácii vášho účtu"
+" sa vyskytol technický problém. Skúste neskôr prosím."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(409): We could not update your account because the "
+"end site is experiencing technical difficulties."
+msgstr ""
+"Problém s aktualizáciou účtu (409): Váš účet sa nepodarilo aktualizovať, "
+"pretože koncový web má technické problémy."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(412): We could not update your account because the "
+"site is experiencing technical difficulties."
+msgstr ""
+"Problém s aktualizáciou účtu (412): Váš účet sa nepodarilo aktualizovať, "
+"pretože stránka má technické problémy."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(413):We're sorry, we couldn't update your account "
+"at the site because of a technical issue. This type of problem is usually "
+"resolved in a few days. Please try again later."
+msgstr ""
+"Problém s aktualizáciou účtu (413): Je nám ľúto, ale váš účet na webe sme "
+"nemohli aktualizovať z dôvodu technického problému. Tento typ problému sa "
+"zvyčajne vyrieši za niekoľko dní. Skúste neskôr prosím."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(415): We could not update your account because the "
+"site is experiencing technical difficulties."
+msgstr ""
+"Problém s aktualizáciou účtu (415): Váš účet sa nepodarilo aktualizovať, "
+"pretože web má technické problémy."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(418): We could not update your account because the "
+"site is experiencing technical difficulties. Please try later."
+msgstr ""
+"Problém s aktualizáciou účtu (418): Váš účet sa nepodarilo aktualizovať, "
+"pretože web má technické problémy. Prosím, skús neskôr."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(419):We're sorry, we couldn't update your account "
+"because of unexpected variations at the site. This kind of problem is "
+"usually resolved in a few days. Please try again later."
+msgstr ""
+"Problém s aktualizáciou účtu (419): Je nám ľúto, ale váš účet sme nemohli "
+"aktualizovať z dôvodu neočakávaných zmien na webe. Tento druh problému sa "
+"zvyčajne vyrieši za niekoľko dní. Skúste neskôr prosím."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(425): We could not update your account because the "
+"site is experiencing technical difficulties. Please try later."
+msgstr ""
+"Problém s aktualizáciou účtu (425): Váš účet sa nepodarilo aktualizovať, "
+"pretože web má technické problémy. Prosím, skús neskôr."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(426): We could not update your account for "
+"technical reasons. This type of error is usually resolved in a few days. We "
+"apologize for the inconvenience."
+msgstr ""
+"Problém s aktualizáciou účtu (426): Z technických dôvodov sme nemohli "
+"aktualizovať váš účet. Tento typ chyby sa zvyčajne vyrieši za niekoľko dní. "
+"Ospravedlňujeme sa za spôsobené nepríjemnosti."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(507):We're sorry, Yodlee has just started providing"
+" data updates for this site, and it may take a few days to be successful as "
+"we get started. Please try again later."
+msgstr ""
+"Problém s aktualizáciou účtu (507): Je nám ľúto, spoločnosť Yodlee práve "
+"začala s poskytovaním aktualizácií údajov pre tento web. Úspešnosť procesu "
+"začatia môže trvať niekoľko dní. Skúste neskôr prosím."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Property Record Not Found (510): The site is unable to find any property "
+"information for your address. Please verify if the property address you have"
+" provided is correct."
+msgstr ""
+"Záznam o nehnuteľnosti nebol nájdený (510): Web nemôže nájsť žiadne "
+"informácie o majetku pre vašu adresu. Skontrolujte, či je adresa hotela, "
+"ktorú ste uviedli, správna."
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "Typ poskytovateľa"
+
+#. module: account_yodlee
+#: model:ir.model,name:account_yodlee.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "Poskytovateľ online synchronizácie účtov"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Re-Verification Required (429): We could not update your account due to the "
+"site requiring you to verify your personal information. Please log in to the"
+" site and update the fields required."
+msgstr ""
+"Vyžaduje sa opätovné overenie (429): Váš účet sme nemohli aktualizovať, "
+"pretože web vyžaduje, aby ste overili svoje osobné údaje. Prihláste sa na "
+"stránku a aktualizujte požadované polia."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Re-verification Required (427): We could not update your account due to the "
+"site requiring you to view a new promotion. Please log in to the site and "
+"click through to your account overview page to update the account.  We "
+"apologize for the inconvenience."
+msgstr ""
+"Vyžaduje sa opätovné overenie (427): Váš účet sme nemohli aktualizovať, "
+"pretože web vyžaduje, aby ste si prezreli novú propagáciu. Prihláste sa na "
+"túto stránku a preklikajte sa na stránku s prehľadom svojho účtu, aby ste "
+"aktualizovali účet. Ospravedlňujeme sa za spôsobené nepríjemnosti."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Re-verification Required (428): We could not update your account due to the "
+"site requiring you to accept a new Terms & Conditions. Please log in to the "
+"site and read and accept the T&C."
+msgstr ""
+"Vyžaduje sa opätovné overenie (428): Váš účet sme nemohli aktualizovať, "
+"pretože web vyžaduje, aby ste prijali nové zmluvné podmienky. Prihláste sa "
+"na túto stránku a prečítajte si a akceptujte zmluvné podmienky."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Registration Requires Attention (433): Auto registration is not complete. "
+"Please complete your registration at the end site. Once completed, please "
+"complete adding this account."
+msgstr ""
+"Registrácia vyžaduje pozornosť (433): Automatická registrácia nie je "
+"dokončená. Vyplňte svoju registráciu na konci stránky. Po dokončení "
+"dokončite pridanie tohto účtu."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Registration Requires Attention (434): Your Auto-Registration could not be "
+"completed and requires further input from you.  Please re-verify your "
+"registration information to complete the process."
+msgstr ""
+"Registrácia vyžaduje pozornosť (434): Vašu automatickú registráciu nebolo "
+"možné dokončiť a vyžaduje ďalšie zadanie. Dokončite proces opätovným "
+"overením svojich registračných údajov."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Registration Requires Attention (435): Your Auto-Registration could not be "
+"completed and requires further input from you.  Please re-verify your "
+"registration information to complete the process."
+msgstr ""
+"Registrácia vyžaduje pozornosť (435): Vašu automatickú registráciu nebolo "
+"možné dokončiť a vyžaduje ďalšie zadanie. Dokončite proces opätovným "
+"overením svojich registračných údajov."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Request Timed Out (508): We are sorry, your request timed out due to "
+"technical reasons. Please try again."
+msgstr ""
+"Časový limit žiadosti vypršal (508): Je nám ľúto, vaša požiadavka vypršala z"
+" technických dôvodov. Prosím skúste znova."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Requested Account Type Not Found (414): We could not find your requested "
+"account. You may have selected a similar site under a different category by "
+"accident in which case you should select the correct site."
+msgstr ""
+"Požadovaný typ účtu nebol nájdený (414): Nemohli sme nájsť požadovaný účet. "
+"Možno ste omylom vybrali podobný web v inej kategórii, v takom prípade by "
+"ste mali zvoliť ten správny."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Server not reachable, please try again later"
+msgstr "Server nie je dostupný, skúste to znova neskôr"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Site Down for Maintenance(424):We were unable to update your account as the "
+"site is temporarily down for maintenance. We apologize for the "
+"inconvenience.  This problem is typically resolved in a few hours. Please "
+"try later."
+msgstr ""
+"Stránka je odstavená z dôvodu údržby (424): Nepodarilo sa nám aktualizovať "
+"váš účet, pretože stránka je z dôvodu údržby dočasne nefunkčná. "
+"Ospravedlňujeme sa za spôsobené nepríjemnosti. Tento problém je zvyčajne "
+"vyriešený za niekoľko hodín. Prosím, skús neskôr."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Site No Longer Available (411):The site no longer provides online services "
+"to its customers.  Please delete this account."
+msgstr ""
+"Stránka už nie je k dispozícii (411): Stránka už neposkytuje svojim "
+"zákazníkom online služby. Odstráňte tento účet."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Site No Longer Supported (430):This site is no longer supported for data "
+"updates. Please deactivate or delete your account. We apologize for the "
+"inconvenience."
+msgstr ""
+"Stránka už nie je podporovaná (430): Táto stránka už nie je podporovaná pri "
+"aktualizácii údajov. Deaktivujte alebo odstráňte svoj účet. Ospravedlňujeme "
+"sa za spôsobené nepríjemnosti."
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Site Not Supported (505): We currently does not support the security system "
+"used by this site. We apologize for any inconvenience. Check back "
+"periodically if this situation has changed."
+msgstr ""
+"Stránka nie je podporovaná (505): Momentálne nepodporujeme bezpečnostný "
+"systém používaný touto stránkou. Ospravedlňujeme sa za nepríjemnosti. "
+"Pravidelne kontrolujte, či sa táto situácia zmenila."
+
+#. module: account_yodlee
+#: model:ir.actions.client,name:account_yodlee.yodlee_widget
+msgid "Synchronization process completed"
+msgstr "Proces synchronizácie je dokončený"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#: code:addons/account_yodlee/models/yodlee.py:0
+#: code:addons/account_yodlee/models/yodlee.py:0
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 30s"
+msgstr "Časový limit: server neodpovedal do 30 s"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Update Request Canceled(405):Your account was not updated because you "
+"canceled the request."
+msgstr ""
+"Žiadosť o aktualizáciu zrušená (405): Váš účet nebol aktualizovaný, pretože "
+"ste žiadosť zrušili."
+
+#. module: account_yodlee
+#: model:ir.model.fields.selection,name:account_yodlee.selection__account_online_provider__provider_type__yodlee
+msgid "Yodlee"
+msgstr "Yodlee"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal__yodlee_account_status
+msgid "Yodlee Account Status"
+msgstr "Stav účtu Yodlee"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal__yodlee_status_code
+msgid "Yodlee Status Code"
+msgstr "Stavový kód Yodlee"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__yodlee_user_access_token
+msgid "Yodlee access token"
+msgstr "Yodlee prístupový token"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__yodlee_user_login
+msgid "Yodlee login"
+msgstr "Yodlee prihlásenie"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__yodlee_user_password
+msgid "Yodlee password"
+msgstr "Yodlee heslo"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__yodlee_access_token
+msgid "access_token"
+msgstr "access_token"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "message: %s"
+msgstr "Správa%s"

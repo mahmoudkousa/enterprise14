@@ -1,0 +1,81 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* voip_onsip
+# 
+# Translators:
+# Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
+# Mateus Lopes <mateus1@gmail.com>, 2020
+# grazziano <gra.negocia@gmail.com>, 2020
+# André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
+# Luiz Fernando <lfpsgs@outlook.com>, 2020
+# Éder Brito <britoederr@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Éder Brito <britoederr@gmail.com>, 2020\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_config_settings
+msgid "Config Settings"
+msgstr "Definições de Configuração"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__display_name
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_configurator__display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings__id
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__id
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_configurator__id
+msgid "ID"
+msgstr "ID"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users____last_update
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_configurator____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: voip_onsip
+#: model_terms:ir.ui.view,arch_db:voip_onsip.res_config_settings_view_form
+msgid "OnSIP Domain"
+msgstr "Domínio OnSIP"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__onsip_auth_user
+msgid "OnSIP authorization User"
+msgstr "Usuário OnSIP"
+
+#. module: voip_onsip
+#: model:ir.model.fields,help:voip_onsip.field_res_config_settings__wsServer
+msgid "The URL of your WebSocket"
+msgstr "A URL de seu WebSocket"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_users
+msgid "Users"
+msgstr "Usuários"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_voip_configurator
+msgid "VOIP Configurator"
+msgstr "Configurador VOIP"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings__wsServer
+msgid "WebSocket"
+msgstr "WebSocket"

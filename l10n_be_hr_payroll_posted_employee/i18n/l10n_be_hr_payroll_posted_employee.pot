@@ -1,0 +1,124 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * l10n_be_hr_payroll_posted_employee
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.3+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-14 16:31+0000\n"
+"PO-Revision-Date: 2020-10-14 16:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_posted_employee.create_company_global_time_off_view_form
+msgid "<span> to </span>"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_posted_employee.create_company_global_time_off_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__company_id
+msgid "Company"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_posted_employee.create_company_global_time_off_view_form
+msgid "Confirm"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.actions.act_window,name:l10n_be_hr_payroll_posted_employee.action_create_company_global_time_off
+#: model:ir.model,name:l10n_be_hr_payroll_posted_employee.model_create_company_global_time_off
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_posted_employee.create_company_global_time_off_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_posted_employee.resource_calendar_view_form_inherit
+msgid "Create Company Public Time Off"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model,name:l10n_be_hr_payroll_posted_employee.model_hr_contract
+msgid "Employee Contract"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__date_to
+msgid "End Date"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_hr_contract__no_onss
+msgid "No ONSS"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_hr_contract__no_withholding_taxes
+msgid "No Withholding Taxes"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_posted_employee.create_company_global_time_off_view_form
+msgid "Period"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_posted_employee.hr_contract_view_form_inherit
+msgid "Posted Employee"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__name
+msgid "Reason"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__date_from
+msgid "Start Date"
+msgstr ""
+
+#. module: l10n_be_hr_payroll_posted_employee
+#: model:ir.model.fields,field_description:l10n_be_hr_payroll_posted_employee.field_create_company_global_time_off__work_entry_type_id
+msgid "Work Entry Type"
+msgstr ""

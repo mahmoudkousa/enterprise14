@@ -1,0 +1,4507 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_studio
+# 
+# Translators:
+# Marko Happonen <marko.happonen@sprintit.fi>, 2020
+# Teemu Ahonen <teemu.ahonen@web-veistamo.fi>, 2020
+# Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2020
+# Jussi Lehto <jussi@gulfeo.com>, 2020
+# Mikko Salmela <salmemik@gmail.com>, 2020
+# Svante Suominen <svante.suominen@web-veistamo.fi>, 2020
+# Topi Aura <topi@aurat.fi>, 2020
+# Johanna Valkonen <miujohanna@gmail.com>, 2020
+# Simo Suurla <simo@suurla.fi>, 2020
+# Martin Trigaux, 2020
+# Kari Lindgren <kari.lindgren@emsystems.fi>, 2020
+# Miku Laitinen <miku.laitinen@gmail.com>, 2020
+# Jukka Paulin <jukka.paulin@gmail.com>, 2020
+# Veikko Väätäjä <veikko.vaataja@gmail.com>, 2020
+# Heikki Katajisto <heikki.katajisto@myyntivoima.fi>, 2020
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2021
+# Miika Nissi <miika.nissi@tawasta.fi>, 2021
+# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2021
+# Joakim Weckman, 2022
+# Jesse Järvi <me@jessejarvi.net>, 2023
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-29 15:49+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid ""
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    This is your new action.\n"
+"                </p>\n"
+"                <p>By default, it contains a list and a form view and possibly\n"
+"                    other view types depending on the options you chose for your model.\n"
+"                </p>\n"
+"                <p>\n"
+"                    You can start customizing these screens by clicking on the Studio icon on the\n"
+"                    top right corner (you can also customize this help message there).\n"
+"                </p>\n"
+"            "
+msgstr ""
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    Tämä on uusi toimintasi.\n"
+"                </p>\n"
+"                <p>Oletusarvoisesti se sisältää luettelon ja lomakkeenäkymän sekä mahdollisesti myös\n"
+"                    muita näkymätyyppejä mallisi valittujen vaihtoehtojen mukaan.\n"
+"                </p>\n"
+"                <p>\n"
+"                    Voit aloittaa näiden näyttöjen mukauttamisen napsauttamalla Studio-kuvaketta ikkunan\n"
+"                    oikeassa yläkulmassa (voit myös muokata tätä ohjeviestiä siellä).\n"
+"                </p>\n"
+"            "
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+" <p class=\"o_view_nocontent_empty_report\">\n"
+"                Add a new report\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_empty_report\">\n"
+"                Lisää uusi raportti\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new automated action\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Lisää uusi automaattinen toiminto\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new filter\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Lisää uusi suodatin\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid " to "
+msgstr " -> "
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/report.py:0
+#, python-format
+msgid "%s Report"
+msgstr "%s Raportti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "(id)"
+msgstr "(id)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "(t-if=\""
+msgstr "(t-if=\""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid ""
+"<div><p>The <strong>%s</strong> property is only applied to records matching"
+" this filter.</p></div>"
+msgstr ""
+"<div><p>Tätä <strong>%s</strong> ominaisuutta sovelletaan vain tietueisiin, "
+"jotka vastaavat tätä suodatinta.</p></div>"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid ""
+"<div><p>The approval rule is only applied to records matching the following "
+"condition:</p></div>"
+msgstr ""
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+"<p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new access control list\n"
+"            </p>\n"
+"            "
+msgstr ""
+"<p class=\"o_view_nocontent_smiling_face\">\n"
+"                Uuden pääsynvalvontaluettelon lisääminen\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/map_view_dialog.js:0
+#, python-format
+msgid ""
+"A contact field is required to use the Map view.\r\n"
+"Create a many2one field to the Contacts model before activating it."
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "A field with the same name already exists."
+msgstr "Samanniminen kenttä on jo olemassa."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_entry_uniq_combination
+msgid "A rule can only be approved/rejected once per record."
+msgstr "Sääntö voidaan hyväksyä/hylätä vain kerran tietuetta kohden."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_rule_method_or_action_together
+msgid "A rule must apply to an action or a method (but not both)."
+msgstr ""
+"Sääntöä on sovellettava joko toimintaan tai menetelmään (mutta ei "
+"molempiin)."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_rule_method_or_action_not_null
+msgid "A rule must apply to an action or a method."
+msgstr "Sääntöä on sovellettava johonkin toimeen tai menetelmään."
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_model__abstract
+msgid "Abstract"
+msgstr "Abstrakti"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Access Control Lists"
+msgstr "Pääsynvalvontaluettelot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Access Controls"
+msgstr "Käyttöoikeudet"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_res_groups
+msgid "Access Groups"
+msgstr "Käyttöoikeusryhmät"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__action_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__action_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Action"
+msgstr "Toiminto"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_act_window
+msgid "Action Window"
+msgstr "Toimintoikkuna"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "Action Window View"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Action to approve:"
+msgstr "Hyväksyttävä toiminta:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor_sidebar.xml:0
+#, python-format
+msgid "Action's title"
+msgstr "Toiminnan nimi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/map_view_dialog.js:0
+#: code:addons/web_studio/static/src/js/views/new_view_dialog.js:0
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "Activate View"
+msgstr "Aktivoi näkymä"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__active
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+#, python-format
+msgid "Active"
+msgstr "Aktiivinen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Activity View"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/action_editor_action.js:0
+#, python-format
+msgid "Activity view unavailable on this model"
+msgstr "Aktiviteettinäkymä ei ole käytettävissä tässä mallissa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Add"
+msgstr "Lisää"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Add Chatter Widget"
+msgstr "Lisää Chatter Widget"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Add Picture"
+msgstr "Lisää kuva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/new_buttonbox_dialog.js:0
+#, python-format
+msgid "Add a Button"
+msgstr "Lisää painike"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Add a description..."
+msgstr "Lisää kuvaus..."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Add a pipeline status bar"
+msgstr "Lisää ketjun tilapalkki"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "Add a priority"
+msgstr "Lisää prioriteetti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Add an approval rule"
+msgstr "Lisää hyväksymissääntö"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "Add an avatar"
+msgstr "Lisää avatar"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Add in the print menu"
+msgstr "Lisää tulostusvalikkoon"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Add new value"
+msgstr "Lisää uusi arvo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Add selection"
+msgstr "Lisää valinta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "Add tags"
+msgstr "Lisää tunnisteita"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Additional Fields"
+msgstr "Lisäkentät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Address Block"
+msgstr "Osoitelohko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Aggregate"
+msgstr "Yhdistelmä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Alignment"
+msgstr "Kohdistus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "All Day"
+msgstr "Koko päivä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"All set? You are just one click away from <b>generating your first app</b>."
+msgstr ""
+"Kaikki valmiina? Olet vain yhden napsautuksen päässä <b>ensimmäisen "
+"sovelluksesi luomisesta</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Allow Link to List View"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Amount total"
+msgstr "Summa yhteensä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Amount untaxed"
+msgstr "Veroton määrä"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Approval Entries"
+msgstr "Hyväksymiskohteet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Approval Group"
+msgstr "Hyväksymisryhmä"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__rule_id
+msgid "Approval Rule"
+msgstr "Hyväksymissääntö"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Approval Rules"
+msgstr "Hyväksymissäännöt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Approvals"
+msgstr "Hyväksynnät"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Approvals can only be done on a method or an action, not both."
+msgstr ""
+"Hyväksyntä voidaan tehdä vain menetelmälle tai toiminnolle, ei molemmille."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Approve"
+msgstr "Hyväksy"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__approved
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Approved"
+msgstr "Hyväksytty"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.notify_approval
+msgid "Approved as"
+msgstr "Hyväksytty nimellä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Approved on"
+msgstr "Hyväksytty"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__user_id
+msgid "Approved/rejected by"
+msgstr "Hyväksynyt tai hylätty"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Archive deprecated records"
+msgstr "Arkistoi vanhentuneet tietueet"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+#, python-format
+msgid "Archived"
+msgstr "Arkistoitu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Archiving"
+msgstr "Arkistointi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_manager.js:0
+#, python-format
+msgid "Are you sure you want to remove the selection values?"
+msgstr "Oletko varma, että haluat poistaa valitut arvot?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_editor_manager.js:0
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Are you sure you want to remove this %s from the view?"
+msgstr "Haluatko varmasti poistaa kohteen %s näkymästä?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/menu.js:0
+#, python-format
+msgid "Are you sure you want to reset the background image?"
+msgstr "Oletko varma, että haluat nollata taustakuvan?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid ""
+"Are you sure you want to restore the default view?\r\n"
+"All customization done with Studio on this view will be lost."
+msgstr ""
+"Oletko varma, että haluat palauttaa oletusnäkymän?\r\n"
+"Kaikki Studiossa tähän näkymään tehdyt mukautukset menetetään."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/action_editor_action.js:0
+#, python-format
+msgid ""
+"Are you sure you want to restore the default view?\r\n"
+"All customization done with studio on this view will be lost."
+msgstr ""
+"Oletko varma, että haluat palauttaa oletusnäkymän?\r\n"
+"Kaikki studiolla tähän näkymään tehdyt mukautukset menetetään."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "As expression"
+msgstr "Ilmaisuna"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Ascending"
+msgstr "Nouseva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Assign a responsible to each record"
+msgstr "Määritä jokaiselle tietueelle vastuuhenkilö"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Assign dates and visualize records in a calendar"
+msgstr "Määritä päivämääriä ja visualisoi tietueet kalenterissa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Attach a picture to a record"
+msgstr "Liitä kuva tietueeseen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Auto-complete with"
+msgstr "Automaattinen täydentäminen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#, python-format
+msgid "Autocompletion Fields"
+msgstr "Automaattiset täydennyskentät"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base_automation
+msgid "Automated Action"
+msgstr "Automatisoitu toiminto"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Automated Actions"
+msgstr "Automatisoidut Toiminnot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Automations"
+msgstr "Automaatiot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Average"
+msgstr "Keskinkertainen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Awaiting approval"
+msgstr "Odottaa hyväksyntää"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Backward"
+msgstr "Takaisin"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base
+msgid "Base"
+msgstr "Perus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Blank"
+msgstr "Tyhjä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks_registry.js:0
+#, python-format
+msgid "Block"
+msgstr "Ryhmä"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Blocked"
+msgstr "Estetty"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Bold"
+msgstr "Lihavoitu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Bordered"
+msgstr "Reunustettu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Borderless"
+msgstr "Rajaton"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Business header/footer"
+msgstr "Yrityksen otsikko/alusta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_editor_sidebar.js:0
+#, python-format
+msgid "By default: "
+msgstr "Oletusarvoisesti:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Calendar View"
+msgstr "Kalenterinäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Can Create"
+msgstr "Voi luoda"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Can Delete"
+msgstr "Voidaan poistaa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Can Edit"
+msgstr "Voi muokata"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__can_validate
+msgid "Can be approved"
+msgstr "Voidaan hyväksyä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/field_selector_dialog.js:0
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/js/new_model.js:0
+#: code:addons/web_studio/static/src/js/views/map_view_dialog.js:0
+#: code:addons/web_studio/static/src/js/views/new_view_dialog.js:0
+#: code:addons/web_studio/static/src/js/views/view_editors/new_buttonbox_dialog.js:0
+#: code:addons/web_studio/static/src/xml/studio_home_menu.xml:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Cancel"
+msgstr "Peruuta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Categorize records with custom tags"
+msgstr "Luokittele tietueet mukautetuilla tunnisteilla"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Change Background"
+msgstr "Vaihda tausta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Change Image"
+msgstr "Vaihda kuva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Change the <b>background</b>, make it yours."
+msgstr "Muuta <b>taustaa</b>, tee siitä oma."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Chatter"
+msgstr "Chatter"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Checkbox"
+msgstr "Valintaruutu"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_model_data__studio
+msgid "Checked if it has been edited with Studio."
+msgstr "Jos valittu, muokattu Studiolla."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "Choose an app name"
+msgstr "Valitse sovelluksen nimi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "Choose your first object name"
+msgstr "Valitse ensimmäinen objektin nimi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Churn"
+msgstr "Menetetty liikevaihto"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Class"
+msgstr "Luokka"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Clear"
+msgstr "Pyyhi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Click here."
+msgstr "Klikkaa tästä."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Click to edit messaging features on your model."
+msgstr "Napsauta muokataksesi mallisi viestiominaisuuksia."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Click to see all approval rules."
+msgstr "Klikkaa nähdäksesi kaikki hyväksymissäännöt."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#: code:addons/web_studio/static/src/js/menu.js:0
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Close"
+msgstr "Sulje"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Cohort View"
+msgstr "Kohorttinäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Collapse First Level"
+msgstr "Supista ensimmäinen taso"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Color"
+msgstr "Väri"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Colors"
+msgstr "Värit"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks_registry.js:0
+#, python-format
+msgid "Column"
+msgstr "Sarake"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Column Title"
+msgstr "Sarakkeen otsikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Columns"
+msgstr "Sarakkeet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Compact"
+msgstr "Tiivis"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_res_company
+msgid "Companies"
+msgstr "Yritykset"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Company"
+msgstr "Yritys"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Components"
+msgstr "Komponentit"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Conditional"
+msgstr "Ehdollinen"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__conditional
+msgid "Conditional Rule"
+msgstr "Ehdollinen sääntö"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/models/ir_ui_menu.py:0
+#, python-format
+msgid "Configuration"
+msgstr "Asetukset"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/js/new_model.js:0
+#, python-format
+msgid "Configure Model"
+msgstr "Määritä malli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/field_selector_dialog.js:0
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/js/views/view_editors/new_buttonbox_dialog.js:0
+#: code:addons/web_studio/static/src/xml/studio_home_menu.xml:0
+#, python-format
+msgid "Confirm"
+msgstr "Vahvista"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Contact"
+msgstr "Kontakti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Contact Field"
+msgstr "Yhteystietojen kenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/map_view_dialog.js:0
+#, python-format
+msgid "Contact Field Required"
+msgstr "Yhteyskenttä vaaditaan"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Contact details"
+msgstr "Yhteystietojen yksityiskohdat"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Context"
+msgstr "Konteksti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"Continue to configure some typical behaviors for your new type of object."
+msgstr ""
+"Jatka tyypillisten käyttäytymistapojen määrittämistä uudelle "
+"objektityypille."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#, python-format
+msgid "Create Menu"
+msgstr "Luo valikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/new_model.js:0
+#, python-format
+msgid "Create Model"
+msgstr "Luo malli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#, python-format
+msgid "Create a new Menu"
+msgstr "Luo uusi valikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/new_model.js:0
+#, python-format
+msgid "Create a new Model"
+msgstr "Luo uusi malli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"Create your <b>selection values</b> (e.g.: Romance, Polar, Fantasy, etc.)"
+msgstr "Luo <b>valinta-arvot</b> (esim. Romanssi, Pakkanen, Fantasia jne.)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "Create your App"
+msgstr "Luo sovellus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "Create your app"
+msgstr "Luo sovellus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "Create your first Menu"
+msgstr "Luo ensimmäinen valikko"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__create_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__create_uid
+msgid "Created by"
+msgstr "Luonut"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__create_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__create_date
+msgid "Created on"
+msgstr "Luotu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/action_editor_action.js:0
+#, python-format
+msgid "Creating this type of view is not currently supported in Studio."
+msgstr ""
+"Tämäntyyppisen näkymän luominen ei ole tällä hetkellä tuettu Studiossa."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Currency"
+msgstr "Valuutta"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_menu.py:0
+#, python-format
+msgid "Custom Configuration"
+msgstr "Mukautettu määritys"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_fields
+msgid "Custom Fields"
+msgstr "Mukautetut kentät"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_models
+msgid "Custom Models"
+msgstr "Mukautetut mallit"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_reports
+msgid "Custom Reports"
+msgstr "Mukautetut raportit"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Custom Sorting"
+msgstr "Mukautettu lajittelu"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_views
+msgid "Custom Views"
+msgstr "Mukautetut näkymät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Custom color"
+msgstr "Mukautettu väri"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom fields:"
+msgstr "Mukautetut kentät:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom models:"
+msgstr "Mukautetut mallit:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom reports:"
+msgstr "Mukautetut raportit:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom views:"
+msgstr "Mukautetut näkymät:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Customization made with Studio will be permanently lost"
+msgstr "Studiossa tehty mukautus menetetään pysyvästi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Customizations"
+msgstr "Mukautukset"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Data table"
+msgstr "Tietotaulukko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Date"
+msgstr "Päivämäärä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Date & Calendar"
+msgstr "Päivämäärä ja kalenteri"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Date & Time"
+msgstr "Päiväys ja aika"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Date range & Gantt"
+msgstr "Päivämääräalue ja Gantt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Day"
+msgstr "Päivä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Day Precision"
+msgstr "Päivän tarkkuus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Decimal"
+msgstr "Desimaali"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default"
+msgstr "Oletus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default Display Mode"
+msgstr "Oletusarvoinen näyttötila"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default Group by"
+msgstr "Oletusarvo ryhmittelylle"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default Scale"
+msgstr "Oletusasteikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_manager.js:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default Values"
+msgstr "Oletusarvot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Default value"
+msgstr "Oletusarvo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "Default view"
+msgstr "Oletusnäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Define start/end dates and visualize records in a Gantt chart"
+msgstr "Määritä alku-/loppupäivämäärät ja visualisoi tietueet Gantt-kaaviossa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Delay Field"
+msgstr "Viivästyskenttä"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+#, python-format
+msgid "Delete"
+msgstr "Poista"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#, python-format
+msgid "Delete Menu Item"
+msgstr "Poista valikkoelementti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Descending"
+msgstr "Laskeva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:0
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:0
+#, python-format
+msgid "Design your Icon"
+msgstr "Suunnittele kuvakkeesi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "Disable"
+msgstr "Poista käytöstä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Disable creation"
+msgstr "Luomisen poistaminen käytöstä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Disable opening"
+msgstr "Poista avaaminen käytöstä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Display"
+msgstr "Näytä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Display Count"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_automation__display_name
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_act_window__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_act_window_view__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_server__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_filters__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_http__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_model__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_access__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_data__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_fields__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_module_module__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_qweb__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_rule__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_menu__display_name
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_view__display_name
+#: model:ir.model.fields,field_description:web_studio.field_mail_template__display_name
+#: model:ir.model.fields,field_description:web_studio.field_mail_thread__display_name
+#: model:ir.model.fields,field_description:web_studio.field_report_paperformat__display_name
+#: model:ir.model.fields,field_description:web_studio.field_res_company__display_name
+#: model:ir.model.fields,field_description:web_studio.field_res_groups__display_name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__display_name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__display_name
+#: model:ir.model.fields,field_description:web_studio.field_studio_mixin__display_name
+msgid "Display Name"
+msgstr "Näyttönimi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Display Total row"
+msgstr "Näytä Yhteensä rivi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Display Unavailability"
+msgstr "Näytä Ei käytettävissä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Display horizontally"
+msgstr "Näytä vaakasuunnassa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "Do you want to add a dropdown with colors?"
+msgstr "Haluatko lisätä pudotusvalikon, jossa on värejä?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__domain
+#, python-format
+msgid "Domain"
+msgstr "Verkkotunnus"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Done"
+msgstr "Valmis"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"Drag & drop <b>another field</b>. Let’s try with a <i>selection field</i>."
+msgstr ""
+"Vedä ja pudota <b>toinen kenttä</b>. Kokeillaan <i>valintakenttää</i>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#, python-format
+msgid "Drag a menu to the right to create a sub-menu"
+msgstr "Raahaa valikko oikealle tehdäksesi alavalikon"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_editor.js:0
+#, python-format
+msgid "Drag building block here"
+msgstr "Vedä rakennuslohko tänne"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Dropdown Menu"
+msgstr "Alasvetovalikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+#, python-format
+msgid "Dropdown menu"
+msgstr "Alasvetovalikko"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+msgid "Duplicate"
+msgstr "Kopioi"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Edit"
+msgstr "Muokkaa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_manager.xml:0
+#, python-format
+msgid "Edit Form View"
+msgstr "Muokkaa lomakkeen näkymää"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_manager.xml:0
+#, python-format
+msgid "Edit List View"
+msgstr "Muokkaa luettelonäkymää"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#, python-format
+msgid "Edit Menu"
+msgstr "Muokkaa valikkoa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#, python-format
+msgid "Edit Menu Item"
+msgstr "Muokkaa valikkoelementtiä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#, python-format
+msgid "Edit Value"
+msgstr "Muokkaa arvoa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Edit Values"
+msgstr "Muokkaa arvoja"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Edit selection"
+msgstr "Muokkaa valintaa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Editable"
+msgstr "Muokattava"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Else"
+msgstr "Else"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Email"
+msgstr "Sähköposti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Email Alias"
+msgstr "Sähköpostialias"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_template
+msgid "Email Templates"
+msgstr "Sähköpostimallit"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_thread
+msgid "Email Thread"
+msgstr "Sähköpostiviestiketju"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor_sidebar.xml:0
+#, python-format
+msgid "Empty List Message"
+msgstr "Tyhjän luettelon viesti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Enable Mass Editing"
+msgstr "Ota massamuokkaus käyttöön"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Enable Routing"
+msgstr "Ota reititys käyttöön"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Enable SMS"
+msgstr "Ota tekstiviesti käyttöön"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "End Date"
+msgstr "Päättymispäivä"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__entry_ids
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+msgid "Entries"
+msgstr "Kirjaukset"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/abstract_editor_manager.js:0
+#, python-format
+msgid "Error"
+msgstr "Virhe"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_editor_manager.js:0
+#, python-format
+msgid "Error when compiling AST"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Esc expression"
+msgstr "Esc-ilmaisu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Existing Fields"
+msgstr "Olemassa olevat kentät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "Existing Model"
+msgstr "Nykyinen malli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Export"
+msgstr "Vienti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "External"
+msgstr "Ulkoinen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Fadeout Speed"
+msgstr "Fadeout-nopeus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Fast"
+msgstr "Nopea"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#, python-format
+msgid "Favourites"
+msgstr "Suosikit"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#: code:addons/web_studio/static/src/xml/field_selector_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/kanban_editor.xml:0
+#, python-format
+msgid "Field"
+msgstr "Kenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Field & Label"
+msgstr "Kenttä ja etiketti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Field Column"
+msgstr "Kentän sarake"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#, python-format
+msgid "Field Properties"
+msgstr "Kentän ominaisuudet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Field expression"
+msgstr "Kentän lauseke"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Field in Cell"
+msgstr "Solun kenttä"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_fields
+msgid "Fields"
+msgstr "Kentät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+#, python-format
+msgid "File"
+msgstr "Tiedosto"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Filename for %s"
+msgstr "Tiedostonimi %s"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Filter"
+msgstr "Suodatin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Filter Rules"
+msgstr "Suodatussäännöt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#: model:ir.model,name:web_studio.model_ir_filters
+#, python-format
+msgid "Filters"
+msgstr "Suotimet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "First Status"
+msgstr "Ensimmäinen tila"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Font style"
+msgstr "Fontin tyyli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Foreach expression"
+msgstr "Foreach-ilmaus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Form View"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Forward"
+msgstr "Välitä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Gantt View"
+msgstr "Gantt-näkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "General Views"
+msgstr "Yleiset näkymät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/new_view_dialog.js:0
+#, python-format
+msgid "Generate %s View"
+msgstr "Luo %s Näkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/map_view_dialog.js:0
+#, python-format
+msgid "Generate Map View"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Get contact, phone and email fields on records"
+msgstr "Hae tietueiden yhteys-, puhelin- ja sähköpostikentät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Go on, you are almost done!"
+msgstr "Olemme melkein valmiita!"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Good job! To add more <b>fields</b>, come back to the <i>Add tab</i>."
+msgstr ""
+"Hyvää työtä! Jos haluat lisätä lisää <b>kenttiä</b>, palaa <i>Lisää-"
+"välilehdelle</i>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Graph View"
+msgstr "Kaavionäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Great !"
+msgstr "Hienoa !"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#, python-format
+msgid "Grid View"
+msgstr "Taulukkonäkymä"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__group_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__group_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Group"
+msgstr "Ryhmä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+#, python-format
+msgid "Group By"
+msgstr "Ryhmittely"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#, python-format
+msgid "Group by"
+msgstr "Ryhmittele"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Groups used in approval rules must have an external identifier."
+msgstr ""
+"Hyväksymissäännöissä käytettävillä ryhmillä on oltava ulkoinen tunniste."
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP-reititys"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Half Day"
+msgstr "Puolipäivää"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Half Hour"
+msgstr "Puoli tuntia"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading1"
+msgstr "Otsikko1"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading2"
+msgstr "Otsikko2"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading3"
+msgstr "Otsikko3"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading4"
+msgstr "Otsikko4"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading5"
+msgstr "Otsikko5"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Heading6"
+msgstr "Otsikko6"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Help Tooltip"
+msgstr "Ohje Tooltip"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"Here, you can <b>name</b> your field (e.g. Book reference, ISBN, Internal "
+"Note, etc.)."
+msgstr ""
+"Tässä voit <b>nimetä</b> kentän (esim. Kirjan viite, ISBN, sisäinen "
+"huomautus jne.)."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Hide Address"
+msgstr "Piilota osoite"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Hide Name"
+msgstr "Piilota nimi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Hide by default"
+msgstr "Piilota oletusarvoisesti"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "High Priority"
+msgstr "Korkea prioriteetti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#, python-format
+msgid "Home"
+msgstr "Etusivu"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_res_company__background_image
+msgid "Home Menu Background Image"
+msgstr "Kotivalikon taustakuva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Hour"
+msgstr "Tunti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "How do you want to <b>name</b> your app? Library, Academy, …?"
+msgstr "Miten haluat <b>nimetä</b> sovelluksesi? Kirjasto, Akatemia, ...?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "How do you want to name your first <b>menu</b>? My books, My courses?"
+msgstr ""
+"Miten haluat nimetä ensimmäisen <b>ruokalistasi</b>? Kirjani, kurssini?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Html"
+msgstr "Html"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"I bet you can <b>build an app</b> in 5 minutes. Ready for the challenge?"
+msgstr ""
+"Voit <b>rakentaa sovelluksen</b> viidessä minuutissa. Oletko valmis "
+"haasteeseen?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_base_automation__id
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_act_window__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_act_window_view__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_server__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_filters__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_http__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_model__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_access__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_data__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_fields__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_module_module__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_qweb__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_rule__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_menu__id
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_view__id
+#: model:ir.model.fields,field_description:web_studio.field_mail_template__id
+#: model:ir.model.fields,field_description:web_studio.field_mail_thread__id
+#: model:ir.model.fields,field_description:web_studio.field_report_paperformat__id
+#: model:ir.model.fields,field_description:web_studio.field_res_company__id
+#: model:ir.model.fields,field_description:web_studio.field_res_groups__id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__id
+#: model:ir.model.fields,field_description:web_studio.field_studio_mixin__id
+#, python-format
+msgid "ID"
+msgstr "Tunniste (ID)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_buttonbox_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Icon"
+msgstr "Kuvake"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__domain
+msgid "If set, the rule will only apply on records that match the domain."
+msgstr ""
+"Jos sääntö on asetettu, sitä sovelletaan vain tietueisiin, jotka vastaavat "
+"toimialuetta."
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__exclusive_user
+msgid ""
+"If set, the user who approves this rule will not be able to approve other "
+"rules for the same record"
+msgstr ""
+"Jos tämä asetus on asetettu, tämän säännön hyväksynyt käyttäjä ei voi "
+"hyväksyä muita samaa tietuetta koskevia sääntöjä"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+"If you don't want to create a new model, an existing model should be "
+"selected."
+msgstr "Jos et halua luoda uutta mallia, on valittava olemassa oleva malli."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Image"
+msgstr "Kuva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+#, python-format
+msgid "Import"
+msgstr "Tuo"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "In Progress"
+msgstr "Käynnissä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_manager.js:0
+#, python-format
+msgid ""
+"In order to use a monetary field, you need a currency field on the model. Do"
+" you want to create a currency field first? You can make this field "
+"invisible afterwards."
+msgstr ""
+"Rahakentän käyttäminen edellyttää, että mallissa on valuuttakenttä. Haluatko"
+" luoda valuuttakentän ensin? Voit tehdä kentän näkymättömäksi jälkikäteen."
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_ui_menu__is_studio_configuration
+msgid ""
+"Indicates that this menu was created by Studio to hold configuration sub-"
+"menus"
+msgstr ""
+"Osoittaa, että Studio on luonut tämän valikon konfiguraatioalivalikoita "
+"varten"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks_registry.js:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Inline"
+msgstr "Linjassa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Integer"
+msgstr "kokonaisluku"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Internal"
+msgstr "Sisäinen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Interval"
+msgstr "Aikaväli"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Invalid studio_approval %s in button"
+msgstr "Virheellinen studio_approval %s painikkeessa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Invisible"
+msgstr "Näkymättömissä"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__is_studio
+msgid "Is Studio"
+msgstr "On Studio"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "Is default view"
+msgstr "On oletusnäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Italic"
+msgstr "Kursiivi"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Kanban State"
+msgstr "Kanban-tila"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Kanban View"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_buttonbox_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Label"
+msgstr "Otsikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Large"
+msgstr "Suuri"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_automation____last_update
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_act_window____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_act_window_view____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_report____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_actions_server____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_filters____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_http____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_model____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_access____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_data____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_fields____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_module_module____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_qweb____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_rule____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_menu____last_update
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_view____last_update
+#: model:ir.model.fields,field_description:web_studio.field_mail_template____last_update
+#: model:ir.model.fields,field_description:web_studio.field_mail_thread____last_update
+#: model:ir.model.fields,field_description:web_studio.field_report_paperformat____last_update
+#: model:ir.model.fields,field_description:web_studio.field_res_company____last_update
+#: model:ir.model.fields,field_description:web_studio.field_res_groups____last_update
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry____last_update
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule____last_update
+#: model:ir.model.fields,field_description:web_studio.field_studio_mixin____last_update
+msgid "Last Modified on"
+msgstr "Viimeksi muokattu"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__write_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__write_uid
+msgid "Last Updated by"
+msgstr "Viimeksi päivitetty"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__write_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__write_date
+msgid "Last Updated on"
+msgstr "Viimeksi päivitetty"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"Let’s check the result. Close Odoo Studio to get an <b>overview of your "
+"app</b>."
+msgstr ""
+"Tarkistetaan tulos. Sulje Odoo Studio saadaksesi <b>yleiskuvan "
+"sovelluksestasi</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__exclusive_user
+#, python-format
+msgid "Limit approver to this rule"
+msgstr "Rajoita hyväksyjä tähän sääntöön"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar_common.xml:0
+#, python-format
+msgid "Limit visibility to groups"
+msgstr "Rajoita näkyvyyttä ryhmille"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#: code:addons/web_studio/static/src/xml/search_renderer.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "List View"
+msgstr "Listanäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor.xml:0
+#: code:addons/web_studio/static/src/xml/report_editor.xml:0
+#, python-format
+msgid "Loading..."
+msgstr "Lataa..."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Manually sort records in the list view"
+msgstr "Lajittele tietueet luettelonäkymässä manuaalisesti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Many2many"
+msgstr "Many2many"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Many2one"
+msgstr "Many2one"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Map View"
+msgstr "Karttanäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Margins"
+msgstr "Katteet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Measure Field"
+msgstr "Mittauskenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Medium"
+msgstr "Media"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_ui_menu
+msgid "Menu"
+msgstr "Valikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__message
+#, python-format
+msgid "Message"
+msgstr "Viesti"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__method
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__method
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Method"
+msgstr "Maksutapa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Minimal header/footer"
+msgstr "Minimaalinen ylä- tai alatunniste"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Mode"
+msgstr "Toimintatila"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__model_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+#, python-format
+msgid "Model"
+msgstr "Malli"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_access
+msgid "Model Access"
+msgstr "Mallin pääsy"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_data
+msgid "Model Data"
+msgstr "Mallin data"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__model
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__model_name
+msgid "Model Name"
+msgstr "Mallin nimi"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model
+msgid "Models"
+msgstr "Mallit"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_module_module
+msgid "Module"
+msgstr "Moduuli"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base_module_uninstall
+msgid "Module Uninstall"
+msgstr "Moduulin poisto"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+msgid "Module file (.zip)"
+msgstr "Moduulitiedosto (.zip)"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Monetary"
+msgstr "Rahallinen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Monetary value"
+msgstr "Rahallinen arvo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Month"
+msgstr "Kuukausi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Month Precision"
+msgstr "Kuukauden tarkkuus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar_common.xml:0
+#, python-format
+msgid "More"
+msgstr "Lisää"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Multiline Text"
+msgstr "Monirivinen teksti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "Multiple Records Views"
+msgstr "Useiden tietueiden näkymät"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "My %s"
+msgstr "Oma %s"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_buttonbox_dialog.xml:0
+#, python-format
+msgid "My Button"
+msgstr "Oma nappi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#, python-format
+msgid "My Menu"
+msgstr "Oma menu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_model.xml:0
+#, python-format
+msgid "My Model"
+msgstr "Oma malli"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "My entries"
+msgstr "Omat merkinnät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#: code:addons/web_studio/static/src/xml/new_model.xml:0
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__name
+#, python-format
+msgid "Name"
+msgstr "Nimi"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "New"
+msgstr "Uusi"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "New Approval Entry"
+msgstr "Uusi hyväksyntämerkintä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/field_selector_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/kanban_editor.xml:0
+#, python-format
+msgid "New Field"
+msgstr "Uusi kenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "New Fields"
+msgstr "Uudet kentät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/search_editor.js:0
+#, python-format
+msgid "New Filter"
+msgstr "Uusi suodatin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#, python-format
+msgid "New Menu"
+msgstr "Lisää uusi valikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#: code:addons/web_studio/static/src/xml/new_model.xml:0
+#, python-format
+msgid "New Model"
+msgstr "Uusi malli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "New record at the bottom"
+msgstr "Uusi tietue alas"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "New record on top"
+msgstr "Uusi tietue ylös"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#: code:addons/web_studio/static/src/xml/model_configurator.xml:0
+#: code:addons/web_studio/static/src/xml/model_configurator.xml:0
+#, python-format
+msgid "Next"
+msgstr "Seuraava"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"Nicely done! Let’s build your screen now; <b>drag</b> a <i>text field</i> "
+"and <b>drop</b> it in your view, on the right."
+msgstr ""
+"Hienosti tehty! Rakennetaan nyt näyttö; <b>vedä</b> <i>tekstikenttä</i> ja "
+"<b>pudota</b> se oikealla olevaan näkymään."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "No"
+msgstr "Ei"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "No approval found for this rule, record and user combination."
+msgstr ""
+"Tälle säännön, tietueen ja käyttäjän yhdistelmälle ei löytynyt hyväksyntää."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "No header/footer"
+msgstr "Ei ylä- tai alatunnistetta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_manager.js:0
+#, python-format
+msgid "No related many2one fields found"
+msgstr "Liittyviä many2one-kenttiä ei löytynyt"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/report.py:0
+#, python-format
+msgid "No view found for the given report!"
+msgstr "Annettua raporttia varten ei löytynyt näkymää!"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Normal"
+msgstr "Normaali"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/js/menu.js:0
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Notes"
+msgstr "Muistiinpanot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Now you’re on your own. Enjoy your <b>super power</b>."
+msgstr "Nyt olet omillasi. Nauti <b>supervoimastasi</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Now, customize your icon. Make it yours."
+msgstr "Muokkaa nyt kuvaketta. Tee siitä omasi."
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__entries_count
+msgid "Number of Entries"
+msgstr "Merkintöjen määrä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "Odoo Studio"
+msgstr "Odoo Studio"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/systray.xml:0
+#, python-format
+msgid "Odoo Studio Icon"
+msgstr "Odoo Studio -kuvake"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Offset"
+msgstr "Etäisyys"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "One2many"
+msgstr "One2many"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "Only %s members can approve this rule."
+msgstr "Vain %s jäsenet voivat hyväksyä tämän säännön."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+"Only groups with an external ID can be used here. Please choose another "
+"group or assign manually an external ID to this group."
+msgstr ""
+"Tässä voidaan käyttää vain ryhmiä, joilla on ulkoinen tunnus. Valitse toinen"
+" ryhmä tai määritä tälle ryhmälle ulkoinen tunnus manuaalisesti."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Only members of this group will be able to approve or reject the rule."
+msgstr "Vain tämän ryhmän jäsenet voivat hyväksyä tai hylätä säännön."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Optional"
+msgstr "Vapaaehtoinen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Options"
+msgstr "Vaihtoehdot"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Order"
+msgstr "Tilaus"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+msgid "PDF file"
+msgstr "PDF-tiedosto"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_report_paperformat
+msgid "Paper Format Config"
+msgstr "Paperin formaatin määrittäminen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Paper format"
+msgstr "Paperiformaatti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#, python-format
+msgid "Parent Menu"
+msgstr "Ylätason valikko"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Partner"
+msgstr "Kumppani"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Phone"
+msgstr "Puhelin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Picture"
+msgstr "Kuva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Pipeline stages"
+msgstr "Ketjun vaiheet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Pivot View"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Placeholder"
+msgstr "Paikanpitäjä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Placeholder Text"
+msgstr "Paikanvaraajateksti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Please specify a field name for the selected model."
+msgstr "Määritä valitun mallin kentän nimi."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Please specify a field."
+msgstr "Määritä kenttä."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_editor_action.js:0
+#, python-format
+msgid "Preview unavailable because there is no existing record"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#: code:addons/web_studio/static/src/xml/model_configurator.xml:0
+#: code:addons/web_studio/static/src/xml/model_configurator.xml:0
+#, python-format
+msgid "Previous"
+msgstr "Edellinen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_manager.xml:0
+#, python-format
+msgid "Print"
+msgstr "Tulosta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Printed Report Name"
+msgstr "Tulostettu raportin nimi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Priority"
+msgstr "Prioriteetti"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid ""
+"Private methods cannot be restricted (since they cannot be called remotely, "
+"this would be useless)."
+msgstr ""
+"Yksityisiä metodeja ei voi rajoittaa (koska niitä ei voi kutsua etäältä, "
+"tämä olisi hyödytöntä)."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Properties"
+msgstr "Ominaisuudet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Pull Right"
+msgstr "Vedä oikealle"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Quarter Hour"
+msgstr "Varttitunti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Quick Create"
+msgstr "Nopea luominen"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_qweb
+msgid "Qweb"
+msgstr "Qweb"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Rainbow Effect"
+msgstr "Sateenkaariefekti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Rainbow Man"
+msgstr "Sateenkaarimies"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Read only"
+msgstr "Vain luku"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Ready"
+msgstr "Valmis siirrettäväksi"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_form_view
+msgid "Record"
+msgstr "Tietue"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__res_id
+msgid "Record ID"
+msgstr "Tietue ID"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Redo"
+msgstr "Tee uudelleen"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__reference
+msgid "Reference"
+msgstr "Viite"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Reject"
+msgstr "Hylkää"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Rejected"
+msgstr "Rechazado"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.notify_approval
+msgid "Rejected as"
+msgstr "Hylätty nimellä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Rejected on"
+msgstr "Hylätty"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Related End Date"
+msgstr "Liittyvä päättymispäivä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Related Field"
+msgstr "Liittyvä kenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Related Start Date"
+msgstr "Liittyvä aloituspäivä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Related expression"
+msgstr "Liittyvä ilmaisu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Relation:"
+msgstr "Suhde:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Reload from attachment"
+msgstr "Lataa uudelleen liitteestä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar_common.xml:0
+#, python-format
+msgid "Remove from View"
+msgstr "Poista näkymästä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Remove rule"
+msgstr "Poista sääntö"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Remove selection"
+msgstr "Poista valinta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Report"
+msgstr "Raportti"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_report
+msgid "Report Action"
+msgstr "Raporttin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_editor_action.js:0
+#, python-format
+msgid "Report Editor"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "Reporting Views"
+msgstr "Raportointinäkymät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Reports"
+msgstr "Raportit"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Required"
+msgstr "Vaadittu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Reset Default Background"
+msgstr "Nollaa oletustaustakuva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Reset Image"
+msgstr "Nollaa kuva"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Responsible"
+msgstr "Vastuuhenkilö"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Restore Default View"
+msgstr "Palauta oletusnäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Restrict a record to a specific company"
+msgstr "Rajoita tietue tiettyyn yritykseen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Retention"
+msgstr "Säilyttäminen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Revoke"
+msgstr "Peruuta valtuutus"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_rule
+msgid "Rule"
+msgstr "Sääntö"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid ""
+"Rules with existing entries cannot be deleted since it would delete existing"
+" approval entries. You should archive the rule instead."
+msgstr ""
+"Sääntöjä, joissa on olemassa olevia merkintöjä, ei voi poistaa, koska se "
+"poistaisi olemassa olevat hyväksymismerkinnät. Sääntö kannattaa sen sijaan "
+"arkistoida."
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid ""
+"Rules with existing entries cannot be modified since it would break existing"
+" approval entries. You should archive the rule and create a new one instead."
+msgstr ""
+"Sääntöjä, joissa on olemassa olevia merkintöjä, ei voi muuttaa, koska se "
+"rikkoisi olemassa olevat hyväksymismerkinnät. Sääntö kannattaa arkistoida ja"
+" luoda sen sijaan uusi sääntö."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Save."
+msgstr "Tallenna."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/submenu.js:0
+#, python-format
+msgid "Saved"
+msgstr "Tallennettu"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/submenu.js:0
+#, python-format
+msgid "Saving"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Search View"
+msgstr "Hakunäkymä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Search..."
+msgstr "Hae..."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Second Status"
+msgstr "Toinen tila"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/field_selector_dialog.js:0
+#, python-format
+msgid "Select a Field"
+msgstr "Valitse kenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_buttonbox_dialog.xml:0
+#, python-format
+msgid "Select a related field"
+msgstr "Valitse liittyvä kenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/new_buttonbox_dialog.js:0
+#, python-format
+msgid "Select a related field."
+msgstr "Valitse liittyvä kenttä."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Select a related field:"
+msgstr "Valitse liittyvä kenttä:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_view_dialog.xml:0
+#, python-format
+msgid ""
+"Select the contact field to use to get the coordinates of your records."
+msgstr "Valitse yhteystietokenttä, jonka avulla saa tietueiden koordinaatit."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Selection"
+msgstr "Valinta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Send a"
+msgstr "Lähetä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Send messages, log notes and schedule activities"
+msgstr "Lähetä viestejä, kirjaa muistiinpanoja ja aikatauluta toimintoja"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Separator"
+msgstr "Erotin"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Sequence"
+msgstr "Järjestys"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_server
+msgid "Server Action"
+msgstr "Palvelintoiminto"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Set Cover Image"
+msgstr "Aseta kansikuva"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Set a price or cost on records"
+msgstr "Aseta hinta tai kustannus tietueille"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"Set an <b>email alias</b>. Then, try to send an email to this address; it "
+"will create a document automatically for you. Pretty cool, huh?"
+msgstr ""
+"Määritä <b>sähköpostin alias</b>. Yritä sitten lähettää sähköpostia tähän "
+"osoitteeseen; se luo asiakirjan automaattisesti puolestasi. Aika siistiä, "
+"vai mitä?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Set approval rules"
+msgstr "Aseta hyväksymissäännöt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "Set as Default"
+msgstr "Aseta oletukseksi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Set expression"
+msgstr "Aseta lauseke"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Show Invisible Elements"
+msgstr "Näytä näkymättömät elementit"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Show by default"
+msgstr "Näytä oletusarvoisesti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Signature"
+msgstr "Allekirjoitus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Size"
+msgstr "Koko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Slow"
+msgstr "Hidas"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Small"
+msgstr "Pieni"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Sort By"
+msgstr "Järjestä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Sort by"
+msgstr "Järjestä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Source"
+msgstr "Lähde"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Specify all possible values"
+msgstr "Määritä kaikki mahdolliset arvot"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Stage"
+msgstr "Vaihe"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#, python-format
+msgid "Stage Name"
+msgstr "Vaiheen nimi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Stage and visualize records in a custom pipeline"
+msgstr "Vaiheistaa ja visualisoida tietueita mukautetussa ketjussa"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Start Date"
+msgstr "Alkupäivä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Start Date Field"
+msgstr "Aloituspäiväkenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Stop Date Field"
+msgstr "Lopetuspäiväkenttä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Striped"
+msgstr "Raidallinen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/action_editor_action.js:0
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_data__studio
+#, python-format
+msgid "Studio"
+msgstr "Studio"
+
+#. module: web_studio
+#: model:ir.actions.client,name:web_studio.action_web_studio_action_editor
+msgid "Studio Action Editor"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.actions.client,name:web_studio.action_web_studio_app_creator
+msgid "Studio App Creator"
+msgstr "Studio Sovellusten luontiohjelma"
+
+#. module: web_studio
+#: model:ir.actions.act_window,name:web_studio.studio_approval_entry_action
+#: model:ir.ui.menu,name:web_studio.menu_studio_approval_entry
+msgid "Studio Approval Entries"
+msgstr "Studio hyväksyntämerkinnät"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_approval_entry
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_form_view
+msgid "Studio Approval Entry"
+msgstr "Studio hyväksyntämerkintä"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_approval_rule
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+msgid "Studio Approval Rule"
+msgstr "Studio hyväksyntäsääntö"
+
+#. module: web_studio
+#: model:ir.actions.act_window,name:web_studio.studio_approval_rule_action
+msgid "Studio Approvals"
+msgstr "Studio hyväksynnät"
+
+#. module: web_studio
+#: model:ir.ui.menu,name:web_studio.menu_studio_approval_rule
+msgid "Studio Approvals Rules"
+msgstr "Studio hyväksyntäsäännöt"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_menu__is_studio_configuration
+msgid "Studio Configuration Menu"
+msgstr "Studio asetusvalikko"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_customizations_filter
+msgid "Studio Customizations"
+msgstr "Studio mukautukset"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_mixin
+msgid "Studio Mixin"
+msgstr "Studio Mixin"
+
+#. module: web_studio
+#: model:ir.actions.client,name:web_studio.action_web_studio_report_editor
+msgid "Studio Report Editor"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#: code:addons/web_studio/static/src/xml/edit_menu.xml:0
+#, python-format
+msgid "Submenu label"
+msgstr "Alivalikon otsikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Subtotal & Total"
+msgstr "Välisumma ja kokonaismäärä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/submenu.js:0
+#, python-format
+msgid "Subview "
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#: code:addons/web_studio/static/src/xml/model_configurator.xml:0
+#, python-format
+msgid "Suggested features for your new model"
+msgstr "Ehdotetut ominaisuudet uuteen malliin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Sum"
+msgstr "Summa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks_registry.js:0
+#, python-format
+msgid "Table"
+msgstr "Pöytä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Table style"
+msgstr "Taulukon tyyli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Tabs"
+msgstr "Välilehdet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Tags"
+msgstr "Tunnisteet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Taxes amount by groups"
+msgstr "Verojen määrä ryhmittäin"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Technical Name"
+msgstr "Tekninen nimi"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Template '%s' not found"
+msgstr "Mallia '%s' ei löydy"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#: code:addons/web_studio/static/src/js/views/view_components.js:0
+#, python-format
+msgid "Text"
+msgstr "Teksti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Text decoration"
+msgstr "Tekstin tyyli"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Text in Cell"
+msgstr "Teksti solussa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "The fastest way to create a web application."
+msgstr "Nopein tapa luoda verkkosovellus."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The field %s does not exist."
+msgstr "Kenttää %s ei ole olemassa."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/controllers/form_controller.js:0
+#, python-format
+msgid "The following approvals are missing:"
+msgstr "Seuraavat hyväksynnät puuttuvat:"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The icon has not a correct format"
+msgstr "Kuvakkeella ei ole oikeaa muotoa"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The icon is not linked to an attachment"
+msgstr "Kuvaketta ei ole linkitetty liitetiedostoon"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The model %s does not exist."
+msgstr "Mallia %s ei ole olemassa."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The model %s doesn't support adding fields."
+msgstr "Malli %s ei tue kenttien lisäämistä."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid ""
+"The new name can contain only a to z lower letters, numbers and _, with a "
+"maximum of 53 characters."
+msgstr ""
+"Uusi nimi voi sisältää vain a-z-alkuisia kirjaimia, numeroita ja _-merkkejä,"
+" mutta enintään 53 merkkiä."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The operation  type \"%s\" is not supported"
+msgstr "Toimintatyyppiä \"%s\" ei tueta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "The record field name is missing"
+msgstr "Tietueen kentän nimi puuttuu"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "The related field of a button has to be a many2one to %s."
+msgstr "Painikkeen liittyvän kentän on oltava many2one - %s."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/abstract_editor_manager.js:0
+#, python-format
+msgid ""
+"The requested change caused an error in the view. It could be because a "
+"field was deleted, but still used somewhere else."
+msgstr ""
+"Pyydetty muutos aiheutti virheen näkymässä. Se voi johtua siitä, että kenttä"
+" on poistettu, mutta sitä käytetään edelleen jossain muualla."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid ""
+"The user who approves this rule will not be able to approve other rules for "
+"the same record."
+msgstr ""
+"Tämän säännön hyväksynyt käyttäjä ei voi hyväksyä muita samaa tietuetta "
+"koskevia sääntöjä."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid ""
+"There are %s records using selection values not listed in those you are trying to save.\n"
+"Are you sure you want to remove the selection values of those records?"
+msgstr ""
+"On %s tietuetta, joissa käytetään valinta-arvoja, joita ei ole lueteltu niissä tietueissa, joita yrität tallentaa.\n"
+"Oletko varma, että haluat poistaa näiden tietueiden valinta-arvot?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_manager.xml:0
+#, python-format
+msgid "There are no many2one fields related to the current model."
+msgstr "Nykyiseen malliin ei liity many2one-kenttiä."
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "There is no method %s on the model %s (%s)"
+msgstr "Mallissa %s (%s) ei ole metodia %s"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/form_editor.js:0
+#, python-format
+msgid "Third Status"
+msgstr "Kolmas tila"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/web_client.js:0
+#, python-format
+msgid "This action is not editable by Studio"
+msgstr "Studio ei voi muokata tätä toimintoa"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid ""
+"This approval or the one you already submitted limits you to a single approval on this action.\n"
+"Another user is required to further approve this action."
+msgstr ""
+"Tämä hyväksyntä tai jo antamasi hyväksyntä rajoittaa sinut vain yhteen hyväksyntään tässä toimessa.\n"
+"Toisen käyttäjän on hyväksyttävä tämä toiminto edelleen."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar_common.xml:0
+#, python-format
+msgid ""
+"This field is placed after another element that is only displayed under "
+"certain conditions."
+msgstr ""
+"Tämä kenttä sijoitetaan toisen elementin jälkeen, joka näytetään vain "
+"tietyissä olosuhteissa."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/abstract_editor_manager.js:0
+#, python-format
+msgid "This operation caused an error, probably because a xpath was broken"
+msgstr "Tämä toiminto aiheutti virheen, luultavasti koska xpath oli rikki"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_editor.js:0
+#, python-format
+msgid ""
+"This report could not be previewed or edited because it could not be "
+"rendered with this message: %s. This could be happening because this is a "
+"custom report type that needs custom data to be rendered and so is not "
+"editable by studio."
+msgstr ""
+"Tätä raporttia ei voitu esikatsella tai muokata, koska sitä ei voitu "
+"renderöidä tämän viestin kanssa: %s. Tämä voi johtua siitä, että kyseessä on"
+" mukautettu raporttityyppi, jonka renderöinti edellyttää mukautettuja "
+"tietoja, joten studio ei voi muokata sitä."
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "This rule has already been approved/rejected."
+msgstr "Tämä sääntö on jo hyväksytty/hylätty."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "This rule limits this user to a single approval for this action."
+msgstr ""
+"Tämä sääntö rajoittaa tämän käyttäjän yhteen hyväksyntään tälle toiminnolle."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Three Columns"
+msgstr "Kolme saraketta"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Timeline"
+msgstr "Aikajana"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/action_editor.xml:0
+#, python-format
+msgid "Timeline Views"
+msgstr "Aikajananäkymät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Title Block"
+msgstr "Otsikkolohko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "To <b>customize a field</b>, click on its <i>label</i>."
+msgstr "Voit <b>muokata kenttää</b> napsauttamalla sen <i>nimikettä</i>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_manager.xml:0
+#, python-format
+msgid ""
+"To create a one2many field on the current model, you must first create its "
+"many2one counterpart on the model you want to relate to."
+msgstr ""
+"Jos haluat luoda one2many-kentän nykyiseen malliin, sinun on ensin luotava "
+"sen many2one-vastine siihen malliin, johon haluat luoda yhteyden."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/systray.xml:0
+#: code:addons/web_studio/static/src/xml/systray.xml:0
+#: code:addons/web_studio/static/src/xml/systray.xml:0
+#, python-format
+msgid "Toggle Studio"
+msgstr "Kytke Studio päälle tai pois"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Total"
+msgstr "Yhteensä"
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/main.py:0
+#, python-format
+msgid "Translate view"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Translations"
+msgstr "Käännökset"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Two Columns"
+msgstr "Kaksi saraketta"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "Type down your notes here..."
+msgstr "Kirjoita muistiinpanosi tähän..."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Underline"
+msgstr "Alleviivaus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Undo"
+msgstr "Peru"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editor_sidebar.js:0
+#, python-format
+msgid "Use colors"
+msgstr "Käytä värejä"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "User"
+msgstr "Käyttäjä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "User assignment"
+msgstr "Käyttäjän määritys"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "User avatar placeholder"
+msgstr "Käyttäjän avatarin haltija"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Value"
+msgstr "Arvo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#: code:addons/web_studio/static/src/xml/new_field_dialog.xml:0
+#, python-format
+msgid "Value of list"
+msgstr "Luettelon arvo"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: model:ir.model,name:web_studio.model_ir_ui_view
+#, python-format
+msgid "View"
+msgstr "Näytä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/submenu.js:0
+#: code:addons/web_studio/static/src/xml/submenu.xml:0
+#, python-format
+msgid "Views"
+msgstr "Näkymät"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Visible for"
+msgstr "Näkyvissä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Visible if"
+msgstr "On näkyvä, jos"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/approval_component.xml:0
+#, python-format
+msgid "Waiting for approval"
+msgstr "Odotetaan hyväksyntää"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Want more fun? Let’s create more <b>views</b>."
+msgstr "Haluatko pitää lisää hauskaa? Luodaan lisää <b>näkymiä</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "Want to customize the background? Let’s activate <b>Odoo Studio</b>."
+msgstr "Haluatko muokata taustaa? Aktivoidaan <b>Odoo Studio</b>."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Week"
+msgstr "Viikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Week Precision"
+msgstr "Viikkotarkkuus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "Welcome to"
+msgstr "Tervetuloa"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid "What about a <b>Kanban view</b>?"
+msgstr "Entä <b>Kanban-näkymä</b>?"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_model__abstract
+msgid "Wheter this model is abstract"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__can_validate
+msgid "Whether the rule can be approved by the current user"
+msgstr "Voiko nykyinen käyttäjä hyväksyä säännön?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/report_kanban_view.js:0
+#, python-format
+msgid "Which type of report do you want to create?"
+msgstr "Minkä tyyppisen raportin haluat luoda?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Widget"
+msgstr "Sovelma"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "Width"
+msgstr "Leveys"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/web_client.js:0
+#, python-format
+msgid "Wizards are not editable with Studio"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/tours/web_studio.js:0
+#, python-format
+msgid ""
+"Wow, nice! And I’m sure you can make it even better! Use this icon to open "
+"<b>Odoo Studio</b> and customize any screen."
+msgstr ""
+"Vau, hienoa! Ja olen varma, että voit tehdä siitä vielä paremman! Käytä tätä"
+" kuvaketta <b>Odoo Studion</b> avaamiseen ja minkä tahansa näytön "
+"muokkaamiseen."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/model_configurator.js:0
+#, python-format
+msgid "Write additional notes or comments"
+msgstr "Kirjoita lisähuomautuksia tai kommentteja"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar_common.xml:0
+#, python-format
+msgid "XML"
+msgstr "XML"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "Year"
+msgstr "Vuosi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "You can only display a user or a partner"
+msgstr "Voit näyttää vain käyttäjän tai kumppanin"
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "You cannot cancel an approval you didn't set yourself."
+msgstr "Et voi peruuttaa hyväksyntää, jota et ole itse asettanut."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/action_editor_action.js:0
+#, python-format
+msgid "You cannot deactivate this view as it is the last one active."
+msgstr ""
+"Et voi poistaa tätä näkymää käytöstä, koska se on viimeinen aktiivinen "
+"näkymä."
+
+#. module: web_studio
+#: code:addons/web_studio/controllers/report.py:0
+#, python-format
+msgid "You cannot modify this view, it is part of the generic layout"
+msgstr "Tätä näkymää ei voi muokata, se on osa yleistä ulkoasua"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/edit_menu.js:0
+#, python-format
+msgid ""
+"You cannot remove all the menu items of an app.\r\n"
+"Try uninstalling the app instead."
+msgstr ""
+"Et voi poistaa sovelluksen kaikkia valikkokohtia.\r\n"
+"Kokeile sen sijaan sovelluksen poistamista."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid "You first need to create a many2many field in the form view."
+msgstr "Sinun on ensin luotava many2many-kenttä lomakenäkymään."
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/views/view_editors/kanban_record_editor.js:0
+#, python-format
+msgid ""
+"You first need to create a many2one field to Partner or User in the form "
+"view."
+msgstr ""
+
+#. module: web_studio
+#: code:addons/web_studio/models/studio_approval.py:0
+#, python-format
+msgid "You just like to break things, don't you?"
+msgstr "Sinä vain tykkäät rikkoa asioita, etkö vain?"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#, python-format
+msgid "You must have at least one option set"
+msgstr "Sinulla on oltava vähintään yksi asetus"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#, python-format
+msgid "You must select a related field"
+msgstr "Sinun on valittava asiaan liittyvä ala"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/common/new_field_dialog.js:0
+#, python-format
+msgid "You must select a relation"
+msgstr "Sinun on valittava suhde"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/sidebar_common.xml:0
+#, python-format
+msgid "You need to be part of these groups to see this field:"
+msgstr "Sinun on kuuluttava näihin ryhmiin nähdäksesi tämän kentän:"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid ""
+"You need to use a many2many or one2many field to display a list of items"
+msgstr ""
+"Sinun on käytettävä many2many- tai one2many-kenttää näyttääksesi luettelon "
+"kohteista"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "bottom"
+msgstr "ala"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "day"
+msgstr "päivä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "e.g. Properties"
+msgstr "esim. Ominaisuudet"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/app_creator.xml:0
+#, python-format
+msgid "e.g. Real Estate"
+msgstr "esim. kiinteistöt"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "left"
+msgstr "vasen"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "month"
+msgstr "kuukausi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:0
+#, python-format
+msgid "or"
+msgstr "tai"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/home_menu.xml:0
+#, python-format
+msgid "props.style"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "px"
+msgstr "px"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "reset color"
+msgstr "nollaa väri"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "right"
+msgstr "oikea"
+
+#. module: web_studio
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#, python-format
+msgid "studio_approval attribute can only be set in form views"
+msgstr "studio_approval-attribuutin voi asettaa vain lomakkeenäkymissä"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "test email"
+msgstr "testisähköposti"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/report_editor_sidebar.xml:0
+#, python-format
+msgid "top"
+msgstr "ylös"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:0
+#, python-format
+msgid "upload it"
+msgstr "lataa se"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/icon_creator.xml:0
+#, python-format
+msgid "upload one"
+msgstr "lataa yksi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "week"
+msgstr "viikko"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "x_studio_"
+msgstr "x_studio_"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/xml/view_editor_sidebar.xml:0
+#, python-format
+msgid "year"
+msgstr "vuosi"
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/xml/studio_home_menu.xml:0
+#, python-format
+msgid ""
+"{\n"
+"            o_focused: appIndex === app_index,\n"
+"            o_web_studio_new_app: app.isNewAppButton\n"
+"        }"
+msgstr ""

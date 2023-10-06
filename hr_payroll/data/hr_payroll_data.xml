@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="resource.resource_calendar_std" model="resource.calendar">
+            <field name="full_time_required_hours">40</field>
+        </record>
+
+        <record id="resource.resource_calendar_std_35h" model="resource.calendar">
+            <field name="full_time_required_hours">35</field>
+        </record>
+
+        <record id="resource.resource_calendar_std_38h" model="resource.calendar">
+            <field name="full_time_required_hours">38</field>
+        </record>
+
+        <record id="BASIC" model="hr.salary.rule.category">
+            <field name="name">Basic</field>
+            <field name="code">BASIC</field>
+        </record>
+
+        <record id="ALW" model="hr.salary.rule.category">
+            <field name="name">Allowance</field>
+            <field name="code">ALW</field>
+        </record>
+
+        <record id="GROSS" model="hr.salary.rule.category">
+            <field name="name">Gross</field>
+            <field name="code">GROSS</field>
+        </record>
+
+        <record id="DED" model="hr.salary.rule.category">
+            <field name="name">Deduction</field>
+            <field name="code">DED</field>
+        </record>
+
+        <record id="NET" model="hr.salary.rule.category">
+            <field name="name">Net</field>
+            <field name="code">NET</field>
+        </record>
+
+        <record id="COMP" model="hr.salary.rule.category">
+            <field name="name">Company Contribution</field>
+            <field name="code">COMP</field>
+        </record>
+
+        <!-- Decimal Precision -->
+        <record forcecreate="True" id="decimal_payroll" model="decimal.precision">
+            <field name="name">Payroll</field>
+            <field name="digits">2</field>
+        </record>
+
+        <record forcecreate="True" id="decimal_payroll_rate" model="decimal.precision">
+            <field name="name">Payroll Rate</field>
+            <field name="digits">4</field>
+        </record>
+
+        <!-- Work Entry Type -->
+         <record id="hr_work_entry_contract.work_entry_type_leave" model="hr.work.entry.type">
+            <field name="round_days">HALF</field>
+            <field name="round_days_type">DOWN</field>
+        </record>
+
+        <record id="hr_work_entry_contract.work_entry_type_compensatory" model="hr.work.entry.type">
+            <field name="round_days">HALF</field>
+            <field name="round_days_type">DOWN</field>
+        </record>
+
+        <record id="hr_work_entry_contract.work_entry_type_home_working" model="hr.work.entry.type">
+            <field name="round_days">HALF</field>
+            <field name="round_days_type">DOWN</field>
+        </record>
+
+        <record id="hr_work_entry_contract.work_entry_type_unpaid_leave" model="hr.work.entry.type">
+            <field name="round_days">HALF</field>
+            <field name="round_days_type">DOWN</field>
+        </record>
+
+        <record id="hr_work_entry_contract.work_entry_type_sick_leave" model="hr.work.entry.type">
+            <field name="round_days">HALF</field>
+            <field name="round_days_type">DOWN</field>
+        </record>
+
+         <record id="hr_work_entry_contract.work_entry_type_legal_leave" model="hr.work.entry.type">
+            <field name="round_days">HALF</field>
+            <field name="round_days_type">DOWN</field>
+        </record>
+
+        <record id="hr_work_entry_type_out_of_contract" model="hr.work.entry.type">
+            <field name="name">Out of Contract</field>
+            <field name="color">0</field>
+            <field name="code">OUT</field>
+            <field name="is_leave" eval="False"/>
+            <field name="round_days">HALF</field>
+            <field name="round_days_type">HALF-UP</field>
+        </record>
+
+     <record model="ir.actions.server" id="action_view_account_move_line_reconcile">
+            <field name="name">Payroll - Technical: Reset Work Entries</field>
+            <field name="model_id" ref="hr_work_entry.model_hr_work_entry"/>
+            <field name="state">code</field>
+            <field name="groups_id" eval="[(4,ref('base.group_system'))]"/>
+            <field name="code">
+# Don't call this server action if you don't want to loose all your work entries
+env['hr.work.entry'].search([]).unlink()
+now = datetime.datetime.now()
+env['hr.contract'].write({
+    'date_generated_from': now,
+    'date_generated_to': now
+})
+            </field>
+     </record>
+
+    <record id="mail_template_new_payslip" model="mail.template">
+        <field name="name">Payroll: New Payslip</field>
+        <field name="model_id" ref="hr_payroll.model_hr_payslip"/>
+        <field name="subject">${object.employee_id.name}, a new payslip is available for you</field>
+        <field name="email_from">${user.email_formatted | safe}</field>
+        <field name="partner_to">${object.employee_id.address_home_id.id}</field>
+        <field name="body_html" type="html">
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%; margin:0px auto;"><tbody>
+    <tr><td valign="top" style="text-align: left; font-size: 14px;">
+        Dear ${object.employee_id.name}, a new payslip is available for you.<br/><br/>
+        Please find the PDF in attachment.<br/><br/>
+        Have a nice day,<br/>
+        The HR Team
+    </td></tr>
+</tbody></table>
+            </field>
+            <field name="lang">${object.employee_id.address_home_id.lang}</field>
+            <field name="auto_delete" eval="True"/>
+      </record>
+
+    </data>
+</odoo>

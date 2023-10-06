@@ -1,0 +1,142 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_helpdesk_forum
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:26+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid ""
+"<i class=\"fa fa-check-circle oe_answer_true\" role=\"img\" aria-"
+"label=\"Question has accepted answer\"/>"
+msgstr ""
+"<i class=\"fa fa-check-circle oe_answer_true\" role=\"img\" aria-"
+"label=\"Question has accepted answer\"/>"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "<span>By </span>"
+msgstr "<span>ដោយ</span>"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "Click here to view more result..."
+msgstr "ចុចត្រង់នេះដើម្បីមើលលទ្ធផលបន្ថែម ..."
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__display_name
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket__forum_post_id
+msgid "Forum Post"
+msgstr "វេទិការប្រកាស"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket__use_website_helpdesk_forum
+msgid "Help Center Active"
+msgstr "មជ្ឈមណ្ឌលជំនួយសកម្ម"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__forum_id
+msgid "Help Center Forum"
+msgstr "វេទិកាមជ្ឈមណ្ឌលជំនួយ"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__forum_url
+msgid "Help Center Forum URL"
+msgstr "វេទិកាមជ្ឈមណ្ឌលជំនួយURL"
+
+#. module: website_helpdesk_forum
+#: code:addons/website_helpdesk_forum/models/helpdesk.py:0
+#: code:addons/website_helpdesk_forum/models/helpdesk.py:0
+#, python-format
+msgid "Help Center not active for this team."
+msgstr "មជ្ឈមណ្ឌលជំនួយមិនសកម្មសម្រាប់ក្រុមនេះទេ។"
+
+#. module: website_helpdesk_forum
+#: model:ir.model,name:website_helpdesk_forum.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "ក្រុម Helpdesk "
+
+#. module: website_helpdesk_forum
+#: model:ir.model,name:website_helpdesk_forum.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "សំបុត្រជំនួយ"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__id
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team____last_update
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: website_helpdesk_forum
+#: code:addons/website_helpdesk_forum/models/helpdesk.py:0
+#, python-format
+msgid "No post associated to this ticket."
+msgstr "គ្មានការប្រកាសទាក់ទងនឹងសំបុត្រនេះទេ។ "
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.helpdesk_ticket_view_form_inherit_website_helpdesk_forum
+msgid "Open Post"
+msgstr "ប្រកាសដោយចំហ"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "Question"
+msgstr "សំនួរ"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "Question has accepted answer"
+msgstr "សំណួរបានទទួលចម្លើយហើយ។"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.helpdesk_team_view_form_inherit_website_helpdesk_forum
+msgid "Related forum"
+msgstr ""
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.helpdesk_ticket_view_form_inherit_website_helpdesk_forum
+msgid "Share on the Forum"
+msgstr "ចែករំលែកនៅលើវេទិកា"
+
+#. module: website_helpdesk_forum
+#: code:addons/website_helpdesk_forum/models/helpdesk.py:0
+#, python-format
+msgid "Ticket has been shared on the %s forum."
+msgstr "សំបុត្រត្រូវបានចែករំលែកនៅលើ%sវេទិកា។ "
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "View"
+msgstr "មើល"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.website_helpdesk_forum_team_page
+msgid "Visit our Help Center"
+msgstr ""

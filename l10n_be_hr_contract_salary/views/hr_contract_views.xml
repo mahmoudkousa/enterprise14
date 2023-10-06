@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hr_contract_view_form" model="ir.ui.view">
+        <field name="name">hr.contract.form</field>
+        <field name="model">hr.contract</field>
+        <field name="inherit_id" ref="hr_contract_salary.hr_contract_view_form"/>
+        <field name="arch" type="xml">
+        	<field name="image_1920" position="after">
+                <field name="id_card"/>
+                <field name="driving_license" attrs="{'invisible': [('transport_mode_car', '=', False)]}"/>
+                <field name="mobile_invoice" attrs="{'invisible': [('mobile', '=', 0)]}"/>
+                <field name="sim_card" attrs="{'invisible': [('mobile', '=', 0)]}"/>
+                <field name="internet_invoice" attrs="{'invisible': [('internet', '=', 0)]}"/>
+        	</field>
+        </field>
+    </record>
+</odoo>

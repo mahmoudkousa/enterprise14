@@ -1,0 +1,168 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_grid
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: web_grid
+#: model:ir.model,name:web_grid.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "សកម្មភាពWindow View"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/js/grid_controller.js:0
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#, python-format
+msgid "Add a Line"
+msgstr "បន្ថែមបន្ទាត់ "
+
+#. module: web_grid
+#: model:ir.model,name:web_grid.model_base
+msgid "Base"
+msgstr "មូលដ្ឋាន"
+
+#. module: web_grid
+#: code:addons/web_grid/models/models.py:0
+#: code:addons/web_grid/models/models.py:0
+#, python-format
+msgid "Can not use fields of type %s as grid columns"
+msgstr "មិនអាចប្រើវាលនៃប្រភេទ%sជាជួរឈរក្រឡាចត្រង្គបានទេ"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/js/grid_view.js:0
+#, python-format
+msgid "Day"
+msgstr "ថ្ងៃ"
+
+#. module: web_grid
+#: model:ir.model.fields,field_description:web_grid.field_ir_actions_act_window_view__display_name
+#: model:ir.model.fields,field_description:web_grid.field_ir_ui_view__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/js/grid_view.js:0
+#: model:ir.model.fields.selection,name:web_grid.selection__ir_actions_act_window_view__view_mode__grid
+#: model:ir.model.fields.selection,name:web_grid.selection__ir_ui_view__type__grid
+#, python-format
+msgid "Grid"
+msgstr "ក្រឡា"
+
+#. module: web_grid
+#: model:ir.model.fields,field_description:web_grid.field_ir_actions_act_window_view__id
+#: model:ir.model.fields,field_description:web_grid.field_ir_ui_view__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: web_grid
+#: model:ir.model.fields,field_description:web_grid.field_ir_actions_act_window_view____last_update
+#: model:ir.model.fields,field_description:web_grid.field_ir_ui_view____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#, python-format
+msgid "Next"
+msgstr "បន្ទាប់"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#, python-format
+msgid "Previous"
+msgstr "មុន"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#, python-format
+msgid "See all the records aggregated in this cell"
+msgstr "មើលកំណត់ត្រាទាំងអស់ដែលបានប្រមូលផ្តុំនៅក្នុងកោសិកានេះ "
+
+#. module: web_grid
+#: code:addons/web_grid/models/models.py:0
+#, python-format
+msgid "The field used as readonly type must have a group_operator attribute."
+msgstr ""
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/js/grid_model.js:0
+#, python-format
+msgid ""
+"The sectioned grid view can't handle groups with different columns sets"
+msgstr "ទិដ្ឋភាពក្រឡាដែលមើលឃើញមិនអាចគ្រប់គ្រងក្រុមដែលមានជួរឈរផ្សេងៗគ្នាបានទេ។"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#, python-format
+msgid "Today"
+msgstr "ថ្ងៃនេះ"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/js/grid_renderer.js:0
+#, python-format
+msgid "Total"
+msgstr "សរុប​"
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#, python-format
+msgid "Undefined"
+msgstr "មិនបានកំណត់"
+
+#. module: web_grid
+#: model:ir.model,name:web_grid.model_ir_ui_view
+msgid "View"
+msgstr "មើល"
+
+#. module: web_grid
+#: model:ir.model.fields,field_description:web_grid.field_ir_actions_act_window_view__view_mode
+#: model:ir.model.fields,field_description:web_grid.field_ir_ui_view__type
+msgid "View Type"
+msgstr "មើលប្រភេទ"
+
+#. module: web_grid
+#: code:addons/web_grid/models/models.py:0
+#, python-format
+msgid ""
+"Week %(weeknumber)s\n"
+"%(week_start)s - %(week_end)s"
+msgstr ""
+"សប្តាហ៍%(weeknumber)s\n"
+"%(week_start)s-%(week_end)s "
+
+#. module: web_grid
+#. openerp-web
+#: code:addons/web_grid/static/src/xml/grid_view.xml:0
+#, python-format
+msgid "\\u00A0"
+msgstr ""

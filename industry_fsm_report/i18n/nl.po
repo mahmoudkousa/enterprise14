@@ -1,0 +1,689 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_report
+# 
+# Translators:
+# Thijs van Oers <thijsvanoers@yahoo.com>, 2020
+# Gunther Clauwaert <gclauwae@hotmail.com>, 2020
+# Wynand Tastenhoye <wta@odoo.com>, 2020
+# Martin Trigaux, 2020
+# Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
+# Jolien De Paepe, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:48+0000\n"
+"PO-Revision-Date: 2020-09-07 08:21+0000\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: industry_fsm_report
+#: model:mail.template,subject:industry_fsm_report.mail_template_data_send_report
+msgid "${object.name} Report"
+msgstr "${object.name} rapport"
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/models/project_worksheet_template.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (kopie)"
+
+#. module: industry_fsm_report
+#: model:ir.actions.report,print_report_name:industry_fsm_report.task_custom_report
+msgid "'Worksheet %s - %s' % (object.name, object.partner_id.name)"
+msgstr "'Werkbon %s - %s' % (object.name, object.partner_id.name)"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "<i class=\"fa fa-check mr-1\"/>Sign"
+msgstr "<i class=\"fa fa-check mr-1\"/>Teken"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "<i class=\"fa fa-check mr-2\"/>Sign"
+msgstr "<i class=\"fa fa-check mr-2\"/>Teken"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "<i class=\"fa fa-download\"/> Download"
+msgstr "<i class=\"fa fa-download\"/> Download"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "<i class=\"fa fa-print\"/> Print"
+msgstr "<i class=\"fa fa-print\"/> Afdrukken"
+
+#. module: industry_fsm_report
+#: model:mail.template,body_html:industry_fsm_report.mail_template_data_send_report
+msgid ""
+"<p>\n"
+"                    Dear ${object.partner_id.name or 'Customer'},<br/><br/>\n"
+"                    Please find attached the worksheet of our onsite operation. <br/><br/>\n"
+"                    Feel free to contact us if you have any questions.<br/><br/>\n"
+"                    Best regards,<br/><br/>\n"
+"                </p>\n"
+"            "
+msgstr ""
+"<p>\n"
+"                    Beste ${object.partner_id.name or 'klant'},<br/><br/>\n"
+"                    In bijlage vindt u het werkbon van onze on-site werkzaamheden. <br/><br/>\n"
+"                    Neem bij vragen gerust contact met ons op.<br/><br/>\n"
+"                    Met vriendelijke groet,<br/><br/>\n"
+"                </p>\n"
+"            "
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_form
+msgid "<span class=\"o_stat_text\"> Worksheets</span>"
+msgstr "<span class=\"o_stat_text\"> Werkbonnen</span>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid ""
+"<span style=\"                                 font-size: 10px;                                 color: #fff;                                 text-transform: uppercase;                                 text-align: center;                                 font-weight: bold; line-height: 20px;                                 transform: rotate(45deg);                                 width: 100px; display: block;                                 background: green;                                 position: absolute;                                 top: 19px; right: -21px;\">\n"
+"                                Signed\n"
+"                            </span>"
+msgstr ""
+"<span style=\"                                 font-size: 10px;                                 color: #fff;                                 text-transform: uppercase;                                 text-align: center;                                 font-weight: bold; line-height: 20px;                                 transform: rotate(45deg);                                 width: 100px; display: block;                                 background: green;                                 position: absolute;                                 top: 19px; right: -21px;\">\n"
+"                                Onderteken\n"
+"                            </span>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "<span> hour(s)</span>"
+msgstr "<span>uur(en)</span>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "<strong class=\"text-muted\">Contact person</strong>"
+msgstr "<strong class=\"text-muted\">Contactpersoon</strong>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "<strong>Contact: </strong>"
+msgstr "<strong>Contact: </strong>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "<strong>Customer: </strong>"
+msgstr "<strong>Klant: </strong>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid ""
+"<strong>Thank You!</strong><br/>\n"
+"                        Your Worksheet Report is now signed."
+msgstr ""
+"<strong>Bedankt!</strong><br/>\n"
+"                        Uw werkbon is nu ondertekend."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__action_id
+msgid "Action"
+msgstr "Actie"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__active
+msgid "Active"
+msgstr "Actief"
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/models/project_worksheet_template.py:0
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_form
+#, python-format
+msgid "Analysis"
+msgstr "Analyse"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_search
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+#. module: industry_fsm_report
+#: model:ir.ui.menu,name:industry_fsm_report.project_task_menu_planning_by_project_fsm
+msgid "By Worksheet"
+msgstr "Per werkbon"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,help:industry_fsm_report.field_project_project__worksheet_template_id
+msgid ""
+"Choose a default worksheet template for this project (you can change it "
+"individually on each task)."
+msgstr ""
+"Kies een standaard werkbon sjabloon voor dit project (u kan het wijzigen op "
+"elke taak)."
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "Close"
+msgstr "Sluiten"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_color
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__color
+msgid "Color"
+msgstr "Kleur"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_worksheet_template_1
+msgid "Comments"
+msgstr "Opmerkingen"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__company_ids
+msgid "Companies"
+msgstr "Bedrijven"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_project_form_inherit_industry_fsm_report
+msgid "Create and fill custom reports on tasks"
+msgstr "Maak en vul aangepaste rapporten over taken"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
+msgid "Customer Preview"
+msgstr "Klantvoorbeeld"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field7
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_worksheet_template_2
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Date"
+msgstr "Datum"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_x_custom_worksheet_x_project_worksheet_template_1
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__worksheet_template_id
+msgid "Default Worksheet"
+msgstr "Standaard werkbon"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_sale_order_line__delivered_price_subtotal
+msgid "Delivered Subtotal"
+msgstr "Geleverde subtotaal"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_sale_order_line__delivered_price_total
+msgid "Delivered Total"
+msgstr "Geleverde totaal"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_sale_order_line__delivered_price_tax
+msgid "Delivered Total Tax"
+msgstr "Geleverde BTW totaal"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Description"
+msgstr "Omschrijving"
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/report_widget.js:0
+#, python-format
+msgid "Design Worksheet Template"
+msgstr "Ontwerp werkbonsjabloon"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task_recurrence__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_industry_fsm_report_worksheet_custom__display_name
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_send_report_primary
+msgid "Display Send Report Primary"
+msgstr "Toon Rapport verzenden primair"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_send_report_secondary
+msgid "Display Send Report Secondary"
+msgstr "Toon Rapport verzenden secundair"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_sign_report_primary
+msgid "Display Sign Report Primary"
+msgstr "Tekenrapport primair weergeven"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_sign_report_secondary
+msgid "Display Sign Report Secondary"
+msgstr "Tekenrapport secundair weergeven"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "Download"
+msgstr "Downloaden"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Employee"
+msgstr "Werknemer"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,help:industry_fsm_report.field_project_project__allow_worksheets
+#: model:ir.model.fields,help:industry_fsm_report.field_project_task__allow_worksheets
+msgid "Enables customizable worksheets on tasks."
+msgstr "Maakt aanpasbare werkbonnen voor taken mogelijk."
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid "Fill in your worksheet with the details of your intervention."
+msgstr "Vul uw werkbon in met de details van de interventie."
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid "Generate a signature automatically or write it by hand."
+msgstr "Genereer automatisch een handtekening of schrijf deze met de hand."
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid "Go back to your Field Service task."
+msgstr "Ga terug naar uw Buitendisnt-taak."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field5
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_worksheet_template_2
+msgid ""
+"I hereby certify that this device meets the requirements of an acceptable "
+"device at the time of testing."
+msgstr ""
+"Ik verklaar hierbij dat dit apparaat op het moment van testen voldoet aan de"
+" vereisten van een acceptabel apparaat."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task_recurrence__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_industry_fsm_report_worksheet_custom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field1
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_worksheet_template_2
+msgid "Intervention Type"
+msgstr "Soort interventie"
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/controllers/portal.py:0
+#, python-format
+msgid "Invalid Task."
+msgstr "Foutieve taak."
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/controllers/portal.py:0
+#, python-format
+msgid "Invalid signature data."
+msgstr "Foutieve handtekening gegevens."
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid "Invite your customer to validate and to sign your worksheet report."
+msgstr "Nodig uw klant uit om uw werkbon te controleren en te ondertekenen."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__fsm_is_sent
+msgid "Is Worksheet sent"
+msgstr "Is werkbon verzonden"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project____last_update
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task____last_update
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task_recurrence____last_update
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template____last_update
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_industry_fsm_report_worksheet_custom____last_update
+msgid "Last Modified on"
+msgstr "Laatst gewijzigd op"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: industry_fsm_report
+#: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
+msgid "Let's start your planning by adding a new task."
+msgstr "Laten we beginnen met uw planning door een nieuwe taak toe te voegen."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field3
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_worksheet_template_2
+msgid "Manufacturer"
+msgstr "Leverancier"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__model_id
+msgid "Model"
+msgstr "Type"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__name
+msgid "Name"
+msgstr "Naam"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,help:industry_fsm_report.field_project_task__worksheet_signed_by
+msgid "Name of the person that signed the task."
+msgstr "Naam van de persoon die de taak ondertekend heeft."
+
+#. module: industry_fsm_report
+#: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
+msgid "No tasks found"
+msgstr "Geen taken gevonden"
+
+#. module: industry_fsm_report
+#: model:ir.actions.act_window,name:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
+msgid "Planning by Worksheet"
+msgstr "Planning per werkbon"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "Print"
+msgstr "Afdrukken"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_project_project
+msgid "Project"
+msgstr "Project"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_project_worksheet_template
+msgid "Project Worksheet Template"
+msgstr "Project werkbon sjabloon"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_search
+msgid "Project Worksheet Template Search"
+msgstr "Project werkbon sjabloon zoeken"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__report_view_id
+msgid "Report View"
+msgstr "Rapport weergave"
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid "Review the worksheet report with your customer and ask him to sign it."
+msgstr ""
+"Controleer de werkbon met uw klant en vraag hem om deze te ondertekenen."
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid ""
+"Save your worksheet once it is complete.<br/><i>Note that this form can be "
+"entirely customized to fit your specific needs.<br/>You will also be able to"
+" create multiple worksheet templates for each kind of intervention you may "
+"have.</i>"
+msgstr ""
+"Sla uw werkbon op zodra deze compleet is. <br/><i>Merk op dat dit formulier "
+"volledig kan worden aangepast aan uw specifieke behoeften.<br/> U kunt ook "
+"meerdere werkbonjablonen maken voor elk soort interventie dat u mogelijk "
+"heeft.</i>"
+
+#. module: industry_fsm_report
+#: model:ir.actions.server,name:industry_fsm_report.action_fsm_task_send_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
+msgid "Send Report"
+msgstr "Verzend rapport"
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid "Send the report of your intervention to your customer."
+msgstr "Stuur het verslag van uw interventie naar uw klant."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__sequence
+msgid "Sequence"
+msgstr "Reeks"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field6
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_worksheet_template_2
+msgid "Serial Number"
+msgstr "Partijnummer"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "Sign"
+msgstr "E-sign"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
+msgid "Sign Report"
+msgstr "Onderteken rapport"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "Sign Task"
+msgstr "Onderteken taak"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_signature
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Signature"
+msgstr "Handtekening"
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/controllers/portal.py:0
+#, python-format
+msgid "Signature is missing."
+msgstr "Handtekening ontbreekt."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,help:industry_fsm_report.field_project_task__worksheet_signature
+msgid "Signature received through the portal."
+msgstr "Handtekening ontvangen via het portaal."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_signed_by
+msgid "Signed By"
+msgstr "Getekend door"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_project_task
+msgid "Task"
+msgstr "Taak"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_project_task_recurrence
+msgid "Task Recurrence"
+msgstr "Taak herhaling"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_report_industry_fsm_report_worksheet_custom
+msgid "Task Worksheet Custom Report"
+msgstr "Taak aangepaste werkbon"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Task:"
+msgstr "Taak:"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_list
+msgid "Template name"
+msgstr "Sjabloonnaam"
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/models/project_worksheet_template.py:0
+#, python-format
+msgid ""
+"The template to print this worksheet template should be a QWeb template."
+msgstr ""
+"Het sjabloon om dit werkbonsjabloon af te drukken moet een QWeb-sjabloon "
+"zijn."
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/controllers/portal.py:0
+#, python-format
+msgid "The worksheet has been signed"
+msgstr "De werkbon is ondertekend"
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/controllers/portal.py:0
+#, python-format
+msgid "The worksheet is not in a state requiring customer signature."
+msgstr "De werkbon heeft geen handtekening van de klant nodig."
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/models/project_worksheet_template.py:0
+#, python-format
+msgid ""
+"There is still projects or tasks linked to this template. Please unlink them"
+" first."
+msgstr ""
+"Er zijn nog steeds projecten of taken gekoppeld aan deze sjabloon. Ontkoppel"
+" ze eerst."
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Time Spent"
+msgstr "Bestede tijd"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Timesheets"
+msgstr "Urenstaten"
+
+#. module: industry_fsm_report
+#: code:addons/industry_fsm_report/models/project.py:0
+#: code:addons/industry_fsm_report/models/project.py:0
+#, python-format
+msgid "To send the report, you need to select a worksheet template."
+msgstr "Om het rapport te versturen moet u een werkbonsjabloon selecteren."
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid "Use the breadcrumbs to <b>go back to your task</b>."
+msgstr "Gebruik de kruimelpaden om <b>terug te gaan naar uw taak</b>."
+
+#. module: industry_fsm_report
+#. openerp-web
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
+#, python-format
+msgid "Validate the signature."
+msgstr "Valideer de handtekening"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_task
+msgid "View Worksheet"
+msgstr "Bekijk werkbon"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field8
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_worksheet_template_2
+msgid "Worker Signature"
+msgstr "Handtekening werknemer"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Worksheet"
+msgstr "Werkbon"
+
+#. module: industry_fsm_report
+#: model:mail.template,report_name:industry_fsm_report.mail_template_data_send_report
+msgid ""
+"Worksheet ${object.name}${(' - ' + object.partner_id.name) if "
+"object.partner_id.name else ''}.pdf"
+msgstr ""
+"Werkbon ${object.name}${(' - ' + object.partner_id.name) if "
+"object.partner_id.name else ''}.pdf"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
+msgid "Worksheet Completed"
+msgstr "Werkbon voltooid"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_count
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_worksheet_template__worksheet_count
+msgid "Worksheet Count"
+msgstr "Werkbon aantal"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "Worksheet Report"
+msgstr "Werkbon rapport"
+
+#. module: industry_fsm_report
+#: model:ir.actions.report,name:industry_fsm_report.task_custom_report
+msgid "Worksheet Report (PDF)"
+msgstr "Werkbon rapport (PDF)"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_template_id
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_task_view_search_fsm_report
+msgid "Worksheet Template"
+msgstr "Werkbonsjabloon"
+
+#. module: industry_fsm_report
+#: model:ir.actions.act_window,name:industry_fsm_report.action_fsm_worksheets
+#: model:ir.ui.menu,name:industry_fsm_report.fsm_settings_worksheets
+msgid "Worksheet Templates"
+msgstr "Werkbonsjablonen"
+
+#. module: industry_fsm_report
+#: model:ir.actions.act_window,name:industry_fsm_report.template_action_Default_Worksheet
+#: model:ir.actions.act_window,name:industry_fsm_report.template_action_Device_Installation_&_Maintenance
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__allow_worksheets
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__allow_worksheets
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_list
+msgid "Worksheets"
+msgstr "Werkbonnen"
+
+#. module: industry_fsm_report
+#: model:ir.actions.act_window,name:industry_fsm_report.fsm_worksheets_action_settings
+msgid "Worksheets Templates"
+msgstr "Werkbonsjablonen"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
+msgid "contact avatar"
+msgstr "relatie avatar"

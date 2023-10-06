@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_be_hr_payroll.cp200_employees_salary_private_car" model="hr.salary.rule">
+        <field name="amount_python_compute">
+if not categories.BASIC:
+    result = 0
+    result_qty = 0
+else:
+    calendar = contract.resource_calendar_id
+    days_per_week = len(set(calendar.mapped('attendance_ids.dayofweek')))
+    if days_per_week:
+        daily_amount = contract.private_car_reimbursed_amount * 3 / 13 / days_per_week
+        result = max(0, contract.private_car_reimbursed_amount - daily_amount * payslip.private_car_missing_days)
+    else:
+        result = 0
+        </field>
+    </record>
+
+    <record id="l10n_be_hr_payroll.cp200_employees_salary_representation_fees" model="hr.salary.rule">
+        <field name="amount_python_compute">
+if not categories.BASIC:
+    result = 0
+    result_qty = 0
+else:
+    calendar = contract.resource_calendar_id
+    days_per_week = len(set(calendar.mapped('attendance_ids.dayofweek')))
+    if days_per_week:
+        daily_amount = contract.representation_fees * 3 / 13 / days_per_week
+        result = max(0, contract.representation_fees - daily_amount * payslip.representation_fees_missing_days)
+    else:
+        result = 0
+        </field>
+    </record>
+</odoo>

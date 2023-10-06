@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="project_view_form_inherit" model="ir.ui.view">
+        <field name="name">project.view.form.inherit</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="sale_timesheet.project_project_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='bill_type']" position="attributes">
+                <attribute name="attrs">{'invisible': [('is_fsm', '=', True)]}</attribute>
+            </xpath>
+            <xpath expr="//field[@name='pricing_type']" position="attributes">
+                <attribute name="attrs">{'invisible': ['|', '|', ('allow_billable', '=', False), ('bill_type', '!=', 'customer_project'), ('is_fsm', '=', True)], 'required': ['&amp;', ('allow_billable', '=', True), ('allow_timesheets', '=', True)]}</attribute>
+            </xpath>
+            <xpath expr="//page[@name='billing_employee_rate']//field[@name='timesheet_product_id']" position="attributes">
+                <attribute name="attrs">{'invisible': [('is_fsm', '=', False), '|', '|', ('allow_timesheets', '=', False), ('sale_order_id', '!=', False), ('bill_type', '!=', 'customer_task')], 'required': ['&amp;', ('allow_billable', '=', True), ('allow_timesheets', '=', True)]}</attribute>
+            </xpath>
+            <xpath expr="//page[@name='billing_employee_rate']//field[@name='sale_order_id']" position="attributes">
+                <attribute name="attrs">{'invisible': ['|', ('bill_type', '!=', 'customer_project'), ('is_fsm', '=', True)], 'readonly': [('sale_order_id', '!=', False)]}</attribute>
+            </xpath>
+            <xpath expr="//page[@name='billing_employee_rate']//group/field[@name='sale_line_id']" position="attributes">
+                <attribute name="attrs">{'invisible': ['|', ('bill_type', '!=', 'customer_project'), ('is_fsm', '=', True)]}</attribute>
+            </xpath>
+
+            <xpath expr="//field[@name='sale_line_employee_ids']" position="attributes">
+                <attribute name="attrs">{'invisible': ['|', '|', ('bill_type', '!=', 'customer_project'), ('pricing_type', '!=', 'employee_rate'), ('is_fsm', '=', True)]}</attribute>
+            </xpath>
+            <xpath expr="//div[@id='allow_billable_container']" position="after">
+                <field name="is_fsm" invisible="1"/>
+                <div class="col-lg-6 o_setting_box" attrs="{'invisible': [('allow_billable', '=', False)]}">
+                    <div class="o_setting_left_pane">
+                        <field name="allow_material"/>
+                    </div>
+                    <div class="o_setting_right_pane">
+                        <label for="allow_material"/>
+                        <div class="text-muted" id="allow_billable_setting">
+                            Track the material used to complete tasks
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+            <xpath expr="//div[@id='rating_settings']" position="after">
+                <div class="col-lg-6 o_setting_box"  groups="industry_fsm_sale.group_fsm_quotation_from_task">
+                    <div class="o_setting_left_pane">
+                        <field name="allow_quotations"/>
+                    </div>
+                    <div class="o_setting_right_pane">
+                        <label for="allow_quotations"/>
+                        <div class="text-muted" id="allow_billable_setting">
+                            Create new quotations directly from tasks
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="project_project_view_form_simplified_inherit" model="ir.ui.view">
+        <field name="name">project.project.view.form.simplified.inherit</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="sale_timesheet.project_project_view_form_simplified_inherit"/>
+        <field name="arch" type="xml">
+            <field name="allow_billable" position="after">
+                <field name="allow_material" invisible="1"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>

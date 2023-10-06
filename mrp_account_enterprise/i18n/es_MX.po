@@ -1,0 +1,198 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_account_enterprise
+# 
+# Translators:
+# Cécile Collart <cco@odoo.com>, 2021
+# Braulio D. López Vázquez <bdl@odoo.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-09 11:58+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: Braulio D. López Vázquez <bdl@odoo.com>, 2021\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_mrp_production
+msgid "'Cost Analysis - %s ' % object.name"
+msgstr "'Análisis de costos-%s' % object.name"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_product_template
+msgid "'Cost Structure Analysis - %s' % object.name"
+msgstr "'Análisis de estructura de costos - %s' % object.name"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid ", from"
+msgstr ", desde"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Code</span>"
+msgstr "<span>Código</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Components</span>"
+msgstr "<span>Componentes</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Cost/hour</span>"
+msgstr "<span>Costo/hora</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Operation</span>"
+msgstr "<span>Operación</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Operator</span>"
+msgstr "<span>Operador</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Quantity</span>"
+msgstr "<span>Cantidad</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Scraps</span>"
+msgstr "<span>Desechos</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Total Cost</span>"
+msgstr "<span>Costo total</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Unit Cost</span>"
+msgstr "<span>Costo unitario</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Working Time</span>"
+msgstr "<span>Tiempo de trabajo</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Components</strong>"
+msgstr "<strong>Costo total de componentes</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Operations</strong>"
+msgstr "<strong>Costo total de operaciones</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Scraps</strong>"
+msgstr "<strong>Costo total de desechos</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Unit Cost</strong>"
+msgstr "<strong>Costo unitario</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "By product(s)"
+msgstr "Por producto(s)"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,name:mrp_account_enterprise.action_cost_struct_mrp_production
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_production_form_inherit_view6
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.product_product_inherit_form_view_cost_structure
+msgid "Cost Analysis"
+msgstr "Análisis de costos"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost Structure"
+msgstr "Estructura de costos"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,name:mrp_account_enterprise.action_cost_struct_product_template
+msgid "Cost Structure Analysis"
+msgstr "Análisis estructural de costos"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost for"
+msgstr "Costo por"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Operations"
+msgstr "Costo de operaciones"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Scraps"
+msgstr "Costo de desechos"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_report_mrp_account_enterprise_mrp_cost_structure__display_name
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_report_mrp_account_enterprise_product_template_cost_structure__display_name
+msgid "Display Name"
+msgstr "Nombre en pantalla"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_report_mrp_account_enterprise_mrp_cost_structure__id
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_report_mrp_account_enterprise_product_template_cost_structure__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_report_mrp_account_enterprise_mrp_cost_structure____last_update
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_report_mrp_account_enterprise_product_template_cost_structure____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_report_mrp_account_enterprise_mrp_cost_structure
+msgid "MRP Cost Structure Report"
+msgstr "Reporte de estructura de costos de MRP"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_product_product
+msgid "Product"
+msgstr "Producto"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_report_mrp_account_enterprise_product_template_cost_structure
+msgid "Product Template Cost Structure Report"
+msgstr "Reporte de estructura de costos de plantilla de producto"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Some of the Manufacturing Order(s) selected are not done yet"
+msgstr ""
+"Alguna de las órdenes de fabricación seleccionadas no está aún realizada"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "hours"
+msgstr "horas"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "manufacturing order(s)."
+msgstr "orden(es) de fabricación."

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="stock_barcode_picking_batch assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/stock_barcode_picking_batch/static/src/js/stock_barcode_picking_batch.js"></script>
+            <script type="text/javascript" src="/stock_barcode_picking_batch/static/src/js/client_action/lines_widget.js"></script>
+            <script type="text/javascript" src="/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_client_action.js"></script>
+            <script type="text/javascript" src="/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_create_client_action.js"></script>
+            <script type="text/javascript" src="/stock_barcode_picking_batch/static/src/js/client_action/settings_widget.js"></script>
+            <script type="text/javascript" src="/stock_barcode_picking_batch/static/src/js/client_action/stock_barcode_picking_batch_kanban_record.js"></script>
+            <script type="text/javascript" src="/stock_barcode_picking_batch/static/src/js/tours/tour_helper_stock_barcode_picking_batch.js"></script>
+            <script type="text/javascript" src="/stock_barcode_picking_batch/static/src/js/tours/tour_test_barcode_batch_flows.js"></script>
+            <link rel="stylesheet" type="text/scss" href="/stock_barcode_picking_batch/static/src/scss/client_action.scss"/>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,78 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quality_iot
+# 
+# Translators:
+# Helen Sulaoja <helen@avalah.ee>, 2020
+# Algo Kärp <algokarp@gmail.com>, 2020
+# Piia Paurson <piia@avalah.ee>, 2020
+# Triine Aavik <triine@avalah.ee>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Triine Aavik <triine@avalah.ee>, 2021\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: quality_iot
+#. openerp-web
+#: code:addons/quality_iot/static/src/js/iot_picture.js:0
+#, python-format
+msgid "Capture image..."
+msgstr "Kuva pilt..."
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_quality_point__device_id
+msgid "Device"
+msgstr "Seade"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device__display_name
+#: model:ir.model.fields,field_description:quality_iot.field_quality_point__display_name
+msgid "Display Name"
+msgstr "Kuva nimi"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device__id
+#: model:ir.model.fields,field_description:quality_iot.field_quality_point__id
+msgid "ID"
+msgstr "ID"
+
+#. module: quality_iot
+#: model:ir.model,name:quality_iot.model_iot_device
+msgid "IOT Device"
+msgstr "IOT Seade"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device____last_update
+#: model:ir.model.fields,field_description:quality_iot.field_quality_point____last_update
+msgid "Last Modified on"
+msgstr "Viimati muudetud (millal)"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device__qcp_test_type
+msgid "Qcp Test Type"
+msgstr "Qcp Test Type"
+
+#. module: quality_iot
+#: model:ir.model,name:quality_iot.model_quality_point
+msgid "Quality Control Point"
+msgstr "Kvaliteedikontrolli punkt"
+
+#. module: quality_iot
+#: model_terms:ir.ui.view,arch_db:quality_iot.iot_device_view_form_inherit
+msgid "Quality Control Points"
+msgstr "Kvaliteedikontrolli punktid"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device__quality_point_ids
+msgid "Quality Point"
+msgstr "Kvaliteedipunkt"

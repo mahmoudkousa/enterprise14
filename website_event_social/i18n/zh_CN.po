@@ -1,0 +1,119 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_event_social
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Jeffery CHEN <jeffery9@gmail.com>, 2020
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
+# Allen Xie <xfz@hsioc.com>, 2020
+# Felix Yang <felixyangsh@aliyun.com>, 2020
+# Shiping Lv <lvshiping@sina.com>, 2020
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_event_social
+#. openerp-web
+#: code:addons/website_event_social/static/src/js/push_notification_widget.js:0
+#, python-format
+msgid ""
+"Allow notifications to be able to add talks into your wishlist, or connect "
+"to other attendees."
+msgstr ""
+
+#. module: website_event_social
+#: model:ir.model,name:website_event_social.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_event_event__display_name
+#: model:ir.model.fields,field_description:website_event_social.field_res_partner__display_name
+#: model:ir.model.fields,field_description:website_event_social.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:website_event_social.field_social_post__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_event_event__firebase_enable_push_notifications
+msgid "Enable Web Push Notifications"
+msgstr "激活网页消息推送"
+
+#. module: website_event_social
+#: model:ir.model,name:website_event_social.model_event_event
+msgid "Event"
+msgstr "活动"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_res_partner__registration_ids
+#: model:ir.model.fields,field_description:website_event_social.field_res_users__registration_ids
+msgid "Event Registrations"
+msgstr "活动登记记录"
+
+#. module: website_event_social
+#. openerp-web
+#: code:addons/website_event_social/static/src/js/push_notification_widget.js:0
+#, python-format
+msgid "Get the best experience!"
+msgstr "获得最佳体验！"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_event_event__id
+#: model:ir.model.fields,field_description:website_event_social.field_res_partner__id
+#: model:ir.model.fields,field_description:website_event_social.field_social_live_post__id
+#: model:ir.model.fields,field_description:website_event_social.field_social_post__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_event_event____last_update
+#: model:ir.model.fields,field_description:website_event_social.field_res_partner____last_update
+#: model:ir.model.fields,field_description:website_event_social.field_social_live_post____last_update
+#: model:ir.model.fields,field_description:website_event_social.field_social_post____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: website_event_social
+#: model_terms:ir.ui.view,arch_db:website_event_social.social_post_view_form
+msgid "Post Now"
+msgstr "立即发布"
+
+#. module: website_event_social
+#: model_terms:ir.ui.view,arch_db:website_event_social.event_event_view_form
+msgid "Send Push"
+msgstr "发送推送"
+
+#. module: website_event_social
+#: model_terms:ir.ui.view,arch_db:website_event_social.event_event_view_form
+msgid "Send Push Reminders"
+msgstr "发送推送提醒"
+
+#. module: website_event_social
+#: model:ir.model,name:website_event_social.model_social_live_post
+msgid "Social Live Post"
+msgstr "社区在线提交"
+
+#. module: website_event_social
+#: model:ir.model,name:website_event_social.model_social_post
+msgid "Social Post"
+msgstr "社会职务"
+
+#. module: website_event_social
+#: code:addons/website_event_social/models/event.py:0
+#: code:addons/website_event_social/models/event.py:0
+#, python-format
+msgid "You do not have access to this action."
+msgstr "您无权访问此操作。"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_iot/static/src/js/barcode_reader.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/Chrome.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/ClientScreenButton.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/customer_display.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/DebugWidget.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/devices.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/iot_longpolling.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/IoTErrorPopup.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/models.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/payment.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/printers.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/ProductScreen.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/src/js/ScaleScreen.js"></script>
+            <link rel="stylesheet" href="/pos_iot/static/src/css/pos.css"/>
+        </xpath>
+    </template>
+
+    <template id="assets_tests" name="Point Of Sale Assets Tests" inherit_id="web.assets_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_iot/static/tests/tours/payment.js"></script>
+            <script type="text/javascript" src="/pos_iot/static/tests/tours/scale.js"></script>
+        </xpath>
+    </template>
+</odoo>

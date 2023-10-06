@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_tests" name="Spreadsheet Assets Tests" inherit_id="web.assets_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/documents_spreadsheet_account/static/tests/tours/quarterly_budget_template_tour.js"></script>
+            <script type="text/javascript" src="/documents_spreadsheet_account/static/tests/tours/montly_budget_template_tour.js"></script>
+            <script type="text/javascript" src="/documents_spreadsheet_account/static/tests/tours/sales_commission_template_tour.js"></script>
+        </xpath>
+    </template>
+</odoo>

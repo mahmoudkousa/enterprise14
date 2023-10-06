@@ -1,0 +1,153 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_inter_company_rules
+# 
+# Translators:
+# Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2020
+# Kari Lindgren <kari.lindgren@emsystems.fi>, 2020
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020
+# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2020
+# Veikko Väätäjä <veikko.vaataja@gmail.com>, 2020
+# Jussi Heikkilä <jussi.heikkila@panimo.com>, 2020
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:17+0000\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_inter_company_rules
+#: code:addons/account_inter_company_rules/models/account_move.py:0
+#, python-format
+msgid "%s Invoice: %s"
+msgstr "%s Lasku: %s"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_bank_statement_line__auto_generated
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move__auto_generated
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_payment__auto_generated
+msgid "Auto Generated Document"
+msgstr "Automaattisesti luotu dokumentti"
+
+#. module: account_inter_company_rules
+#: model:ir.model,name:account_inter_company_rules.model_res_company
+msgid "Companies"
+msgstr "Yritykset"
+
+#. module: account_inter_company_rules
+#: model:ir.model,name:account_inter_company_rules.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfiguraatioasetukset"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__intercompany_user_id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__intercompany_user_id
+msgid "Create as"
+msgstr "Luo nimellä"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Näyttönimi"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields.selection,name:account_inter_company_rules.selection__res_company__rule_type__not_synchronize
+msgid "Do not synchronize"
+msgstr "Älä synkronoi"
+
+#. module: account_inter_company_rules
+#: code:addons/account_inter_company_rules/models/res_company.py:0
+#, python-format
+msgid ""
+"Generate a bill/invoice when a company confirms an invoice/bill for %s."
+msgstr ""
+"Luo osto-tai myyntilasku, kun yritys vahvistaa laskun tai ostolaskun %s."
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move__id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move_line__id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__id
+msgid "ID"
+msgstr "Tunniste (ID)"
+
+#. module: account_inter_company_rules
+#: model_terms:ir.ui.view,arch_db:account_inter_company_rules.view_company_inter_change_inherit_form
+msgid "Inter-Company Transactions"
+msgstr "Yritysten välinen siirto"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__intercompany_transaction_message
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__intercompany_transaction_message
+msgid "Intercompany Transaction Message"
+msgstr "Yritysten välisen siirron viesti"
+
+#. module: account_inter_company_rules
+#: model:ir.model,name:account_inter_company_rules.model_account_move
+msgid "Journal Entry"
+msgstr "Päiväkirjan kirjaus"
+
+#. module: account_inter_company_rules
+#: model:ir.model,name:account_inter_company_rules.model_account_move_line
+msgid "Journal Item"
+msgstr "Päiväkirjatapahtuma"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Viimeksi muokattu"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,help:account_inter_company_rules.field_res_company__intercompany_user_id
+#: model:ir.model.fields,help:account_inter_company_rules.field_res_config_settings__intercompany_user_id
+msgid ""
+"Responsible user for creation of documents triggered by intercompany rules."
+msgstr ""
+"Käyttäjä, jota käytetään dokumenttien luomiseen, jotka laukaistaan yritysten"
+" välisten sääntöjen perusteella."
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__rule_type
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__rule_type
+msgid "Rule"
+msgstr "Sääntö"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__rules_company_id
+msgid "Select Company"
+msgstr "Valitse yritys"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,help:account_inter_company_rules.field_res_company__rule_type
+#: model:ir.model.fields,help:account_inter_company_rules.field_res_config_settings__rule_type
+msgid "Select the type to setup inter company rules in selected company."
+msgstr ""
+"Valitse tyyppi voidaksesi asettaa yritysten väliset säännöt tälle "
+"yritykselle"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_bank_statement_line__auto_invoice_id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move__auto_invoice_id
+#: model:ir.model.fields,field_description:account_inter_company_rules.field_account_payment__auto_invoice_id
+msgid "Source Invoice"
+msgstr "Lähdelasku"
+
+#. module: account_inter_company_rules
+#: model:ir.model.fields.selection,name:account_inter_company_rules.selection__res_company__rule_type__invoice_and_refund
+msgid "Synchronize invoices/bills"
+msgstr "Synkronoi myynti- ja ostolaskut"

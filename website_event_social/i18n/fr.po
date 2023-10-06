@@ -1,0 +1,119 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_event_social
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
+# Eloïse Stilmant <est@odoo.com>, 2020
+# Cécile Collart <cco@odoo.com>, 2022
+# Jolien De Paepe, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: website_event_social
+#. openerp-web
+#: code:addons/website_event_social/static/src/js/push_notification_widget.js:0
+#, python-format
+msgid ""
+"Allow notifications to be able to add talks into your wishlist, or connect "
+"to other attendees."
+msgstr ""
+"Autorisez les notifications pour pouvoir ajouter des présentations à votre "
+"liste des souhaits ou vous connecter à d'autres participants."
+
+#. module: website_event_social
+#: model:ir.model,name:website_event_social.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_event_event__display_name
+#: model:ir.model.fields,field_description:website_event_social.field_res_partner__display_name
+#: model:ir.model.fields,field_description:website_event_social.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:website_event_social.field_social_post__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_event_event__firebase_enable_push_notifications
+msgid "Enable Web Push Notifications"
+msgstr "Activer les Push Notifications"
+
+#. module: website_event_social
+#: model:ir.model,name:website_event_social.model_event_event
+msgid "Event"
+msgstr "Événement"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_res_partner__registration_ids
+#: model:ir.model.fields,field_description:website_event_social.field_res_users__registration_ids
+msgid "Event Registrations"
+msgstr "Inscriptions à l'événement"
+
+#. module: website_event_social
+#. openerp-web
+#: code:addons/website_event_social/static/src/js/push_notification_widget.js:0
+#, python-format
+msgid "Get the best experience!"
+msgstr "Profitez de la meilleure expérience !"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_event_event__id
+#: model:ir.model.fields,field_description:website_event_social.field_res_partner__id
+#: model:ir.model.fields,field_description:website_event_social.field_social_live_post__id
+#: model:ir.model.fields,field_description:website_event_social.field_social_post__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_event_social
+#: model:ir.model.fields,field_description:website_event_social.field_event_event____last_update
+#: model:ir.model.fields,field_description:website_event_social.field_res_partner____last_update
+#: model:ir.model.fields,field_description:website_event_social.field_social_live_post____last_update
+#: model:ir.model.fields,field_description:website_event_social.field_social_post____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: website_event_social
+#: model_terms:ir.ui.view,arch_db:website_event_social.social_post_view_form
+msgid "Post Now"
+msgstr "Publier maintenant"
+
+#. module: website_event_social
+#: model_terms:ir.ui.view,arch_db:website_event_social.event_event_view_form
+msgid "Send Push"
+msgstr "Envoyer des notifications push"
+
+#. module: website_event_social
+#: model_terms:ir.ui.view,arch_db:website_event_social.event_event_view_form
+msgid "Send Push Reminders"
+msgstr "Envoyez des rappels push"
+
+#. module: website_event_social
+#: model:ir.model,name:website_event_social.model_social_live_post
+msgid "Social Live Post"
+msgstr "Publication en Direct"
+
+#. module: website_event_social
+#: model:ir.model,name:website_event_social.model_social_post
+msgid "Social Post"
+msgstr "Publication"
+
+#. module: website_event_social
+#: code:addons/website_event_social/models/event.py:0
+#: code:addons/website_event_social/models/event.py:0
+#, python-format
+msgid "You do not have access to this action."
+msgstr "Vous n'avez pas accès à cette action."

@@ -1,0 +1,416 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_edit_lines
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2020-11-27 14:58+0000\n"
+"Language-Team: Sinhala (https://www.transifex.com/odoo/teams/41243/si/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: si\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+msgid ""
+"<i class=\"fa fa-exclamation-triangle mr-1\" title=\"Warning\"/>You are not "
+"allowed to regenerate validated work entries"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+msgid "<i class=\"fa fa-info-circle mr-1\" title=\"Hint\"/>"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid ""
+"<span><strong>Tip:</strong> Each time you edit the quantity or the amount on"
+" a line, we recompute the following lines. We recommend that you edit from "
+"top to bottom to prevent your edition from being overwritten by the "
+"automatic recalculation. Be careful that reordering the lines doesn't "
+"recompute them.</span>"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__amount
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__amount
+msgid "Amount"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__category_id
+msgid "Category"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__code
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__code
+msgid "Code"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__contract_id
+msgid "Contract"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__create_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__create_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__create_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,help:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__struct_id
+msgid ""
+"Defines the rules that have to be applied to this payslip, according to the "
+"contract chosen. If the contract is empty, this field isn't mandatory "
+"anymore and all the valid rules of the structures of the employee's "
+"contracts will be applied."
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__note
+msgid "Description"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Discard"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_contract__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip_worked_days__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__earliest_available_date_message
+msgid "Earliest Available Date Message"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__earliest_available_date
+msgid "Earliest date"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/models/hr_payslip.py:0
+#: model:ir.actions.server,name:hr_payroll_edit_lines.action_edit_payslip_lines
+#, python-format
+msgid "Edit Payslip Lines"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__edit_payslip_lines_wizard_id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__edit_payslip_lines_wizard_id
+msgid "Edit Payslip Lines Wizard"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payroll_edit_payslip_worked_days_line
+msgid "Edit payslip line wizard worked days"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payroll_edit_payslip_lines_wizard
+msgid "Edit payslip lines wizard"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payroll_edit_payslip_line
+msgid "Edit payslip lines wizard line"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip__edited
+msgid "Edited"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Edition of Payslip Lines in the Payslip"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__employee_id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__employee_id
+msgid "Employee"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_contract
+msgid "Employee Contract"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__date_from
+msgid "From"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_contract__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip_worked_days__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_work_entry_regeneration_wizard.py:0
+#, python-format
+msgid ""
+"In order to regenerate the work entries, you need to provide the wizard with"
+" an employee_id, a date_from and a date_to. In addition to that, the time "
+"interval defined by date_from and date_to must not contain any validated "
+"work entries."
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_contract____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip_worked_days____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__write_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__write_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__write_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__latest_available_date_message
+msgid "Latest Available Date Message"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__latest_available_date
+msgid "Latest date"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__name
+msgid "Name"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__number_of_days
+msgid "Number of Days"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__number_of_hours
+msgid "Number of Hours"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payslip
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__slip_id
+msgid "Pay Slip"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__slip_id
+msgid "PaySlip"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__payslip_id
+msgid "Payslip"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__line_ids
+msgid "Payslip Lines"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payslip_worked_days
+msgid "Payslip Worked Days"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__quantity
+msgid "Quantity"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__rate
+msgid "Rate (%)"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_work_entry_regeneration_wizard
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+msgid "Regenerate Employee Work Entries"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#. openerp-web
+#: code:addons/hr_payroll_edit_lines/static/src/js/work_entries_controller_mixin.js:0
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+#, python-format
+msgid "Regenerate Work Entries"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__salary_rule_id
+msgid "Rule"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Salary Structure"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__search_criteria_completed
+msgid "Search Criteria Completed"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__sequence
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__struct_id
+msgid "Structure"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,help:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__code
+msgid ""
+"The code of salary rules can be used as reference in computation of other "
+"rules. In that case, it is case sensitive."
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_work_entry_regeneration_wizard.py:0
+#, python-format
+msgid "The earliest available date is %s"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_work_entry_regeneration_wizard.py:0
+#, python-format
+msgid ""
+"The from date must be >= '%(earliest_available_date)s' and the to date must "
+"be <= '%(latest_available_date)s', which correspond to the generated work "
+"entries time interval."
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_work_entry_regeneration_wizard.py:0
+#, python-format
+msgid "The latest available date is %s"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/models/hr_payslip.py:0
+#, python-format
+msgid "This action is forbidden on validated payslips."
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/models/hr_payslip.py:0
+#, python-format
+msgid "This action is restricted to payroll managers only."
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_payroll_edit_payslip_lines_wizard.py:0
+#, python-format
+msgid "This payslip has been manually edited by %s."
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__date_to
+msgid "To"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__total
+msgid "Total"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__valid
+msgid "Valid"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Validate Edition"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+msgid "Work Entries"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__validated_work_entry_ids
+msgid "Work Entries Within Interval"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.actions.act_window,name:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard_action
+msgid "Work Entry Regeneration"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__work_entry_type_id
+msgid "Work Entry Type"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Worked Days"
+msgstr ""
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__worked_days_line_ids
+msgid "Worked Days Lines"
+msgstr ""

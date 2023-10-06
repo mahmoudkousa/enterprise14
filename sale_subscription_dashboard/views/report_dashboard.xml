@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- This template is only used when printing a dashboard report to a PDF output -->
+        <template id="print_template">
+            <t t-raw="'&lt;base href=%s&gt;' % base_url"/>
+            <html>
+                <head>
+                    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+                </head>
+                <body class="o_sale_subscription_dashboard_reports_body_print">
+                </body>
+            </html>
+        </template>
+    </data>
+</odoo>

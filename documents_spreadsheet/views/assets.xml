@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="Documents Spreadsheet assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/documents_spreadsheet/static/tests/mock_server.js"></script>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet_loader.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet_extended.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/spreadsheet_abstract_action.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/spreadsheet_action.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/spreadsheet_template_action.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/spreadsheet_component.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/spreadsheet_control_panel.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/spreadsheet_name.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/spreadsheet_template_dialog.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/spreadsheet_pivot_dialog.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/spreadsheet_pivot_dialog_table.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/documents_inspector.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/documents_kanban_record.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/spreadsheet_kanban_view.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/documents_kanban_controller.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/documents_spreadsheet_controller_mixin.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/documents_list_controller.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/spreadsheet_list_view.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/spreadsheet_template_list_view.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/pivot_controller.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/widgets/field_selector_widget.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/widgets/model_selector_widget.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/widgets/tag_selector_widget.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_context_menu.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/menu_item_registry.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_side_panel.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/global_filters_side_panel.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/components/filter_date_value.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/filter_component.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/autofill.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_utils.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_cache.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/filters_plugin.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/pivot_plugin.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/cancelled_reason.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js"/>
+            <script type="text/javascript" src="/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.js"/>
+
+            <link rel="stylesheet" type="text/scss" href="/documents_spreadsheet/static/src/scss/spreadsheet.scss"/>
+        </xpath>
+    </template>
+
+    <template id="qunit_suite" name="Spreadsheet tests" inherit_id="web.qunit_suite">
+        <xpath expr="//t[@t-set='head']" position="inside">
+            <script type="text/javascript" src="/documents_spreadsheet/static/tests/test_utils.js"></script>
+            <script type="text/javascript" src="/documents_spreadsheet/static/tests/pivot_controller_test.js"></script>
+            <script type="text/javascript" src="/documents_spreadsheet/static/tests/spreadsheet_test.js"></script>
+            <script type="text/javascript" src="/documents_spreadsheet/static/tests/pivot_template_test.js"></script>
+        </xpath>
+    </template>
+
+    <template id="assets_tests" name="Spreadsheet Assets Tests" inherit_id="web.assets_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/documents_spreadsheet/static/tests/tours/create_empty_sheet_tour.js"></script>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Views definition -->
+        <record id="timesheet_view_tree_inherit" model="ir.ui.view">
+            <field name="name">account.analytic.line.tree.hr_timesheet</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="timesheet_grid.timesheet_view_tree_colored"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree/field[@name='unit_amount']" position="before">
+                    <field name="so_line" optional="hide" readonly="1"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

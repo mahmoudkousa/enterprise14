@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+		<!-- Remove some elements from account_online_sync module-->
+        <record id="account_online_sync.menu_action_online_provider_account" model="ir.ui.menu">
+            <field name="active" eval="False"/>
+        </record>
+
+        <record id="account_online_sync.online_provider_account_form_view" model="ir.ui.view">
+            <field name="active" eval="False"/>
+        </record>
+
+        <record id="account_online_sync.online_provider_account_list_view" model="ir.ui.view">
+            <field name="active" eval="False"/>
+        </record>
+
+        <record id="account_online_sync.view_account_online_wizard_form" model="ir.ui.view">
+            <field name="active" eval="False"/>
+        </record>
+
+        <record id="account_online_sync.account_journal_dashboard_inherit_online_sync" model="ir.ui.view">
+            <field name="active" eval="False"/>
+        </record>
+
+        <record id="account_online_sync.account_journal_form_inherit_online_sync" model="ir.ui.view">
+            <field name="active" eval="False"/>
+        </record>
+
+        <record id="account_online_sync.online_sync_cron" model="ir.cron">
+            <field name="active" eval="False"/>
+        </record>
+        
+    </data>
+</odoo>

@@ -1,0 +1,95 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reports_cash_basis
+# 
+# Translators:
+# Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
+# danimaribeiro <danimaribeiro@gmail.com>, 2020
+# Martin Trigaux, 2020
+# Mateus Lopes <mateus1@gmail.com>, 2020
+# grazziano <gra.negocia@gmail.com>, 2020
+# André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
+# Éder Brito <britoederr@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: Éder Brito <britoederr@gmail.com>, 2020\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: account_reports_cash_basis
+#: model:ir.model,name:account_reports_cash_basis.model_account_report
+msgid "Account Report"
+msgstr "Extrato da Conta"
+
+#. module: account_reports_cash_basis
+#: model:ir.model,name:account_reports_cash_basis.model_account_financial_html_report
+msgid "Account Report (HTML)"
+msgstr ""
+
+#. module: account_reports_cash_basis
+#: model_terms:ir.ui.view,arch_db:account_reports_cash_basis.search_template_extra_options
+msgid "Accrual Basis"
+msgstr "Regime de Competência"
+
+#. module: account_reports_cash_basis
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_financial_html_report__cash_basis
+msgid "Allow cash basis mode"
+msgstr ""
+
+#. module: account_reports_cash_basis
+#: model_terms:ir.ui.view,arch_db:account_reports_cash_basis.search_template_extra_options
+msgid "Cash Basis"
+msgstr "Regime de caixa"
+
+#. module: account_reports_cash_basis
+#: model_terms:ir.ui.view,arch_db:account_reports_cash_basis.search_template_extra_options
+msgid "Cash Basis Method"
+msgstr "Método de Regime de Caixa"
+
+#. module: account_reports_cash_basis
+#: model:ir.model,name:account_reports_cash_basis.model_account_coa_report
+msgid "Chart of Account Report"
+msgstr "Relatório do Plano de contas"
+
+#. module: account_reports_cash_basis
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_coa_report__display_name
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_financial_html_report__display_name
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_general_ledger__display_name
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_report__display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: account_reports_cash_basis
+#: model:ir.model,name:account_reports_cash_basis.model_account_general_ledger
+msgid "General Ledger Report"
+msgstr "Relatório de Livro Razão"
+
+#. module: account_reports_cash_basis
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_coa_report__id
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_financial_html_report__id
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_general_ledger__id
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_reports_cash_basis
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_coa_report____last_update
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_financial_html_report____last_update
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_general_ledger____last_update
+#: model:ir.model.fields,field_description:account_reports_cash_basis.field_account_report____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: account_reports_cash_basis
+#: model:ir.model.fields,help:account_reports_cash_basis.field_account_financial_html_report__cash_basis
+msgid "display the option to switch to cash basis mode"
+msgstr "exibir a opção de mudar para o modo de caixa"

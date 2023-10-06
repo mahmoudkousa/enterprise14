@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="mail_template_appraisal_confirm_employee" model="mail.template">
+            <field name="name">Hr Appraisal: Confirm Appraisal to Employee</field>
+            <field name="model_id" ref="hr_appraisal.model_hr_appraisal"/>
+            <field name="subject">${object.employee_id.name}: Appraisal Confirmed</field>
+            <field name="body_html" type="html">
+                <div style="margin: 0px; padding: 0px;">
+                    <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                        Dear ${ctx.get('employee_to_name', 'employee')},
+                        <br/><br/>
+                        An appraisal was requested.
+                        <br/>
+                        Please schedule an appraisal date together.
+                        <br/><br/>
+                        Thank you!
+                        The HR department
+                        <br/><br/>
+                        % if ctx.get('recipient_users'):
+                        <p style="margin: 16px 0px 16px 0px;">
+                            <a href="${ctx['url']}"
+                                style="background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
+                                View Appraisal
+                            </a>
+                        </p>
+                        % endif
+                        <br/><br/>
+                        <tr><td style="padding:15px 20px 10px 20px;">${(object.signature or '')| safe}</td></tr>
+                    </p>
+                </div>
+            </field>
+            <field name="report_name">${(object.name or '').replace('/','_')}</field>
+            <field name="lang">${object.lang}</field>
+            <field name="auto_delete" eval="True"/>
+        </record>
+
+        <record id="mail_template_appraisal_confirm_manager" model="mail.template">
+            <field name="name">Hr Appraisal: Confirm Appraisal to Manager</field>
+            <field name="model_id" ref="hr_appraisal.model_hr_appraisal"/>
+            <field name="subject">${object.employee_id.name}: Appraisal Confirmed</field>
+            <field name="body_html" type="html">
+                <div style="margin: 0px; padding: 0px;">
+                    <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                        Dear ${ctx.get('employee_to_name', 'employee')},
+                        <br/><br/>
+                        An appraisal was requested.
+                        <br/>
+                        Please schedule an appraisal date together.
+                        <br/><br/>
+                        Thank you!
+                        The HR department
+                        <br/><br/>
+                        % if ctx.get('recipient_users'):
+                        <p style="margin: 16px 0px 16px 0px;">
+                            <a href="${ctx['url']}"
+                                style="background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
+                                View Appraisal
+                            </a>
+                        </p>
+                        % endif
+                        <br/><br/>
+                        <tr><td style="padding:15px 20px 10px 20px;">${(object.signature or '')| safe}</td></tr>
+                    </p>
+                </div>
+            </field>
+            <field name="report_name">${(object.name or '').replace('/','_')}</field>
+            <field name="lang">${object.lang}</field>
+            <field name="auto_delete" eval="True"/>
+        </record>
+
+        <record id="mail_template_appraisal_request" model="mail.template">
+            <field name="name">Hr Appraisal: Request an Appraisal from Manager</field>
+            <field name="model_id" ref="hr_appraisal.model_hr_appraisal"/>
+            <field name="subject">Appraisal Requested</field>
+            <field name="body_html" type="html">
+                <div style="margin: 0px; padding: 0px;">
+                    <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                        Dear ${ctx['partner_to_name']},
+                        <br /><br />
+                        I would like to start an Appraisal for you.
+
+                        % if ctx.get('recipient_users'):
+                        <p style="margin: 16px 0px 16px 0px;">
+                            <a href="${ctx['url']}"
+                                style="background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
+                                View Appraisal
+                            </a>
+                        </p>
+                        % endif
+                        <br /><br />
+                        <tr><td style="padding:15px 20px 10px 20px;">${(object.signature or '')| safe}</td></tr>
+                    </p>
+                </div>
+            </field>
+            <field name="report_name">${(object.name or '').replace('/','_')}</field>
+            <field name="lang">${object.lang}</field>
+            <field name="auto_delete" eval="True"/>
+        </record>
+
+        <record id="mail_template_appraisal_request_from_employee" model="mail.template">
+            <field name="name">Hr Appraisal: Request an Appraisal From Employee</field>
+            <field name="model_id" ref="hr_appraisal.model_hr_appraisal"/>
+            <field name="subject">${object.name} requests an Appraisal</field>
+            <field name="body_html" type="html">
+                <div style="margin: 0px; padding: 0px;">
+                    <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                        Dear ${ctx['partner_to_name']},
+                        <br /><br />
+                        I wish to request an appraisal.<br />
+                        % if ctx.get('recipient_users'):
+                        Here is the link of my appraisal:
+                        <p style="margin: 16px 0px 16px 0px;">
+                            <a href="${ctx['url']}"
+                                style="background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
+                                View Appraisal
+                            </a>
+                        </p>
+                        % endif
+                        <br /><br />
+                        <tr><td style="padding:15px 20px 10px 20px;">${(object.employee_id.user_id.signature or '')| safe}</td></tr>
+                    </p>
+                </div>
+            </field>
+            <field name="report_name">${(object.name or '').replace('/','_')}</field>
+            <field name="lang">${object.lang}</field>
+            <field name="auto_delete" eval="True"/>
+        </record>
+    </data>
+</odoo>

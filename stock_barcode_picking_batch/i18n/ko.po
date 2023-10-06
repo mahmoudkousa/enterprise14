@@ -1,0 +1,312 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_barcode_picking_batch
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Linkup <link-up@naver.com>, 2021
+# JH CHOI <hwangtog@gmail.com>, 2021
+# Sarah Park, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:24+0000\n"
+"Last-Translator: Sarah Park, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_move_line_product_selector_inherit
+msgid "<i class=\"fa fa-fw fa-lg fa-truck mr-3\" title=\"Transfer\"/>"
+msgstr "<i class=\"fa fa-fw fa-lg fa-truck mr-3\" title=\"Transfer\"/>"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.actions.client,name:stock_barcode_picking_batch.stock_barcode_picking_batch_client_action
+msgid "Barcode Batch Picking Client Action"
+msgstr "바코드 일괄선별 클라이언트 작업"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.actions.client,name:stock_barcode_picking_batch.stock_barcode_picking_batch_create_client_action
+msgid "Barcode Batch Picking Create Client Action"
+msgstr "바코드 일괄선별 클라이언트 작업 생성"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking_batch
+msgid "Batch Transfer"
+msgstr "이송 일괄 작업"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/stock_barcode.xml:0
+#: model:ir.actions.act_window,name:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+#, python-format
+msgid "Batch Transfers"
+msgstr "이송 일괄 작업"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Confirm"
+msgstr "확인"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+msgid "Description"
+msgstr "내용"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_quant_package__display_name
+msgid "Display Name"
+msgstr "이름 표시"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields.selection,name:stock_barcode_picking_batch.selection__stock_quant_package__package_use__disposable
+msgid "Disposable Box"
+msgstr "일회용 상자"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_create_client_action.js:0
+#, python-format
+msgid "Error"
+msgstr "오류"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_quant_package__id
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line____last_update
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch____last_update
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_quant_package____last_update
+msgid "Last Modified on"
+msgstr "최근 수정"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
+msgid "Lines"
+msgstr "명세"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "No \"ready\" transfers found."
+msgstr "\"준비\"단계의 이동이 없습니다."
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+msgid "No batch transfer found"
+msgstr "이송 일괄 작업을 찾을 수 없습니다."
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_create_client_action.js:0
+#, python-format
+msgid "No transfers were selected or something has gone wrong!"
+msgstr "재고이동이 선택되지 않았거나 문제가 있습니다!"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
+msgid "Open Batch Picking"
+msgstr "일괄선별 열기"
+
+#. module: stock_barcode_picking_batch
+#: code:addons/stock_barcode_picking_batch/models/stock_picking_batch.py:0
+#, python-format
+msgid "Open picking batch form"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_quant_package__package_use
+msgid "Package Use"
+msgstr "포장품목 사용"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_quant_package
+msgid "Packages"
+msgstr "포장품목"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_create_client_action.js:0
+#, python-format
+msgid "Please select an Operation Type"
+msgstr "작업유형을 선택하세요"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Print Batch Transfer"
+msgstr "이송 일괄 작업 인쇄"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "상품 이동 (재고 이동 명세)"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Put In Pack"
+msgstr "꾸러미에 넣기"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields.selection,name:stock_barcode_picking_batch.selection__stock_quant_package__package_use__reusable
+msgid "Reusable Box"
+msgstr "재사용 박스"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,help:stock_barcode_picking_batch.field_stock_quant_package__package_use
+msgid ""
+"Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
+"        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
+msgstr ""
+"재사용 가능한 상자는 일괄 선별에 사용되며 나중에 비워져 재사용됩니다. 바코드 애플리케이션에서 재사용 가능한 상자를 스캔하면이 상자에 제품이 추가됩니다.\n"
+"일회용 상자는 재사용되지 않습니다. 바코드 애플리케이션에서 일회용 상자를 스캔 할 때 포함 된 제품이 이동에 추가됩니다."
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Select"
+msgstr "선택"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Select an operation type for batch transfer"
+msgstr "일괄 이송을 위한 작업유형을 선택하세요"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Select transfers for batch transfer"
+msgstr "이송 일괄 작업을 위한 이송을 선택하세요"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_client_action.js:0
+#, python-format
+msgid "The batch picking has been cancelled"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+msgid ""
+"The goal of the batch transfer is to group operations that may\n"
+"            (needs to) be done together in order to increase their efficiency.\n"
+"            It may also be useful to assign jobs (one person = one batch) or\n"
+"            help the timing management of operations (tasks to be done at 1pm)."
+msgstr ""
+"이송 일괄 작업의 목표는 효율성을 높이기 위해 함께 수행되어야 할(필요할) \n"
+"                 그룹 작업을 수행하는 것입니다.\n"
+"                 작업을 할당하거나(한 사람 = 한 일괄 작업) 작업의 타이밍 \n"
+"                 관리(일 오후 1시에 수행해야 하는 태스크)를 돕는 것도 유용할 수 있습니다."
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_client_action.js:0
+#, python-format
+msgid ""
+"The scanned package must not be assigned to a location or must be assigned "
+"to the current dest location."
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,help:stock_barcode_picking_batch.field_stock_move_line__picking_id
+msgid "The stock operation where the packing has been made"
+msgstr "포장이 이루어진 재고 작업"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "This batch transfer is already cancelled"
+msgstr "이 이송 일괄 작업은 이미 취소되었습니다"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "This batch transfer is already done"
+msgstr "이 이송 일괄 작업은 이미 완료되었습니다"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "This batch transfer is empty, you need to configure it"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid ""
+"This batch transfer is still draft, it must be confirmed before being "
+"processed"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__picking_id
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_move_line_product_selector_inherit
+msgid "Transfer"
+msgstr "전송"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__picking_type_code
+msgid "Type of Operation"
+msgstr "운영 유형"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+msgid "Unbatch Transfer"
+msgstr "이송 일괄 작업 취소"
+
+#. module: stock_barcode_picking_batch
+#: code:addons/stock_barcode_picking_batch/models/stock_picking.py:0
+#, python-format
+msgid ""
+"You cannot validate a transfer if no quantities are reserved nor done. You "
+"can use the info button on the top right corner of your screen to remove the"
+" transfer in question from the batch."
+msgstr ""
+"수량 항목이 예약되거나 완료되지 않은 경우에는 이동 내용을 검증할 수 없습니다. 화면 오른쪽 상단의 안내 버튼을 누르시면 문제가 되는 "
+"이동 항목을 해당 배치에서 제거할 수 있습니다."
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "line.package_id || line.result_package_id || line.suggested_package"
+msgstr ""

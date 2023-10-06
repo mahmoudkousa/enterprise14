@@ -1,0 +1,198 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_helpdesk_livechat
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Grzegorz Grzelak <grzegorz.grzelak@openglobe.pl>, 2020
+# Tomasz Leppich <t.leppich@gmail.com>, 2020
+# Marcin Młynarczyk <mlynarczyk@gmail.com>, 2020
+# Karol Rybak <karolrybak85@gmail.com>, 2020
+# Paweł Wodyński <pw@myodoo.pl>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:26+0000\n"
+"Last-Translator: Paweł Wodyński <pw@myodoo.pl>, 2020\n"
+"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid " This channel is private. People must be invited to join it."
+msgstr ""
+" Ten kanał jest prywatny. Osoby muszą być zaproszone aby do niego należeć"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid ""
+"<br><br>\n"
+"                    You can create a new ticket by typing <b>/helpdesk \"ticket title\"</b>.<br>\n"
+"                    You can search ticket by typing <b>/helpdesk_search \"Keywords1 Keywords2 etc\"</b><br>\n"
+"                    "
+msgstr ""
+"<br><br>\n"
+"                    Możesz utworzyć nowe zgłoszenie, wpisując <b>/helpdesk \"tytuł zgłoszenia\"</b>.<br>\n"
+"                    Możesz wyszukać zgłoszenie wpisując <b>/helpdesk_search \"SłowoKluczowe1 SłowoKluczowe2 itd.\"</b><br>\n"
+"                    "
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "Canned Responses"
+msgstr "Odpowiedzi szablonowe"
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "Configure Canned Responses"
+msgstr "Skonfiguruj odpowiedzi szablonowe"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "Create a new helpdesk ticket"
+msgstr "Utwórz nowe zgłoszenie pomocy"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "Created a new ticket and request: %s"
+msgstr "Utworzył nowe zgłoszenie i prośbę: %s"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model,name:website_helpdesk_livechat.model_mail_channel
+msgid "Discussion Channel"
+msgstr "Kanał dyskusyjny"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__display_name
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_mail_channel__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model,name:website_helpdesk_livechat.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "Zespół pomocy"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__id
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_mail_channel__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__is_canned_response
+msgid "Is Canned Response"
+msgstr "Jest gotową odpowiedzią"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team____last_update
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_mail_channel____last_update
+msgid "Last Modified on"
+msgstr "Data ostatniej modyfikacji"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__feature_livechat_channel_id
+msgid "Live Chat Channel"
+msgstr "Kanał czatu"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__feature_livechat_web_page
+msgid "Live Chat Test Page"
+msgstr "Strona testowa czatu na żywo"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid ""
+"No tickets found related to the search query. <br> make sure to use the "
+"right format: (/helpdesk_search Keyword1 Keyword2 etc...)"
+msgstr ""
+"Nie znaleziono zgłoszeń związanych z wyszukiwanym hasłem. <br> upewnij się, "
+"że używasz właściwego formatu: (/helpdesk_search SłowoKluczowe1 "
+"SłowoKluczowe2 itd...)"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "Search for a helpdesk ticket"
+msgstr "Wyszukaj zgłoszenie pomocy technicznej"
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid ""
+"Set shortcuts predefined answers. This works in both the mail composer and "
+"the live website chatter. Simply ype ':' followed by the shortcut label to "
+"get selectable canned reponses."
+msgstr ""
+"Ustaw skróty wstępnie zdefiniowanych odpowiedzi. Działa to zarówno w "
+"programie pocztowym, jak i na żywo na stronie internetowej. Po prostu wpisz "
+"\":\", a następnie etykietę skrótu, aby uzyskać dostępne odpowiedzi."
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "Setup the"
+msgstr "Ustaw"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "Something is missing or wrong in command"
+msgstr "Czegoś brakuje lub jest w błędzie"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,help:website_helpdesk_livechat.field_helpdesk_team__feature_livechat_web_page
+msgid ""
+"URL to a static page where you client can discuss with the operator of the "
+"channel."
+msgstr ""
+"URL do statycznej strony, na której klient może dyskutować z operatorem "
+"kanału."
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "Use predefined answers in the mail composer"
+msgstr "Użyj predefiniowanych odpowiedzi w programie do komponowania poczty"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "We found some matched ticket(s) related to the search query: %s"
+msgstr "Znaleźliśmy kilka pasujących zgłoszeń powiązanych z zapytaniem: %s"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "You are in a private conversation with <b>@%s</b>."
+msgstr "Jesteś w prywatnej konwersacji z <b>@%s</b>."
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "You are in channel <b>#%s</b>."
+msgstr "Jesteś na kanale <b>#%s</b>."
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid ""
+"You can search ticket by typing <b>/helpdesk_search \"Keywords1 Keywords2 "
+"etc\"</b><br>"
+msgstr ""
+"Możesz wyszukać zgłoszenie wpisując <b>/helpdesk_search \"SłowoKluczowe1 "
+"SłowoKluczowe2 itd.\"</b><br>"
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "channel to define auto-popup rules and geolocation filters"
+msgstr "kanał do definiowania reguł auto-popup i filtrów geolokacyjnych"

@@ -1,0 +1,338 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_enterprise
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Samkhann Seang <seangsamkhann@gmail.com>, 2020
+# AN Souphorn <ansouphorn@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:24+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__assigned
+msgid "Available"
+msgstr "មាន"
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__cancel
+msgid "Cancelled"
+msgstr "បានលុបចោល"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__company_id
+msgid "Company"
+msgstr "ក្រុមហ៊ុន"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__creation_date
+msgid "Creation Date"
+msgstr "ថ្ងៃបង្កើត"
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__picking_type_code__outgoing
+msgid "Customers"
+msgstr "អតិថិជន"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_form_view
+msgid "Cycle Time"
+msgstr "វដ្តពេលវេលា"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__cycle_time
+msgid "Cycle Time (Days)"
+msgstr "វដ្តពេលវេលា(ថ្ងៃ)"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_form_view
+msgid "Days"
+msgstr "ថ្ងៃ"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_form_view
+msgid "Delay"
+msgstr "ពន្យាពេល"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__delay
+msgid "Delay (Days)"
+msgstr "ពន្យារពេល (ថ្ងៃ) "
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid ""
+"Delay to deliver an order (in days). Computed by comparing the scheduled "
+"date of the delivery order and its effective date."
+msgstr ""
+"ពន្យារពេលក្នុងការបញ្ជាទិញ (គិតជាថ្ងៃ) ។ "
+"គណនាដោយប្រៀបធៀបកាលបរិច្ឆេទនៃការបញ្ជាទិញនិងកាលបរិច្ឆេទដែលបានគ្រោងទុក។ "
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid ""
+"Delay to receive an order (in days). Computed by comparing the scheduled "
+"date of the receipt and its effective date."
+msgstr ""
+"ពន្យាពេលដើម្បីទទួលបានការបញ្ជាទិញ (គិតជាថ្ងៃ) ។ "
+"គណនាដោយប្រៀបធៀបកាលបរិច្ឆេទដែលបានគ្រោងទុកនៃវិក័យប័ត្រនិងកាលបរិច្ឆេទមានប្រសិទ្ធភាព។ "
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid "Deliveries Cycle Time"
+msgstr "ការផ្តល់វដ្តពេលវេលា"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid "Deliveries Delay"
+msgstr "ការផ្តល់ជូនការពន្យាពេល "
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_report_stock_quantity__display_name
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__done
+msgid "Done"
+msgstr "រួចរាល"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_search_view
+msgid "Done Deliveries"
+msgstr "ការផ្តល់ជូនរួចរាល់ "
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_search_view
+msgid "Done Receipts"
+msgstr "វិក័យប័ត្រធ្វើរួច "
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_search_view
+msgid "Done Transfers"
+msgstr "ការផ្ទេររួចរាល់"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__scheduled_date
+msgid "Expected Date"
+msgstr "កាលបរិច្ឆេទរំពឹងទុក"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_report_stock_quantity__id
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__picking_type_code__internal
+msgid "Internal"
+msgstr "ផ្ទៃក្នុង"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__inventory_id
+msgid "Inventory Adjustment"
+msgstr "ការកែតម្រូវសារពើភ័ណ្ឌ"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__is_late
+msgid "Is Late"
+msgstr "គឺ យឺតយ៉ាវ"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__is_backorder
+msgid "Is a Backorder"
+msgstr "គឺជា Backorder "
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_report_stock_quantity____last_update
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_view_grid
+msgid "Month"
+msgstr "ខែ"
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__draft
+msgid "New"
+msgstr "ថ្មី"
+
+#. module: stock_enterprise
+#: model_terms:ir.actions.act_window,help:stock_enterprise.stock_report_dashboard_action
+msgid "No data yet!"
+msgstr ""
+
+#. module: stock_enterprise
+#. openerp-web
+#: code:addons/stock_enterprise/static/src/js/report_grid_controller.js:0
+#, python-format
+msgid "Only grouping by product is supported"
+msgstr ""
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__operation_type
+msgid "Operation Type"
+msgstr "ប្រភេទប្រតិបត្តិការ "
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__partially_available
+msgid "Partially Available"
+msgstr "មានផ្នែកខ្លះ"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__partner_id
+msgid "Partner"
+msgstr "ដៃគូ"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__picking_name
+msgid "Picking Name"
+msgstr "ឈ្មោះជ្រើសរើស "
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__product_id
+msgid "Product"
+msgstr "ផលិតផល"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__categ_id
+msgid "Product Category"
+msgstr "ប្រភេទ​ផលិតផល"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__product_qty
+msgid "Product Quantity"
+msgstr "បរិមាណផលិតផល"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_enterprise_move_tree_view
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_view_grid
+msgid "Quantity"
+msgstr "ចំនួន"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid "Receipts Cycle Time"
+msgstr "ទទួលវដ្តពេលវេលា "
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid "Receipts Delay"
+msgstr "ការទទួលរពន្យាពេល"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__reference
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_map_view
+msgid "Reference"
+msgstr "អ្នកធានា"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_cohort_view
+msgid "Report"
+msgstr "របាយការណ៍"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_map_view
+msgid "Scheduled Date"
+msgstr "កាលបរិច្ឆេទកំណត់ពេលវេលា"
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__state
+msgid "Status"
+msgstr "ស្ថានភាព"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_pivot_view
+msgid "Stock Overview"
+msgstr "ទិដ្ឋភាពទូទៅនៃភាគហ៊ុន"
+
+#. module: stock_enterprise
+#: model:ir.model,name:stock_enterprise.model_report_stock_quantity
+msgid "Stock Quantity Report"
+msgstr ""
+
+#. module: stock_enterprise
+#: model:ir.model,name:stock_enterprise.model_stock_report
+msgid "Stock Report"
+msgstr "របាយការណ៍ភាគហ៊ុន"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid ""
+"Time needed to deliver an order (in days). Computed by comparing the "
+"creation date of the delivery order and its done date."
+msgstr ""
+"ពេលវេលាដែលត្រូវការដើម្បីបញ្ជាទិញ (គិតជាថ្ងៃ) ។ "
+"គណនាដោយប្រៀបធៀបកាលបរិច្ឆេទបង្កើតនៃការបញ្ជាទិញចែកចាយនិងកាលបរិច្ឆេទដែលបានបញ្ចប់។ "
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid ""
+"Time needed to receive an order (in days). Computed by comparing the "
+"creation date of the receipt and its done date."
+msgstr ""
+"ពេលវេលាត្រូវការដើម្បីទទួលបានការបញ្ជាទិញ (គិតជាថ្ងៃ) ។ "
+"គណនាដោយប្រៀបធៀបកាលបរិច្ឆេទបង្កើតនៃបង្កាន់ដៃនិងកាលបរិច្ឆេទដែលបានធ្វើ។ "
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__date_done
+msgid "Transfer Date"
+msgstr "កាលបរិច្ឆេទផ្ទេរប្រាក់ "
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__picking_id
+msgid "Transfer Reference"
+msgstr "ផ្ទេរឯកសារយោង "
+
+#. module: stock_enterprise
+#: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__picking_type_code
+msgid "Type"
+msgstr "ប្រភេទ"
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__picking_type_code__incoming
+msgid "Vendors"
+msgstr "អ្នកលក់"
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__waiting
+msgid "Waiting Another Move"
+msgstr "រង់ចាំការផ្លាស់ប្តូរផ្សេងទៀត "
+
+#. module: stock_enterprise
+#: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__confirmed
+msgid "Waiting Availability"
+msgstr "កំពុងរង់ចាំភាពអាចរកបាន "
+
+#. module: stock_enterprise
+#: model:ir.actions.act_window,name:stock_enterprise.stock_report_dashboard_action
+#: model:ir.ui.menu,name:stock_enterprise.stock_dashboard_menuitem
+msgid "Warehouse Analysis"
+msgstr ""
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_view_grid
+msgid "Week"
+msgstr "សប្តាហ៏"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid "days"
+msgstr "ថ្ងៃ"

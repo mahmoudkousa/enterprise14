@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="social_linkedin_backend_assets" inherit_id="web.assets_backend">
+        <xpath expr="//script[contains(@src, '/social/static/src/js/social_post_formatter_mixin.js')]" position="after">
+            <script type="text/javascript" src="/social_linkedin/static/src/js/social_post_formatter_mixin.js"/>
+        </xpath>
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/social_linkedin/static/src/js/stream_post_kanban_controller.js"/>
+            <script type="text/javascript" src="/social_linkedin/static/src/js/stream_post_linkedin_comments.js"/>
+            <link rel="stylesheet" type="text/scss" href="/social_linkedin/static/src/scss/social_linkedin.scss"/>
+        </xpath>
+    </template>
+</odoo>

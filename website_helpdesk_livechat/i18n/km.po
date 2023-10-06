@@ -1,0 +1,193 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_helpdesk_livechat
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:26+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid " This channel is private. People must be invited to join it."
+msgstr "បន្ទប់ជជែកពិភាក្សាឯកជន។ អាចចូលរួមតាមរយៈការអញ្ជើញ។"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid ""
+"<br><br>\n"
+"                    You can create a new ticket by typing <b>/helpdesk \"ticket title\"</b>.<br>\n"
+"                    You can search ticket by typing <b>/helpdesk_search \"Keywords1 Keywords2 etc\"</b><br>\n"
+"                    "
+msgstr ""
+"<br><br>\n"
+"                    អ្នកអាចបង្កើតសំបុត្រថ្មីមួយដោយគ្រាន់តែវាយ <b>/helpdesk \"ចំណងជើងសំបុត្រ\"</b>.<br>\n"
+"                    អ្នកអាចស្វែងរកសំបុត្របានដោយវាយ <b>/helpdesk_search \"ពាក្យគន្លឹះ1 ពាក្យគន្លឹះ2 ។ល។\"</b><br>\n"
+"                    "
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "Canned Responses"
+msgstr "ការឆ្លើយតបដែលបានលុបចោល"
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "Configure Canned Responses"
+msgstr "កំណត់រចនាសម្ព័ន្ធការឆ្លើយតបដែលបានរៀបចំទុកចោល "
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "Create a new helpdesk ticket"
+msgstr "បង្កើតសំបុត្រជំនួយថ្មី "
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "Created a new ticket and request: %s"
+msgstr "បានបង្កើតសំបុត្រនិងសំណើថ្មី៖%s"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model,name:website_helpdesk_livechat.model_mail_channel
+msgid "Discussion Channel"
+msgstr "ប៉ុស្តិ៍ពិភាក្សា"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__display_name
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_mail_channel__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model,name:website_helpdesk_livechat.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "ក្រុម Helpdesk "
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__id
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_mail_channel__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__is_canned_response
+msgid "Is Canned Response"
+msgstr "គឺជាការឆ្លើយតបដែលបានលុបចោល "
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team____last_update
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_mail_channel____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__feature_livechat_channel_id
+msgid "Live Chat Channel"
+msgstr "ប៉ុស្តិ៍ជជែកផ្ទាល់ "
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__feature_livechat_web_page
+msgid "Live Chat Test Page"
+msgstr "ទំព័រតេស្តជជែកផ្ទាល់ "
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid ""
+"No tickets found related to the search query. <br> make sure to use the "
+"right format: (/helpdesk_search Keyword1 Keyword2 etc...)"
+msgstr ""
+"រកមិនឃើញសំបុត្រទាក់ទងនឹងសំណួរស្វែងរកទេ។<br> "
+"ត្រូវប្រាកដថាប្រើទ្រង់ទ្រាយត្រឹមត្រូវ៖ (/ helpdesk_search ពាក្យគន្លឹះ 1 "
+"ពាក្យគន្លឹះ 2 ។ ល។ )"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "Search for a helpdesk ticket"
+msgstr "ស្វែងរកhelpdesk សំបុត្រជំនួយ "
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid ""
+"Set shortcuts predefined answers. This works in both the mail composer and "
+"the live website chatter. Simply ype ':' followed by the shortcut label to "
+"get selectable canned reponses."
+msgstr ""
+"កំណត់ចម្លើយផ្លូវកាត់។ "
+"វាដំណើរការទាំងនៅក្នុងកម្មវិធីតែងសំបុត្រនិងគេហទំព័រជជែកផ្ទាល់។ សាមញ្ញ ype ':'"
+" អមដោយស្លាកផ្លូវកាត់ដើម្បីទទួលបានការជ្រើសរើសលុបចោល។"
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "Setup the"
+msgstr "រៀបចំ"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "Something is missing or wrong in command"
+msgstr "មានអ្វីមួយដែលបាត់ឬខុសនៅក្នុងពាក្យបញ្ជា"
+
+#. module: website_helpdesk_livechat
+#: model:ir.model.fields,help:website_helpdesk_livechat.field_helpdesk_team__feature_livechat_web_page
+msgid ""
+"URL to a static page where you client can discuss with the operator of the "
+"channel."
+msgstr ""
+"URL ទៅកាន់ទំព័រឋិតិវន្តដែលអតិថិជនអាចពិភាក្សាជាមួយប្រតិបត្តិករប៉ុស្តិ៍។"
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "Use predefined answers in the mail composer"
+msgstr "ប្រើចម្លើយដែលបានកំណត់ជាមុននៅក្នុងកម្មវិធីតែងអ៊ីមែល"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "We found some matched ticket(s) related to the search query: %s"
+msgstr "យើងបានរកឃើញសំបុត្រ(ច្រើន)ដែលត្រូវគ្នាខ្លះទាក់ទងនឹងសំណួរស្វែងរក៖%s"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "You are in a private conversation with <b>@%s</b>."
+msgstr "អ្នកកំពុងជជែកផ្ទាល់ជាមួយ<b>@%s</b>។"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid "You are in channel <b>#%s</b>."
+msgstr "អ្នកស្ថិតក្នុងប៉ុស្តិ៍<b>#%s</b>។"
+
+#. module: website_helpdesk_livechat
+#: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
+#, python-format
+msgid ""
+"You can search ticket by typing <b>/helpdesk_search \"Keywords1 Keywords2 "
+"etc\"</b><br>"
+msgstr ""
+"អ្នកអាចស្វែងរកសំបុត្រដោយវាយ<b> / helpdesk_search \"ពាក្យគន្លឹះ 1 ពាក្យគន្លឹះ"
+" 2ពាក្យគន្លឹះ។ ល។ \" </b><br>"
+
+#. module: website_helpdesk_livechat
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat
+msgid "channel to define auto-popup rules and geolocation filters"
+msgstr ""
+"ឆានែលដើម្បីកំណត់ច្បាប់លេចឡើងដោយស្វ័យប្រវត្តិនិងតម្រងទីតាំងភូមិសាស្ត្រ "

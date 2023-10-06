@@ -1,0 +1,3310 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_lu_reports_annual_vat_2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-29 14:40+0000\n"
+"PO-Revision-Date: 2022-12-29 14:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "(to be carried forward to point IV.A)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "(to be carried forward to point IV.B)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "- with no salary (family members)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "- with salary or wage"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "001"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "002"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "003"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "004"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "005"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "007"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "008"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "009"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "010"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "011"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "012"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "013"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "014"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "015"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "016"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "017"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "018"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "021"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "022"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "031"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "033"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "037"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "040"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "042"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "046"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "049"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "051"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "054"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "056"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "059"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "063"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "065"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "068"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "073"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "076"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "077"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "078"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "079"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "080"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "081"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "082"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "083"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "084"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "085"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "086"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "087"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "088"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "090"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "092"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "093"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "094"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "095"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "096"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "097"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "098"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "099"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "1. Total of VAT on stock entries"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "100"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "101"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "102"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "103"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "104"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "105"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "106"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "107"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "114"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "115"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "116"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "117"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "118"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "119"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "120"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "121"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "124"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "128"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "129"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "13 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "130"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "131"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "134"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "136"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "137"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "138"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "139"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "14 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "142"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "144"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "145"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "146"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "147"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "148"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "149"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "150"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "151"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "152"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "153"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "154"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "155"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "158"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "16 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "162"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "163"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "164"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "165"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "166"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "167"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "168"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "17 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "171"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "175"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "176"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "177"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "178"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "179"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "180"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "181"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "183"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "184"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "185"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "186"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "187"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "188"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "189"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "190"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "191"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "192"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "193"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "194"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "195"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "196"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "197"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "198"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "199"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "2. Total of VAT on capital expenditures"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "200"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "201"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "202"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "203"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "204"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "205"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "206"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "227"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "228"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "229"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "239"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "240"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "241"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "242"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "243"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "244"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "245"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "246"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "247"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "248"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "249"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "250"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "251"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "252"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "253"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "254"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "255"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "256"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "257"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "258"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "259"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "260"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "261"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "262"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "263"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "264"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "265"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "266"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "267"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "268"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "269"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "270"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "271"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "272"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "273"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "274"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "275"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "276"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "277"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "278"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "279"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "280"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "281"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "282"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "283"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "284"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "285"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "286"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "287"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "288"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "289"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "290"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "291"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "292"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "293"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "294"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "295"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "296"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "297"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "298"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "299"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "3. Total of VAT on operational expenditures"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "300"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "301"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "302"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "303"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "304"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "305"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "306"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "307"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "308"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "309"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "310"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "311"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "312"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "313"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "314"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "315"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "316"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "317"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "318"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "319"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "320"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "321"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "322"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "323"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "324"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "325"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "326"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "327"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "328"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "329"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "330"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "331"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "332"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "333"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "334"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "335"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "336"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "337"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "338"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "343"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "344"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "345"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "346"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "347"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "348"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "349"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "350"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "351"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "352"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "353"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "354"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "355"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "356"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "357"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "358"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "359"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "361"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "362"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "363"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "364"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "365"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "366"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "367"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "368"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "369"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "372"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "373"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "374"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "375"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "376"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "377"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "378"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "379"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "380"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "381"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "382"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "383"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "384"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "385"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "386"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "387"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "388"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "389"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "394"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "396"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "4. Other"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "403"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "404"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "405"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "406"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "407"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "409"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "410"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "416"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "417"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "418"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "431"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "432"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "435"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "436"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "441"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "442"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "445"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "451"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "452"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "453"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "462"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "463"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "464"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "701"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "702"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "703"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "704"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "705"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "706"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "711"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "712"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "713"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "714"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "715"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "716"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "719"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "721"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "722"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "723"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "724"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "725"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "726"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "729"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "731"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "732"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "733"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "734"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "735"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "736"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "741"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "742"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "743"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "744"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "745"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "746"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "751"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "752"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "753"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "754"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "755"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "756"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "761"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "762"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "763"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "764"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "765"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "766"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "767"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "768"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "771"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "772"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "773"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "774"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "776"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "777"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "778"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "781"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "782"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "783"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "791"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "792"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "793"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "794"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "795"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "796"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "797"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "798"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "901"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "902"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "903"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "904"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "905"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "906"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "911"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "912"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "913"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "914"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "915"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "916"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "921"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "922"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "923"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "924"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "925"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "926"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "931"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "932"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "933"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "934"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "935"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "936"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "941"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "942"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "943"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "944"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "945"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "946"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "951"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "952"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "953"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "954"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "955"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "956"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "961"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "962"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "963"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "964"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "971"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "972"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "973"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "976"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "977"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "978"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "981"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "982"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "983"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "991"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "992"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "993"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "994"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "995"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "996"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ": Return for year"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "ASSESSMENT OF DEDUCTIBLE TAX (input tax)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "ASSESSMENT OF TAX DUE (output tax)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "ASSESSMENT OF TAXABLE TURNOVER"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Accident insurance"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Accounting and bookkeeping fees"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Acquisitions during the financial year"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Acquisitions, in the context of triangular transactions"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Additional Information"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Adjustment"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Adjustment of Deductions"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Adjustment of deductions in accordance with provisions of Art. 53"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Adjustment of deductions in accordance with provisions of the grand-ducal "
+"Regulation of 7 March 1980 - option to tax land"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Advertising and publicity"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model,name:l10n_lu_reports_annual_vat_2023.model_l10n_lu_yearly_tax_report_manual
+msgid "Annual Tax Report"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.actions.report,name:l10n_lu_reports_annual_vat_2023.action_report_l10n_lu_tax_report
+msgid "Annual VAT Declaration"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Annual accounts submitted to the Trade and Companies Register (RCS)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Appendix A"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Appendix B"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Appendix C"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Appendix D"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Appendix E"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Appendix to Operational Expenditures"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Application for the purpose of business of goods produced in the course of "
+"the business (009)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Application of goods for private use or for that of the staff (008)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Assessment total of the taxable amount for non-business use of assets "
+"allocated to business"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Average number of employees for the fiscal year"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Book (net asset) value at the beginning of the financial year"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Book (net asset) value at the end of the financial year"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Books, records and documents"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Breakdown of taxable turnover"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Business tax"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Car expenses"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Cleaning and maintenance of business premises"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Commissions"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Compulsory social security contributions"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Custom"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Custom %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Custom:"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Depreciation"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Depreciation during the financial year"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Detail of expenses line (411)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Disposal of tangible and intangible capital assets for ancillary "
+"transactions"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Electricity"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Employer's travel and representation expenses"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Exceeding amount"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Exempt"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Exempt within the territory"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Exemptions and deductible amounts"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Expenses for other work carried out by third parties"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Expenses for work carried out by sub-contractors"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "Export PDF"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Exports"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Fees and subscriptions paid"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Fire insurance"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Fuel (petrol, diesel) and lubricants"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Gas"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Goods produced inhouse"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Gross salaries"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Gross wages"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Heating"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"IC supply of goods to persons identified for VAT purposes in another Member "
+"State (MS)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"IC supply of new means of transport (Art. 43(1)(e)) to persons not "
+"identified for VAT purposes who are established or reside in an other MS "
+"(202)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Importation of goods for business purposes"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Importation of goods for non-business purposes"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Imports"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Interest paid for long-term debts"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Interest paid for short-term debts"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Intra-Community"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Intra-Community acquisitions"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Intra-Community acquisitions of goods"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Km travelled"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "LPG"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Leasing / renting"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Licensing (cabaretage) tax and other taxes"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Luxembourg Annual Declaration preview"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Made for a subsequent supply to a customer identified for VAT purposes in "
+"the MS of destination of the goods"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Manufactured tobacco"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Manufactured tobacco in stock"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Manufactured tobacco whose VAT was collected at the source or at the exit of"
+" the tax warehouse together with excise duties"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Net profit margin (special arrangement: Art. 56ter-1 and 56ter-2)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "New acquisitions (tools and equipment)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "No"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Non recoverable input tax in accordance with Art. 56ter-1(7) and 56ter-2(7) "
+"(when applying the margin scheme)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Non recoverable input tax relating to supplies exempt pursuant to Art. 44 "
+"and 56quater"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Non recoverable proportion of input tax determined in accordance with Art. "
+"50"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Non-business part of expenditures for motor vehicules (VAT excluded)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Non-business portion (in %)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Non-business portion (km)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Not exempt"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Not falling within the scope of Art. 56ter-1 and 56ter-2"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Occasional salaries"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Of VAT invoiced (413)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Of which goods for resale"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Office expenses"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Other Assimilated Supplies"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Other assets"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Other exemptions"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Other financial costs"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Other repairs"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Other:"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Overall turnover"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Packaging"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Papers and periodicals for business purposes"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Payments made on account by clients (VAT excluded)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Phone number for contacting the declaring person"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Property tax"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Provided to the declaring person by suppliers established within the "
+"territory"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Provided to the declaring person by suppliers not established or residing "
+"within the Community"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Public and professional third party liability insurance"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Purchases of goods abroad which are not brought to Luxembourg"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Purchases of goods which don't give rise to a chargeable event neither for "
+"the supplier nor for the taxable person acquiring the goods"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Purchases of goods which give rise to a chargeable event for the supplier or"
+" for the taxable person acquiring the goods"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Purchases within the country"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Receivables from clients (VAT excluded)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Renting/leasing of immovable property with VAT"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Renting/leasing of immovable property with no VAT"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Renting/leasing of installed equipment and machinery"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Repair and maintenance of equipment and machinery"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Repairs and servicing"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_971
+msgid "Report Section 971"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_972
+msgid "Report Section 972"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_973
+msgid "Report Section 973"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_976
+msgid "Report Section 976"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_977
+msgid "Report Section 977"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_978
+msgid "Report Section 978"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_981
+msgid "Report Section 981"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_982
+msgid "Report Section 982"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_983
+msgid "Report Section 983"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_991
+msgid "Report Section 991"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_992
+msgid "Report Section 992"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_993
+msgid "Report Section 993"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_994
+msgid "Report Section 994"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_995
+msgid "Report Section 995"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model:ir.model.fields,field_description:l10n_lu_reports_annual_vat_2023.field_l10n_lu_yearly_tax_report_manual__report_section_996
+msgid "Report Section 996"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Sales during the financial year"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Services supplied by the declaring person as a registered taxpayer in "
+"Luxembourg"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Services to be declared and taxed by the registered taxpayer in Luxembourg"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Shipping and transport expenses"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Special arrangement for tax suspension"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Staff travel and representation expenses"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Stock / Miscellaneous"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Stock and business equipment insurance"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Stock for resale"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Stock not falling within the scope"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Supplies carried out within the scope of the special arrangement"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Supplies carried out within the scope of the special arrangement of art. "
+"56sexies"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Supply of goods carried out to customers not identified for VAT purposes and"
+" established in the MS where the dispatch ends, when these supplies are "
+"taxable in that MS"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Supply of goods for which the purchaser is liable for the payment of VAT"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Supply of goods not manufactured inhouse"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Supply of inhouse manufactured goods"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Supply of services"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Supply of services carried out free of charge for purposes other than those "
+"of the business (011)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Supply of services for which the customer is liable for the payment of VAT"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Supply, subsequent to intra-Community acquisitions of goods, in the context "
+"of triangular transactions"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "TAX TO BE PAID OR TO BE RECLAIMED"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Taxable turnover"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Telecommunications"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: code:addons/l10n_lu_reports_annual_vat_2023/models/l10n_lu_yearly_tax_report_manual.py:0
+#, python-format
+msgid ""
+"The fiscal country of your active company is not Luxembourg. This export is "
+"not available for other countries."
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total 'Appendix to Operational Expenditures'"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total Input Tax"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total Sales / Receipts"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total entry of stock for business purposes"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total input tax deductible"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total input tax non-deductible"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total of expenses during the financial year"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total operational expenditures"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total stock and tobacco"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Total tax due"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Tyres, etc."
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"Use of goods considered business assets for purposes other than those of the"
+" business (010)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "VAT accounting scheme"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "VAT excluded (412)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.internal_layout
+msgid "VAT:"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Water"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Work clothes"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Work in progress (VAT excluded)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "Yes"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"a) Tax due in respect of the application of goods for business purposes as "
+"referred to in Art. 13(b)"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"a) VAT invoiced by other taxable persons for goods or services supplied"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"b) Tax paid as joint and several guarantee in accordance with the conditions"
+" laid down in Art. 48"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"b) VAT due in respect of intra-Community acquisitions of goods other than "
+"manufactured tobacco"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "c) Adjusted tax - special arrangement for tax suspension"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid ""
+"c) VAT due or paid in respect of importations of goods other than "
+"manufactured tobacco and goods for non-business purposes"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "d) VAT due under the reverse charge"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "of manufactured tobacco"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "of which productive salaries"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "on payments received"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "on sales"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 12 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 12%"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "rate of 13 %"
+msgstr "zum MwSt.-Satz von 13 %"
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "rate of 13%"
+msgstr "zum MwSt.-Satz von 13%"
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 14 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 14%"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "rate of 16 %"
+msgstr "zum MwSt.-Satz von 16 %"
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "rate of 16%"
+msgstr "zum MwSt.-Satz von 16%"
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 17 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 17%"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 3 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 3%"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "rate of 7 %"
+msgstr "zum MwSt.-Satz von 7%"
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.view_l10n_lu_yearly_tax_report_manual_updated
+msgid "rate of 7%"
+msgstr "zum MwSt.-Satz von 7%"
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 8 %"
+msgstr ""
+
+#. module: l10n_lu_reports_annual_vat_2023
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_annual_vat_2023.l10n_lu_annual_tax_report_template
+msgid "rate of 8%"
+msgstr ""

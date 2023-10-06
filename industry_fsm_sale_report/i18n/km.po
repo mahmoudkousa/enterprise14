@@ -1,0 +1,122 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_sale_report
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Samkhann Seang <seangsamkhann@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:04+0000\n"
+"PO-Revision-Date: 2020-09-07 08:21+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<span>Disc.%</span>"
+msgstr ""
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">សរុបរង</strong>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>ការបូកសរុបរង</strong>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Amount"
+msgstr "ចំនួន"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_subtotal
+msgid "Delivered Subtotal"
+msgstr ""
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_total
+msgid "Delivered Total"
+msgstr ""
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_tax
+msgid "Delivered Total Tax"
+msgstr ""
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Description"
+msgstr "ការពិពណ៌​នា​"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template____last_update
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.fsm_template_field4
+msgid "Model"
+msgstr "ម៉ូដែល"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_product_template
+msgid "Product Template"
+msgstr "គំរូផលិតផល"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Quantity"
+msgstr "ចំនួន"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "លំដាប់បញ្ជាទិញ"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Time &amp; Material"
+msgstr ""
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Total Price"
+msgstr "តំលៃសរុប"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Unit Price"
+msgstr "កត្តាតំលៃ"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_product__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__worksheet_template_id
+msgid "Worksheet Template"
+msgstr ""

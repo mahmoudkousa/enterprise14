@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="hr_mobile assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/hr_mobile/static/src/js/language_mobile.js"/>
+        </xpath>
+    </template>
+
+    <template id="qunit_suite" name="hr_mobile_tests" inherit_id="web.qunit_mobile_suite_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/hr_mobile/static/tests/language_mobile_tests.js"/>
+        </xpath>
+    </template>
+</odoo>

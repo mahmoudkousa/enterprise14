@@ -1,0 +1,510 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_enterprise
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2021\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "(Enterprise Edition)"
+msgstr "(ការបោះពុម្ពសហគ្រាស)"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ") with the instructions to follow"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"- Contact your sales representative to help you to unlink your previous "
+"database"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "- Login to your Odoo.com dashboard then unlink your previous database:"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "1 month"
+msgstr "1 ខែ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Action"
+msgstr "សកម្មភាព"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/search_panel.xml:0
+#, python-format
+msgid "All"
+msgstr "ទាំងអស់"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Alt"
+msgstr "Alt"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Applications"
+msgstr "ពាក្យសុំ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#, python-format
+msgid "CLEAR"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "COMPANIES"
+msgstr "ក្រុមហ៊ុន"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/views/view_dialogs.js:0
+#, python-format
+msgid "Clear"
+msgstr "ច្បាស់"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Click here to send an email"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Close menu"
+msgstr "បិទម៉ឺនុយ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Control"
+msgstr "ត្រួតត្រា"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#, python-format
+msgid "Control panel toolbar"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Database expiration:"
+msgstr "ការផុតកំណត់មូលដ្ឋានទិន្នន័យ៖ "
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Dismiss"
+msgstr "បោះបង់ចោល។"
+
+#. module: web_enterprise
+#: model:ir.model.fields,field_description:web_enterprise.field_ir_http__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Error reason:"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#: code:addons/web_enterprise/static/src/xml/search_panel.xml:0
+#, python-format
+msgid "FILTER"
+msgstr ""
+
+#. module: web_enterprise
+#: model:ir.model,name:web_enterprise.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP ជុំវិញ"
+
+#. module: web_enterprise
+#: model:ir.model.fields,field_description:web_enterprise.field_ir_http__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: web_enterprise
+#: model:ir.model.fields,field_description:web_enterprise.field_ir_http____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Log in as an administrator to correct the issue."
+msgstr "ចូលជា អ្នកគ្រប់គ្រងដើម្បីកែបញ្ហា។ "
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Menu"
+msgstr "មឺនុយ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/web_calendar.xml:0
+#, python-format
+msgid "No filter available"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "No result"
+msgstr "គ្មានលទ្ធផល"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Odoo Enterprise Edition License V1.0"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Odoo Support"
+msgstr "ការគាំទ្រOdoo"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Paste code here"
+msgstr "បិទភ្ជាប់កូដនៅទីនេះ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/views/relational_fields.js:0
+#, python-format
+msgid "Quick search: %s"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Refresh subscription status"
+msgstr "ធ្វើឱ្យស្រស់ស្ថានភាពការជាវ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/expiration_panel.js:0
+#, python-format
+msgid "Register"
+msgstr "ចុះឈ្មោះ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Register your subscription"
+msgstr "ចុះឈ្មោះការជាវរបស់អ្នក"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/views/view_dialogs.js:0
+#, python-format
+msgid "Remove"
+msgstr "ដកចេញ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Renew your subscription"
+msgstr "បន្តការជាវរបស់អ្នក"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/expiration_panel.js:0
+#, python-format
+msgid "Retry"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#: code:addons/web_enterprise/static/src/xml/search_panel.xml:0
+#, python-format
+msgid "SEE RESULT"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Search"
+msgstr "ការស្រាវជ្រាវ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Search..."
+msgstr "ស្វែងរក...."
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Sending the instructions by email ..."
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"Something went wrong while registering your database. You can try again or "
+"contact"
+msgstr ""
+"មានអ្វីមួយមិនប្រក្រតីនៅពេលចុះឈ្មោះមូលដ្ឋានទិន្នន័យរបស់អ្នក។ "
+"អ្នកអាចព្យាយាមម្តងទៀតឬទាក់ទង។"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Subscription Code:"
+msgstr "លេខកូដជាវ៖"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"Thank you, your registration was successful! Your database is valid until"
+msgstr ""
+"សូមអរគុណ  ការចុះឈ្មោះរបស់អ្នកបានជោគជ័យ! "
+"មូលដ្ឋានទិន្នន័យរបស់អ្នកមានសុពលភាពរហូតដល់"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"The instructions to unlink your subscription from the previous database(s) "
+"have been sent"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "This database has expired."
+msgstr "មូលដ្ឋានទិន្នន័យនេះផុតកំណត់។"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "This database will expire in"
+msgstr "មូលដ្ឋានទិន្នន័យនេះនឹងផុតកំណត់ក្នុង"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "This demo database will expire in"
+msgstr "មូលដ្ឋានទិន្នន័យការបង្ហាញនេះនឹងផុតកំណត់ក្នុង"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "To unlink it you can either:"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#, python-format
+msgid "Today"
+msgstr "ថ្ងៃនេះ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Toggle home menu"
+msgstr "បិទបើកម៉ឺនុយផ្ទះ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Toggle menu"
+msgstr "បិទ / បើកម៉ឺនុយ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Unable to send the instructions by email, please contact the"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/views/kanban/kanban_renderer_mobile.js:0
+#, python-format
+msgid "Undefined"
+msgstr "មិនបានកំណត់"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Upgrade your subscription"
+msgstr "ធ្វើឱ្យប្រសើរការជាវរបស់អ្នក"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#, python-format
+msgid "View switcher"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"You have more users or more apps installed than your subscription allows."
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"You will be able to register your database once you have installed your "
+"first app."
+msgstr ""
+"អ្នកនឹងអាចចុះឈ្មោះមូលដ្ឋានទិន្នន័យរបស់អ្នកនៅពេលដែលអ្នកបានដំឡើងកម្មវិធីដំបូងរបស់អ្នក។"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Your subscription code"
+msgstr "លេខកូដការជាវរបស់អ្នក"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Your subscription is already linked to a database."
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Your subscription was updated and is valid until"
+msgstr "ការជាវរបស់អ្នកត្រូវបានធ្វើបច្ចុប្បន្នភាពហើយមានសុពលភាពរហូតដល់"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "buy a subscription"
+msgstr "ទិញការជាវ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "days"
+msgstr "ថ្ងៃ"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "or"
+msgstr "ឬ​"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "to the subscription owner (email:"
+msgstr ""

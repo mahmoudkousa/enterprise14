@@ -1,0 +1,218 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_workorder_iot
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-09 11:58+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__action
+msgid "Action"
+msgstr "សកម្មភាព"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_mrp_workorder__boxes
+msgid "Boxes"
+msgstr "ប្រអប់ច្រើន"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__cancel
+msgid "Cancel"
+msgstr "លុបចោល"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__clomo
+msgid "Close MO"
+msgstr "បិទMO"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__clowo
+msgid "Close WO"
+msgstr "បិទMO"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__create_uid
+msgid "Created by"
+msgstr "បង្កើតដោយ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__create_date
+msgid "Created on"
+msgstr "បង្កើតនៅ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__device_id
+msgid "Device"
+msgstr "ឧបករណ៍"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_mrp_workorder__device_name
+msgid "Device Name: "
+msgstr "ឈ្មោះទូរស័ព្ទ: "
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_mrp_workorder__ip
+msgid "Domain Address"
+msgstr ""
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__finish
+msgid "Finish"
+msgstr "រួចហើយ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model,name:mrp_workorder_iot.model_iot_device
+msgid "IOT Device"
+msgstr "ឧបករណ៍ IOT"
+
+#. module: mrp_workorder_iot
+#: model:ir.model,name:mrp_workorder_iot.model_iot_trigger
+msgid "IOT Trigger"
+msgstr "IOT Trigger"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_mrp_workorder__identifier
+msgid "Identifier"
+msgstr "ការកំណត់"
+
+#. module: mrp_workorder_iot
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_iot.iot_device_view_form
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_iot.mrp_workcenter_view_form_iot
+msgid "IoT Triggers"
+msgstr "IoT Triggers"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__key
+msgid "Key"
+msgstr "គន្លឹះ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__write_uid
+msgid "Last Updated by"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__write_date
+msgid "Last Updated on"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__next
+msgid "Next"
+msgstr "បន្ទាប់"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__pack
+msgid "Pack"
+msgstr "ខ្ចប់"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__pause
+msgid "Pause"
+msgstr "ផ្អាក"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__prev
+msgid "Previous"
+msgstr "មុន"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__print-slip
+msgid "Print Delivery Slip"
+msgstr "ប័ណ្ណចែកចាយការដឹកជញ្ជូន"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__print
+msgid "Print Labels"
+msgstr "បោះពុម្ពស្លាក"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__print-op
+msgid "Print Operation"
+msgstr "ប្រតិបត្ដិការបោះពុម្ព"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__record
+msgid "Record Production"
+msgstr "ផលិតកម្មកំណត់ត្រា"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__scrap
+msgid "Scrap"
+msgstr "ចំណិត"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__sequence
+msgid "Sequence"
+msgstr "លំដាប់"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__skip
+msgid "Skip"
+msgstr "រំលងចោល"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__picture
+msgid "Take Picture"
+msgstr "ថតរូប"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_device__trigger_ids
+msgid "Trigger"
+msgstr "កេះ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_mrp_workcenter__trigger_ids
+msgid "Triggers"
+msgstr "កេះ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields.selection,name:mrp_workorder_iot.selection__iot_trigger__action__validate
+msgid "Validate"
+msgstr "ធ្វើ​ឱ្យ​មាន​សុពលភាព"
+
+#. module: mrp_workorder_iot
+#: model:ir.model,name:mrp_workorder_iot.model_mrp_workcenter
+msgid "Work Center"
+msgstr "ដែលមជ្ឈមណ្ឌលការងារ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model,name:mrp_workorder_iot.model_mrp_workorder
+msgid "Work Order"
+msgstr "លំដាប់ការងារ"
+
+#. module: mrp_workorder_iot
+#: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__workcenter_id
+msgid "Workcenter"
+msgstr "អ្នកធ្វើការ"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+
+    <t t-name="web_studio.HomeMenu" t-inherit="web_enterprise.HomeMenu" t-inherit-mode="extension">
+        <xpath expr="." position="attributes">
+            <attribute name="t-att-style">props.style</attribute>
+        </xpath>
+    </t>
+
+</templates>

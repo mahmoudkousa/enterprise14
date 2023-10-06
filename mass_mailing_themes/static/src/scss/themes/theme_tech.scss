@@ -1,0 +1,176 @@
+// =========================
+// Mass Mailing "Theme Tech"
+// =========================
+
+$o-mm-tech-color-1: #333;
+$o-mm-tech-color-2: white;
+$o-mm-tech-color-3: #59cdcd;
+$o-mm-tech-color-4: #bdbdbd;
+$o-mm-tech-color-5: black;
+$o-mm-tech-color-6: #a17e92;
+
+.o_tech_theme {
+    @include bg-variant(".bg-o-color-2", $o-mm-tech-color-3);
+    @include text-emphasis-variant(".text-o-color-2", $o-mm-tech-color-3);
+    @include bg-variant(".bg-o-color-4", $o-mm-tech-color-6);
+
+    .bg-o-color-2 {
+        .btn.btn-primary {
+            color: $o-mm-tech-color-3;
+            background-color: $o-mm-tech-color-2;
+        }
+    }
+
+    // ===== Layout =====
+    &.o_layout {
+        background-color: $o-mm-tech-color-1;
+
+        .o_mail_wrapper_td {
+            background-color: transparent;
+            color: $o-mm-tech-color-4;
+            border: none;
+        }
+    }
+
+    // ===== Snippets (general) =====
+    .o_mail_snippet_general {
+        .btn.btn-primary {
+            color: $o-mm-tech-color-2;
+            background-color: $o-mm-tech-color-3;
+        }
+
+        .o_mail_full_width_padding {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        a:not(.btn), .btn.btn-link {
+            font-weight: normal;
+            color: $o-mm-tech-color-3;
+        }
+
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+            color: darken($o-mm-tech-color-2, 10%);
+        }
+
+        .bg-o-color-2, .bg-o-color-4 {
+            h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+                color: $o-mm-tech-color-2;
+            }
+        }
+
+        .bg-o-color-2 {
+            .btn.btn-primary {
+                color: $o-mm-tech-color-3;
+                background-color: $o-mm-tech-color-2;
+            }
+        }
+    }
+
+    // ===== Snippets (specific) =====
+    .o_mail_block_header_social, .o_mail_block_header_text_social, .o_mail_block_header_logo {
+        .o_mail_snippet_general {
+            width: auto;
+            margin-top: 10px;
+            margin-bottom: 25px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 560px;
+            box-sizing: content-box;
+
+            > table {
+                max-width: 560px;
+                border-bottom: 1px solid darken($o-mm-tech-color-2, 60%);
+            }
+        }
+
+        .o_mail_h_padding.o_mail_v_padding {
+            padding: 10px 0 5px;
+        }
+
+        .o_mail_header_social {
+            margin-right: 0px;
+            a:not(.btn), .btn.btn-link {
+                color: darken($o-mm-tech-color-2, 40%);
+            }
+        }
+    }
+
+    .o_mail_block_footer_separator {
+        .separator {
+            height: 1px;
+            background-color: darken($o-mm-tech-color-2, 60%);
+        }
+    }
+
+    .o_mail_block_event {
+        margin-left: 20px;
+        margin-right: 20px;
+
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+            color: $o-mm-tech-color-1;
+        }
+    }
+
+    .o_mail_block_discount2 {
+        .o_code {
+            color: $o-mm-tech-color-1;
+        }
+    }
+
+    .o_mail_block_footer_separator {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .o_mail_block_steps .o_mail_snippet_general{
+        background-color: transparent;
+
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+            color: $o-mm-tech-color-1;
+        }
+
+        .o_mail_full_width_padding > tbody > tr  {
+            background-color: $o-mm-tech-color-2;
+            color: $o-mm-tech-color-1;
+        }
+    }
+
+    .o_mail_block_footer_social {
+        .o_mail_snippet_general {
+            background: rgba(0,0,0,0);
+            background: transparent;
+        }
+
+        .o_mail_table_styles {
+            border-top: none;
+        }
+
+        .o_mail_footer_social {
+            a:not(.btn), .btn.btn-link {
+                color: darken($o-mm-tech-color-2, 40%);
+            }
+        }
+
+        .o_mail_footer_links {
+            a:not(.btn), .btn.btn-link {
+                color: darken($o-mm-tech-color-2, 40%);
+            }
+        }
+
+        .o_mail_footer_copy {
+            font-weight: bold;
+            font-size: 9px;
+            color: darken($o-mm-tech-color-2, 30%);
+        }
+
+        &.o_mail_footer_social_left {
+            .o_mail_footer_description {
+                padding-left: 0;
+            }
+            .o_mail_footer_social {
+                padding-right: 0;
+            }
+        }
+    }
+}

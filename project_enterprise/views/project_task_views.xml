@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Add map view -->
+    <record id="project.act_project_project_2_project_task_all" model="ir.actions.act_window">
+        <field name="view_mode">kanban,tree,form,calendar,pivot,graph,activity,map</field>
+    </record>
+
+    <!-- Adding manager gantt view to Project -->
+    <record id="project_task_view_gantt" model="ir.ui.view">
+        <field name="name">project.task.view.gantt</field>
+        <field name="model">project.task</field>
+        <field name="priority">10</field>
+        <field name="arch" type="xml">
+            <gantt date_start="planned_date_begin"
+                date_stop="planned_date_end"
+                default_scale="week"
+                scales="day,week,month,year"
+                color="project_color"
+                string="Planning"
+                thumbnails="{'user_id': 'image_128'}"
+                js_class="task_gantt"
+                display_unavailability="1"
+                sample="1"
+                precision="{'day': 'hour:quarter', 'week': 'day:half', 'month': 'day:full'}">
+                <templates>
+                    <div t-name="gantt-popover" class="container-fluid">
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <ul class="pl-1 mb-0">
+                                    <li t-if="partner_id"><strong>Customer: </strong> <t t-esc="partner_id[1]"/></li>
+                                    <li><strong>Start Date: </strong> <t t-esc="userTimezoneStartDate.format('L LTS')"/></li>
+                                    <li><strong>Stop Date: </strong> <t t-esc="userTimezoneStopDate.format('L LTS')"/></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </templates>
+                <field name="partner_id"/>
+                <field name="project_color" />
+            </gantt>
+        </field>
+    </record>
+
+    <!-- Adding map view to project-->
+    <record id="project_task_map_view" model="ir.ui.view">
+        <field name="name">project.task.view.map</field>
+        <field name="model">project.task</field>
+        <field name="priority">12</field>
+        <field name="arch" type="xml">
+            <map res_partner="partner_id" default_order="planned_date_begin" routing="true">
+                <field name="planned_date_begin" string="Date"/>
+                <field name="partner_phone" string="Phone"/>
+            </map>
+        </field>
+    </record>
+
+    <record id="project_task_map_view_no_title" model="ir.ui.view">
+        <field name="name">project.task.view.map</field>
+        <field name="model">project.task</field>
+        <field name="priority">12</field>
+        <field name="arch" type="xml">
+            <map res_partner="partner_id" default_order="planned_date_begin" routing="true" hide_title="true">
+                <field name="planned_date_begin" string="Date"/>
+                <field name="partner_phone" string="Phone"/>
+            </map>
+        </field>
+    </record>
+
+    <!-- All Task action with map view -->
+    <record id="project.action_view_task" model="ir.actions.act_window">
+        <field name="res_model">project.task</field>
+        <field name="view_mode">kanban,tree,form,calendar,pivot,graph,gantt,activity,map</field>
+    </record>
+
+    <record id="project.action_view_all_task" model="ir.actions.act_window">
+        <field name="res_model">project.task</field>
+        <field name="view_mode">tree,kanban,form,calendar,pivot,graph,gantt,activity,map</field>
+    </record>
+
+    <!-- Set map view and rearrange order -->
+    <record id="project_task_kanban_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="10"/>
+        <field name="view_mode">kanban</field>
+        <field name="act_window_id" ref="project.act_project_project_2_project_task_all"/>
+    </record>
+
+    <record id="project_task_tree_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="20"/>
+        <field name="view_mode">tree</field>
+        <field name="act_window_id" ref="project.act_project_project_2_project_task_all"/>
+    </record>
+
+    <record id="project_task_form_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="30"/>
+        <field name="view_mode">form</field>
+        <field name="act_window_id" ref="project.act_project_project_2_project_task_all"/>
+    </record>
+
+    <record id="project_all_task_calendar_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="40"/>
+        <field name="view_mode">calendar</field>
+        <field name="act_window_id" ref="project.act_project_project_2_project_task_all"/>
+    </record>
+
+    <record id="project_all_task_pivot_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="50"/>
+        <field name="view_mode">pivot</field>
+        <field name="act_window_id" ref="project.act_project_project_2_project_task_all"/>
+    </record>
+
+    <record id="project_all_task_graph_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="60"/>
+        <field name="view_mode">graph</field>
+        <field name="act_window_id" ref="project.act_project_project_2_project_task_all"/>
+    </record>
+
+    <record id="project_all_task_activity_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="80"/>
+        <field name="view_mode">activity</field>
+        <field name="act_window_id" ref="project.act_project_project_2_project_task_all"/>
+    </record>
+
+    <record id="project_all_task_map_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="90"/>
+        <field name="view_mode">map</field>
+        <field name="act_window_id" ref="project.act_project_project_2_project_task_all"/>
+        <field name="view_id" ref="project_task_map_view_no_title"/>
+    </record>
+
+    <record id="project_task_map_action_view" model="ir.actions.act_window.view">
+        <field name="sequence" eval="90"/>
+        <field name="view_mode">map</field>
+        <field name="act_window_id" ref="project.action_view_task"/>
+        <field name="view_id" ref="project_task_map_view_no_title"/>
+    </record>
+
+</odoo>

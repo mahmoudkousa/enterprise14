@@ -1,0 +1,173 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_event_track_social
+# 
+# Translators:
+# Ediz Duman <neps1192@gmail.com>, 2020
+# Levent Karakaş <levent@mektup.at>, 2020
+# Murat Kaplan <muratk@projetgrup.com>, 2020
+# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2020
+# Metin Akın <aknmetin@gmail.com>, 2020
+# Tugay Hatıl <tugayh@projetgrup.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 15:44+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2023\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: website_event_track_social
+#: model_terms:ir.ui.view,arch_db:website_event_track_social.event_track_view_form
+msgid ""
+"<span attrs=\"{'invisible': [('push_reminder', '!=', True)]}\">minutes "
+"before start</span>"
+msgstr ""
+"<span attrs=\"{'invisible': [('push_reminder', '!=', True)]}\">başlamadan "
+"dakikalar önce</span>"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,help:website_event_track_social.field_event_track__push_reminder
+msgid ""
+"Check this if you want to send a push notification reminder to everyone that"
+" has wishlisted this track."
+msgstr ""
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_event__display_name
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_track__display_name
+#: model:ir.model.fields,field_description:website_event_track_social.field_social_post__display_name
+#: model:ir.model.fields,field_description:website_event_track_social.field_website_visitor__display_name
+msgid "Display Name"
+msgstr "Görünüm Adı"
+
+#. module: website_event_track_social
+#: model_terms:ir.ui.view,arch_db:website_event_track_social.event_track_view_form
+msgid "Edit Push Reminder"
+msgstr "Hatırlatıcıyı Düzenle."
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_track__firebase_enable_push_notifications
+msgid "Enable Web Push Notifications"
+msgstr "Web Anlık Bildirimlerini Etkinleştir"
+
+#. module: website_event_track_social
+#: model:ir.model,name:website_event_track_social.model_event_event
+msgid "Event"
+msgstr "Etkinlik"
+
+#. module: website_event_track_social
+#: model:ir.model,name:website_event_track_social.model_event_track
+msgid "Event Track"
+msgstr "Etkinlik Yeri"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,help:website_event_track_social.field_event_track__push_reminder_delay
+msgid ""
+"How many minutes before the start of the talk do you want to send the "
+"reminder?"
+msgstr ""
+"Hatırlatıcıyı konuşmanın başlamasından kaç dakika önce göndermek "
+"istiyorsunuz?"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_event__id
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_track__id
+#: model:ir.model.fields,field_description:website_event_track_social.field_social_post__id
+#: model:ir.model.fields,field_description:website_event_track_social.field_website_visitor__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_event____last_update
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_track____last_update
+#: model:ir.model.fields,field_description:website_event_track_social.field_social_post____last_update
+#: model:ir.model.fields,field_description:website_event_track_social.field_website_visitor____last_update
+msgid "Last Modified on"
+msgstr "Son Düzenleme"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_social_post__event_track_id
+msgid "Linked Event Track"
+msgstr "Bağlantılı Etkinlik İzleme"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_website_visitor__event_track_push_enabled_ids
+msgid "Push Enabled Tracks"
+msgstr "Push Etkin Parçalar"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_track__push_reminder
+#: model_terms:ir.ui.view,arch_db:website_event_track_social.event_track_view_form
+msgid "Push Reminder"
+msgstr "Push Reminder"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_track__push_reminder_delay
+msgid "Push Reminder Delay"
+msgstr "Hatırlatma Gecikmesi"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,field_description:website_event_track_social.field_event_track__push_reminder_posts
+msgid "Push Reminders"
+msgstr "Push Reminders"
+
+#. module: website_event_track_social
+#: model_terms:ir.ui.view,arch_db:website_event_track_social.event_event_view_form
+msgid "Send Push Reminders"
+msgstr ""
+
+#. module: website_event_track_social
+#: model:ir.model,name:website_event_track_social.model_social_post
+msgid "Social Post"
+msgstr "Sosyal Gönderi"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,help:website_event_track_social.field_social_post__event_track_id
+msgid ""
+"Technical field that holds the relationship between a track and this "
+"'reminder' post"
+msgstr ""
+
+#. module: website_event_track_social
+#: code:addons/website_event_track_social/models/event_track.py:0
+#, python-format
+msgid "There are no push reminders associated with this track"
+msgstr "Bu parçayla ilişkilendirilmiş push hatırlatıcı yok"
+
+#. module: website_event_track_social
+#: model:ir.model.fields,help:website_event_track_social.field_website_visitor__event_track_push_enabled_ids
+msgid ""
+"Tracks that are 'default wishlisted' can be blacklisted and the visitor is "
+"removed from push reminders."
+msgstr ""
+
+#. module: website_event_track_social
+#: model:ir.model,name:website_event_track_social.model_website_visitor
+msgid "Website Visitor"
+msgstr "Websitesi Ziyaretçi"
+
+#. module: website_event_track_social
+#: code:addons/website_event_track_social/models/event.py:0
+#, python-format
+msgid "You do not have access to this action."
+msgstr "Bu eyleme erişiminiz yok."
+
+#. module: website_event_track_social
+#: code:addons/website_event_track_social/models/event_track.py:0
+#, python-format
+msgid "Your track is about to start!"
+msgstr "Parkurunuz başlamak üzere!"
+
+#. module: website_event_track_social
+#: code:addons/website_event_track_social/models/event_track.py:0
+#, python-format
+msgid "Your wishlisted track '%s' will start in %s minutes!"
+msgstr ""

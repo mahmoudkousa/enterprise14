@@ -1,0 +1,61 @@
+<odoo>
+
+<!-- Material kanban -->
+<record id="view_product_product_kanban_material" model="ir.ui.view">
+    <field name="name">view.product.template.kanban.material</field>
+    <field name="model">product.product</field>
+    <field name="priority">999</field>
+    <field name="arch" type="xml">
+        <kanban edit="0" class="o_kanban_mobile o_fsm_material_kanban" js_class="fsm_product_kanban">
+            <field name="id"/>
+            <field name="name"/>
+            <field name="product_template_attribute_value_ids"/>
+            <templates>
+                <t t-name="kanban-box">
+                    <div class="o_kanban_record o_fsm_industry_product d-flex" style="min-height: 100px;align-items:center;">
+                        <div class="o_kanban_image">
+                            <img t-att-src="kanban_image('product.product', 'image_128', record.id.raw_value)" alt="Product" class="o_image_64_contain"/>
+                        </div>
+                        <div class="oe_kanban_details p-2 d-flex">
+                            <div class="o_kanban_record_top w-100 " style="justify-content: space-between;">
+                                <div class="o_kanban_record_headings">
+                                    <strong class="o_kanban_record_title">
+                                        <div>
+                                            <strong><span t-esc="record.name.value"/></strong>
+                                        </div>
+                                    </strong>
+                                    <div class="o_kanban_tags_section">
+                                        <field name="product_template_attribute_value_ids" groups="product.group_product_variant"/>
+                                    </div>
+                                    <ul>
+                                        <li><strong>Price: <field name="price" widget="monetary" options="{'currency_field': 'currency_id'}"></field></strong></li>
+                                        <field name="currency_id" invisible="True"/>
+                                    </ul>
+                                </div>
+                                <!-- CLEAN ME: buttons should be part of the field widget; style should not be inlined -->
+                                <div class="h-100 d-flex"
+                                    style="z-index:1;align-items: center;">
+                                    <button t-attf-class="btn p-0 o_qty_button {{record.fsm_quantity.raw_value != 0 ? 'btn-primary' : 'btn-light text-muted'}}" 
+                                            invisible="context.get('hide_qty_buttons')" type="object" name="fsm_remove_quantity">
+                                        <span style="font-size:1.5rem;">-</span>
+                                    </button>
+                                    <div class="p-0 oe_inline d-inline-block o_qty_button" invisible="not context.get('hide_qty_buttons')"/>
+
+                                    <field name="fsm_quantity" widget="fsmProductQuantity"/>
+
+                                    <button t-attf-class="btn p-0 o_qty_button {{record.fsm_quantity.raw_value != 0 ? 'btn-primary' : 'btn-light text-muted'}}" 
+                                            invisible="context.get('hide_qty_buttons')" type="object" name="fsm_add_quantity">
+                                    <span style="font-size:1.5rem;">+</span></button>
+                                    <div class="p-0 oe_inline d-inline-block o_qty_button" invisible="not context.get('hide_qty_buttons')"/>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="object" class="col-12 h-100 w-100 o_button_invisible" name="fsm_add_quantity" invisible="context.get('hide_qty_buttons')"/>
+                    </div>
+                </t>
+            </templates>
+        </kanban>
+    </field>
+</record>
+
+</odoo>

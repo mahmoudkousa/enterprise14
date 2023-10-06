@@ -1,0 +1,55 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_predictive_bills
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Language-Team: Hindi (https://www.transifex.com/odoo/teams/41243/hi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_predictive_bills
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move_line__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_predictive_bills
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move__id
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move_line__id
+msgid "ID"
+msgstr ""
+
+#. module: account_predictive_bills
+#: model:ir.model,name:account_predictive_bills.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: account_predictive_bills
+#: model:ir.model,name:account_predictive_bills.model_account_move_line
+msgid "Journal Item"
+msgstr ""
+
+#. module: account_predictive_bills
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move_line____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: account_predictive_bills
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move_line__predict_from_name
+msgid "Predict From Name"
+msgstr ""
+
+#. module: account_predictive_bills
+#: model:ir.model.fields,help:account_predictive_bills.field_account_move_line__predict_from_name
+msgid ""
+"Technical field used to know on which lines the prediction must be done."
+msgstr ""

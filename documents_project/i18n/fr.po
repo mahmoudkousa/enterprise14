@@ -1,0 +1,149 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_project
+# 
+# Translators:
+# Moka Tourisme <hello@mokatourisme.fr>, 2020
+# Martin Trigaux, 2020
+# Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
+# Eloïse Stilmant <est@odoo.com>, 2020
+# Cécile Collart <cco@odoo.com>, 2020
+# Alexandra Jubert, 2020
+# Nathan Grognet <ngr@odoo.com>, 2020
+# thomas quertinmont <tqu@odoo.com>, 2020
+# Jolien De Paepe, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:19+0000\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Les valeurs définies ici sont"
+" spécifiques à l'entreprise.\" aria-label=\"Les valeurs définies ici sont "
+"spécifiques à l'entreprise.\" groups=\"base.group_multi_company\" "
+"role=\"img\"/>"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_documents_workflow_rule
+msgid ""
+"A set of condition and actions which will be available to all attachments "
+"matching the conditions"
+msgstr ""
+"Un ensemble de conditions et d'actions qui seront disponibles pour toutes "
+"les pièces jointes correspondant aux conditions"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Centralize files attached to projects and tasks"
+msgstr "Centraliser les fichiers joints aux projets et aux tâches"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr "Créer"
+
+#. module: documents_project
+#: model:documents.workflow.rule,name:documents_project.documents_project_rule
+msgid "Create a Task"
+msgstr "Créer une tâche"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Default Tags"
+msgstr "Etiquettes par Défaut"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__display_name
+#: model:ir.model.fields,field_description:documents_project.field_project_project__display_name
+#: model:ir.model.fields,field_description:documents_project.field_project_task__display_name
+#: model:ir.model.fields,field_description:documents_project.field_res_company__display_name
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__documents_project_settings
+msgid "Documents Project Settings"
+msgstr "Paramètres du Projet des Documents"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__has_business_option
+msgid "Has Business Option"
+msgstr "A l'Option Business"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__id
+#: model:ir.model.fields,field_description:documents_project.field_project_project__id
+#: model:ir.model.fields,field_description:documents_project.field_project_task__id
+#: model:ir.model.fields,field_description:documents_project.field_res_company__id
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule____last_update
+#: model:ir.model.fields,field_description:documents_project.field_project_project____last_update
+#: model:ir.model.fields,field_description:documents_project.field_project_task____last_update
+#: model:ir.model.fields,field_description:documents_project.field_res_company____last_update
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_project_project
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__documents_project_settings
+msgid "Project"
+msgstr "Projet"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__project_tags
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__project_tags
+msgid "Project Tags"
+msgstr "Étiquettes de projet"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__project_folder
+msgid "Project Workspace"
+msgstr "Espace de travail projet"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_project_task
+#: model:ir.model.fields.selection,name:documents_project.selection__documents_workflow_rule__create_model__project_task
+msgid "Task"
+msgstr "Tâche"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Workspace"
+msgstr "Espace de travail "
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__project_folder
+msgid "project default workspace"
+msgstr "espace de travail par défaut du projet"

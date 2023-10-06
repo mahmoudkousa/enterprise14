@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets" inherit_id="point_of_sale.assets" name="Pos Barcode Mobile Assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_hr_mobile/static/src/js/LoginScreenMobile.js"/>
+            <link rel="stylesheet" type="text/scss" href="/pos_hr_mobile/static/src/scss/barcode_mobile.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/barcodes_mobile/static/src/scss/barcode_mobile.scss"/>
+        </xpath>
+    </template>
+</odoo>

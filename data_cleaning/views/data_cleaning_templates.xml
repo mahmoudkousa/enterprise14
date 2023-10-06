@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="data cleaning assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/data_cleaning/static/src/js/data_cleaning_common.js"></script>
+            <script type="text/javascript" src="/data_cleaning/static/src/js/data_cleaning_list_view.js"></script>
+        </xpath>
+    </template>
+
+    <template id="notification">
+I've identified <t t-esc="records_count" /> records to clean with the '<t t-esc="res_model_label" />' field cleaning rule.<br/>
+You can validate changes <a t-attf-href="/web?#action=data_cleaning.action_data_cleaning_record_notification&amp;active_id={{cleaning_model_id}}&amp;menu_id={{menu_id}}">here</a>.
+    </template>
+</odoo>

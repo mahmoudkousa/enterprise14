@@ -1,0 +1,94 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sale_ebay_account_deletion
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-06 08:50+0000\n"
+"PO-Revision-Date: 2021-09-06 08:50+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_ebay_account_deletion
+#: model_terms:ir.ui.view,arch_db:sale_ebay_account_deletion.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">eBay Marketplace Account Deletion/Closure Notifications</span>"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model:ir.model,name:sale_ebay_account_deletion.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model:ir.model,name:sale_ebay_account_deletion.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model_terms:ir.ui.view,arch_db:sale_ebay_account_deletion.res_config_settings_view_form
+msgid "Generate Token"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model:ir.model.fields,field_description:sale_ebay_account_deletion.field_res_config_settings__ebay_account_deletion_endpoint
+msgid "Marketplace account deletion notification endpoint"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: code:addons/sale_ebay_account_deletion/models/res_config_settings.py:34
+#, python-format
+msgid "Please provide your ebay production keys before enabling the account deletion notifications."
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: code:addons/sale_ebay_account_deletion/models/res_config_settings.py:40
+#, python-format
+msgid "The python 'cryptography' module is not installed on your server.\n"
+"It is necessary to support eBay account deletion notifications, please contact your system administrator to install it."
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: code:addons/sale_ebay_account_deletion/models/res_partner.py:57
+#, python-format
+msgid "This is an automated notification as a deletion request has been received from eBay concerning the account \"%s (%s)\". The account has been anonymised already and his portal access revoked (if they had any).\n"
+"\n"
+"However, personal information might remain in linked documents, please review them according to laws that apply."
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model:ir.model.fields,field_description:sale_ebay_account_deletion.field_res_config_settings__ebay_verification_token
+msgid "Verification Token"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model:mail.activity.type,summary:sale_ebay_account_deletion.ebay_GDPR_notification
+msgid "eBay Odoo connector notification - account deletion"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model:mail.activity.type,name:sale_ebay_account_deletion.ebay_GDPR_notification
+msgid "eBay connector: account deletion notification"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model_terms:ir.ui.view,arch_db:sale_ebay_account_deletion.res_config_settings_view_form
+msgid "eBay documentation"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model_terms:ir.ui.view,arch_db:sale_ebay_account_deletion.res_config_settings_view_form
+msgid "eBay requires supporting customer account deletion/closure notifications.\n"
+"                            Please follow the"
+msgstr ""
+
+#. module: sale_ebay_account_deletion
+#: model_terms:ir.ui.view,arch_db:sale_ebay_account_deletion.res_config_settings_view_form
+msgid "to setup this mechanism."
+msgstr ""
+

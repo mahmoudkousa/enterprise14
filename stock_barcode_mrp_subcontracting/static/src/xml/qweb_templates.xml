@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" inherit_id="stock_barcode.template" xml:space="preserve">
+
+    <t t-extend="stock_barcode_lines_widget">
+        <t t-jquery=".o_barcode_control.d-flex:last" t-operation="append">
+            <button t-if="widget.display_action_record_components" class="btn btn-success text-uppercase o_mrp_subcontracting">Record Components</button>
+        </t>
+    </t>
+    <t t-extend="stock_barcode_lines_template">
+        <t t-jquery=".o_barcode_line_actions.d-flex:first" t-operation="append">
+            <div t-if="state != 'done' and state != 'cancel' and line.is_subcontract and line.qty_done" t-att-data-move_id='line.move_id[0]' class="o_barcode_line_actions d-flex align-items-center pl-4">
+                <a class="o_show_subcontract_details text-muted" href="#" title="Show subcontract Details"><i class="fa fa-sitemap"/></a>
+            </div>
+        </t>
+    </t>
+
+</templates>

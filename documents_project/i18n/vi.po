@@ -1,0 +1,144 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_project
+# 
+# Translators:
+# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020
+# Duy BQ <duybq86@gmail.com>, 2020
+# Dung Nguyen Thi <dungnt@trobz.com>, 2020
+# Dao Nguyen <trucdao.uel@gmail.com>, 2020
+# Trần Hà <tranthuha13590@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:19+0000\n"
+"Last-Translator: Trần Hà <tranthuha13590@gmail.com>, 2021\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_documents_workflow_rule
+msgid ""
+"A set of condition and actions which will be available to all attachments "
+"matching the conditions"
+msgstr ""
+"Loạt các điều kiện và hành động có sẵn cho tất cả các tệp đính kèm phù hợp "
+"với các điều kiện"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Centralize files attached to projects and tasks"
+msgstr "Centralize files attached to projects and tasks"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_res_company
+msgid "Companies"
+msgstr "Công ty"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_res_config_settings
+msgid "Config Settings"
+msgstr "Thiết lập cấu hình"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr "Tạo"
+
+#. module: documents_project
+#: model:documents.workflow.rule,name:documents_project.documents_project_rule
+msgid "Create a Task"
+msgstr "Create a Task"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Default Tags"
+msgstr "Default Tags"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__display_name
+#: model:ir.model.fields,field_description:documents_project.field_project_project__display_name
+#: model:ir.model.fields,field_description:documents_project.field_project_task__display_name
+#: model:ir.model.fields,field_description:documents_project.field_res_company__display_name
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__documents_project_settings
+msgid "Documents Project Settings"
+msgstr "Documents Project Settings"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__has_business_option
+msgid "Has Business Option"
+msgstr "Có lựa chọn kinh doanh"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__id
+#: model:ir.model.fields,field_description:documents_project.field_project_project__id
+#: model:ir.model.fields,field_description:documents_project.field_project_task__id
+#: model:ir.model.fields,field_description:documents_project.field_res_company__id
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule____last_update
+#: model:ir.model.fields,field_description:documents_project.field_project_project____last_update
+#: model:ir.model.fields,field_description:documents_project.field_project_task____last_update
+#: model:ir.model.fields,field_description:documents_project.field_res_company____last_update
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_project_project
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__documents_project_settings
+msgid "Project"
+msgstr "Dự án"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__project_tags
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__project_tags
+msgid "Project Tags"
+msgstr "Thẻ dự án"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__project_folder
+msgid "Project Workspace"
+msgstr "Project Workspace"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_project_task
+#: model:ir.model.fields.selection,name:documents_project.selection__documents_workflow_rule__create_model__project_task
+msgid "Task"
+msgstr "Công việc"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Workspace"
+msgstr "Không gian làm việc"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__project_folder
+msgid "project default workspace"
+msgstr "project default workspace"

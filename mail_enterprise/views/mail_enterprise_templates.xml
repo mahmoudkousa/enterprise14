@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_backend" name="Mail Enterprise Assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/mail_enterprise/static/src/js/attachment_viewer.js"/>
+            <script type="text/javascript" src="/mail_enterprise/static/src/bugfix/bugfix.js"/>
+            <script type="text/javascript" src="/mail_enterprise/static/src/widgets/form_renderer/form_renderer.js"/>
+
+            <link rel="stylesheet" type="text/scss" href="/mail_enterprise/static/src/scss/mail_enterprise.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/mail_enterprise/static/src/scss/mail_enterprise_mobile.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/mail_enterprise/static/src/bugfix/bugfix.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/mail_enterprise/static/src/widgets/form_renderer/form_renderer.scss"/>
+        </xpath>
+    </template>
+
+    <template id="assets_tests" name="Mail Enterprise Assets Tests" inherit_id="web.assets_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/mail_enterprise/static/tests/tours/mail_channel_expand_test_tour.js"/>
+        </xpath>
+    </template>
+
+    <template id="qunit_suite" name="mail_tests" inherit_id="web.qunit_suite_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/mail_enterprise/static/src/bugfix/bugfix_tests.js"></script>
+            <script type="text/javascript" src="/mail_enterprise/static/src/components/attachment/attachment_tests.js"/>
+            <script type="text/javascript" src="/mail_enterprise/static/src/components/chat_window_manager/chat_window_manager_tests.js"/>
+            <script type="text/javascript" src="/mail_enterprise/static/src/components/messaging_menu/messaging_menu_tests.js"/>
+            <script type="text/javascript" src="/mail_enterprise/static/src/widgets/form_renderer/form_renderer_tests.js"></script>
+            <script type="text/javascript" src="/mail_enterprise/static/tests/attachment_preview_tests.js"></script>
+        </xpath>
+    </template>
+
+</odoo>

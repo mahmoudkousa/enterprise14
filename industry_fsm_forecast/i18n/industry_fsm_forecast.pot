@@ -1,0 +1,46 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_forecast
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-01 07:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,field_description:industry_fsm_forecast.field_project_project__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,help:industry_fsm_forecast.field_project_project__allow_forecast
+msgid "Enable planning tasks on the project."
+msgstr ""
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,field_description:industry_fsm_forecast.field_project_project__id
+msgid "ID"
+msgstr ""
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,field_description:industry_fsm_forecast.field_project_project____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,field_description:industry_fsm_forecast.field_project_project__allow_forecast
+msgid "Planning"
+msgstr ""
+
+#. module: industry_fsm_forecast
+#: model:ir.model,name:industry_fsm_forecast.model_project_project
+msgid "Project"
+msgstr ""

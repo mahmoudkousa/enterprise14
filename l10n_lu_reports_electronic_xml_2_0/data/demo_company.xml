@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_lu.demo_company_lu" model="res.company">
+        <field name="matr_number">1111111111111</field>
+        <field name="ecdf_prefix">ABCD12</field>
+        <field name="l10n_lu_agent_vat">LU12345613</field>
+        <field name="l10n_lu_agent_matr_number">2222222222222</field>
+        <field name="l10n_lu_agent_ecdf_prefix">EFGH34</field>
+    </record>
+</odoo>

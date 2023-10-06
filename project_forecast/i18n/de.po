@@ -1,0 +1,289 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_forecast
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Philipp Fürstos <pfu@odoo.com>, 2020
+# Leon Grill <leg@odoo.com>, 2020
+# Chris Egal <sodaswed@web.de>, 2020
+# Bettina Pfeifer <bettina@dygytally.de>, 2021
+# Friederike Fasterling-Nesselbosch, 2022
+# c2cdidier <didier.donze@camptocamp.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:04+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: c2cdidier <didier.donze@camptocamp.com>, 2022\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_view_kanban_inherit_project_forecast
+msgid "<span class=\"o_label\">Planning</span>"
+msgstr "<span class=\"o_label\">Planung</span>"
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
+msgid "<span class=\"o_stat_text\">Forecast</span>"
+msgstr "<span class=\"o_stat_text\">Prognose</span>"
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_task_view_form
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
+msgid "<span class=\"o_stat_value\">Hours</span>"
+msgstr "<span class=\"o_stat_value\">Stunden</span>"
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.period_report_template
+msgid "ASSIGN ME THIS SHIFT"
+msgstr "WEISE MIR DIESE SCHICHT ZU"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_res_config_settings__group_project_forecast_display_allocate_time
+msgid "Allocated Time Percentage"
+msgstr ""
+
+#. module: project_forecast
+#: model:res.groups,name:project_forecast.group_project_forecast_display_allocate_time
+msgid "Allocated time percentage Gantt"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_task__allow_forecast
+msgid "Allow Planning"
+msgstr "Planung zulassen"
+
+#. module: project_forecast
+#: model:ir.ui.menu,name:project_forecast.planning_menu_schedule_by_project
+msgid "By Project"
+msgstr "Nach Projekt"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfiguration "
+
+#. module: project_forecast
+#: model:res.groups,comment:project_forecast.group_project_forecast_display_allocate_time
+msgid "Display Employee's allocated time percentage in the Gantt view"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__display_name
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot_template__display_name
+#: model:ir.model.fields,field_description:project_forecast.field_project_project__display_name
+#: model:ir.model.fields,field_description:project_forecast.field_project_task__display_name
+#: model:ir.model.fields,field_description:project_forecast.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.res_config_settings_view_form
+msgid "Display employees' allocated time percentage in the Gantt view"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_planning_slot__allow_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_project__allow_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_task__allow_forecast
+msgid "Enable planning tasks on the project."
+msgstr "Aktivieren Sie die Planung von Aufgaben für das Projekt."
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_task_view_form
+msgid "Forecast"
+msgstr "Prognose"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__forecast_hours
+#: model:ir.model.fields,field_description:project_forecast.field_project_task__forecast_hours
+msgid "Forecast Hours"
+msgstr "Prognose Stunden"
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_task_view_form
+msgid "Forecasts"
+msgstr "Prognosen"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__id
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot_template__id
+#: model:ir.model.fields,field_description:project_forecast.field_project_project__id
+#: model:ir.model.fields,field_description:project_forecast.field_project_task__id
+#: model:ir.model.fields,field_description:project_forecast.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: project_forecast
+#: model:ir.model.constraint,message:project_forecast.constraint_planning_slot_project_required_if_task
+msgid "If the planning is linked to a task, the project must be set too."
+msgstr ""
+"Wenn die Planung mit einer Aufgabe verknüpft ist, muss auch das Projekt "
+"festgelegt werden."
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__planned_hours
+msgid "Initially Planned Hours"
+msgstr "Ursprünglich geplante Stunden"
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot____last_update
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot_template____last_update
+#: model:ir.model.fields,field_description:project_forecast.field_project_project____last_update
+#: model:ir.model.fields,field_description:project_forecast.field_project_task____last_update
+#: model:ir.model.fields,field_description:project_forecast.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: project_forecast
+#: model_terms:ir.actions.act_window,help:project_forecast.action_project_task_view_planning
+#: model_terms:ir.actions.act_window,help:project_forecast.planning_action_schedule_by_project
+#: model_terms:ir.actions.act_window,help:project_forecast.project_forecast_action_schedule_by_employee
+msgid "Let's start your planning by adding a new shift."
+msgstr "Beginnen Sie Ihre Planung indem Sie eine neue Schicht hinzufügen."
+
+#. module: project_forecast
+#: model_terms:ir.actions.act_window,help:project_forecast.action_project_task_view_planning
+#: model_terms:ir.actions.act_window,help:project_forecast.planning_action_schedule_by_project
+#: model_terms:ir.actions.act_window,help:project_forecast.project_forecast_action_schedule_by_employee
+msgid "No shifts found"
+msgstr "Keine Schichten gefunden."
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_planning_slot__forecast_hours
+msgid "Number of hours already forecast for this task (and its sub-tasks)."
+msgstr ""
+"Anzahl der für diese Aufgabe (und ihre Unteraufgaben) bereits "
+"prognostizierten Stunden."
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_task__forecast_hours
+msgid ""
+"Number of hours forecast for this task (and its sub-tasks), rounded to the "
+"unit."
+msgstr ""
+"Anzahl der für diese Aufgabe (und ihre Unteraufgaben) prognostizierten "
+"Stunden, gerundet auf die Einheit."
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__parent_id
+#: model_terms:ir.ui.view,arch_db:project_forecast.planning_slot_view_search
+msgid "Parent Task"
+msgstr "Hauptaufgabe"
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
+msgid "Plan your resources on project tasks"
+msgstr "Planen Sie Ihre Ressourcen auf Projektaufgaben"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_from_project
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__allow_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_project__allow_forecast
+msgid "Planning"
+msgstr "Planung"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_planning_slot
+msgid "Planning Shift"
+msgstr "Schichtplanung"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_project_project
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__project_id
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot_template__project_id
+#: model_terms:ir.ui.view,arch_db:project_forecast.period_report_template
+#: model_terms:ir.ui.view,arch_db:project_forecast.planning_slot_view_search
+msgid "Project"
+msgstr "Projekt"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_schedule_by_employee
+msgid "Schedule by Employee"
+msgstr "Zeitplan nach Mitarbeiter"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.planning_action_schedule_by_project
+msgid "Schedule by Project"
+msgstr "Nach Projekt planen"
+
+#. module: project_forecast
+#: code:addons/project_forecast/controllers/main.py:0
+#, python-format
+msgid "Shift"
+msgstr "Schicht"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_planning_slot_template
+msgid "Shift Template"
+msgstr "Schichtvorlage"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_project_task
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__task_id
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot_template__task_id
+#: model_terms:ir.ui.view,arch_db:project_forecast.period_report_template
+#: model_terms:ir.ui.view,arch_db:project_forecast.planning_slot_view_search
+msgid "Task"
+msgstr "Aufgabe"
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_planning_slot__planned_hours
+msgid "Time planned to achieve this task (including its sub-tasks)."
+msgstr ""
+"Geplante Zeit für die Durchführung dieser Aufgabe (einschließlich ihrer "
+"Teilaufgaben)."
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_project__total_forecast_time
+msgid "Total Forecast Time"
+msgstr "Gesamte vorausgesagte Zeit"
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_project__total_forecast_time
+msgid "Total number of forecast hours in the project rounded to the unit."
+msgstr ""
+"Gesamtzahl der prognostizierten Stunden im Projekt, gerundet auf die "
+"Einheit."
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.action_project_task_view_planning
+msgid "View Planning"
+msgstr "Planung ansehen"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project.py:0
+#, python-format
+msgid ""
+"You cannot delete a project containing plannings. You can either delete all "
+"the project's forecasts and then delete the project or simply deactivate the"
+" project."
+msgstr ""
+"Sie können kein Projekt löschen, dass Planungen enthält. Sie können entweder"
+" alle Prognosen des Projekts löschen und dann das Projekt löschen oder das "
+"Projekt einfach deaktivieren."
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project.py:0
+#, python-format
+msgid ""
+"You cannot delete a task containing plannings. You can either delete all the"
+" task's plannings and then delete the task or simply deactivate the task."
+msgstr ""
+"Sie können keine Aufgabe löschen, die Planungen enthält. Sie können entweder"
+" erst alle geplanten Aktivitäten in der Aufgabe löschen und dann die Aufgabe"
+" selbst oder Sie deaktivieren die Aufgabe einfach."
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:0
+#, python-format
+msgid "Your task is not in the selected project."
+msgstr "Ihre Aufgabe ist nicht im ausgewählten Projekt."

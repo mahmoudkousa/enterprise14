@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-extend="stock_barcode_lines_template">
+        <t t-jquery="div.o_barcode_line" t-operation="attributes">
+            <attribute name="class" value="o_barcode_line o_colored_markup list-group-item d-flex flex-row flex-nowrap"/>
+            <attribute name="t-att-data-picking-id" value="line &amp;&amp; line.picking_id &amp;&amp; line.picking_id.id"/>
+            <attribute name="t-att-style" value="line &amp;&amp; line.picking_id &amp;&amp; 'border-color: hsla(' + line.color_hue + ', 80%, 50%, 0.6)'"/>
+        </t>
+
+        <t t-jquery="div[name='quantity']" t-operation="after">
+            <div t-if="model == 'stock.picking.batch'">
+                <i class="fa fa-fw fa-truck"/>
+                <span class="o_picking_label" t-esc="line.picking_id.name"/>
+            </div>
+        </t>
+
+        <t t-jquery="div[name='package']" t-operation="attributes">
+            <attribute name="t-if">line.package_id || line.result_package_id || line.suggested_package</attribute>
+        </t>
+        <t t-jquery="div[name='package']" t-operation="append">
+            <t t-if="!line.result_package_id &amp;&amp; line.suggested_package">
+                <span class="text-muted" t-esc="' ' + line.suggested_package + ' ?'"/>
+            </t>
+        </t>
+    </t>
+
+    <t t-extend="stock_barcode_settings_widget">
+        <t t-jquery=".o_barcode_settings" t-operation="prepend">
+            <button t-if="widget.model == 'stock.picking.batch'" class="btn-lg btn btn-dark text-uppercase o_print_picking_batch">Print Batch Transfer</button>
+        </t>
+    </t>
+
+    <t t-extend="stock_barcode_lines_widget">
+        <t t-jquery=".o_scan_message_inv_already_done" t-operation="after">
+            <span class="o_hidden o_scan_message o_scan_message_picking_batch_already_done"><span class="fa fa-exclamation-triangle"/>
+                This batch transfer is already done
+            </span>
+            <span class="o_hidden o_scan_message o_scan_message_picking_batch_already_cancelled"><span class="fa fa-exclamation-triangle"/>
+                This batch transfer is already cancelled
+            </span>
+            <span class="o_hidden o_scan_message o_scan_message_picking_batch_draft"><span class="fa fa-exclamation-triangle"/>
+                This batch transfer is still draft, it must be confirmed before being processed
+            </span>
+            <span class="o_hidden o_scan_message o_scan_message_picking_batch_empty"><span class="fa fa-exclamation-triangle"/>
+                This batch transfer is empty, you need to configure it
+            </span>
+        </t>
+        <t t-jquery="t[t-name='optional_buttons'] > div" t-operation="append">
+            <button t-if="widget.groups.group_tracking_lot and  widget.model == 'stock.picking.batch'" class="btn btn-secondary text-uppercase o_put_in_pack"><i class="fa fa-cube mr-1"/> Put In Pack</button>
+        </t>
+    </t>
+
+    <t t-name="stock_barcode_picking_batch_create_template">
+        <div class="o_barcode_header navbar navbar-expand navbar-dark">
+            <nav class="navbar-nav mr-auto">
+                <a tabindex="" class="nav-link o_exit mr-4"><i class="fa fa-chevron-left"/></a>
+                <span class="o_title navbar-text text-white" t-esc="widget.title"/>
+            </nav>
+        </div>
+        <div class="o_barcode_message d-flex flex-column justify-content-center align-items-center bg-800">
+            <div class="o_barcode_pic position-relative text-center mt-2 mb-1">
+                <i class="fa fa-5x mx-auto fa-exclamation-triangle text-white"/>
+            </div>
+            <span class="o_message_picking_batch_not_possible"><span class="fa fa-exclamation-triangle"/>
+                <b>No "ready" transfers found.</b>
+            </span>
+        </div>
+        <div class="o_barcode_lines list-group flex-grow-1 d-block position-relative"></div>
+        <div class="o_barcode_control d-flex">
+            <button class="btn btn-primary o_confirm">Confirm</button>
+        </div>
+    </t>
+
+    <t t-name="stock_barcode_picking_batch_create_choose_picking_type_template">
+        <t t-if="picking_types">
+            <div class="o_barcode_message d-flex flex-column justify-content-center align-items-center bg-800">
+                <div class="o_barcode_pic position-relative text-center mt-2 mb-1">
+                    <i class="fa fa-5x mx-auto fa-hand-pointer-o text-white"/>
+                </div>
+                <span class="o_message_picking_batch_select_type">
+                    <b>Select an operation type for batch transfer</b>
+                </span>
+            </div>
+            <t t-foreach="picking_types" t-as="picking_type">
+                <a class="o_barcode_line o_barcode_picking_type list-group-item d-flex flex-row flex-nowrap" href="#" title="Select" t-att-data-id="picking_type.id">
+                    <div class="o_barcode_line_details flex-grow-1 flex-column flex-nowrap">
+                        <div>
+                            <i class="fa fa-fw fa-truck"/>
+                            <span class="o_barcode_line_title" t-esc="picking_type.name"/>
+                        </div>
+                    </div>
+                </a>
+            </t>
+        </t>
+    </t>
+
+    <t t-name="stock_barcode_picking_batch_create_choose_pickings_template">
+        <t t-if="pickings and pickingTypeId">
+            <div class="o_barcode_message d-flex flex-column justify-content-center align-items-center bg-800">
+                <div class="o_barcode_pic position-relative text-center mt-2 mb-1">
+                    <i class="fa fa-5x mx-auto fa-hand-pointer-o text-white"/>
+                </div>
+                <span class="o_message_picking_batch_select_type">
+                    <b>Select transfers for batch transfer</b>
+                </span>
+            </div>
+            <t t-foreach="pickings" t-as="picking">
+                <t t-if="picking.picking_type_id[0] == pickingTypeId">
+                    <a class="o_barcode_line o_barcode_picking list-group-item d-flex flex-row flex-nowrap" href="#" title="Select" t-att-data-id="picking.id">
+                        <div class="o_barcode_line_details flex-grow-1 flex-column flex-nowrap">
+                            <div>
+                                <i class="fa fa-fw fa-truck"/>
+                                <span class="o_barcode_line_title" t-esc="picking.name"/>
+                                <t t-if="picking.state">&amp;nbsp;<span class="badge badge-pill" t-esc="picking.state"/></t>
+                            </div>
+                            <div name="Responsible">
+                                <i class="fa fa-fw fa-user"/>
+                                <span class="o_barcode_picking_user">
+                                    <t t-if="picking.user_id" t-esc="picking.user_id[1]"/>
+                                    <t t-else="">-</t>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </t>
+            </t>
+        </t>
+    </t>
+</templates>

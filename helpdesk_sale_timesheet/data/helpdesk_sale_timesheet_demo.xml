@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="0">
+    <!-- Project -->
+    <record id="project_helpdesk" model="project.project">
+        <field name="name">Customer Services</field>
+        <field name="privacy_visibility">employees</field>
+        <field name="type_ids" eval="[(4, ref('project.project_stage_0')), (4, ref('project.project_stage_1')), (4, ref('project.project_stage_2')), (4, ref('project.project_stage_3'))]"/>
+        <field name="allow_timesheets">True</field>
+        <field name="allow_timesheet_timer">True</field>
+        <field name="allow_billable">True</field>
+        <field name="timesheet_product_id" ref="sale_timesheet.time_product"/>
+    </record>
+
+    <!-- Task -->
+    <record id="project_helpdesk_task_1" model="project.task">
+        <field name="planned_hours" eval="40.0"/>
+        <field name="user_id" ref="base.user_admin"/>
+        <field name="priority">0</field>
+        <field name="project_id" ref="helpdesk_sale_timesheet.project_helpdesk"/>
+        <field name="partner_id" ref="base.res_partner_1"/>
+        <field name="name">Modification of the installation</field>
+        <field name="stage_id" ref="project.project_stage_0"/>
+        <field name="color">3</field>
+    </record>
+
+    <!-- Helpdesk Team -->
+    <record id="helpdesk_team2" model="helpdesk.team">
+        <field name="name">Customer Services</field>
+        <field name="alias_name">after_sale</field>
+        <field name="use_sla" eval="True"/>
+        <field name="use_helpdesk_timesheet">True</field>
+        <field name="project_id" ref="helpdesk_sale_timesheet.project_helpdesk"/>
+        <field name="use_helpdesk_sale_timesheet">True</field>
+        <field name="color">3</field>
+    </record>
+    <record id="helpdesk.helpdesk_team3" model="helpdesk.team">
+        <field name="use_helpdesk_sale_timesheet" eval="True"/>
+    </record>
+
+    <record id="helpdesk.stage_new" model="helpdesk.stage">
+        <field name="team_ids" eval="[(4, ref('helpdesk_team2'))]"/>
+    </record>
+    <record id="helpdesk.stage_in_progress" model="helpdesk.stage">
+        <field name="team_ids" eval="[(4, ref('helpdesk_team2'))]"/>
+    </record>
+    <record id="helpdesk.stage_solved" model="helpdesk.stage">
+        <field name="team_ids" eval="[(4, ref('helpdesk_team2'))]"/>
+        <field name="is_close" eval="True"/>
+        <field name="fold" eval="True"/>
+    </record>
+
+    <!-- Ticket -->
+    <record id="helpdesk_ticket_3" model="helpdesk.ticket">
+        <field name="name">Installation problem</field>
+        <field name="team_id" ref="helpdesk_sale_timesheet.helpdesk_team2"/>
+        <field name="priority">0</field>
+        <field name="ticket_type_id" ref="helpdesk.type_question"/>
+        <field name="task_id" ref="helpdesk_sale_timesheet.project_helpdesk_task_1"/>
+    </record>
+
+    <record id="product.product_product_1" model="product.product">
+        <field name="project_id" ref="project.project_project_1"/>
+    </record>
+
+    <!-- timesheet on ticket -->
+    <record id="helpdesk_sale_timesheet_1" model="account.analytic.line">
+        <field name="name">Changed the location and colour of dining area.</field>
+        <field name="date" eval="(DateTime.now() + relativedelta(days=-1)).strftime('%Y-%m-%d')"/>
+        <field name="employee_id" ref="hr.employee_qdp"/>
+        <field name="unit_amount">5.00</field>
+        <field name="helpdesk_ticket_id" ref="helpdesk.helpdesk_ticket_17"/>
+        <field name="account_id" ref="analytic.analytic_internal"/>
+    </record>
+    <record id="helpdesk_sale_timesheet_2" model="account.analytic.line">
+        <field name="name">Setting the location for TV, Sofa and dining room.</field>
+        <field name="date" eval="(DateTime.now() + relativedelta(days=+1)).strftime('%Y-%m-%d')"/>
+        <field name="employee_id" ref="hr.employee_qdp"/>
+        <field name="unit_amount">15.0</field>
+        <field name="helpdesk_ticket_id" ref="helpdesk.helpdesk_ticket_17"/>
+        <field name="account_id" ref="analytic.analytic_internal"/>
+    </record>
+
+    <!-- create order and link with ticket -->
+    <record id="sale_order_helpdesk_sale_timesheet_1" model="sale.order">
+        <field name="partner_id" ref="base.partner_demo"/>
+        <field name="partner_invoice_id" ref="base.partner_demo"/>
+        <field name="partner_shipping_id" ref="base.partner_demo"/>
+    </record>
+    <record id="sale_order_line_helpdesk_sale_timesheet_1" model="sale.order.line">
+        <field name="order_id" ref="sale_order_helpdesk_sale_timesheet_1"/>
+        <field name="name" model="sale.order.line" eval="obj().env.ref('product.product_product_1').get_product_multiline_description_sale()"/>
+        <field name="product_id" ref="product.product_product_1"/>
+        <field name="product_uom_qty">1</field>
+        <field name="price_unit">30.75</field>
+    </record>
+    <function model="sale.order" name="action_confirm" eval="[ref('sale_order_helpdesk_sale_timesheet_1')]"/>
+    <record id="helpdesk.helpdesk_ticket_17" model="helpdesk.ticket">
+        <field name="sale_order_id" ref="sale_order_helpdesk_sale_timesheet_1"/>
+        <field name="project_id" ref="project.project_project_1"/>
+    </record>
+    <!-- make project allow_billable True as project is already created from another module -->
+    <function model="project.project" name="write">
+        <value model="helpdesk.team" eval="obj().search([('id', '=', ref('helpdesk.helpdesk_team3'))]).project_id.id"/>
+        <value eval="{'allow_billable' : 1, 'timesheet_product_id' : ref('sale_timesheet.time_product')}"/>
+    </function>
+
+</odoo>

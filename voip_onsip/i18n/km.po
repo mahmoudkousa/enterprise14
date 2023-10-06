@@ -1,0 +1,77 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* voip_onsip
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_config_settings
+msgid "Config Settings"
+msgstr "កំណត់រចនាសម្ព័ន្ធ"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__display_name
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_configurator__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings__id
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__id
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_configurator__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users____last_update
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_configurator____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: voip_onsip
+#: model_terms:ir.ui.view,arch_db:voip_onsip.res_config_settings_view_form
+msgid "OnSIP Domain"
+msgstr "ដែន OnSIP "
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__onsip_auth_user
+msgid "OnSIP authorization User"
+msgstr "ការអនុញ្ញាតឲ្យអ្នកប្រើប្រាស់OnSIP"
+
+#. module: voip_onsip
+#: model:ir.model.fields,help:voip_onsip.field_res_config_settings__wsServer
+msgid "The URL of your WebSocket"
+msgstr "URL របស់ WebSocket របស់អ្នក"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_users
+msgid "Users"
+msgstr "អ្នកប្រើ"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_voip_configurator
+msgid "VOIP Configurator"
+msgstr "VOIPកំណត់រចនាសម្ព័ន្ធ"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_config_settings__wsServer
+msgid "WebSocket"
+msgstr "វែបសកខិត"

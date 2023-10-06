@@ -1,0 +1,201 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_timesheet_forecast
+# 
+# Translators:
+# Sherif Abd Ekmoniem <sherif.tsupport@gmail.com>, 2020
+# Mustafa Rawi <mustafa@cubexco.com>, 2020
+# Martin Trigaux, 2020
+# Ghaith Gammar <g.gammar@saharaifs.net>, 2020
+# Osama Ahmaro <osamaahmaro@gmail.com>, 2020
+# Shaima Safar <shaima.safar@open-inside.com>, 2020
+# Malaz Abuidris <msea@odoo.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2022\n"
+"Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. module: project_timesheet_forecast
+#. openerp-web
+#: code:addons/project_timesheet_forecast/static/src/xml/forecast_gantt.xml:0
+#, python-format
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: project_timesheet_forecast
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.planning_view_gantt
+msgid "<strong>Effective Hours: </strong>"
+msgstr ""
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_planning_slot__allow_timesheets
+msgid "Allow timesheets"
+msgstr "السماح بسجلات الأنشطة"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__entry_date
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.project_timesheet_forecast_report_view_search
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__difference
+msgid "Difference"
+msgstr "الفرق"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_planning_slot__display_name
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_planning_slot__effective_hours
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__effective_hours
+msgid "Effective Hours"
+msgstr "ساعات العمل الفعلية"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__employee_id
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.project_timesheet_forecast_report_view_search
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: project_timesheet_forecast
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.project_timesheet_forecast_report_view_search
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_planning_slot__id
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_planning_slot____last_update
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: project_timesheet_forecast
+#: model_terms:ir.actions.act_window,help:project_timesheet_forecast.project_timesheet_action_schedule_by_role
+msgid "Let's start your planning by adding a new shift."
+msgstr "فلنبدأ بالتخطيط عن طريق إضافة نوبة عمل جديدة. "
+
+#. module: project_timesheet_forecast
+#: model_terms:ir.actions.act_window,help:project_timesheet_forecast.project_timesheet_forecast_report_action
+msgid "No data yet!"
+msgstr "لا توجد أي بيانات بعد! "
+
+#. module: project_timesheet_forecast
+#: model_terms:ir.actions.act_window,help:project_timesheet_forecast.project_timesheet_action_schedule_by_role
+msgid "No shifts found"
+msgstr ""
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__number_hours
+msgid "Number of hours"
+msgstr "عدد الساعات"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,help:project_timesheet_forecast.field_planning_slot__effective_hours
+msgid ""
+"Number of hours on the employee's Timesheets for this task (and its sub-"
+"tasks) during the timeframe of the shift."
+msgstr ""
+"عدد الساعات في الجداول الزمنية للموظف لهذه المهمة (ومهامها الفرعية) خلال "
+"المدة الزمنية لنوبة العمل. "
+
+#. module: project_timesheet_forecast
+#: model_terms:ir.actions.act_window,help:project_timesheet_forecast.project_timesheet_forecast_report_action
+msgid ""
+"Plan your future project better by comparing planned vs. effective hours "
+"taken to complete tasks."
+msgstr ""
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__planned_hours
+msgid "Planned Hours"
+msgstr "الساعات المخطط لها"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields.selection,name:project_timesheet_forecast.selection__project_timesheet_forecast_report_analysis__line_type__forecast
+msgid "Planning"
+msgstr "التخطيط"
+
+#. module: project_timesheet_forecast
+#: model:ir.model,name:project_timesheet_forecast.model_planning_slot
+msgid "Planning Shift"
+msgstr "التخطيط لنوبة العمل "
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_planning_slot__percentage_hours
+msgid "Progress"
+msgstr "مستوي التقدم"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__project_id
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.project_timesheet_forecast_report_view_search
+msgid "Project"
+msgstr "المشروع"
+
+#. module: project_timesheet_forecast
+#: model:ir.actions.act_window,name:project_timesheet_forecast.project_timesheet_action_schedule_by_role
+msgid "Schedule by Role"
+msgstr "الجدولة حسب الدور "
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__task_id
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.project_timesheet_forecast_report_view_search
+msgid "Task"
+msgstr "المهمة"
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields.selection,name:project_timesheet_forecast.selection__project_timesheet_forecast_report_analysis__line_type__timesheet
+msgid "Timesheet"
+msgstr "سجل النشاط"
+
+#. module: project_timesheet_forecast
+#: model:ir.model,name:project_timesheet_forecast.model_project_timesheet_forecast_report_analysis
+msgid "Timesheet & Planning Statistics"
+msgstr "الجدول الزمني وإحصائيات التخطيط "
+
+#. module: project_timesheet_forecast
+#: model:ir.actions.act_window,name:project_timesheet_forecast.project_timesheet_forecast_report_action
+#: model:ir.ui.menu,name:project_timesheet_forecast.menu_project_timesheet_forecast_report_analysis
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.project_timesheet_forecast_report_view_graph
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.project_timesheet_forecast_report_view_pivot
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast.project_timesheet_forecast_report_view_search
+msgid "Timesheet and Planning Analysis"
+msgstr "الجدول الزمني وتحليل التخطيط "
+
+#. module: project_timesheet_forecast
+#: model:ir.filters,name:project_timesheet_forecast.ir_filter_project_timesheet_forecast
+msgid "Timesheet vs Planning"
+msgstr "الجدول الزمني مقابل التخطيط "
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,help:project_timesheet_forecast.field_planning_slot__allow_timesheets
+msgid "Timesheets can be logged on this slot."
+msgstr "يمكن تسجيل الجداول الزمنية في هذه الفترة. "
+
+#. module: project_timesheet_forecast
+#: model:ir.model.fields,field_description:project_timesheet_forecast.field_project_timesheet_forecast_report_analysis__line_type
+msgid "Type"
+msgstr "النوع"

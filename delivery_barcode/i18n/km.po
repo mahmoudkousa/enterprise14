@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* delivery_barcode
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:19+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: delivery_barcode
+#: model:ir.model.fields,field_description:delivery_barcode.field_stock_picking___barcode_scanned
+msgid "Barcode Scanned"
+msgstr "បារកូដបានស្កេន"
+
+#. module: delivery_barcode
+#: model:ir.model.fields,field_description:delivery_barcode.field_stock_picking__delivery_packaging_ids
+msgid "Delivery Packaging"
+msgstr "ការដឹកជញ្ជូនការវេចខ្ចប់"
+
+#. module: delivery_barcode
+#: model:ir.model.fields,field_description:delivery_barcode.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: delivery_barcode
+#: model:ir.model.fields,field_description:delivery_barcode.field_stock_picking__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: delivery_barcode
+#: model:ir.model.fields,field_description:delivery_barcode.field_stock_picking____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: delivery_barcode
+#: model:ir.model,name:delivery_barcode.model_stock_picking
+msgid "Transfer"
+msgstr "ផ្ទេរ"
+
+#. module: delivery_barcode
+#: model:ir.model.fields,help:delivery_barcode.field_stock_picking___barcode_scanned
+msgid "Value of the last barcode scanned."
+msgstr "តម្លៃនៃកូដឌីតចុងក្រោយត្រូវបានស្កេន។"

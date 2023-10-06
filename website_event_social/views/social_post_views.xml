@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<odoo>
+
+<record model="ir.ui.view" id="social_post_view_form">
+    <field name="name">social.post.view.form.inherit.event</field>
+    <field name="model">social.post</field>
+     <field name="inherit_id" ref="social.social_post_view_form"/>
+    <field name="arch" type="xml">
+        <xpath expr="//button[@name='action_post']" position="after">
+            <button name="action_post_immediate" string="Post Now" type="object"
+                groups="base.group_no_one"
+                attrs="{'invisible': ['|', ('state', '!=', 'draft'), ('post_method', '=', 'scheduled')]}" />
+        </xpath>
+    </field>
+</record>
+
+</odoo>

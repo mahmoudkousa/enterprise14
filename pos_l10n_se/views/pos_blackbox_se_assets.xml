@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_l10n_se/static/src/js/PosBlackBoxSweden.js"></script>
+            <script type="text/javascript" src="/pos_l10n_se/static/src/js/NumpadWidget.js"></script>
+            <script type="text/javascript" src="/pos_l10n_se/static/src/js/OrderReceipt.js"></script>
+            <script type="text/javascript" src="/pos_l10n_se/static/src/js/PrintBill.js"></script>
+            <script type="text/javascript" src="/pos_l10n_se/static/src/js/ReprintReceiptButton.js"></script>
+        </xpath>
+    </template>
+</odoo>

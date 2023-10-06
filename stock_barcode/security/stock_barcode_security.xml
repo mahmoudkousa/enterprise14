@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="group_barcode_keyboard_shortcuts" model="res.groups">
+            <field name="name">Keyboard Shortcuts</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+    </data>
+    <data noupdate="1">
+        <record model="res.groups" id="base.group_user">
+            <field name="implied_ids" eval="[(4, ref('stock_barcode.group_barcode_keyboard_shortcuts'))]"/>
+        </record>
+    </data>
+</odoo>

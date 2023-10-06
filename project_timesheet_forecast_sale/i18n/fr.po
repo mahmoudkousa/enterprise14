@@ -1,0 +1,144 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_timesheet_forecast_sale
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
+# Cécile Collart <cco@odoo.com>, 2020
+# Nathan Grognet <ngr@odoo.com>, 2020
+# Alexandra Jubert, 2021
+# Jolien De Paepe, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:48+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project.py:0
+#, python-format
+msgid "%s (%s remaining hours)"
+msgstr "%s (%s heures restantes)"
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project_overview.py:0
+#, python-format
+msgid "After"
+msgstr "Après"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_planning_slot__display_name
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_project__display_name
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_task__display_name
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project_overview.py:0
+#, python-format
+msgid "Forecast"
+msgstr "Prévisions"
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project_overview.py:0
+#, python-format
+msgid "Hours"
+msgstr "Heures"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_planning_slot__id
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_project__id
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_task__id
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_sale_order_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_planning_slot____last_update
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_project____last_update
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_task____last_update
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: project_timesheet_forecast_sale
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.timesheet_plan_inherit
+msgid "Planning"
+msgstr "Planification"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_planning_slot
+msgid "Planning Shift"
+msgstr "Poste de Planning"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_project_project
+msgid "Project"
+msgstr "Projet"
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project_overview.py:0
+#, python-format
+msgid "Remaining (Planning incl.)"
+msgstr "Restant (Planning inclus)"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_sale_order_line
+#: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_planning_slot__order_line_id
+msgid "Sales Order Line"
+msgstr "Ligne de bons de commande"
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model.fields,help:project_timesheet_forecast_sale.field_planning_slot__order_line_id
+msgid ""
+"Sales order item to which the project is linked. Link the timesheet entry to"
+" the sales order item defined on the project. Only applies on tasks without "
+"sale order item defined, and if the employee is not in the 'Employee/Sales "
+"Order Item Mapping' of the project."
+msgstr ""
+"Ligne de vente à laquelle le projet est lié. Liez cette entrée de feuille de"
+" temps à la ligne de vente définie sur le projet. S'applique uniquement aux "
+"tâches n'ayant pas de ligne de vente définie, et si l'employé n'est pas dans"
+" le mapping 'employés/lignes de vente' du projet."
+
+#. module: project_timesheet_forecast_sale
+#: model:ir.model,name:project_timesheet_forecast_sale.model_project_task
+msgid "Task"
+msgstr "Tâche"
+
+#. module: project_timesheet_forecast_sale
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.timesheet_plan_inherit
+msgid "Timesheets"
+msgstr "Feuilles de temps"
+
+#. module: project_timesheet_forecast_sale
+#: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.timesheet_plan_inherit
+msgid "Timesheets and Planning"
+msgstr "Feuilles de Temps et Planning"
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project_overview.py:0
+#, python-format
+msgid "Total"
+msgstr "Total"
+
+#. module: project_timesheet_forecast_sale
+#: code:addons/project_timesheet_forecast_sale/models/project_overview.py:0
+#, python-format
+msgid ""
+"What is still to deliver based on sold hours, hours already done and "
+"forecasted hours. Equals to sold hours - done hours - forecasted hours."
+msgstr ""
+"Ce qu'il reste à livrer sur base des heures vendues, déjà prestées et "
+"prévues. Correspond à heures vendues - heures effectuées - heures prévues."

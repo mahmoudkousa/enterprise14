@@ -1,0 +1,721 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_appraisal_survey
+# 
+# Translators:
+# Martin Trigaux, 2021
+# Haojun Zou <apollo_zhj@msn.com>, 2021
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
+# Jakob Krabbe <jakob.krabbe@vertel.se>, 2021
+# Kim Asplund <kim.asplund@gmail.com>, 2021
+# Simon S, 2021
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2022
+# Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2020-09-07 08:20+0000\n"
+"Last-Translator: Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2023\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: hr_appraisal_survey
+#: model:mail.template,report_name:hr_appraisal_survey.mail_template_appraisal_ask_feedback
+msgid "${(object.name or '').replace('/','_')}"
+msgstr "${(object.name or '').replace('/','_')}"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_1
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<data><h2>Overall Purpose Of Employee Appraisal</h2>\n"
+"            <ul>\n"
+"                <li>To initiate a clear and open communication of performance expectations</li>\n"
+"                <li>To assist employees in their professional growth, through the identification of strengths and opportunities for development</li>\n"
+"            </ul>\n"
+"\n"
+"            <h2>At the outset of the appraisal time period</h2>\n"
+"            <ul>\n"
+"                <li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the coming year, including major employee responsibilities and corresponding benchmarks against which results will be evaluated.</li>\n"
+"                <li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li>\n"
+"            </ul>\n"
+"\n"
+"            <h2>At the conclusion of the appraisal time period</h2>\n"
+"            <ul>\n"
+"                <li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion. Once the form had been filled, the employee send it to his supervisor.</li>\n"
+"                <li>It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback (internal and/or external customers, peers).</li>\n"
+"                <li>The supervisor synthesizes and integrates all input into the completed appraisal. The motivation of the evaluation is explained in the ad hoc fields.</li>\n"
+"                <li>The employee may choose to offer comments or explanation regarding the completed review.</li>\n"
+"            </ul>\n"
+"        </data>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<data><h2>Övergripande syfte med personalutvärdering</h2>\n"
+"            <ul>\n"
+"                <li>Att inleda en tydlig och öppen kommunikation om förväntningar på prestationer</li>\n"
+"                <li>Att hjälpa de anställda att utvecklas professionellt genom att identifiera styrkor och utvecklingsmöjligheter</li>\n"
+"            </ul>\n"
+"\n"
+"            <h2>I början av utvärderingsperioden</h2>\n"
+"            <ul>\n"
+"                <li>Det är den anställdes och arbetsledarens (utvärderar) gemensamma ansvar att upprätta en genomförbar arbetsplan för det kommande året, inklusive viktiga ansvarsområden för den anställde och motsvarande riktmärken mot vilka resultaten kommer att utvärderas.</li>\n"
+"                <li>Kritiska eller viktiga delar av prestationen och eventuella behov av yrkesmässig utveckling bör också noteras vid denna tidpunkt</li>\n"
+"            </ul>\n"
+"\n"
+"            <h2>Vid slutet av utvvärderingsperioden</h2>\n"
+"            <ul>\n"
+"                <li>Den anställde ska ansvara för att fylla i ett utkast till utvärderingsformuläret som ett verktyg för självutvärdering och en utgångspunkt för handledarens utvärdering. Den anställde kan lägga till exempel på prestationer för varje kriterium. När formuläret har fyllts i skickar arbetstagaren det till sin chef.</li>\n"
+"                <li>Det är i första hand handledarens ansvar att samla in nödvändiga uppgifter från lämpliga källor för feedback (interna och/eller externa kunder, kollegor).</li>\n"
+"                <li>Handledaren sammanställer och integrerar all information i den färdiga utvärderingen. Motiveringen till utvärderingen förklaras i ad hoc-fälten.</li>\n"
+"                <li>Den anställde kan välja att ge kommentarer eller förklaringar till den färdiga utvärderingen.</li>\n"
+"            </ul>\n"
+"        </data>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_3
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<data><p>The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided below:</p>\n"
+"            <ol>\n"
+"                <li> Significantly exceeds standards and expectations required of the position</li>\n"
+"                <li> Exceeds standards and expectations</li>\n"
+"                <li> Meet standards and expectations</li>\n"
+"                <li> Did not meet standards and expectations</li>\n"
+"                <li> Significantly below standards and expectations</li>\n"
+"            </ol>\n"
+"        </data>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<data><p>Den som utvärderar ska värdera den anställdes viktigaste arbetsinsatser och prestationer enligt nedanstående mått:</p>\n"
+"            <ol>\n"
+"                <li> Överträffar avsevärt de standarder och förväntningar som krävs för tjänsten</li>\n"
+"                <li> Överträffar normer och förväntningar</li>\n"
+"                <li> Uppfyller normer och förväntningar</li>\n"
+"                <li> Uppfyllde inte normer och förväntningar</li>\n"
+"                <li> Betydligt lägre än standarder och förväntningar</li>\n"
+"            </ol>\n"
+"        </data>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_5
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<p/>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<p/>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_2
+#: model:survey.survey,description:hr_appraisal_survey.opinion_form
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<p> </p>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<p> </p>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_4
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<p>Identify professional, performance, or project objectives you recommend for employee’s continued career development over the coming year.</p>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<p>Identifiera yrkes-, prestations- eller projektmål som du rekommenderar för den anställdes fortsatta karriärutveckling under det kommande året.</p>"
+
+#. module: hr_appraisal_survey
+#: model:survey.survey,description:hr_appraisal_survey.appraisal_feedback_template
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<p>This survey allows you to give a feedback about your collaboration with an employee. Filling it helps us improving the appraisal process.</p>\n"
+"        "
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<p>Med den här enkäten kan du ge feedback om ditt samarbete med en kollega. Genom att fylla i den hjälper du oss att förbättra bedömningsprocessen.</p>\n"
+"        "
+
+#. module: hr_appraisal_survey
+#: model:mail.template,body_html:hr_appraisal_survey.mail_template_appraisal_ask_feedback
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                        Dear ${object.partner_id.name},\n"
+"                        <br/><br/>\n"
+"                        An appraisal feedback was requested.\n"
+"                        <br/>\n"
+"                        Please take time to fill the survey.\n"
+"                        <br/><br/>\n"
+"                        Thank you!\n"
+"                        <br/><br/>\n"
+"                        % if ctx.get('recipient_users'):\n"
+"                        <p style=\"margin: 16px 0px 16px 0px;\">\n"
+"                            <a href=\"${ctx['url']}\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
+"                                View Appraisal\n"
+"                            </a>\n"
+"                        </p>\n"
+"                        % endif\n"
+"                        <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"                            <a href=\"${(object.get_start_url()) | safe}\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"                                % if object.survey_id.certification:\n"
+"                                    Start Certification\n"
+"                                % else:\n"
+"                                    Start Survey\n"
+"                                % endif\n"
+"                            </a>\n"
+"                        </div>\n"
+"                        % if object.deadline:\n"
+"                            Please answer the survey before ${format_date(object.deadline)}.<br/><br/>\n"
+"                        % endif\n"
+"                        <br/><br/>\n"
+"                        <tr><td style=\"padding:15px 20px 10px 20px;\">${(object.signature or '')| safe}</td></tr>\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
+msgstr ""
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.hr_appraisal_view_form
+msgid ""
+"<span class=\"o_stat_text\">Feedback</span>\n"
+"                        <span class=\"o_stat_text\">Survey</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Feedback</span>\n"
+"                        <span class=\"o_stat_text\">Undersökning</span>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_1
+msgid "Ability to cope with multidisciplinarity of team"
+msgstr "Förmåga att hantera gruppens många olika arbetsområden"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_6
+msgid "Ability to follow and complete work as instructed"
+msgstr "Förmåga att följa och slutföra arbetet enligt instruktioner"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_5
+msgid "Ability to manage planning resources, risks, budgets and deadlines"
+msgstr ""
+"Förmåga att hantera planeringsresurser, risker, budgetar och tidsfrister"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_13
+msgid ""
+"Adaptability: Ability to adapt oneself to organizational changes while "
+"keeping efficiency"
+msgstr ""
+"Anpassningsförmåga: Förmåga att anpassa sig till organisatoriska "
+"förändringar samtidigt som effektiviteten bibehålls"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+msgid "Add employees..."
+msgstr "Lägg till anställda..."
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_2_3
+msgid "Additional Comments"
+msgstr "Ytterligare kommentarer"
+
+#. module: hr_appraisal_survey
+#: code:addons/hr_appraisal_survey/wizard/appraisal_ask_feedback.py:0
+#, python-format
+msgid ""
+"An appraisal feedback was requested. Please take time to fill the <a "
+"href=\"%s\" target=\"_blank\">survey</a>"
+msgstr ""
+"En utvärdering av feedback begärdes. Vänligen ta dig tid att fylla i <a "
+"href=\"%s\" target=\"_blank\">enkäten</a>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_11
+msgid "Analytical and synthetic mind"
+msgstr "Analytiskt och teoretiskt tänkande"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__deadline
+msgid "Answer Deadline"
+msgstr "Svarsfrist"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__appraisal_id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_user_input__appraisal_id
+msgid "Appraisal"
+msgstr "Utvärdering"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__employee_id
+msgid "Appraisal Employee"
+msgstr "Utvärdering Anställd"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_survey__is_appraisal
+msgid "Appraisal Managers Only"
+msgstr "Endast för Utvärderingschefer"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_company__appraisal_survey_template_id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_config_settings__appraisal_survey_template_id
+msgid "Appraisal Survey Template"
+msgstr "Mall för utvärderingsenkät"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_3
+msgid "Appraisal for Period"
+msgstr "Utvärdering för perioden"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_5
+msgid "Appraiser"
+msgstr "Utvärderare"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.hr_appraisal_view_form
+msgid "Ask Feedback"
+msgstr "Be om Feedback"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_appraisal_ask_feedback
+msgid "Ask Feedback for Appraisal"
+msgstr "Be om Feedback på Utvärderingen"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_hr_appraisal__employee_feedback_ids
+msgid "Asked Feedback"
+msgstr "Efterfrågad Feedback"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__attachment_ids
+msgid "Attachments"
+msgstr "Bilagor"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__author_id
+msgid "Author"
+msgstr "Författare"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,help:hr_appraisal_survey.field_appraisal_ask_feedback__author_id
+msgid "Author of the message."
+msgstr "Författare av meddelandet."
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.hr_appraisal_survey_button_form_view
+msgid "Back to the appraisal"
+msgstr "Tillbaka till utvärderingen"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+msgid "Cancel"
+msgstr "Avbryt"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,help:hr_appraisal_survey.field_survey_survey__is_appraisal
+msgid "Check this option to restrict the answers to appraisal managers only."
+msgstr ""
+"Markera det här alternativet om du vill begränsa svaren till att endast "
+"gälla för utvärderingsansvariga."
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_9
+msgid ""
+"Communication skills (written & verbally): clearness, concision, exactitude"
+msgstr ""
+"Kommunikationsförmåga (skriftligt och muntligt): klarhet, tydlighet, "
+"exakthet"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_res_company
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_3
+msgid ""
+"Compliance to internal rules and processes (timesheets completion, etc.)"
+msgstr ""
+"Efterlevnad av interna regler och processer (ifyllande av tidrapporter osv.)"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfigurationsinställningar"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__body
+msgid "Contents"
+msgstr "Innehåll"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__create_uid
+msgid "Created by"
+msgstr "Skapad av"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__create_date
+msgid "Created on"
+msgstr "Skapad den"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_14
+msgid "Creativity and forward looking aptitude"
+msgstr "Kreativitet och framåtanda"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_8
+msgid "Customer commitment"
+msgstr "Kundengagemang"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_4
+msgid "Date of review"
+msgstr "Datum för översyn"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_7
+msgid "Decision making"
+msgstr "Beslutsfattande"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.res_config_settings_view_form_hr_appraisal_survey
+msgid "Default Template"
+msgstr "Standardmall"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_2
+msgid "Delegation: Ability to efficiently assign tasks to other people"
+msgstr "Delegation: Förmåga att effektivt tilldela andra personer uppgifter"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_hr_appraisal__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_company__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_survey__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_user_input__display_name
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,help:hr_appraisal_survey.field_appraisal_ask_feedback__email_from
+msgid "Email address of the sender"
+msgstr "Avsändarens e-postadress"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_hr_appraisal
+msgid "Employee Appraisal"
+msgstr "Utvärdering av personal"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1
+#: model:survey.survey,title:hr_appraisal_survey.appraisal_feedback_template
+msgid "Employee Appraisal Form"
+msgstr "Formulär för utvärdering av Medarbetaren"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_5
+msgid "Employee Comments"
+msgstr "Kommentarer Medarbetaren"
+
+#. module: hr_appraisal_survey
+#: model:survey.survey,title:hr_appraisal_survey.opinion_form
+msgid "Employee Opinion Form"
+msgstr "Formulär Medarbetarens åsikter"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_3
+msgid "Employee Performance in Key Areas"
+msgstr "Medarbetarens prestationer på nyckelområden"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_2
+msgid "Enthusiasm & implication toward projects/assignments"
+msgstr "Entusiasm och engagemang för projekt/uppdrag"
+
+#. module: hr_appraisal_survey
+#: code:addons/hr_appraisal_survey/wizard/appraisal_ask_feedback.py:0
+#, python-format
+msgid "Fill the feedback form on survey"
+msgstr "Fyll i feedbackformuläret på enkäten"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__email_from
+msgid "From"
+msgstr "Från"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_hr_appraisal__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_company__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_config_settings__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_survey__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_user_input__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_3
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_4
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_5
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_2_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_2_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_2_3
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_3
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_3_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_3_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_4
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_4_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_4_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_4_3
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_5
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_5_1
+msgid "If other, please specify:"
+msgstr "Om annat, vänligen specificera:"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_5
+msgid "Initiative and self autonomy"
+msgstr "Initiativförmåga och självständighet"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_hr_appraisal____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_company____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_survey____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_user_input____last_update
+msgid "Last Modified on"
+msgstr "Senast redigerad"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__write_uid
+msgid "Last Updated by"
+msgstr "Senast uppdaterad av"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__write_date
+msgid "Last Updated on"
+msgstr "Senast uppdaterad"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_3
+msgid ""
+"Leadership: create a challenging and motivating work environment aligned "
+"with the company's strategy"
+msgstr ""
+"Ledarskap: skapa en utmanande och motiverande arbetsmiljö i linje med "
+"företagets strategi"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_4
+msgid "Leadership: sustain subordinates in their professional growth"
+msgstr "Ledarskap: stödja de underordnade i deras yrkesmässiga utveckling"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_1
+msgid "Name"
+msgstr "Namn"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_2_1
+msgid "Objectives"
+msgstr "Mål"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_4_2
+msgid "Personal Performance Objectives"
+msgstr "Personliga prestationsmål"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_2
+msgid "Position Title"
+msgstr "Titel på befattningen"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_4_1
+msgid "Professional Development Objectives"
+msgstr "Mål för professionell utveckling"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_4
+msgid "Professional Development and Performance Plan"
+msgstr "Plan för professionell utveckling och prestationer"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_4_3
+msgid "Project Objectives"
+msgstr "Projektets mål"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_12
+msgid "Promptness and attendance record"
+msgstr "Punktlighet och närvaro"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__employee_ids
+msgid "Recipients"
+msgstr "Mottagare"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_2_2
+msgid "Results"
+msgstr "Resultat"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_1
+msgid ""
+"Results of the bottom-up survey and mitigation actions to face technical, "
+"organizational, structural and/or relational issues"
+msgstr ""
+"Resultaten av bottom-up-enkäten och åtgärder för att minska tekniska, "
+"organisatoriska, strukturella och/eller relationella problem"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+msgid "Send"
+msgstr "Skicka"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__subject
+#: model:survey.question,title:hr_appraisal_survey.appraisal_3_1
+msgid "Subject"
+msgstr "Ämne"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+msgid "Subject..."
+msgstr "Ärendemening..."
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_3_2
+msgid "Supervisors only"
+msgstr "Endast för övervakare"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_survey_survey
+msgid "Survey"
+msgstr "Enkät"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__survey_template_id
+msgid "Survey Template"
+msgstr "Mall för enkät"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_survey_user_input
+msgid "Survey User Input"
+msgstr "Användarsvar"
+
+#. module: hr_appraisal_survey
+#: model:mail.template,subject:hr_appraisal_survey.mail_template_appraisal_ask_feedback
+msgid "Take part in ${ctx.get('employee_name', 'this')} appraisal"
+msgstr ""
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_4
+msgid ""
+"Team spirit: ability to work efficiently with peers, manage the conflicts "
+"with diplomacy"
+msgstr ""
+"Laganda: förmåga att arbeta effektivt med kollegor, hantera konflikter med "
+"diplomati"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_10
+msgid "Technical skills regarding to the job requirements"
+msgstr "Tekniska färdigheter i förhållande till arbetets krav"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_3
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_4
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_5
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_2_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_2_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_2_3
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_3
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_3_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_3_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_4
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_4_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_4_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_4_3
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_5
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_5_1
+msgid "The answer you entered is not valid."
+msgstr "Ditt svar är inte giltigt"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_3
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_4
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_5
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_2_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_2_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_2_3
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_3
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_3_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_3_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_4
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_4_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_4_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_4_3
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_5
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_5_1
+msgid "This question requires an answer."
+msgstr "Obligatorisk fråga."
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_15
+msgid "Time management: projects/tasks are completed on time"
+msgstr "Tidshantering: projekt/uppgifter slutförs i tid"
+
+#. module: hr_appraisal_survey
+#: code:addons/hr_appraisal_survey/wizard/appraisal_ask_feedback.py:0
+#, python-format
+msgid "Unable to post message, please configure the sender's email address."
+msgstr ""
+"Det går inte att skicka meddelandet, konfigurera avsändarens e-postadress."
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__template_id
+msgid "Use template"
+msgstr "Använd mall"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_5_1
+msgid ""
+"Use the following space to make any comments regarding the above performance"
+" evaluation."
+msgstr ""
+"Använd följande utrymme för att lämna eventuella kommentarer till "
+"utvärderingen av prestationen ovan."
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_2
+msgid "Work Plan"
+msgstr "Arbetsplan"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.hr_appraisal_survey_button_form_view
+msgid "or"
+msgstr "eller"

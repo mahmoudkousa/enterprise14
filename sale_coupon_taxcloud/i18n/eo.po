@@ -1,0 +1,113 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_coupon_taxcloud
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Language-Team: Esperanto (https://www.transifex.com/odoo/teams/41243/eo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: sale_coupon_taxcloud
+#: code:addons/sale_coupon_taxcloud/models/sale_order.py:0
+#, python-format
+msgid ""
+"Any order that has discounts and uses TaxCloud must be invoiced all at once to prevent faulty tax computation with Taxcloud.\n"
+"The following orders must be completely invoiced:\n"
+"%s"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_account_move_line__coupon_program_id
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_order_line__coupon_program_id
+msgid "Discount Program"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_account_move__display_name
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_coupon_apply_code__display_name
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_order__display_name
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_account_move__id
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_account_move_line__id
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_coupon_apply_code__id
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_order__id
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_order_line__id
+msgid "ID"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model,name:sale_coupon_taxcloud.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model,name:sale_coupon_taxcloud.model_account_move_line
+msgid "Journal Item"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_account_move____last_update
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_coupon_apply_code____last_update
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_order____last_update
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: code:addons/sale_coupon_taxcloud/models/sale_order.py:0
+#, python-format
+msgid ""
+"Orders with coupons or promotions programs that use TaxCloud for automatic tax computation cannot be modified after having been invoiced.\n"
+"To modify this order, you must first cancel or refund all existing invoices."
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model,name:sale_coupon_taxcloud.model_sale_coupon_apply_code
+msgid "Sales Coupon Apply Code"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model,name:sale_coupon_taxcloud.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model,name:sale_coupon_taxcloud.model_sale_order_line
+msgid "Sales Order Line"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_account_move_line__price_taxcloud
+#: model:ir.model.fields,field_description:sale_coupon_taxcloud.field_sale_order_line__price_taxcloud
+msgid "Taxcloud Price"
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model.fields,help:sale_coupon_taxcloud.field_account_move_line__price_taxcloud
+msgid "Technical field to hold prices for TaxCloud."
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model.fields,help:sale_coupon_taxcloud.field_sale_order_line__price_taxcloud
+msgid "Technical fields to hold prices for TaxCloud."
+msgstr ""
+
+#. module: sale_coupon_taxcloud
+#: model:ir.model.fields,help:sale_coupon_taxcloud.field_account_move_line__coupon_program_id
+#: model:ir.model.fields,help:sale_coupon_taxcloud.field_sale_order_line__coupon_program_id
+msgid "The coupon program that created this line."
+msgstr ""

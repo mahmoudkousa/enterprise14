@@ -1,0 +1,435 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_edit_lines
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Jeffery CHEN <jeffery9@gmail.com>, 2020
+# liAnGjiA <liangjia@qq.com>, 2020
+# 稀饭~~ <wangwhai@qq.com>, 2020
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
+# Felix Yuen <fyu@odoo.com>, 2020
+# inspur qiuguodong <qiuguodong@inspur.com>, 2020
+# Daniel Yang <daniel.yang.zhenyu@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2020-11-27 14:58+0000\n"
+"Last-Translator: Daniel Yang <daniel.yang.zhenyu@gmail.com>, 2020\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+msgid ""
+"<i class=\"fa fa-exclamation-triangle mr-1\" title=\"Warning\"/>You are not "
+"allowed to regenerate validated work entries"
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle mr-1\" "
+"title=\"Warning\"/>您不允许重新生成经过验证的工作条目"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+msgid "<i class=\"fa fa-info-circle mr-1\" title=\"Hint\"/>"
+msgstr "<i class=\"fa fa-info-circle mr-1\" title=\"提示\"/>"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid ""
+"<span><strong>Tip:</strong> Each time you edit the quantity or the amount on"
+" a line, we recompute the following lines. We recommend that you edit from "
+"top to bottom to prevent your edition from being overwritten by the "
+"automatic recalculation. Be careful that reordering the lines doesn't "
+"recompute them.</span>"
+msgstr ""
+"<span><strong>提示：</strong>每次您在编辑行中的数量或金额时，我们都会重新计算以下几行。 "
+"我们建议您从上到下进行编辑，以防止自动重新计算覆盖您之前的计算结果。 请注意，重新排列行不会重新计算它们。</span>"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__amount
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__amount
+msgid "Amount"
+msgstr "金额"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__category_id
+msgid "Category"
+msgstr "类别"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__code
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__code
+msgid "Code"
+msgstr "代码"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__contract_id
+msgid "Contract"
+msgstr "合同"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__create_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__create_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__create_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,help:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__struct_id
+msgid ""
+"Defines the rules that have to be applied to this payslip, according to the "
+"contract chosen. If the contract is empty, this field isn't mandatory "
+"anymore and all the valid rules of the structures of the employee's "
+"contracts will be applied."
+msgstr "根据选择的合同，定义必须应用于此工资单的规则。 如果合同为空，则此字段不再是必填字段，并且将被应用员工合同结构的所有有效规则。"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__note
+msgid "Description"
+msgstr "说明"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Discard"
+msgstr "丢弃"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_contract__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip_worked_days__display_name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__earliest_available_date_message
+msgid "Earliest Available Date Message"
+msgstr "最早可用日期消息"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__earliest_available_date
+msgid "Earliest date"
+msgstr "最早日期"
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/models/hr_payslip.py:0
+#: model:ir.actions.server,name:hr_payroll_edit_lines.action_edit_payslip_lines
+#, python-format
+msgid "Edit Payslip Lines"
+msgstr "编辑工资明细"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__edit_payslip_lines_wizard_id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__edit_payslip_lines_wizard_id
+msgid "Edit Payslip Lines Wizard"
+msgstr "编辑工资明细向导"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payroll_edit_payslip_worked_days_line
+msgid "Edit payslip line wizard worked days"
+msgstr "编辑薪资单行向导工作日"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payroll_edit_payslip_lines_wizard
+msgid "Edit payslip lines wizard"
+msgstr "编辑工资明细向导"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payroll_edit_payslip_line
+msgid "Edit payslip lines wizard line"
+msgstr "编辑工资明细向导的明细"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip__edited
+msgid "Edited"
+msgstr "已编辑"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Edition of Payslip Lines in the Payslip"
+msgstr "工资单中的工资明细的版本"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__employee_id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__employee_id
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_contract
+msgid "Employee Contract"
+msgstr "员工合同"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__date_from
+msgid "From"
+msgstr "来自"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_contract__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip_worked_days__id
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_work_entry_regeneration_wizard.py:0
+#, python-format
+msgid ""
+"In order to regenerate the work entries, you need to provide the wizard with"
+" an employee_id, a date_from and a date_to. In addition to that, the time "
+"interval defined by date_from and date_to must not contain any validated "
+"work entries."
+msgstr ""
+"为了重新生成工作条目，您需要为向导提供一个employee_id，一个date_from和一个date_to。 "
+"除此之外，由date_from和date_to定义的时间间隔不得包含任何经过验证的工作条目。"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_contract____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payslip_worked_days____last_update
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__write_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__write_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__write_date
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__latest_available_date_message
+msgid "Latest Available Date Message"
+msgstr "最早可用日期消息"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__latest_available_date
+msgid "Latest date"
+msgstr "最新日期"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__name
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__name
+msgid "Name"
+msgstr "名称"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__number_of_days
+msgid "Number of Days"
+msgstr "天数"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__number_of_hours
+msgid "Number of Hours"
+msgstr "工时数"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payslip
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__slip_id
+msgid "Pay Slip"
+msgstr "工资条"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__slip_id
+msgid "PaySlip"
+msgstr "工资单"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__payslip_id
+msgid "Payslip"
+msgstr "工资单"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__line_ids
+msgid "Payslip Lines"
+msgstr "工资单明细"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_payslip_worked_days
+msgid "Payslip Worked Days"
+msgstr "工资单的工作天数"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__quantity
+msgid "Quantity"
+msgstr "数量"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__rate
+msgid "Rate (%)"
+msgstr "比率(%)"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model,name:hr_payroll_edit_lines.model_hr_work_entry_regeneration_wizard
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+msgid "Regenerate Employee Work Entries"
+msgstr "重新生成员工工作条目"
+
+#. module: hr_payroll_edit_lines
+#. openerp-web
+#: code:addons/hr_payroll_edit_lines/static/src/js/work_entries_controller_mixin.js:0
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+#, python-format
+msgid "Regenerate Work Entries"
+msgstr "重新生成工作条目"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__salary_rule_id
+msgid "Rule"
+msgstr "规则"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Salary Structure"
+msgstr "薪资结构"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__search_criteria_completed
+msgid "Search Criteria Completed"
+msgstr "搜索条件已完成"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__sequence
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__sequence
+msgid "Sequence"
+msgstr "序列号"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__struct_id
+msgid "Structure"
+msgstr "结构"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,help:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__code
+msgid ""
+"The code of salary rules can be used as reference in computation of other "
+"rules. In that case, it is case sensitive."
+msgstr "薪资规则的代码可以被其他规则的计算公式引用，引用时区分大小写。"
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_work_entry_regeneration_wizard.py:0
+#, python-format
+msgid "The earliest available date is %s"
+msgstr "最早的可用日期是%s"
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_work_entry_regeneration_wizard.py:0
+#, python-format
+msgid ""
+"The from date must be >= '%(earliest_available_date)s' and the to date must "
+"be <= '%(latest_available_date)s', which correspond to the generated work "
+"entries time interval."
+msgstr ""
+"起始日期必须是> "
+"='%(earliest_available_date)s'，截止日期必须是<='%(latest_available_date)s'，对应于生成的工作条目时间间隔。"
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_work_entry_regeneration_wizard.py:0
+#, python-format
+msgid "The latest available date is %s"
+msgstr "最早的可用日期是%s"
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/models/hr_payslip.py:0
+#, python-format
+msgid "This action is forbidden on validated payslips."
+msgstr "此操作在经过验证的工资单上被禁止。"
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/models/hr_payslip.py:0
+#, python-format
+msgid "This action is restricted to payroll managers only."
+msgstr "此操作仅限于薪资经理。"
+
+#. module: hr_payroll_edit_lines
+#: code:addons/hr_payroll_edit_lines/wizard/hr_payroll_edit_payslip_lines_wizard.py:0
+#, python-format
+msgid "This payslip has been manually edited by %s."
+msgstr "此薪资单已由%s手动编辑。"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__date_to
+msgid "To"
+msgstr "至"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_line__total
+msgid "Total"
+msgstr "合计"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__valid
+msgid "Valid"
+msgstr "有效"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Validate Edition"
+msgstr "验证版本"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard
+msgid "Work Entries"
+msgstr "工作条目"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_work_entry_regeneration_wizard__validated_work_entry_ids
+msgid "Work Entries Within Interval"
+msgstr "间隔内的工作条目"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.actions.act_window,name:hr_payroll_edit_lines.hr_work_entry_regeneration_wizard_action
+msgid "Work Entry Regeneration"
+msgstr "工作条目重生成"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_worked_days_line__work_entry_type_id
+msgid "Work Entry Type"
+msgstr "工作条目类型"
+
+#. module: hr_payroll_edit_lines
+#: model_terms:ir.ui.view,arch_db:hr_payroll_edit_lines.hr_payroll_edit_payslip_lines_form_wizard
+msgid "Worked Days"
+msgstr "工作天数"
+
+#. module: hr_payroll_edit_lines
+#: model:ir.model.fields,field_description:hr_payroll_edit_lines.field_hr_payroll_edit_payslip_lines_wizard__worked_days_line_ids
+msgid "Worked Days Lines"
+msgstr "工作天数细行"

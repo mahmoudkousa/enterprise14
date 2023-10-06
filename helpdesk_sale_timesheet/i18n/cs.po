@@ -1,0 +1,162 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_sale_timesheet
+# 
+# Translators:
+# Jan Horzinka <jan.horzinka@centrum.cz>, 2020
+# Martin Trigaux, 2020
+# Jiří Podhorecký, 2020
+# karolína schusterová <karolina.schusterova@vdp.sk>, 2021
+# Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:04+0000\n"
+"PO-Revision-Date: 2020-09-07 08:20+0000\n"
+"Last-Translator: Rastislav Brencic <rastislav.brencic@azet.sk>, 2021\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model,name:helpdesk_sale_timesheet.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Analytická řádka"
+
+#. module: helpdesk_sale_timesheet
+#: model:helpdesk.ticket,legend_blocked:helpdesk_sale_timesheet.helpdesk_ticket_3
+#: model:project.task,legend_blocked:helpdesk_sale_timesheet.project_helpdesk_task_1
+msgid "Blocked"
+msgstr "Blokováno"
+
+#. module: helpdesk_sale_timesheet
+#: code:addons/helpdesk_sale_timesheet/models/helpdesk.py:0
+#: code:addons/helpdesk_sale_timesheet/models/helpdesk.py:0
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet
+#, python-format
+msgid "Create Sales Order"
+msgstr "Vytvořit objednávku"
+
+#. module: helpdesk_sale_timesheet
+#: model:helpdesk.team,name:helpdesk_sale_timesheet.helpdesk_team2
+msgid "Customer Services"
+msgstr "Služby zákazníkům"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Date"
+msgstr "Datum"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Description"
+msgstr "Popis"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__display_create_so_button_primary
+msgid "Display Create So Button Primary"
+msgstr "Zobrazit vytvořit tlačítko tak primární"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__display_create_so_button_secondary
+msgid "Display Create So Button Secondary"
+msgstr "Zobrazit vytvořit tlačítko sekundární"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_account_analytic_line__display_name
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_team__display_name
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__display_name
+msgid "Display Name"
+msgstr "Zobrazované jméno"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Duration (Days)"
+msgstr "Trvání (Dny)"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Duration (Hours)"
+msgstr "Doba trvání (hodiny)"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Employee"
+msgstr "Zaměstnanec"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model,name:helpdesk_sale_timesheet.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "Tým Helpdesku"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model,name:helpdesk_sale_timesheet.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "Helpdesk Tiket"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_account_analytic_line__id
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_team__id
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__id
+msgid "ID"
+msgstr "ID"
+
+#. module: helpdesk_sale_timesheet
+#: model:helpdesk.ticket,legend_normal:helpdesk_sale_timesheet.helpdesk_ticket_3
+#: model:project.task,legend_normal:helpdesk_sale_timesheet.project_helpdesk_task_1
+msgid "In Progress"
+msgstr "Probíhá"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_account_analytic_line____last_update
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_team____last_update
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket____last_update
+msgid "Last Modified on"
+msgstr "Naposled změněno"
+
+#. module: helpdesk_sale_timesheet
+#: model:helpdesk.ticket,legend_done:helpdesk_sale_timesheet.helpdesk_ticket_3
+#: model:project.task,legend_done:helpdesk_sale_timesheet.project_helpdesk_task_1
+msgid "Ready"
+msgstr "Připraveno"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__sale_order_id
+msgid "Ref. Sales Order"
+msgstr "Čj. Zakázka odběratele"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,help:helpdesk_sale_timesheet.field_helpdesk_ticket__sale_order_id
+msgid ""
+"Reference of the Sales Order to which this ticket refers. Setting this "
+"information aims at easing your After Sales process and only serves "
+"indicative purposes."
+msgstr ""
+"Odkaz na prodejní objednávku, na kterou se tento tiket vztahuje. Cílem této "
+"informace je usnadnit váš poprodejní proces a slouží pouze pro orientační "
+"účely."
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,help:helpdesk_sale_timesheet.field_helpdesk_ticket__use_helpdesk_sale_timesheet
+msgid "Reinvoice the time spent on ticket through tasks."
+msgstr "Znovu fakturujte čas strávený na lístku prostřednictvím úkolů."
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__use_helpdesk_sale_timesheet
+msgid "Reinvoicing Timesheet activated on Team"
+msgstr "Týmový tým aktivoval časový rozvrh fakturace"
+
+#. module: helpdesk_sale_timesheet
+#: model:project.project,label_tasks:helpdesk_sale_timesheet.project_helpdesk
+msgid "Tasks"
+msgstr "Úkoly"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Timesheets"
+msgstr "Pracovní výkazy"

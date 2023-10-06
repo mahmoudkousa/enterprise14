@@ -1,0 +1,884 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_online_sync
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Samkhann Seang <seangsamkhann@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-25 09:27+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Ooops</strong> It would seems that the process to"
+msgstr "<strong>Ooops</strong>វាហាក់ដូចជាដំណើរការនេះ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Ooops</strong> We could not"
+msgstr "<strong>Ooops</strong>យើងមិនអាច"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Success!</strong> Your account has been succesfully refreshed."
+msgstr "<strong>ជោគជ័យ</strong>គណនីរបស់អ្នកត្រូវបានធ្វើលាងសំអាតបានទទួលជោគជ័យ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Success!</strong> Your account has been succesfully updated."
+msgstr ""
+"<strong>ជោគជ័យ</strong>គណនីរបស់អ្នកត្រូវបានធ្វើបច្នប្បន្នបានទទួលបានជោគជ័យ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Well done!</strong>"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__account_number
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__account_number
+msgid "Account Number"
+msgstr "លេខគណនី"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__account_online_journal_id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__account_online_journal_ids
+msgid "Account Online Journal"
+msgstr "ទិនានុប្បវត្តតាមប្រពន្ឋ័គណនីអ៊ីនធឺណេត"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__account_online_provider_id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__account_online_provider_id
+msgid "Account Online Provider"
+msgstr "ការផ្តល់គណនីតាមប្រពន្ឋ័អ៊ឺនធឺណេត"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__account_online_wizard_id
+msgid "Account Online Wizard"
+msgstr "អ្នកជំនួយការគណនីតាមអ៊ីនធឺណិត"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__name
+msgid "Account name"
+msgstr "ឈ្មោះគណនី"
+
+#. module: account_online_sync
+#: model:ir.actions.server,name:account_online_sync.online_sync_cron_ir_actions_server
+#: model:ir.cron,cron_name:account_online_sync.online_sync_cron
+#: model:ir.cron,name:account_online_sync.online_sync_cron
+msgid "Account: Journal online sync"
+msgstr "គណនី: សមកាលកម្មទិនានុប្បវត្តិលើបណ្តាញ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/company.py:0
+#, python-format
+msgid "Accounting Settings"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__action
+msgid "Action"
+msgstr "សកម្មភាព"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_needaction
+msgid "Action Needed"
+msgstr "តម្រូវការសកម្មភាព"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__action_required
+msgid "Action Required"
+msgstr "ការស្នើសុំសកម្មភាព"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Add a Bank Account"
+msgstr "ការបន្ថែមគណនីក្នុងធានាគារ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
+msgid "Additional information"
+msgstr "ព័​ត៍​មាន​បន្ថែម"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "An error occurred during online synchronization"
+msgstr "កំហុសមួយបានកើតឡើងអំឡុងពេលធ្វើសមកាលកម្មលើអ៊ីនធឺណិត"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_attachment_count
+msgid "Attachment Count"
+msgstr "ចំនួនឯកសារភ្ជាប់"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Automated Bank Synchronization"
+msgstr "ធ្វើសមកាលកម្មធនាគារស្វ័យប្រវត្តិ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__balance
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__balance
+msgid "Balance"
+msgstr "សមតុល្យ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
+msgid "Bank Accounts"
+msgstr "គណនីធនាគារ"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "របាយការណ៍ធនាគារ"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "របាយការណ៌ខ្សែបណ្តាយធានាគារ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "Cancel"
+msgstr "លុបចោល"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__status__cancelled
+msgid "Cancelled"
+msgstr "បានលុបចោល"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__status_code
+msgid "Code to identify problem"
+msgstr "កូដដើម្បីកំណត់បញ្ហា"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_res_company
+msgid "Companies"
+msgstr "ក្រុមហ៊ុន"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__company_id
+msgid "Company"
+msgstr "ក្រុមហ៊ុន"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_res_partner
+msgid "Contact"
+msgstr "ទំនាក់ទំនង"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create a Bank Account"
+msgstr "ការបង្កើតគណនីធានាគារ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create bi-monthly statements"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create daily statements"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create monthly statements"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_link_wizard__action__create
+msgid "Create new journal"
+msgstr "បង្កើតទិនានុប្បវត្តិថ្មី"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create one statement per synchronization"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create weekly statements"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__create_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__create_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__create_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__create_uid
+msgid "Created by"
+msgstr "បង្កើតដោយ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__create_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__create_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__create_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__create_date
+msgid "Created on"
+msgstr "បង្កើតនៅ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__bank_statement_creation
+msgid "Creation of Bank Statements"
+msgstr "ការបង្កើតរបាយការណ៌គណនីធានាគារ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_journal__bank_statement_creation
+msgid ""
+"Defines when a new bank statement\n"
+"                                               will be created when fetching new transactions\n"
+"                                               from your bank account."
+msgstr ""
+"កំណត់នៅពេលរបាយការណ៍ធនាគារថ្មី\n"
+"                                               នឹងត្រូវបានបង្កើតឡើងនៅពេលរកមើលប្រតិបត្តិការថ្មី\n"
+"                                               មកពីធនាគាររបស់អ្នក"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_link_wizard__action__drop
+msgid "Do not link"
+msgstr "មិនមានការតភ្ជាប់"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "Done"
+msgstr "រួចរាល"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__status__failed
+msgid "Failed"
+msgstr "បរាជ័យ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__sync_date
+msgid "Fetch transactions from"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_follower_ids
+msgid "Followers"
+msgstr "អ្នកតាម"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "អ្នកតាម (ឆានែល)"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "អ្នកដើរតាម (ដៃគូរ)"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__hide_table
+msgid "Hide Table"
+msgstr "លាក់តារាង"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__id
+#: model:ir.model.fields,field_description:account_online_sync.field_res_company__id
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__provider_identifier
+msgid ""
+"ID of the banking institution in third party server used for debugging "
+"purpose"
+msgstr ""
+"លេខសម្គាល់នៃស្ថាប័នធនាគារនៅក្នុងម៉ាស៊ីនមេភាគីទីបីដែលត្រូវបានប្រើសម្រាប់គោលបំណងបំបាត់កំហុស"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__provider_account_identifier
+msgid "ID used to identify provider account in third party server"
+msgstr ""
+"លេខសម្គាល់ដែលត្រូវបានប្រើដើម្បីកំណត់អត្តសញ្ញាណគណនីរបស់អ្នកផ្ដល់នៅក្នុងម៉ាស៊ីនមេភាគីទីបី"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_needaction
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "ប្រសិនបើបានគូសធីកសារថ្មីទាមទារការយកចិត្តទុកដាក់របស់អ្នក។"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_has_error
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ប្រសិនបើបានគូសធីកសារខ្លះមានកំហុសបញ្ជូន។"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__name
+msgid "Institution"
+msgstr "ស្ថាប័ន"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr "ចំណុចប្រទាក់សម្រាប់ទិនានុប្បវត្តិគណនីតាមសារអេឡិចត្រូនិច"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_is_follower
+msgid "Is Follower"
+msgstr "ត្រូវតាមអ្នក"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/company.py:0
+#, python-format
+msgid "It looks like a bank account is missing."
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#: model:ir.model,name:account_online_sync.model_account_journal
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__journal_ids
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__journal_id
+#, python-format
+msgid "Journal"
+msgstr "ទិនានុប្បវត្តិ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__name
+msgid "Journal Name"
+msgstr "ឈ្មោះសៀវភៅទិនានុប្បន្នវត្តិ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__last_refresh
+msgid "Last Refresh"
+msgstr "ការសំអាតចុងក្រោយ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__write_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__write_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__write_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__write_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__write_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__write_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__write_date
+msgid "Last Updated on"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__last_sync
+msgid "Last synchronization"
+msgstr "ធ្វើសមកាលកម្មចុងក្រោយ"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_online_link_wizard
+msgid "Link synchronized account to a journal"
+msgstr "ការផ្សាតភ្ជាបសមតិកម្មជាមួយសៀវភៅគណនី"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_link_wizard__action__link
+msgid "Link to existing journal"
+msgstr "ភ្ជាប់ទៅទិនានុប្បវត្តិដែលមានស្រាប់"
+
+#. module: account_online_sync
+#: model_terms:ir.actions.act_window,help:account_online_sync.action_online_provider_account
+msgid "List of bank(s) providing online synchronization"
+msgstr "បញ្ជីធនាគារs)ដែលផ្តល់ការធ្វើសមកាលកម្មលើបណ្តាញ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "ឯកសារភ្ជាប់សំខាន់"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
+msgid "Manual Refresh"
+msgstr "ធ្វើឱ្យស្រស់ដោយដៃ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__message
+msgid "Message"
+msgstr "សារ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_has_error
+msgid "Message Delivery error"
+msgstr "កំហុសក្នុងការផ្ញើសារ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_ids
+msgid "Messages"
+msgstr "សារ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__method
+msgid "Method"
+msgstr "វិធីសាស្រ្ត"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+msgid "Next sync:"
+msgstr "សមកាលកម្មបន្ទាប់:"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__next_synchronization
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__next_refresh
+msgid "Next synchronization"
+msgstr "ធ្វើសមកាលកម្មបន្ទាប់"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "No new transactions have been loaded in the system."
+msgstr "គ្មានប្រតិបត្តិការថ្មីត្រូវបានផ្ទុកនៅក្នុងប្រព័ន្ធ។"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__number_added
+msgid "Number Added"
+msgstr "លេខត្រួវដាក់បន្ថែម"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ចំនួនសកម្មភាព"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "ចំនួនសារដែលទាមទារសកម្មភាព"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ចំនួនសារដែលមានកំហុសឆ្គងនៃការដឹកជញ្ជូន"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_unread_counter
+msgid "Number of unread messages"
+msgstr "ចំនួនសារមិនទាន់អាន"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__online_account_id
+msgid "Online Account"
+msgstr "គណនីលើបណ្តាញ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__online_identifier
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__online_identifier
+msgid "Online Identifier"
+msgstr "អ្នកកំណត់អត្តសញ្ញាណតាមអ៊ីនធឺណិត"
+
+#. module: account_online_sync
+#: model:ir.actions.act_window,name:account_online_sync.action_online_provider_account
+msgid "Online Institution Accounts"
+msgstr "គណនីស្ថាប័នអនឡាញ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__online_partner_bank_account
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner__online_partner_bank_account
+#: model:ir.model.fields,field_description:account_online_sync.field_res_users__online_partner_bank_account
+msgid "Online Partner Bank Account"
+msgstr "គណនីធនាគារដៃគូលើបណ្តាញ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__online_partner_vendor_name
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner__online_partner_vendor_name
+#: model:ir.model.fields,field_description:account_online_sync.field_res_users__online_partner_vendor_name
+msgid "Online Partner Vendor Name"
+msgstr "ឈ្មោះអ្នកលក់ដៃគូអនឡាញ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#: model:ir.ui.menu,name:account_online_sync.menu_action_online_provider_account
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+#, python-format
+msgid "Online Synchronization"
+msgstr "ធ្វើសមកាលកម្មលើបណ្តាញ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Online synchronization from %s to %s"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Online synchronization of %s"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Opening statement"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Opening statement: first synchronization"
+msgstr "ការបើកសេចក្តីថ្លែងការណ៍: ការធ្វើសមកាលកម្មដំបូង"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Please enter at least a character for the search"
+msgstr "សូមបញ្ចូលតួអក្សរយ៉ាងហោចណាស់សម្រាប់ការស្វែងរក"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid ""
+"Please link your accounts to a journal or select \"do not link\" as action "
+"to do"
+msgstr ""
+"សូមភ្ជាប់គណនីរបស់អ្នកទៅទិនានុប្បវត្តិឬជ្រើស \"កុំភ្ជាប់\" "
+"ជាសកម្មភាពដើម្បីធ្វើ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+msgid "Problem during synchronization"
+msgstr "បញ្ហាកំឡុងពេលធ្វើសមកាលកម្ម"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__provider_name
+msgid "Provider"
+msgstr "ការផ្តល់ជូន"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__provider_account_identifier
+msgid "Provider Account Identifier"
+msgstr "គ្រឿងសម្គាល់គណនីអ្នកផ្ដល់"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__provider_identifier
+msgid "Provider Identifier"
+msgstr "គ្រឿងសំគាល់អ្នកផ្តល់"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "ការផ្តល់ជូនប្រភេទការបង់"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "ក្រុមហ៊ុនផ្ដល់សម្រាប់ធ្វើសមកាលកម្មគណនីតាមអ៊ីនធឺណិត"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Server not reachable, please try again later"
+msgstr "ម៉ាស៊ីនមេមិនអាចទៅដល់សូមព្យាយាមម្តងទៀតពេលក្រោយ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid ""
+"Statement has been reset to draft because some transactions from online "
+"synchronization were added to it."
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__status
+msgid "Status"
+msgstr "ស្ថានភាព"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__status_code
+msgid "Status Code"
+msgstr "កូដស្ថានភាព"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__status__success
+msgid "Success"
+msgstr "ជោគជ័យ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_form_inherit_online_sync
+msgid "Synchronization Frequency"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__journal_statements_creation
+msgid "Synchronization frequency"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.actions.act_window,name:account_online_sync.action_account_online_wizard_form
+msgid "Synchronization result"
+msgstr "លទ្ឋផលធ្វើសកម្មភាពតាមអ៊ឺនធឺណេត"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__synchronization_status
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__status
+msgid "Synchronization status"
+msgstr "ស្ថានភាពអ៊ឺនធឺណេត"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "Synchronize now"
+msgstr "សកម្មភាពឥនូវ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__account_ids
+msgid "Synchronized accounts"
+msgstr "កម្មភាពគណនី"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message
+msgid "Techhnical message from third party provider that can help debugging"
+msgstr "សារបច្ចេកទេសពីអ្នកផ្តល់សេវាកម្មភាគីទីបីដែលអាចជួយបំបាត់កំហុស"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_wizard__hide_table
+msgid "Technical field to hide table in view"
+msgstr "វាលបច្ចេកទេសដើម្បីលាក់តារាងក្នុងទិដ្ឋភាព"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_bank_statement_line__online_partner_bank_account
+#: model:ir.model.fields,help:account_online_sync.field_res_partner__online_partner_bank_account
+#: model:ir.model.fields,help:account_online_sync.field_res_users__online_partner_bank_account
+msgid ""
+"Technical field used to store information from plaid/yodlee to match partner"
+msgstr ""
+"វាលបច្ចេកទេសដែលត្រូវបានប្រើដើម្បីផ្ទុកព័ត៌មានពី plaid / yodlee "
+"ដើម្បីផ្គូផ្គងដៃគូ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_bank_statement_line__online_partner_vendor_name
+#: model:ir.model.fields,help:account_online_sync.field_res_partner__online_partner_vendor_name
+#: model:ir.model.fields,help:account_online_sync.field_res_users__online_partner_vendor_name
+msgid ""
+"Technical field used to store information from plaid/yodlee to match partner"
+" (used when a purchase is made)"
+msgstr ""
+"ផ្នែកបច្ចេកទេសដែលប្រើដើម្បីផ្ទុកព័ត៌មានពី plaid / yodlee ដើម្បីផ្គូផ្គងដៃគូរ"
+" (ត្រូវបានប្រើនៅពេលទិញត្រូវបានធ្វើឡើង)"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "The following error happened during the synchronization: %s"
+msgstr "កំហុសដូចខាងក្រោមបានកើតឡើងកំឡុងពេលធ្វើសមកម្ម:%s"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "The following transactions have been loaded in the system."
+msgstr "ប្រតិបត្តិការដូចខាងក្រោមត្រូវបានផ្ទុកនៅក្នុងប្រព័ន្ធ។"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 60s"
+msgstr "អស់ពេល: ម៉ាស៊ីនមេមិនបានឆ្លើយតបក្នុងរយៈពេល 60 ឆ្នាំ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__transactions
+msgid "Transactions"
+msgstr "ប្រតិបត្តិការណ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__action_required
+msgid "True if user needs to take action by updating account"
+msgstr "ត្រឹមត្រូវប្រសិនបើអ្នកប្រើប្រាស់សកម្មភាពត្រូវការតាមគណនីបច្ចុប្បន្នភាព"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Unimplemented"
+msgstr "មិនបានអនុវត្ត"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Unknown reason"
+msgstr "មិនមានហេតុផល"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_unread
+msgid "Unread Messages"
+msgstr "សារមិនទាន់អាន"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "រាប់សារមិនទាន់អាន"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
+msgid "Update Credentials"
+msgstr "ធ្វើបច្ចុប្បន្នភាពលិខិតសម្គាល់"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_journal__synchronization_status
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__status
+msgid "Update status of provider account"
+msgstr "បច្ចប្បន្នភាពនៃការផ្តល់ជូនគណនី"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+msgid "View problem"
+msgstr "ការពិនិត្យមើលបញ្ហា"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__website_message_ids
+msgid "Website Messages"
+msgstr "សារវែបសាយ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__website_message_ids
+msgid "Website communication history"
+msgstr "ប្រវត្តិទំនាក់ទំនងវែបសាយ"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_online_wizard
+msgid "Wizard to link synchronized accounts to journal"
+msgstr "អ្នកជំនួយការត្រូវភ្ជាប់គណនីដែលធ្វើសមកាលកម្មទៅទិនានុប្បវត្តិ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "You can not link two accounts to the same journal"
+msgstr "អ្នកមិនអាចភ្ជាប់គណនីពីរទៅកាន់ទិនានុប្បវត្តិដូចគ្នាបានទេ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/company.py:0
+#, python-format
+msgid "You should install a fiscal localization first."
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__method__add
+msgid "add"
+msgstr "មន្ថែម"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_journal__balance
+#: model:ir.model.fields,help:account_online_sync.field_account_online_link_wizard__balance
+msgid "balance of the account sent by the third party provider"
+msgstr "សមតុល្យគណនីដែលផ្ញើដោយអ្នកផ្តល់សេវាកម្មភាគីទីបី"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid ""
+"bank accounts have been found.<br/>To finalize, please associate each bank "
+"account with an accounting journal and choose the synchronization frequency "
+"<span title=\"The first synchronization collects all transactions in a "
+"unique bank statement\"> <i class=\"fa fa-info-circle\" aria-"
+"label=\"0\"/></span>"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__method__edit
+msgid "edit"
+msgstr "បន្ថែម"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_journal__online_identifier
+msgid "id use to identify account in provider system"
+msgstr "អត្តលេខជាក់លាក់ត្រូវបានប្រើប្រាស់ក្នុងការផ្តល់ជូនក្នុងប្រព័ន្ចគណនី"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_journal__provider_name
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__name
+msgid "name of the banking institution"
+msgstr "ឈ្មោះនៃស្ថានប័នធានាគារ"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__method__refresh
+msgid "refresh"
+msgstr "ធ្វើអោយស្រស់ស្រាយ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "transactions loaded"
+msgstr "ប្រតិបត្តិការដែលបានផ្ទុក"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid ""
+"your account because of the following\n"
+"                    error during the process:"
+msgstr ""
+"គណនីរបស់អ្នកដោយសារតែដូចខាងក្រោម                     កំហុសក្នុងដំណើរការ:"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid ""
+"your account was not\n"
+"                    thoroughly completed. You can try to manually update your account by clicking the refresh button on the dashboard\n"
+"                    or in the online synchronization menu."
+msgstr ""
+"គណនីរបស់អ្នកមិនបាន                     បានបញ្ចប់យ៉ាងហ្មត់ចត់។ "
+"អ្នកអាចព្យាយាមធ្វើបច្ចុប្បន្នភាពគណនីរបស់អ្នកដោយចុចប៊ូតុងធ្វើឱ្យស្រស់នៅលើផ្ទៃតាប្លូ"
+"                     ឬនៅក្នុងម៉ឺនុយធ្វើសមកាលកម្មលើបណ្តាញ។"

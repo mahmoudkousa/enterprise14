@@ -1,0 +1,164 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_sale_timesheet
+# 
+# Translators:
+# Morten Schou <ms@msteknik.dk>, 2020
+# Jesper Carstensen <jc@danodoo.dk>, 2020
+# Sanne Kristensen <sanne@vkdata.dk>, 2020
+# lhmflexerp <lhm@flexerp.dk>, 2020
+# Mads Søndergaard, 2020
+# Martin Trigaux, 2020
+# Mads Søndergaard, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:04+0000\n"
+"PO-Revision-Date: 2020-09-07 08:20+0000\n"
+"Last-Translator: Mads Søndergaard, 2020\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model,name:helpdesk_sale_timesheet.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Analytisk linje"
+
+#. module: helpdesk_sale_timesheet
+#: model:helpdesk.ticket,legend_blocked:helpdesk_sale_timesheet.helpdesk_ticket_3
+#: model:project.task,legend_blocked:helpdesk_sale_timesheet.project_helpdesk_task_1
+msgid "Blocked"
+msgstr "Blokeret"
+
+#. module: helpdesk_sale_timesheet
+#: code:addons/helpdesk_sale_timesheet/models/helpdesk.py:0
+#: code:addons/helpdesk_sale_timesheet/models/helpdesk.py:0
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet
+#, python-format
+msgid "Create Sales Order"
+msgstr "Opret salgsordre"
+
+#. module: helpdesk_sale_timesheet
+#: model:helpdesk.team,name:helpdesk_sale_timesheet.helpdesk_team2
+msgid "Customer Services"
+msgstr "Kundeservice"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Date"
+msgstr "Dato"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Description"
+msgstr "Beskrivelse"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__display_create_so_button_primary
+msgid "Display Create So Button Primary"
+msgstr "Vis Opret SO Knap Primær"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__display_create_so_button_secondary
+msgid "Display Create So Button Secondary"
+msgstr "Vis Opret SO Knap Sekundær"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_account_analytic_line__display_name
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_team__display_name
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__display_name
+msgid "Display Name"
+msgstr "Vis navn"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Duration (Days)"
+msgstr "Varighed (Dage)"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Duration (Hours)"
+msgstr "Varighed (Timer)"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Employee"
+msgstr "Medarbejder"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model,name:helpdesk_sale_timesheet.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "Helpdesk team"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model,name:helpdesk_sale_timesheet.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "Helpdesk opgave"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_account_analytic_line__id
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_team__id
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__id
+msgid "ID"
+msgstr "ID"
+
+#. module: helpdesk_sale_timesheet
+#: model:helpdesk.ticket,legend_normal:helpdesk_sale_timesheet.helpdesk_ticket_3
+#: model:project.task,legend_normal:helpdesk_sale_timesheet.project_helpdesk_task_1
+msgid "In Progress"
+msgstr "I gang"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_account_analytic_line____last_update
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_team____last_update
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket____last_update
+msgid "Last Modified on"
+msgstr "Sidst ændret den"
+
+#. module: helpdesk_sale_timesheet
+#: model:helpdesk.ticket,legend_done:helpdesk_sale_timesheet.helpdesk_ticket_3
+#: model:project.task,legend_done:helpdesk_sale_timesheet.project_helpdesk_task_1
+msgid "Ready"
+msgstr "Klar"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__sale_order_id
+msgid "Ref. Sales Order"
+msgstr "Ref. SalgsordreRef. Salgsordre"
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,help:helpdesk_sale_timesheet.field_helpdesk_ticket__sale_order_id
+msgid ""
+"Reference of the Sales Order to which this ticket refers. Setting this "
+"information aims at easing your After Sales process and only serves "
+"indicative purposes."
+msgstr ""
+"Referencen på salgsorden som denne sag henviser til. Indstilling af denne "
+"information har til mål at gøre din eftersalgs proces nemmere, og har kun "
+"indikativ formål."
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,help:helpdesk_sale_timesheet.field_helpdesk_ticket__use_helpdesk_sale_timesheet
+msgid "Reinvoice the time spent on ticket through tasks."
+msgstr "Viderefakturér tid brugt på sag via opgaver."
+
+#. module: helpdesk_sale_timesheet
+#: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__use_helpdesk_sale_timesheet
+msgid "Reinvoicing Timesheet activated on Team"
+msgstr "Viderefakturering af timesedler aktiveret på team"
+
+#. module: helpdesk_sale_timesheet
+#: model:project.project,label_tasks:helpdesk_sale_timesheet.project_helpdesk
+msgid "Tasks"
+msgstr "Opgaver"
+
+#. module: helpdesk_sale_timesheet
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
+msgid "Timesheets"
+msgstr "Timesedler"

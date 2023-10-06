@@ -1,0 +1,78 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reports_tax
+# 
+# Translators:
+# Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2021
+# Cécile Collart <cco@odoo.com>, 2021
+# Alexandra Jubert, 2021
+# Camille Dantinne <cmd@odoo.com>, 2021
+# Malika Berardi, 2022
+# Jolien De Paepe, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-02 13:14+0000\n"
+"PO-Revision-Date: 2021-03-14 17:25+0000\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid ""
+"<span class=\"fa fa-book\"/>\n"
+"                Tax Report:"
+msgstr ""
+"<span class=\"fa fa-book\"/>\n"
+"                Déclaration de TVA :"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.template_tax_report
+msgid ""
+"<span>Please note that the report may include some rounding differences "
+"towards the bookings.</span>"
+msgstr ""
+"<span>Veuillez noter que le rapport peut inclure des différences d'arrondis "
+"venant de la comptabilisation</span>"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: account_reports_tax
+#: model:ir.model,name:account_reports_tax.model_account_generic_tax_report
+msgid "Generic Tax Report"
+msgstr "Déclaration de TVA générique"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Global Summary"
+msgstr "Résumé global"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Group by: Account &gt; Tax"
+msgstr "Regrouper par: Compte &gt; Taxe"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Group by: Tax &gt; Account"
+msgstr "Regrouper par : Taxe &gt; Compte"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"

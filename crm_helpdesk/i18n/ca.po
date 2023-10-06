@@ -1,0 +1,113 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* crm_helpdesk
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Carles Antoli <carlesantoli@hotmail.com>, 2020
+# Quim - eccit <quim@eccit.com>, 2020
+# jabelchi, 2021
+# marcescu, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.3+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-21 10:49+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: marcescu, 2022\n"
+"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: crm_helpdesk
+#: model_terms:ir.ui.view,arch_db:crm_helpdesk.crm_lead_convert2ticket_view_form
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#. module: crm_helpdesk
+#: model:ir.actions.act_window,name:crm_helpdesk.crm_lead_convert2ticket_action
+#: model_terms:ir.ui.view,arch_db:crm_helpdesk.crm_lead_convert2ticket_view_form
+#: model_terms:ir.ui.view,arch_db:crm_helpdesk.crm_lead_view_form
+msgid "Convert to Ticket"
+msgstr "Converteix a ticket"
+
+#. module: crm_helpdesk
+#: model_terms:ir.ui.view,arch_db:crm_helpdesk.crm_lead_convert2ticket_view_form
+msgid "Create Ticket"
+msgstr "Crea un tiquet"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__partner_id
+msgid "Customer"
+msgstr "Client"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__display_name
+msgid "Display Name"
+msgstr "Nom a mostrar"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__id
+msgid "ID"
+msgstr "ID"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket____last_update
+msgid "Last Modified on"
+msgstr "Última modificació el "
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__lead_id
+msgid "Lead"
+msgstr "Iniciativa"
+
+#. module: crm_helpdesk
+#: code:addons/crm_helpdesk/wizard/crm_lead_convert2ticket.py:0
+#, python-format
+msgid "Lead Converted"
+msgstr "Client potencial convertit"
+
+#. module: crm_helpdesk
+#: model:ir.model,name:crm_helpdesk.model_crm_lead_convert2ticket
+msgid "Lead convert to Ticket"
+msgstr "Client potencial converteix a Tiquet"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__team_id
+msgid "Team"
+msgstr "Equip"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__ticket_type_id
+msgid "Ticket Type"
+msgstr "Tipus d'Entrades"
+
+#. module: crm_helpdesk
+#: code:addons/crm_helpdesk/wizard/crm_lead_convert2ticket.py:0
+#, python-format
+msgid "Ticket created"
+msgstr "Tiquet creat"

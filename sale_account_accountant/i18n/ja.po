@@ -1,0 +1,86 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_account_accountant
+# 
+# Translators:
+# Shunho Kin <s-kin@shonan-innovation.co.jp>, 2020
+# Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2020
+# Noma Yuki, 2020
+# Abe Tomohiro <tomohiro@quartile.co>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Abe Tomohiro <tomohiro@quartile.co>, 2021\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: sale_account_accountant
+#: model:ir.model,name:sale_account_accountant.model_account_reconciliation_widget
+msgid "Account Reconciliation widget"
+msgstr "アカウント消込ウィジェット"
+
+#. module: sale_account_accountant
+#: model:ir.model.fields,field_description:sale_account_accountant.field_account_reconciliation_widget__display_name
+msgid "Display Name"
+msgstr "表示名"
+
+#. module: sale_account_accountant
+#: model:ir.model.fields,field_description:sale_account_accountant.field_account_reconciliation_widget__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_account_accountant
+#: model:ir.model.fields,field_description:sale_account_accountant.field_account_reconciliation_widget____last_update
+msgid "Last Modified on"
+msgstr "最終更新日"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "Match with a sale order"
+msgstr ""
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/js/account_reconciliation.js:0
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "Sale Order"
+msgstr "販売オーダ"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/js/account_reconciliation.js:0
+#, python-format
+msgid "Sale Orders"
+msgstr "販売オーダ"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "There are"
+msgstr "がある"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "matching the communication of the bank statement line"
+msgstr ""
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "uninvoiced sales orders"
+msgstr ""

@@ -1,0 +1,105 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_renting_crm
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Kari Lindgren <kari.lindgren@emsystems.fi>, 2020
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020
+# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2020
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "<span class=\"o_stat_text\"> Rental Orders</span>"
+msgstr "<span class=\"o_stat_text\"> Vuokraustilaukset</span>"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Näyttönimi"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__id
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__id
+msgid "ID"
+msgstr "Tunniste (ID)"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Viimeksi muokattu"
+
+#. module: sale_renting_crm
+#: model:ir.model,name:sale_renting_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Liidi/mahdollisuus"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "New Rental"
+msgstr "Uusi vuokraus"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_order_count
+msgid "Number of Rental Orders"
+msgstr "Vuokraustilausten määrä"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_quotation_count
+msgid "Number of Rental Quotations"
+msgstr "Vuokratarjousten määrä"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__opportunity_id
+msgid "Opportunity"
+msgstr "Mahdollisuus"
+
+#. module: sale_renting_crm
+#: code:addons/sale_renting_crm/models/crm_lead.py:0
+#, python-format
+msgid "Please select or create a customer before creating a quote."
+msgstr ""
+
+#. module: sale_renting_crm
+#: code:addons/sale_renting_crm/models/crm_lead.py:0
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_order_ids
+#, python-format
+msgid "Rental Orders"
+msgstr "Vuokraustilaukset"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "Rental Quotations"
+msgstr ""
+
+#. module: sale_renting_crm
+#: model:ir.model,name:sale_renting_crm.model_sale_order
+msgid "Sales Order"
+msgstr "Myyntitilaus"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_amount_total
+msgid "Sum of Rental Orders"
+msgstr "Vuokratilausten summa"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,help:sale_renting_crm.field_crm_lead__rental_amount_total
+msgid "Untaxed Total of Confirmed Orders"
+msgstr "Myyntitilausten veroton summa"

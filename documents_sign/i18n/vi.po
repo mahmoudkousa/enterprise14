@@ -1,0 +1,104 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_sign
+# 
+# Translators:
+# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020
+# Duy BQ <duybq86@gmail.com>, 2020
+# Dao Nguyen <trucdao.uel@gmail.com>, 2020
+# Trần Hà <tranthuha13590@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:19+0000\n"
+"Last-Translator: Trần Hà <tranthuha13590@gmail.com>, 2021\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: documents_sign
+#: model:ir.model,name:documents_sign.model_documents_workflow_rule
+msgid ""
+"A set of condition and actions which will be available to all attachments "
+"matching the conditions"
+msgstr ""
+"Loạt các điều kiện và hành động có sẵn cho tất cả các tệp đính kèm phù hợp "
+"với các điều kiện"
+
+#. module: documents_sign
+#: model:ir.model.fields,field_description:documents_sign.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr "Tạo"
+
+#. module: documents_sign
+#: model:ir.model.fields,field_description:documents_sign.field_documents_workflow_rule__display_name
+#: model:ir.model.fields,field_description:documents_sign.field_sign_request__display_name
+#: model:ir.model.fields,field_description:documents_sign.field_sign_template__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: documents_sign
+#: model:ir.model.fields,field_description:documents_sign.field_documents_workflow_rule__has_business_option
+msgid "Has Business Option"
+msgstr "Có lựa chọn kinh doanh"
+
+#. module: documents_sign
+#: model:ir.model.fields,field_description:documents_sign.field_documents_workflow_rule__id
+#: model:ir.model.fields,field_description:documents_sign.field_sign_request__id
+#: model:ir.model.fields,field_description:documents_sign.field_sign_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: documents_sign
+#: model:ir.model.fields,field_description:documents_sign.field_documents_workflow_rule____last_update
+#: model:ir.model.fields,field_description:documents_sign.field_sign_request____last_update
+#: model:ir.model.fields,field_description:documents_sign.field_sign_template____last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: documents_sign
+#: code:addons/documents_sign/models/workflow.py:0
+#, python-format
+msgid "New templates"
+msgstr "New templates"
+
+#. module: documents_sign
+#: model:documents.workflow.rule,name:documents_sign.documents_sign_rule_sign_directly
+msgid "Sign"
+msgstr "Kí"
+
+#. module: documents_sign
+#: model:ir.model.fields.selection,name:documents_sign.selection__documents_workflow_rule__create_model__sign_template_direct
+msgid "Sign directly"
+msgstr "Sign directly"
+
+#. module: documents_sign
+#: model:ir.model,name:documents_sign.model_sign_request
+msgid "Signature Request"
+msgstr "Yêu cầu kí"
+
+#. module: documents_sign
+#: model:ir.model,name:documents_sign.model_sign_template
+msgid "Signature Template"
+msgstr "Signature Template"
+
+#. module: documents_sign
+#: model:ir.model.fields.selection,name:documents_sign.selection__documents_workflow_rule__create_model__sign_template_new
+msgid "Signature request"
+msgstr "Signature request"
+
+#. module: documents_sign
+#: model:ir.model.fields,field_description:documents_sign.field_sign_template__documents_tag_ids
+msgid "Signed Document Tags"
+msgstr "Signed Document Tags"
+
+#. module: documents_sign
+#: model:ir.model.fields,field_description:documents_sign.field_sign_template__folder_id
+msgid "Signed Document Workspace"
+msgstr "Signed Document Workspace"

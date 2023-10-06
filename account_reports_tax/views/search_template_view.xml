@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="search_template_tax_report_choser" inherit_id="account_reports.search_template_tax_report_choser">
+        <xpath expr="//button" position="replace">
+            <button type="button" class="o_dropdown_toggler_btn btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                <span class="fa fa-book"/>
+                Tax Report:
+                <t t-if="options['group_by'] == 'tax_account'">
+                    Group by: Tax > Account
+                </t>
+                <t t-elif="options['group_by'] == 'account_tax'">
+                    Group by: Account > Tax
+                </t>
+                <t t-elif="options['tax_report']">
+                    <t t-set="selected_report" t-value="[opt for opt in options['available_tax_reports'] if opt['id'] == options['tax_report']][0]"/>
+                    <t t-esc="selected_report['name']"/>
+                </t>
+                <t t-else="">
+                    Global Summary
+                </t>
+            </button>
+        </xpath>
+        <xpath expr="//div[@role='menu']/a[@data-id='0']" position="after">
+            <a role="menuitem"
+               class="dropdown-item js_account_reports_one_choice_filter"
+               data-filter="tax_report"
+               data-id="account_tax"
+               t-if="options['by_account_available']"
+               groups="account.group_account_readonly"
+            >
+                Group by: Account > Tax
+            </a>
+            <a role="menuitem"
+               class="dropdown-item js_account_reports_one_choice_filter"
+               data-filter="tax_report"
+               data-id="tax_account"
+               t-if="options['by_account_available']"
+               groups="account.group_account_readonly"
+            >
+                Group by: Tax > Account
+            </a>
+        </xpath>
+    </template>
+
+
+    <!-- Tax report templates -->
+    <template id="template_tax_report" inherit_id="account_reports.main_template" primary="True">
+        <xpath expr="//div[@id='warnings_div']" position="inside">
+            <div class="alert alert-light text-center mb-0 no_print" t-if="options.get('group_by')">
+                <span>Please note that the report may include some rounding differences towards the bookings.</span>
+            </div>
+        </xpath>
+    </template>
+</odoo>

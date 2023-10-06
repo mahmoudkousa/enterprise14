@@ -1,0 +1,102 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_renting_crm
+# 
+# Translators:
+# Luigi Di Naro <gigidn@gmail.com>, 2020
+# Sergio Zanchetta <primes2h@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2020\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "<span class=\"o_stat_text\"> Rental Orders</span>"
+msgstr "<span class=\"o_stat_text\"> Ordini di noleggio</span>"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__id
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: sale_renting_crm
+#: model:ir.model,name:sale_renting_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Contatto/Opportunità"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "New Rental"
+msgstr "Nuovo noleggio"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_order_count
+msgid "Number of Rental Orders"
+msgstr "Numero ordini di noleggio"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_quotation_count
+msgid "Number of Rental Quotations"
+msgstr "Numero preventivi di noleggio"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__opportunity_id
+msgid "Opportunity"
+msgstr "Opportunità"
+
+#. module: sale_renting_crm
+#: code:addons/sale_renting_crm/models/crm_lead.py:0
+#, python-format
+msgid "Please select or create a customer before creating a quote."
+msgstr "Prima di creare un preventivo selezionare o creare un cliente."
+
+#. module: sale_renting_crm
+#: code:addons/sale_renting_crm/models/crm_lead.py:0
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_order_ids
+#, python-format
+msgid "Rental Orders"
+msgstr "Ordini di noleggio"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "Rental Quotations"
+msgstr "Preventivi di noleggio"
+
+#. module: sale_renting_crm
+#: model:ir.model,name:sale_renting_crm.model_sale_order
+msgid "Sales Order"
+msgstr "Ordine di vendita"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_amount_total
+msgid "Sum of Rental Orders"
+msgstr "Totale ordini di noleggio"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,help:sale_renting_crm.field_crm_lead__rental_amount_total
+msgid "Untaxed Total of Confirmed Orders"
+msgstr "Totale imponibile degli ordini confermati"

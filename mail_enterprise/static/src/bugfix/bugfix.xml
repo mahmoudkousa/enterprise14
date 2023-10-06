@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+<!--
+    This file allows introducing new static templates without contaminating other files.
+    This is useful when bug fixing requires adding new components for instance in stable
+    versions of Odoo. Any template that is defined in this file should be isolated
+    in its own file in master.
+-->
+
+    <!-- mail_enterprise/static/src/models/chatter/chatter.xml -->
+    <t t-name="mail_enterprise.ChatterContainer" t-inherit="mail.ChatterContainer" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('o_ChatterContainer')]" position="attributes">
+            <attribute name="t-att-class">{ 'o-isInFormSheetBg': props.isInFormSheetBg }</attribute>
+        </xpath>
+    </t>
+
+</templates>

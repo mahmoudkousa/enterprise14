@@ -1,0 +1,62 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_bank_statement_import_ofx
+# 
+# Translators:
+# Martin Trigaux, 2020
+# ILMIR <karamov@it-projects.info>, 2020
+# Irina Fedulova <istartlin@gmail.com>, 2020
+# Алексей Корнев <ankornevwork@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:17+0000\n"
+"Last-Translator: Алексей Корнев <ankornevwork@gmail.com>, 2021\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_bank_statement_import__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_journal__display_name
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_bank_statement_import__id
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_journal__id
+msgid "ID"
+msgstr "Идентификатор"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model,name:account_bank_statement_import_ofx.model_account_bank_statement_import
+msgid "Import Bank Statement"
+msgstr "Импорт банковской выписки"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model,name:account_bank_statement_import_ofx.model_account_journal
+msgid "Journal"
+msgstr "Журнал"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_bank_statement_import____last_update
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_journal____last_update
+msgid "Last Modified on"
+msgstr "Последнее изменение"
+
+#. module: account_bank_statement_import_ofx
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import_ofx.account_bank_statement_import_ofx
+msgid "Open Financial Exchange (OFX)"
+msgstr "Открытый Финансовый Обмен (ОФО)"
+
+#. module: account_bank_statement_import_ofx
+#: code:addons/account_bank_statement_import_ofx/wizard/account_bank_statement_import_ofx.py:0
+#, python-format
+msgid "The library 'ofxparse' is missing, OFX import cannot proceed."
+msgstr "Библиотека 'ofxparse' отсутствует, импорт OFX не может продолжаться."

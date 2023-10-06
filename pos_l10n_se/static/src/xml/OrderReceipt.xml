@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('pos-receipt-contact')]" position="inside">
+            <t t-if="receipt.useBlackBoxSweden">
+                <br/>
+                <div>
+                    <span style="font-size: 200%">
+                        <t t-if="props.order.isReprint">Copy</t>
+                        <t t-elif="props.order.isProfo">PRO FORMA</t>
+                        <t t-else="">
+                            <t t-if="props.order.get_total_with_tax() lt 0">Return</t>
+                            Receipt
+                        </t>
+                    </span>
+                </div>
+                <t t-if="props.order.isReprint">
+                    Original date:
+                    <t t-esc="receipt.originalOrderDate"/>
+                </t>
+                <div>
+                    <span>Sequence: </span>
+                    <t t-esc="receipt.orderSequence"/>
+                </div>
+            </t>
+        </xpath>
+
+        <xpath expr="//div[hasclass('pos-receipt-order-data')]" position="inside">
+            <t t-if="receipt.useBlackBoxSweden">
+                <br/>
+                <div>
+                    <span>POS id: </span>
+                    <t t-esc="receipt.posID"/>
+                </div>
+                <div>
+                    <span>Blackbox unit id: </span>
+                    <t t-esc="receipt.unitID"/>
+                </div>
+                <div style="word-wrap:break-word;">
+                    <span>Blackbox Signature: </span>
+                    <t t-esc="receipt.blackboxSignature"/>
+                </div>
+            </t>
+        </xpath>
+
+        <xpath expr="//div[hasclass('orderlines')]" position="attributes">
+            <attribute name="t-if">!receipt.useBlackBoxSweden</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('orderlines')]" position="after">
+            <div class="orderlines" t-if="receipt.useBlackBoxSweden">
+                <span class="pos-receipt-left-padding">Products:</span><br/>
+                <t t-set="receipt.displayService" t-value="false"/>
+                <t t-call="OrderLines"/>
+
+                <br/><span class="pos-receipt-left-padding">Services:</span><br/>
+                <t t-set="receipt.displayService" t-value="true"/>
+                <t t-call="OrderLines"/>
+            </div>
+        </xpath>
+    </t>
+
+    <t t-name="OrderLines" owl="1">
+        <t t-foreach="receipt.orderlines" t-as="line" t-key="line.id">
+            <t t-if="isService(line) === receipt.displayService">
+                <t t-if="isSimple(line)">
+                    <div>
+                        <t t-esc="line.product_name_wrapped[0]" />
+                        <span t-esc="env.pos.format_currency_no_symbol(line.price_display)" class="price_display pos-receipt-right-align"/>
+                    </div>
+                    <WrappedProductNameLines line="line" />
+                </t>
+                <t t-else="">
+                    <div t-esc="line.product_name_wrapped[0]" />
+                    <WrappedProductNameLines line="line" />
+                    <t t-if="line.display_discount_policy == 'without_discount' and line.price != line.price_lst">
+                        <div class="pos-receipt-left-padding">
+                            <t t-esc="env.pos.format_currency_no_symbol(line.price_lst)" />
+                            ->
+                            <t t-esc="env.pos.format_currency_no_symbol(line.price)" />
+                        </div>
+                    </t>
+                    <t t-elif="line.discount !== 0">
+                        <div class="pos-receipt-left-padding">
+                            <t t-if="env.pos.config.iface_tax_included === 'total'">
+                                <t t-esc="env.pos.format_currency_no_symbol(line.price_with_tax_before_discount)"/>
+                            </t>
+                            <t t-else="">
+                                <t t-esc="env.pos.format_currency_no_symbol(line.price)"/>
+                            </t>
+                        </div>
+                    </t>
+                    <t t-if="line.discount !== 0">
+                        <div class="pos-receipt-left-padding">
+                            Discount: <t t-esc="line.discount" />%
+                        </div>
+                    </t>
+                    <div class="pos-receipt-left-padding">
+                        <t t-esc="Math.round(line.quantity * Math.pow(10, env.pos.dp['Product Unit of Measure'])) / Math.pow(10, env.pos.dp['Product Unit of Measure'])"/>
+                        <t t-if="line.unit_name !== 'Units'" t-esc="line.unit_name" />
+                        x
+                        <t t-esc="env.pos.format_currency_no_symbol(line.price_display_one)" />
+                        <span class="price_display pos-receipt-right-align">
+                            <t t-esc="env.pos.format_currency_no_symbol(line.price_display)" />
+                        </span>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </t>
+</templates>

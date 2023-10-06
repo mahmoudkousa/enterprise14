@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" inherit_id="web.assets_backend" name="Event Barcode Mobile Assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/event_barcode_mobile/static/src/js/event_barcode_mobile.js"/>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<odoo>
+
+<record model="ir.ui.view" id="event_event_view_form">
+    <field name="name">event.event.view.form.inherit.social.track</field>
+    <field name="model">event.event</field>
+     <field name="inherit_id" ref="event.view_event_form"/>
+    <field name="arch" type="xml">
+        <xpath expr="//button[@name='action_send_push']" position="after">
+            <button name="action_send_push_reminders" string="Send Push Reminders" type="object"
+                groups="base.group_no_one"
+                attrs="{'invisible': [('firebase_enable_push_notifications', '!=', True)]}"/>
+        </xpath>
+    </field>
+</record>
+
+</odoo>

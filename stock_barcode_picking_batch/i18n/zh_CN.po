@@ -1,0 +1,312 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_barcode_picking_batch
+# 
+# Translators:
+# Martin Trigaux, 2020
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
+# snow wang <147156565@qq.com>, 2020
+# Felix Yang <felixyangsh@aliyun.com>, 2020
+# Jeffery CHEN <jeffery9@gmail.com>, 2021
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:24+0000\n"
+"Last-Translator: 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_move_line_product_selector_inherit
+msgid "<i class=\"fa fa-fw fa-lg fa-truck mr-3\" title=\"Transfer\"/>"
+msgstr "<i class=\"fa fa-fw fa-lg fa-truck mr-3\" title=“调拨”/>"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.actions.client,name:stock_barcode_picking_batch.stock_barcode_picking_batch_client_action
+msgid "Barcode Batch Picking Client Action"
+msgstr "条形码批量分拣客户端动作"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.actions.client,name:stock_barcode_picking_batch.stock_barcode_picking_batch_create_client_action
+msgid "Barcode Batch Picking Create Client Action"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking_batch
+msgid "Batch Transfer"
+msgstr "批量调拨"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/stock_barcode.xml:0
+#: model:ir.actions.act_window,name:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+#, python-format
+msgid "Batch Transfers"
+msgstr "批量调拨"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Confirm"
+msgstr "确认"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+msgid "Description"
+msgstr "说明"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_quant_package__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields.selection,name:stock_barcode_picking_batch.selection__stock_quant_package__package_use__disposable
+msgid "Disposable Box"
+msgstr "一次性包装盒"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_create_client_action.js:0
+#, python-format
+msgid "Error"
+msgstr "错误"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_quant_package__id
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line____last_update
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch____last_update
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_quant_package____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
+msgid "Lines"
+msgstr "明细行"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "No \"ready\" transfers found."
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+msgid "No batch transfer found"
+msgstr "没有发现批量调拨"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_create_client_action.js:0
+#, python-format
+msgid "No transfers were selected or something has gone wrong!"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
+msgid "Open Batch Picking"
+msgstr "打开批量分拣单"
+
+#. module: stock_barcode_picking_batch
+#: code:addons/stock_barcode_picking_batch/models/stock_picking_batch.py:0
+#, python-format
+msgid "Open picking batch form"
+msgstr "打开批量分拣表单"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_quant_package__package_use
+msgid "Package Use"
+msgstr "包装使用"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_quant_package
+msgid "Packages"
+msgstr "包裹"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_create_client_action.js:0
+#, python-format
+msgid "Please select an Operation Type"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Print Batch Transfer"
+msgstr "打印批量调拨"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "产品移动(移库明细)"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Put In Pack"
+msgstr "放入包裹"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields.selection,name:stock_barcode_picking_batch.selection__stock_quant_package__package_use__reusable
+msgid "Reusable Box"
+msgstr "可重复使用的盒子"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,help:stock_barcode_picking_batch.field_stock_quant_package__package_use
+msgid ""
+"Reusable boxes are used for batch picking and emptied afterwards to be reused. In the barcode application, scanning a reusable box will add the products in this box.\n"
+"        Disposable boxes aren't reused, when scanning a disposable box in the barcode application, the contained products are added to the transfer."
+msgstr ""
+"可重复使用的盒子用于批量拣选，之后被清空以重复使用。在条形码应用程序中，扫描一个可重复使用的盒子将添加该盒子中的产品。\n"
+"        一次性包装盒不能重复使用，当在条码应用中扫描一次性包装盒时，所装的产品会被添加到转移中。"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Select"
+msgstr "选择"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Select an operation type for batch transfer"
+msgstr "为批量调拨选择一个操作类型"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Select transfers for batch transfer"
+msgstr "为批量调拨选择调拨"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_client_action.js:0
+#, python-format
+msgid "The batch picking has been cancelled"
+msgstr "批量调拨已被取消"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+msgid ""
+"The goal of the batch transfer is to group operations that may\n"
+"            (needs to) be done together in order to increase their efficiency.\n"
+"            It may also be useful to assign jobs (one person = one batch) or\n"
+"            help the timing management of operations (tasks to be done at 1pm)."
+msgstr ""
+"批量调拨的目标是将可能出现的操作进行分组。\n"
+"            (需要)一起做，以提高其效率。\n"
+"            分配工作（一个人=一批人），也可能是有用的。\n"
+"            帮助业务的时间管理（下午1点要完成的任务）。"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/js/client_action/picking_batch_client_action.js:0
+#, python-format
+msgid ""
+"The scanned package must not be assigned to a location or must be assigned "
+"to the current dest location."
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,help:stock_barcode_picking_batch.field_stock_move_line__picking_id
+msgid "The stock operation where the packing has been made"
+msgstr "打包作业执行的库存作业"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "This batch transfer is already cancelled"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "This batch transfer is already done"
+msgstr "这个批次的调拨已经完成"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "This batch transfer is empty, you need to configure it"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid ""
+"This batch transfer is still draft, it must be confirmed before being "
+"processed"
+msgstr "这个批次调拨仍然是草稿，在处理之前必须确认。"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__picking_id
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_move_line_product_selector_inherit
+msgid "Transfer"
+msgstr "调拨"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__picking_type_code
+msgid "Type of Operation"
+msgstr "作业类型"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+msgid "Unbatch Transfer"
+msgstr "非批量调拨"
+
+#. module: stock_barcode_picking_batch
+#: code:addons/stock_barcode_picking_batch/models/stock_picking.py:0
+#, python-format
+msgid ""
+"You cannot validate a transfer if no quantities are reserved nor done. You "
+"can use the info button on the top right corner of your screen to remove the"
+" transfer in question from the batch."
+msgstr "如果没有保留也没有完成的数量，您就不能验证调拨。您可以使用屏幕右上角的信息按钮，从批次中删除有问题的调拨。"
+
+#. module: stock_barcode_picking_batch
+#. openerp-web
+#: code:addons/stock_barcode_picking_batch/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "line.package_id || line.result_package_id || line.suggested_package"
+msgstr ""

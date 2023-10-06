@@ -1,0 +1,1085 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_calendar
+# 
+# Translators:
+# Rivo Zängov <eraser@eraser.ee>, 2020
+# Martin Trigaux, 2020
+# Arma Gedonsky <armagedonsky@hot.ee>, 2020
+# Ahto Reinaru <ahto.reinaru@gmail.com>, 2020
+# Egon Raamat <egon@avalah.ee>, 2020
+# Eneli Õigus <enelioigus@gmail.com>, 2020
+# Martin Aavastik <martin@avalah.ee>, 2020
+# Piia Paurson <piia@avalah.ee>, 2020
+# Algo Kärp <algokarp@gmail.com>, 2021
+# Martin Talts <martin.t@avalah.ee>, 2021
+# Triine Aavik <triine@avalah.ee>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Triine Aavik <triine@avalah.ee>, 2021\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: website_calendar
+#: code:addons/website_calendar/models/calendar_appointment.py:0
+#, python-format
+msgid " (copy)"
+msgstr " (koopia)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_count
+msgid "# Appointments"
+msgstr "# Kohtumised"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "#{day['today_cls'] and 'Today' or ''}"
+msgstr "#{day['today_cls'] and 'Today' or ''}"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "%s with %s"
+msgstr "%s koos%s"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "(timezone:"
+msgstr "(ajavöönd:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "+1 (650) 691-3277"
+msgstr "+1 (650) 691-3277"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid ", All Day"
+msgstr ", kogu päev"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "-- select a country --"
+msgstr "-- valige riik --"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid ""
+"<br/>\n"
+"                            It's too late to cancel online, please contact the attendees another way if you really can't make it."
+msgstr ""
+"<br/>\n"
+"                            Veebist tühistamise jaoks on liiga hilja, palun võtke osapooltega ühendust teisiti, kui te tõesti ei saa osaleda."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Add to Google Calendar"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Lisage Google kalendrisse"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Add to iCal/Outlook"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Lisage iCal/Outlooki"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-times\"/>Cancel / Reschedule"
+msgstr "<i class=\"fa fa-fw fa-times\"/>Tühistage/planeerige ümber"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> days</span>"
+msgstr "päeva"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> hours before</span>"
+msgstr "<span>tundi enne</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> hours</span>"
+msgstr "<span> tunnid</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>and not after </span>"
+msgstr "<span>ja mitte peale</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>at least </span>"
+msgstr "<span>vähemalt</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>until </span>"
+msgstr "<span>kuni</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid ""
+"<strong>Appointment canceled!</strong>\n"
+"                            You can schedule another appointment from here."
+msgstr ""
+"<strong>Kohtumine tühistatud!</strong>\n"
+"Te saate teise kohtumise aja valida siit."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid ""
+"<strong>Appointment failed!</strong>\n"
+"                            The selected timeslot is not available anymore.\n"
+"                            Someone has booked the same time slot a few\n"
+"                            seconds before you."
+msgstr ""
+"<strong>Kohtumise broneerimine ebaõnnestus</strong>\n"
+"See ajavahemik ei ole enam saadav.\n"
+"Keegi on sama saadavuse broneerinud paar\n"
+"sekundit enne teid."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid ""
+"<strong>Appointment failed!</strong>\n"
+"                            The selected timeslot is not available.\n"
+"                            It appears you already have another meeting with us at that date."
+msgstr ""
+"<strong>Kohtumise broneerimine ebaõnnestus</strong>\n"
+"See ajavahemik ei ole enam saadav.\n"
+"Tundub, et teil on juba samal kuupäeval meiega teine kohtumine."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<strong>Your appointment has been successfully booked!</strong>"
+msgstr "<strong>Teie kohtumine on edukalt broneeritud!</strong>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "A text message reminder is sent to you before your appointment"
+msgstr "Enne teie kohtumist saadetakse teile meeldetuletus sõnumiga"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__access_token
+msgid "Access Token"
+msgstr "Ligipääsu võti"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_needaction
+msgid "Action Needed"
+msgstr "Vajalik toiming"
+
+#. module: website_calendar
+#: model:res.groups,name:website_calendar.group_calendar_manager
+msgid "Administrator"
+msgstr "Administraator"
+
+#. module: website_calendar
+#: model:ir.actions.act_window,name:website_calendar.website_calendar_report
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report_online
+msgid "All Appointments"
+msgstr "Kõik kohtumised"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Allow Cancelling"
+msgstr "Luba tühistamine"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_appointment_type_action
+msgid ""
+"Allow your customers to book an appointment on your website\n"
+"                by creating appointment types here."
+msgstr ""
+"Luba oma klientidel broneerida aeg enda veebilehel,\n"
+"luues siit kohtumise tüübid."
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__name
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_answer_view_form
+msgid "Answer"
+msgstr "Vastus"
+
+#. module: website_calendar
+#: code:addons/website_calendar/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+#, python-format
+msgid "Appointment"
+msgstr "Kohtumine"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Appointment Confirmation"
+msgstr "Kohtumise kinnitus"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_duration
+msgid "Appointment Duration"
+msgstr "Kohtumise kestus"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Appointment Introduction"
+msgstr "Kohtumise lühitutvustus"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid "Appointment Time"
+msgstr "Kohtumise aeg"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__appointment_type_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__appointment_type_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__name
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_tree
+msgid "Appointment Type"
+msgstr "Kohtumise tüüp"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Appointment:"
+msgstr "Kohtumine:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Appointment<span class=\"chevron\"/>"
+msgstr "Kohtumine<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_graph
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_pivot
+msgid "Appointments"
+msgstr "Kohtumised"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__assignation_method
+msgid "Assignment Method"
+msgstr "Määramise meetod"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_attachment_count
+msgid "Attachment Count"
+msgstr "Manuste arv"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Attendees:"
+msgstr "Osalejad:"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__slot_ids
+msgid "Availabilities"
+msgstr "Saadavused"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__answer_ids
+msgid "Available Answers"
+msgstr "Saadaval vastused"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Available Employees"
+msgstr "Saadaval töötajad"
+
+#. module: website_calendar
+#: model:ir.ui.menu,name:website_calendar.calendar_appointment_type_menu_action
+msgid "Calendar"
+msgstr "Kalender"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_event
+msgid "Calendar Event"
+msgstr "Kalendrisündmus"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__can_publish
+msgid "Can Publish"
+msgstr "Võib avaldada"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__min_cancellation_hours
+msgid "Cancel Before (hours)"
+msgstr "Tühistage enne (tundi)"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__checkbox
+msgid "Checkboxes (multiple answers)"
+msgstr "Vastusevariandid (mitu vastust)"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_type__assignation_method__chosen
+msgid "Chosen by the Customer"
+msgstr "Kliendi poolt valitud"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Confirm Appointment <span class=\"fa fa-arrow-right\"/>"
+msgstr "Kinnitage kohtumine <span class=\"fa fa-arrow-right\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Confirm your details"
+msgstr "Kinnitage oma detailid"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_confirmation
+msgid "Confirmation Message"
+msgstr "Kinnitamise sõnum"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Confirmation<span class=\"chevron\"/>"
+msgstr "Kinnitus<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Confirmed"
+msgstr "Kinnitatud"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/appointment_employee_url.js:0
+#, python-format
+msgid "Copied !"
+msgstr "Kopeeritud !"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "Country: %s"
+msgstr "Riik: %s"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_appointment_type_action
+msgid "Create a new appointment type"
+msgstr "Looge kohtumise tüüp"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__create_uid
+msgid "Created by"
+msgstr "Loonud"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__create_date
+msgid "Created on"
+msgstr "Loodud"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Declined"
+msgstr "Tagasi lükatud"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Description:"
+msgstr "Kirjeldus:"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_res_partner__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_website__display_name
+msgid "Display Name"
+msgstr "Kuva nimi"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__select
+msgid "Dropdown (one answer)"
+msgstr "Rippmenuu (üks vastus)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Duration:"
+msgstr "Kestus:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "Edit"
+msgstr "Muuda"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "Email: %s"
+msgstr "E-post: %s"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__employee_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Employees"
+msgstr "Töötajad"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_follower_ids
+msgid "Followers"
+msgstr "Jälgijad"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Jälgijad (kanalid)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Jälgijad (partnerid)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Fri"
+msgstr "Reede"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__5
+msgid "Friday"
+msgstr "Reede"
+
+#. module: website_calendar
+#: model_terms:calendar.appointment.type,message_intro:website_calendar.calendar_appointment
+msgid ""
+"Get a <strong>customized demo</strong> and an <strong>analysis of your "
+"needs</strong>."
+msgstr ""
+"Saage <strong>kohandatud demo</strong> ja <strong>oma vajaduste "
+"analüüs</strong>."
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__assignation_method
+msgid ""
+"How employees will be assigned to meetings customers book on your website."
+msgstr ""
+"Kuidas määratakse töötajad kohtumistele, mille kliendid on broneerinud teie "
+"veebilehelt."
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__id
+#: model:ir.model.fields,field_description:website_calendar.field_res_partner__id
+#: model:ir.model.fields,field_description:website_calendar.field_website__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_needaction
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Kui kontrollitud, siis uued sõnumid nõuavad Su tähelepanu."
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_error
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Kui valitud, on mõningate sõnumitel saatmiserror."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.setup
+msgid ""
+"In order to configure your first appointment, go\n"
+"                        to the \"Calendar\" application in Odoo and create\n"
+"                        an online appointment."
+msgstr ""
+"Selleks, et teie esimene kohtumine konfigureerida, minge\n"
+"\"Kalender\" moodulisse Odoos ja looge\n"
+"veebikohtumine."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Individual Appointment Link"
+msgstr "Erakohtumise link"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_intro
+msgid "Introduction Message"
+msgstr "Tutvustav sõnum"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_is_follower
+msgid "Is Follower"
+msgstr "Jälgija"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__is_published
+msgid "Is Published"
+msgstr "On avaldatud"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__country_ids
+msgid ""
+"Keep empty to allow visitors from any country, otherwise you only allow "
+"visitors from selected countries"
+msgstr ""
+"Jätke tühjaks, et lubada külastajaid igast riigist, muidu te lubate "
+"külastajaid ainult valitud riikidest"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_res_partner____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_website____last_update
+msgid "Last Modified on"
+msgstr "Viimati muudetud (millal)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__write_uid
+msgid "Last Updated by"
+msgstr "Viimati uuendatud (kelle poolt)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__write_date
+msgid "Last Updated on"
+msgstr "Viimati uuendatud"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__location
+msgid "Location"
+msgstr "Asukoht"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__location
+msgid "Location of the appointments"
+msgstr "Kohtumiste asukoht"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Location:"
+msgstr "Asukoht:"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Peamine manus"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_error
+msgid "Message Delivery error"
+msgstr "Sõnumi edastamise veateade"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Messages"
+msgstr "Sõnumid"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "Mobile: %s"
+msgstr "Mobiil: %s"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Mon"
+msgstr "Esmaspäev"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__1
+msgid "Monday"
+msgstr "Esmaspäev"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__text
+msgid "Multi-line text"
+msgstr "MItmerealine tekst"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/website_calendar.editor.js:0
+#, python-format
+msgid "Name"
+msgstr "Nimi"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/website_calendar.editor.js:0
+#, python-format
+msgid "New Appointment Type"
+msgstr "Uus kohtumise tüüp"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.setup
+msgid "No appointments available!"
+msgstr "Kohtumisi pole saadaval!"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_event_action_reporting
+#: model_terms:ir.actions.act_window,help:website_calendar.website_calendar_report
+msgid "No data yet!"
+msgstr "Andmed puuduvad!"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Toimingute arv"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_error_counter
+msgid "Number of errors"
+msgstr "Vigade arv"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Tegutsemist nõudvate sõnumite arv"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Kohaletoimetamise veateatega sõnumite arv"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Lugemata sõnumite arv"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__appointment_type_id
+msgid "Online Appointment"
+msgstr "veebi kohtumised"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_answer
+msgid "Online Appointment : Answers"
+msgstr "Online kohtumine : Vastused"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_question
+msgid "Online Appointment : Questions"
+msgstr "Online kohtumine : Küsimused"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_slot
+msgid "Online Appointment : Time Slot"
+msgstr "Online kohtumine : ajavahemik"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_type
+msgid "Online Appointment Type"
+msgstr "Online kohtumise tüüp"
+
+#. module: website_calendar
+#: model:ir.actions.act_window,name:website_calendar.calendar_appointment_type_action
+#: model:ir.actions.act_window,name:website_calendar.calendar_event_action_reporting
+#: model:ir.module.category,name:website_calendar.module_category_calendar
+#: model:ir.ui.menu,name:website_calendar.appointment_type_menu
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report_all
+#: model:ir.ui.menu,name:website_calendar.website_appointment_type_menu
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_search_inherit_website_calendar
+msgid "Online Appointments"
+msgstr "Online kohtumised"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__placeholder
+msgid "Placeholder"
+msgstr "Kohatäitja"
+
+#. module: website_calendar
+#: code:addons/website_calendar/models/calendar_appointment.py:0
+#, python-format
+msgid "Please enter a valid hour between 0:00 and 24:00 for your slots."
+msgstr "Palun valige enda vahemikesse kehtiv aeg 0:00 ja 24:00 vahel."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid "Please, select another date."
+msgstr "Palun valige teine kuupäev."
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__name
+msgid "Question"
+msgstr "Küsimus"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__question_type
+msgid "Question Type"
+msgstr "Küsimuste tüüp"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__question_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__question_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Questions"
+msgstr "Küsimused"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__radio
+msgid "Radio (one answer)"
+msgstr "Ringidega valikud (üks vaste)"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_type__assignation_method__random
+msgid "Random"
+msgstr "Juhuvalik"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__reminder_ids
+msgid "Reminders"
+msgstr "Meeldetuletused"
+
+#. module: website_calendar
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report
+msgid "Reporting"
+msgstr "Aruandlus"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__question_required
+msgid "Required Answer"
+msgstr "Nõutud vastus"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__country_ids
+msgid "Restrict Countries"
+msgstr "Piira riike"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "SCHEDULED"
+msgstr "PLANEERITUD"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__is_seo_optimized
+msgid "SEO optimized"
+msgstr "SEO optimized"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Sõnumi kohaletoimetamise viga"
+
+#. module: website_calendar
+#: model:calendar.alarm,name:website_calendar.calendar_alarm_data_1h_sms
+msgid "SMS Text Message - 1 Hours"
+msgstr "SMS tekstsõnum - 1 tund"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Sat"
+msgstr "Laupäev"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__6
+msgid "Saturday"
+msgstr "Laupäev"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Schedule Appointment"
+msgstr "Planeerige kohtumine"
+
+#. module: website_calendar
+#: model:calendar.appointment.type,name:website_calendar.calendar_appointment
+msgid "Schedule a Demo"
+msgstr "Planeerige demo"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Schedule an Appointment"
+msgstr "Planeerige kohtumine"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_event_action_reporting
+#: model_terms:ir.actions.act_window,help:website_calendar.website_calendar_report
+msgid "Schedule appointments to get statistics"
+msgstr "Planeerige kohtumine statistika saamiseks"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__min_schedule_hours
+msgid "Schedule before (hours)"
+msgstr "Planeerige enne (tundi)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__max_schedule_days
+msgid "Schedule not after (days)"
+msgstr "Ärge planeerige peale (päeva)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Scheduling & Availability"
+msgstr "Planeerimine ja saadavus"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__seo_name
+msgid "Seo name"
+msgstr "Seo nimi"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__sequence
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__sequence
+msgid "Sequence"
+msgstr "Järjestus"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__char
+msgid "Single line text"
+msgstr "Üherealine tekst"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Slots"
+msgstr "Vahemikud"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__hour
+msgid "Starting Hour"
+msgstr "Alguskellaaeg"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Starting Hour (0:00 - 24:00)"
+msgstr "Alguskellaaeg (0:00 - 24:00)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Sun"
+msgstr "Pühapäev"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__7
+msgid "Sunday"
+msgstr "Pühapäev"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__website_url
+msgid "The full URL to access the document through the website."
+msgstr "The full URL to access the document through the website."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Thu"
+msgstr "Saaja"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__4
+msgid "Thursday"
+msgstr "Neljapäev"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Time"
+msgstr "Aeg"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Time displayed in"
+msgstr "Aeg kuvatud"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_select_timezone
+msgid "Time zone:"
+msgstr "Ajavöönd:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Time<span class=\"chevron\"/>"
+msgstr "Aeg<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_tz
+msgid "Timezone"
+msgstr "Ajavöönd"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__appointment_tz
+msgid "Timezone where appointment take place"
+msgstr "Kohtumise ajavöönd"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Tue"
+msgstr "Teisipäev"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__2
+msgid "Tuesday"
+msgstr "Teisipäev"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_unread
+msgid "Unread Messages"
+msgstr "Lugemata sõnumid"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Lugemata sõnumite loendur"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "View Availabilities <span class=\"fa fa-arrow-right\"/>"
+msgstr "Vaata saadavusi <span class=\"fa fa-arrow-right\"/>"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_published
+msgid "Visible on current website"
+msgstr "Nähtav praegusel veebilehel"
+
+#. module: website_calendar
+#: model_terms:calendar.appointment.type,message_confirmation:website_calendar.calendar_appointment
+msgid ""
+"We thank you for your interest in our products!<br>\n"
+"               Please make sure to arrive <strong>10 minutes</strong> before your appointment."
+msgstr ""
+"Me täname teid huvi eest meie toodete osas!<br>\n"
+"Palun veenduge, et te saabute <strong>10 minutit</strong> enne oma kohtumist."
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_website
+msgid "Website"
+msgstr "Veebileht"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_message_ids
+msgid "Website Messages"
+msgstr "Veebilehe sõnumid"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_url
+msgid "Website URL"
+msgstr "Veebilehe URL"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__website_message_ids
+msgid "Website communication history"
+msgstr "Veebilehe suhtluse ajalugu"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_description
+msgid "Website meta description"
+msgstr "Veebilehe metakirjeldus"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "Veebilehe meta võtmesõnad"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_title
+msgid "Website meta title"
+msgstr "Veebilehe metapealkiri"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "Veebilehe opengraph pilt"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Wed"
+msgstr "Kolmapäev"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__3
+msgid "Wednesday"
+msgstr "Kolmapäev"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__weekday
+msgid "Week Day"
+msgstr "Nädalapäev"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "When:"
+msgstr "MIllal:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.employee_select
+msgid "With:"
+msgstr "Koos:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Country"
+msgstr "Teie riik"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Email"
+msgstr "Sinu e-post"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Name"
+msgstr "Sinu nimi"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Phone"
+msgstr "Teie telefon"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Your appointment is in less than"
+msgstr "Teie kohtumine on vähem kui"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "e.g. Schedule a demo"
+msgstr "nt planeeri demo"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "hour"
+msgstr "tund"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "hours from now!"
+msgstr "tunni pärast!"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "on"
+msgstr " "
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "timezone"
+msgstr "ajavöönd"

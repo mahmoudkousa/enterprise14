@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_account_accountant
+# 
+# Translators:
+# Sergio Zanchetta <primes2h@gmail.com>, 2021
+# Friederike Fasterling-Nesselbosch, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: sale_account_accountant
+#: model:ir.model,name:sale_account_accountant.model_account_reconciliation_widget
+msgid "Account Reconciliation widget"
+msgstr "Widget riconciliazione conto"
+
+#. module: sale_account_accountant
+#: model:ir.model.fields,field_description:sale_account_accountant.field_account_reconciliation_widget__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: sale_account_accountant
+#: model:ir.model.fields,field_description:sale_account_accountant.field_account_reconciliation_widget__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_account_accountant
+#: model:ir.model.fields,field_description:sale_account_accountant.field_account_reconciliation_widget____last_update
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "Match with a sale order"
+msgstr "Abbinamento con un ordine di vendita"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/js/account_reconciliation.js:0
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "Sale Order"
+msgstr "Ordine di vendita"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/js/account_reconciliation.js:0
+#, python-format
+msgid "Sale Orders"
+msgstr "Ordini di vendita"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "There are"
+msgstr "Sono presenti"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "matching the communication of the bank statement line"
+msgstr ""
+"che corrispondono all'informazione di riga dell'estratto conto bancario"
+
+#. module: sale_account_accountant
+#. openerp-web
+#: code:addons/sale_account_accountant/static/src/xml/account_reconciliation.xml:0
+#, python-format
+msgid "uninvoiced sales orders"
+msgstr "ordini di vendita non fatturati"

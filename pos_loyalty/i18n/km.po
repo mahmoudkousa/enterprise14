@@ -1,0 +1,602 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_loyalty
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Samkhann Seang <seangsamkhann@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "<span class=\"oe_grey\">if 0, no limit</span>"
+msgstr ""
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_kanban
+msgid "<strong>Points:</strong>"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__active
+msgid "Active"
+msgstr "សកម្ម"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__name
+msgid "An internal identification for the loyalty program configuration"
+msgstr ""
+"ការកំណត់អត្តសញ្ញាណផ្ទៃក្នុងសម្រាប់ការកំណត់រចនាសម្ព័ន្ធកម្មវិធីស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__name
+msgid "An internal identification for this loyalty program rule"
+msgstr "ការកំណត់អត្តសញ្ញាណផ្ទៃក្នុងសម្រាប់គោលការណ៍កម្មវិធីស្មោះត្រង់នេះ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__name
+msgid "An internal identification for this loyalty reward"
+msgstr "ការកំណត់អត្តសញ្ញាណផ្ទៃក្នុងសម្រាប់រង្វាន់ភាពស្មោះត្រង់នេះ"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Apply Discount"
+msgstr ""
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_search
+msgid "Archived"
+msgstr "ទុកជាឯកសារ"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_rule_form
+msgid "Based on Products"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_res_partner
+msgid "Contact"
+msgstr "ទំនាក់ទំនង"
+
+#. module: pos_loyalty
+#: model_terms:ir.actions.act_window,help:pos_loyalty.action_loyalty_program_form
+msgid "Create a new loyalty program"
+msgstr "បង្កើតកម្មវិធីភាពស្មោះត្រង់ថ្មី"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__create_uid
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__create_uid
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__create_uid
+msgid "Created by"
+msgstr "បង្កើតដោយ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__create_date
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__create_date
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__create_date
+msgid "Created on"
+msgstr "បង្កើតនៅ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount_percentage
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__reward_type__discount
+msgid "Discount"
+msgstr "បញ្ចុះតម្លៃ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount_apply_on
+msgid "Discount Apply On"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount_max_amount
+msgid "Discount Max Amount"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount_product_id
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Discount Product"
+msgstr "ផលិតផលបញ្ចុះតំលៃ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount_type
+msgid "Discount Type"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_base_partner_merge_automatic_wizard__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_product_product__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_res_partner__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount_fixed_amount
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__discount_type__fixed_amount
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Fixed Amount"
+msgstr "ចំនួនជួសជុល"
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__reward_type__gift
+msgid "Free Product"
+msgstr "ផលិតផលឥតគិតថ្លៃ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__gift_product_id
+msgid "Gift Product"
+msgstr "កញ្ចប់ផលិតផល"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__points
+msgid "How many loyalty points are given to the customer by sold currency"
+msgstr ""
+"តើពិន្ទុស្មោះត្រង់ប៉ុន្មានត្រូវបានផ្តល់ឱ្យអតិថិជនដោយរូបិយប័ណ្ណដែលបានលក់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_base_partner_merge_automatic_wizard__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_order__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_product_product__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_res_partner__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__point_cost
+msgid ""
+"If the reward is a gift, that's the cost of the gift in points. If the "
+"reward type is a discount that's the cost in point per currency (e.g. 1 "
+"point per $)"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_base_partner_merge_automatic_wizard____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_config____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_order____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_product_product____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__write_uid
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__write_uid
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__write_uid
+msgid "Last Updated by"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__write_date
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__write_date
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__write_date
+msgid "Last Updated on"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/Loyalty.xml:0
+#, python-format
+msgid "Loyalty"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_order__loyalty_points
+#: model:ir.model.fields,field_description:pos_loyalty.field_res_partner__loyalty_points
+#: model:ir.model.fields,field_description:pos_loyalty.field_res_users__loyalty_points
+msgid "Loyalty Points"
+msgstr "ចំណុចស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_loyalty_program
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__loyalty_program_id
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__loyalty_program_id
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_config__module_pos_loyalty
+#: model:loyalty.program,name:pos_loyalty.program
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.pos_config_view_form_inherit_pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Loyalty Program"
+msgstr "កម្មវិធីភាពស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__name
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Loyalty Program Name"
+msgstr "ឈ្មោះកម្មវិធីស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model:ir.actions.act_window,name:pos_loyalty.action_loyalty_program_form
+#: model:ir.ui.menu,name:pos_loyalty.menu_loyalty_program
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_tree
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_pos_pos_form
+msgid "Loyalty Programs"
+msgstr "កម្មវិធីភាពស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model_terms:ir.actions.act_window,help:pos_loyalty.action_loyalty_program_form
+msgid ""
+"Loyalty Programs allows you customer to earn points\n"
+"                    and rewards when doing business at your shops."
+msgstr ""
+"កម្មវិធីភាពស្មោះត្រង់អនុញ្ញាតឱ្យអតិថិជនទទួលបានពិន្ទុ\n"
+"                    និងរង្វាន់នៅពេលធ្វើជំនួញនៅហាងរបស់អ្នក។"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_loyalty_reward
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Loyalty Reward"
+msgstr "រង្វាន់ស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_loyalty_rule
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_rule_form
+msgid "Loyalty Rule"
+msgstr "វិធានភាពស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Max Discount Amount"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount_max_amount
+msgid "Maximum amount of discount that can be provided"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_base_partner_merge_automatic_wizard
+msgid "Merge Partner Wizard"
+msgstr ""
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Minimum Amount"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__minimum_amount
+msgid "Minimum Order Amount"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__minimum_points
+msgid "Minimum Points"
+msgstr "ចំនុចអប្បបរមា"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__name
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__name
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/js/RewardButton.js:0
+#, python-format
+msgid "No Rewards Available"
+msgstr "មិនមានរង្វាន់ទេ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__discount_apply_on__cheapest_product
+msgid "On Cheapest Product"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__discount_apply_on__on_order
+msgid "On Order"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount_apply_on
+msgid ""
+"On Order - Discount on whole order\n"
+"Cheapest product - Discount on cheapest product of the order\n"
+"Specific products - Discount on selected specific products"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__discount_apply_on__specific_products
+msgid "On Specific Products"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__discount_type__percentage
+msgid "Percentage"
+msgstr "ភាគរយ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount_type
+msgid ""
+"Percentage - Entered percentage discount will be provided\n"
+"Amount - Entered fixed amount discount will be provided"
+msgstr ""
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/js/RewardButton.js:0
+#, python-format
+msgid "Please select a reward"
+msgstr "សូមជ្រើសរើសរង្វាន់"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "ចំណុចនៃការកំណត់រចនាសម្ព័ន្ធលក់"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "ចំណុចនៃការបញ្ជាទិញការលក់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__points
+msgid "Point per $ spent"
+msgstr ""
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/Loyalty.xml:0
+#: code:addons/pos_loyalty/static/src/xml/PointsCounter.xml:0
+#, python-format
+msgid "Points"
+msgstr "ចំនុច"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Points Rules"
+msgstr ""
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/OrderReceipt.xml:0
+#, python-format
+msgid "Points Spent:"
+msgstr "ចំនុចដែលទទេ:"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/OrderReceipt.xml:0
+#, python-format
+msgid "Points Won:"
+msgstr "ចំនុចដែលឈ្នះ:"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__points_currency
+msgid "Points per $ spent"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__points_quantity
+msgid "Points per Unit"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_config__loyalty_id
+msgid "Pos Loyalty Program"
+msgstr "កម្មវិធីភាពស្មោះត្រង់ Pos"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_product_product
+msgid "Product"
+msgstr "ផលិតផល"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount_specific_product_ids
+msgid "Products"
+msgstr "ផលិតផល"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount_specific_product_ids
+msgid ""
+"Products that will be discounted if the discount is applied on specific "
+"products"
+msgstr ""
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/RewardButton.xml:0
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+#, python-format
+msgid "Reward"
+msgstr "រង្វាន់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__point_cost
+msgid "Reward Cost"
+msgstr ""
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Reward Name"
+msgstr "ឈ្មោះរង្វាន់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__reward_type
+msgid "Reward Type"
+msgstr "ប្រភេទរង្វាន់"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Reward the customer with gifts or discounts for loyalty points"
+msgstr ""
+"ផ្តល់រង្វាន់ដល់អតិថិជនជាមួយនឹងអំណោយឬការបញ្ចុះតម្លៃសម្រាប់ចំណុចស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__reward_ids
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Rewards"
+msgstr "រង្វាន់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__rule_domain
+msgid "Rule Domain"
+msgstr ""
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_rule_form
+msgid "Rule Name"
+msgstr "ឈ្មោះច្បាប់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__rule_ids
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Rules"
+msgstr "ច្បាប់"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid ""
+"Rules change how loyalty points are earned for specific products or "
+"categories"
+msgstr ""
+"ច្បាប់ផ្លាស់ប្តូររបៀបដែលពិន្ទុស្មោះត្រង់ទទួលបានសម្រាប់ផលិតផលឬប្រភេទជាក់លាក់"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Select products"
+msgstr ""
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Select reward product"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:product.product,name:pos_loyalty.simple_pen
+#: model:product.template,name:pos_loyalty.simple_pen_product_template
+msgid "Simple Pen"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__loyalty_program_id
+msgid "The Loyalty Program this exception belongs to"
+msgstr "កម្មវិធីភាពស្មោះត្រង់ការលើកលែងនេះជាកម្មសិទ្ធិរបស់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__loyalty_program_id
+msgid "The Loyalty Program this reward belongs to"
+msgstr "កម្មវិធីភាពស្មោះត្រង់រង្វាន់នេះជារបស់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_pos_order__loyalty_points
+msgid "The amount of Loyalty points the customer won or lost with this order"
+msgstr "ចំនួនពិន្ទុនៃភាពស្មោះត្រង់ដែលអតិថិជនឈ្នះឬចាញ់ជាមួយនឹងការបញ្ជាទិញនេះ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount_fixed_amount
+msgid "The discount in fixed amount"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount_percentage
+msgid "The discount in percentage, between 1 and 100"
+msgstr ""
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/models/pos_loyalty.py:0
+#, python-format
+msgid "The discount product field is mandatory for discount rewards"
+msgstr "ផ្នែកផលិតផលបញ្ចុះតម្លៃគឺចាំបាច់សម្រាប់រង្វាន់បញ្ចុះតំលៃ"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/models/pos_loyalty.py:0
+#, python-format
+msgid "The gift product field is mandatory for gift rewards"
+msgstr "វាលផលិតផលអំណោយគឺចាំបាច់សម្រាប់រង្វាន់អំណោយ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_res_partner__loyalty_points
+#: model:ir.model.fields,help:pos_loyalty.field_res_users__loyalty_points
+msgid "The loyalty points the user won as part of a Loyalty Program"
+msgstr ""
+"ចំនុចស្មោះត្រង់ដែលអ្នកប្រើប្រាស់បានឈ្នះជាផ្នែកមួយនៃកម្មវិធីភាពស្មោះត្រង់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_pos_config__loyalty_id
+msgid "The loyalty program used by this point of sale."
+msgstr "កម្មវិធីភាពស្មោះត្រង់ត្រូវបានប្រើដោយចំណុចនៃការលក់នេះ។"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__minimum_points
+msgid ""
+"The minimum amount of points the customer must have to qualify for this "
+"reward"
+msgstr ""
+"ចំនួនពិន្ទុអប្បបរមាដែលអតិថិជនត្រូវតែមានលក្ខណៈសម្បត្តិគ្រប់គ្រាន់សម្រាប់រង្វាន់នេះ"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/models/product.py:0
+#, python-format
+msgid ""
+"The product cannot be archived because it's used in a point of sales loyalty"
+" program."
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__gift_product_id
+msgid "The product given as a reward"
+msgstr "ផលិតផលដែលបានផ្តល់ជារង្វាន់"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount_product_id
+msgid "The product used to apply discounts"
+msgstr "ផលិតផលធ្លាប់អនុវត្តការបញ្ចុះតម្លៃ"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__reward_type
+msgid "The type of the reward"
+msgstr "ប្រភេទនៃរង្វាន់"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/js/RewardButton.js:0
+#, python-format
+msgid ""
+"There are no rewards available for this customer as part of the loyalty "
+"program"
+msgstr "មិនមានរង្វាន់សម្រាប់អតិថិជននេះដែលជាផ្នែកមួយនៃកម្មវិធីស្មោះត្រង់"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/OrderReceipt.xml:0
+#, python-format
+msgid "Total Points:"
+msgstr "ពិន្ទុសរុប៖"
+
+#. module: pos_loyalty
+#: model:product.product,uom_name:pos_loyalty.simple_pen
+#: model:product.template,uom_name:pos_loyalty.simple_pen_product_template
+msgid "Units"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__valid_product_ids
+msgid "Valid Product"
+msgstr ""

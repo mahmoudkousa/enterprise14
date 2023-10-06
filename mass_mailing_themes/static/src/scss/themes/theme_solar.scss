@@ -1,0 +1,211 @@
+// ============================
+// Mass Mailing "Solar"
+// ============================
+
+$o-mm-solar-color-1: #EAECED;
+$o-mm-solar-color-2: white;
+$o-mm-solar-color-3: #f2d13e;
+$o-mm-solar-color-4: darken($o-mm-solar-color-3, 5%);
+$o-mm-solar-color-5: black;
+$o-mm-solar-color-6: #262b36;
+
+
+@mixin o-mm-solar-bg-variant-extra($bg, $text) {
+    .o_mail_snippet_general {
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+            color: $text;
+        }
+        a:not(.btn), .btn.btn-link {
+            color: $text;
+        }
+    }
+}
+
+.o_solar_theme {
+    @include bg-variant(".bg-o-color-2", $o-mm-solar-color-3);
+    @include text-emphasis-variant(".text-o-color-2", $o-mm-solar-color-3);
+    @include bg-variant(".bg-o-color-4", $o-mm-solar-color-6);
+
+    .bg-o-color-2 {
+        @include o-mm-solar-bg-variant-extra($o-mm-solar-color-3, $o-mm-solar-color-2);
+    }
+    .bg-o-color-4 {
+        @include o-mm-solar-bg-variant-extra($o-mm-solar-color-6, $o-mm-solar-color-2);
+
+        .btn.btn-primary {
+            color: $o-mm-solar-color-3;
+            background-color: $o-mm-solar-color-2;
+            font-weight: bold;
+        }
+    }
+
+    // ===== Layout =====
+    &.o_layout {
+        background-color: $o-mm-solar-color-1;
+
+        > .o_mail_wrapper {
+            background: rgba(0, 0, 0, 0);
+            background: transparent;
+            border: none;
+
+            > * {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    // ===== Snippets (general) =====
+
+    .o_mail_snippet_general {
+        .btn.btn-primary {
+            background-color: $o-mm-solar-color-3;
+            color: $o-mm-solar-color-2;
+        }
+
+        a:not(.btn), .btn.btn-link {
+            color: $o-mm-solar-color-4;
+        }
+    }
+
+    // ===== Snippets (specific) =====
+    [class^="o_mail_block"]:not([class*="bg-"]) {
+        background-color: $o-mm-solar-color-2;
+        color: $o-mm-solar-color-5;
+
+        &.o_mail_block_header_social, &.o_mail_block_header_text_social, &.o_mail_block_header_logo {
+            @extend .bg-o-color-2;
+            .o_mail_snippet_general {
+                background: rgba(0,0,0,0);
+                background: transparent;
+            }
+        }
+        &.o_mail_block_two_cols, &.o_mail_block_three_cols {
+            background: rgba(0,0,0,0);
+            background: transparent;
+            .o_mail_snippet_general {
+                background: rgba(0,0,0,0);
+                background: transparent;
+            }
+        }
+        &.o_mail_block_footer_social {
+            @extend .bg-o-color-2;
+        }
+    }
+
+    .o_mail_block_header_social, .o_mail_block_header_text_social, .o_mail_block_header_logo {
+        margin-bottom: 0;
+
+        .o_mail_h_padding {
+            padding: 5px 20px;
+        }
+    }
+
+    .o_mail_block_banner {
+        border-bottom: 5px solid $o-mm-solar-color-3;
+    }
+
+    .o_mail_block_event {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .o_mail_block_footer_separator {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .o_mail_block_image {
+        .o_mail_h_padding {
+            padding: 0;
+            .o_mail_col_mv {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            > img {
+                padding: 0;
+            }
+        }
+    }
+
+    .o_mail_block_footer_separator {
+        .o_mail_snippet_general {
+            background: rgba(0,0,0,0);
+            background: transparent;
+
+            .separator {
+                height: 3px;
+                background-color: darken($o-mm-solar-color-1, 10%);
+                border-bottom: 2px solid darken(white, 3%);
+            }
+        }
+    }
+
+    .o_mail_block_two_cols, .o_mail_block_three_cols {
+        $tmp-gap: 10px;
+
+        table {
+            width: 100%;
+            max-width: (600+($tmp-gap*2));
+        }
+
+        .o_mail_col_container {
+            padding: 0 0 ($tmp-gap*2);
+            margin: 0 $tmp-gap;
+            border-top: 1px solid darken($o-mm-solar-color-2, 10%);
+            border-bottom: 1px solid darken($o-mm-solar-color-1, 5%);
+            background-color: $o-mm-solar-color-2;
+
+            > * {
+                padding: 0 ($tmp-gap*2);
+            }
+
+            img {
+                padding: 0!important;
+            }
+        }
+    }
+
+    .o_mail_block_footer_tag_line {
+        table.o_mail_h_padding {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .o_mail_block_image_text {
+        .o_mail_img_container {
+            padding: 0
+        }
+    }
+
+    .o_mail_block_text_image {
+        .o_mail_img_container {
+            padding: 0
+        }
+    }
+
+    .o_mail_block_footer_social {
+        .o_mail_table_styles {
+            border-top: none;
+            padding: 20px;
+        }
+
+        .o_mail_footer_social {
+            border: none;
+        }
+
+        .o_mail_footer_copy {
+            font-weight: bold;
+            font-size: 9px;
+        }
+
+        &.o_mail_footer_social_left {
+            .o_mail_footer_description {
+                padding-left: 0;
+            }
+            .o_mail_footer_social {
+                padding-right: 0;
+            }
+        }
+    }
+}

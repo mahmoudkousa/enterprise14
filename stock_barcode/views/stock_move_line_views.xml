@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="stock_move_line_product_selector" model="ir.ui.view">
+    <field name="name">stock.product.selector</field>
+    <field name="model">stock.move.line</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+        <form string="Select a Product" class="o_barcode_line_form">
+            <div class="row mt-5 mb-4">
+                <field name="company_id" force_save="1" invisible="1"/>
+                <field name="product_uom_qty" invisible="1" />
+                <field name="move_id" invisible="1" />
+                <field name="state" invisible="1" />
+                <field name="product_uom_category_id" invisible="1" />
+                <field name="picking_code" invisible="1"/>
+                <div class="col-12 d-flex align-items-baseline">
+                    <i class="fa fa-fw fa-lg fa-tags mr-3" title="Product"/>
+                    <field name="product_id" placeholder="Product"
+                        context="{'default_type': 'product'}"
+                        attrs="{'readonly': ['|', ('state', '=', 'done'), ('move_id', '!=', False)]}"
+                        domain="[('type', 'in', ['product', 'consu']), '|', ('company_id', '=', False), ('company_id', '=', company_id)]"
+                        required="1" nolabel="1"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 my-2 d-flex align-items-baseline">
+                    <i class="fa fa-fw fa-lg fa-cube mr-3" title="Quantity"/>
+                    <field name="qty_done" options="{'type': 'number'}" placeholder="Quantity"/>
+                </div>
+                <div class="col-6 my-2 d-flex align-items-baseline" groups="uom.group_uom">
+                    <i class="fa mr-3" attrs="{'invisible': [('product_uom_qty', '!=', 0.0)]}"/>
+                    <field name="product_uom_id" placeholder="Unit of Measure"
+                        attrs="{'readonly': [('product_uom_qty', '!=', 0.0)]}"/>
+                </div>
+            </div>
+            <div class="row" groups="stock.group_stock_multi_locations">
+                <div class="col-12 col-md-6 my-2 d-flex align-items-baseline"
+                    attrs="{'invisible': [('picking_code', '=', 'incoming')]}">
+                    <i class="fa fa-fw fa-lg fa-map-marker text-center mr-3" title="Source Location"/>
+                    <field name="location_id" placeholder="Source Location"
+                        domain="[('id', 'child_of', picking_location_id)]"
+                        options="{'no_create': True}"/>
+                </div>
+                <div class="col-12 col-md-6 my-2 d-flex align-items-baseline" attrs="{'invisible': [('picking_code', '=', 'outgoing')]}">
+                    <i class="fa fa-fw fa-lg fa-long-arrow-right mr-3" title="Destination Location"/>
+                    <field name="location_dest_id" placeholder="Source Location"
+                        domain="[('id', 'child_of', picking_location_dest_id)]"
+                        options="{'no_create': True}"/>
+                </div>
+            </div>
+            <div class="row" groups="stock.group_tracking_lot">
+                <div class="col-12 col-md-6 my-2 d-flex align-items-baseline">
+                    <i class="fa fa-fw fa-lg fa-archive mr-3" title="Source Package"/>
+                    <field name="package_id" placeholder="Source Package"/>
+                </div>
+                <div class="col-12 col-md-6 my-2 d-flex align-items-baseline">
+                    <i class="fa fa-fw fa-lg fa-long-arrow-right mr-3" title="Destination Package"/>
+                    <field name="result_package_id" placeholder="Destination Package"/>
+                </div>
+            </div>
+            <div class="row" groups="stock.group_tracking_owner">
+                <div class="col-12 col-md-6 my-2 d-flex align-items-baseline">
+                    <i class="fa fa-fw fa-lg fa-user-o text-center mr-3" title="Owner"/>
+                    <field name="owner_id" placeholder="Owner"/>
+                </div>
+            </div>
+
+            <field name="tracking" invisible="1"/>
+            <field name="picking_id" invisible="1"/>
+            <field name="picking_type_use_create_lots" invisible="1"/>
+            <field name="picking_type_use_existing_lots" invisible="1"/>
+            <field name="picking_location_id" invisible="1"/>
+            <field name="picking_location_dest_id" invisible="1"/>
+            <div class="row" groups="stock.group_production_lot">
+                <div class="col-12 col-md-6 my-2 d-flex align-items-baseline">
+                    <i class="fa fa-fw fa-lg fa-barcode mr-3" title="Serial/Lot Number" attrs="{'invisible': [('tracking', '=', 'none')]}"/>
+                    <field name="lot_name" placeholder="Serial/Lot Number"
+                        attrs="{'invisible': ['|', '|', ('tracking', '=', 'none'), ('picking_type_use_create_lots', '=', False), ('picking_type_use_existing_lots', '=', True)]}"
+                        />
+                    <field name="lot_id" placeholder="Serial/Lot Number" options="{'no_open': True}"
+                        context="{'default_product_id': product_id, 'default_company_id': company_id}"
+                        attrs="{'invisible': ['|', ('tracking', '=', 'none'), ('picking_type_use_existing_lots', '=', False)]}"
+                        />
+                </div>
+            </div>
+        </form>
+    </field>
+</record>
+
+<record id="stock_quant_barcode_kanban" model="ir.ui.view">
+    <field name="name">stock.barcode.quant.kanban</field>
+    <field name="model">stock.quant</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+        <kanban draggable="0">
+            <field name="product_id"/>
+            <field name="quantity"/>
+            <templates>
+                <t t-name="kanban-box">
+                    <div>
+                        <strong><field name="product_id"/></strong>
+                        <div class="row">
+                            <div class="col-6">
+                                <field name="lot_id" groups="stock.group_production_lot"/>
+                                <field name="quantity" string="Quantity Done"/>
+                                <field name="product_uom_id" string="Unit of Measure" groups="uom.group_uom"/>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </templates>
+        </kanban>
+    </field>
+</record>
+</odoo>

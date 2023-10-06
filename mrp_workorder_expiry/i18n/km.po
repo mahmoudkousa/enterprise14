@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_workorder_expiry
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mrp_workorder_expiry
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_expiry.mrp_workorder_view_form_tablet_inherit_expiry
+msgid "<span class=\"fa fa-exclamation-triangle\"/> This lot is expired."
+msgstr ""
+
+#. module: mrp_workorder_expiry
+#: model:ir.model.fields,field_description:mrp_workorder_expiry.field_mrp_workorder__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: mrp_workorder_expiry
+#: model:ir.model.fields,field_description:mrp_workorder_expiry.field_mrp_workorder__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: mrp_workorder_expiry
+#: model:ir.model.fields,field_description:mrp_workorder_expiry.field_mrp_workorder____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: mrp_workorder_expiry
+#: model:ir.model.fields,field_description:mrp_workorder_expiry.field_mrp_workorder__is_expired
+msgid "Product Expiry Alert"
+msgstr "ការដាស់តឿនផលិតផលដែលជិតផុតកំណត់"
+
+#. module: mrp_workorder_expiry
+#: model:ir.model.fields,help:mrp_workorder_expiry.field_mrp_workorder__is_expired
+msgid "The Expiration Date has been reached."
+msgstr ""
+
+#. module: mrp_workorder_expiry
+#: model:ir.model,name:mrp_workorder_expiry.model_mrp_workorder
+msgid "Work Order"
+msgstr "លំដាប់ការងារ"

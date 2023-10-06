@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_report_ip_273S" model="ir.actions.report">
+        <field name="name">273S PDF</field>
+        <field name="model">l10n.be.withholding.tax.ip.declaration</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">l10n_be_hr_payroll_273S_274.report_273S</field>
+        <field name="report_file">l10n_be_hr_payroll_273S_274.report_273S</field>
+    </record>
+    <record id="action_report_employee_274_10" model="ir.actions.report">
+        <field name="name">274.10 PDF</field>
+        <field name="model">l10n.be.withholding.tax.exemption</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">l10n_be_hr_payroll_273S_274.report_274_10</field>
+        <field name="report_file">l10n_be_hr_payroll_273S_274.report_274_10</field>
+    </record>
+</odoo>

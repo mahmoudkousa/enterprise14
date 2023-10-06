@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Salary Structure -->
+
+        <record id="hr_payroll_structure_cp200_structure_warrant" model="hr.payroll.structure">
+            <field name="name">CP200: Warrants</field>
+            <field name="type_id" ref="hr_contract.structure_type_employee_cp200" />
+            <field name="country_id" ref="base.be"/>
+            <field name="use_worked_day_lines" eval="False"/>
+            <field name="payslip_name">Warrants</field>
+        </record>
+
+        <!-- Payslip input types -->
+
+        <record id="cp200_other_input_warrant" model="hr.payslip.input.type">
+            <field name="name">Warrant</field>
+            <field name="code">WARRANT</field>
+            <field name="country_id" ref="base.be"/>
+        </record>
+
+        <!-- Salary rules -->
+
+        <record id="cp200_employees_salary_atn_warrant_p_p" model="hr.salary.rule">
+            <field name="category_id" ref="hr_payroll.DED"/>
+            <field name="name">Withholding Tax</field>
+            <field name="code">P.P</field>
+            <field name="sequence">110</field>
+            <field name="condition_select">python</field>
+            <field name="condition_python">result = categories.GROSS</field>
+            <field name="amount_select">percentage</field>
+            <field name="amount_percentage_base">GROSS</field>
+            <field name="amount_percentage">-53.5</field>
+            <field name="struct_id" ref="hr_payroll_structure_cp200_structure_warrant"/>
+        </record>
+
+        <record id="cp200_employees_salary_warrant_deduction" model="hr.salary.rule">
+            <field name="category_id" ref="hr_payroll.DED"/>
+            <field name="name">Net Deductions from Wages</field>
+            <field name="code">P.P.DED</field>
+            <field name="sequence">120</field>
+            <field name="condition_select">python</field>
+            <field name="condition_python">result = categories.GROSS</field>
+            <field name="amount_select">percentage</field>
+            <field name="amount_percentage_base">GROSS</field>
+            <field name="amount_percentage">53.5</field>
+            <field name="struct_id" ref="hr_payroll_structure_cp200_structure_warrant"/>
+        </record>
+
+        <record id="cp200_employees_salary_inverse_atn_warrant" model="hr.salary.rule">
+            <field name="category_id" ref="hr_payroll.DED"/>
+            <field name="name">ATN Warrant</field>
+            <field name="code">WARRANT.DED</field>
+            <field name="sequence">130</field>
+            <field name="condition_select">python</field>
+            <field name="condition_python">result = categories.BASIC</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result = -categories.BASIC</field>
+            <field name="struct_id" ref="hr_payroll_structure_cp200_structure_warrant"/>
+        </record>
+
+
+    </data>
+</odoo>

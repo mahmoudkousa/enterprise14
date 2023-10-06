@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+
+    <t t-extend="PivotView.buttons">
+        <t t-jquery="button.o_pivot_flip_button" t-operation="before">
+            <button t-if="canInsertPivot and isMobile"
+                    class="btn btn-secondary fa fa-file-text-o o_pivot_add_spreadsheet"
+                    title="Insert in Spreadsheet" aria-label="Insert in Spreadsheet"/>
+        </t>
+        <t t-jquery="div:first" t-operation="after">
+            <button t-if="canInsertPivot and !isMobile"
+                    class="btn btn-secondary o_pivot_add_spreadsheet">
+                Insert in Spreadsheet
+            </button>
+        </t>
+    </t>
+
+    <div t-name="documents_spreadsheet.SpreadsheetSelectorDialog" class="o_spreadsheet_selector_dialog">
+        <select id="spreadsheet" name="spreadsheet" class="o_input">
+            <option class="o_new" value=''>New Spreadsheet</option>
+            <option t-foreach="widget.spreadsheets" t-as="spreadsheet" t-att-value="spreadsheet.id">
+                <t t-esc="spreadsheet.name"/>
+            </option>
+        </select>
+    </div>
+
+</templates>

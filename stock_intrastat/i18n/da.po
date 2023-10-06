@@ -1,0 +1,61 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_intrastat
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Morten Schou <ms@msteknik.dk>, 2020
+# Jesper Carstensen <jc@danodoo.dk>, 2020
+# Mads Søndergaard, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:24+0000\n"
+"Last-Translator: Mads Søndergaard, 2020\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: stock_intrastat
+#: model:ir.model.fields,field_description:stock_intrastat.field_stock_warehouse__company_country_id
+msgid "Country"
+msgstr "Land"
+
+#. module: stock_intrastat
+#: model:ir.model.fields,field_description:stock_intrastat.field_account_intrastat_report__display_name
+#: model:ir.model.fields,field_description:stock_intrastat.field_stock_warehouse__display_name
+msgid "Display Name"
+msgstr "Vis navn"
+
+#. module: stock_intrastat
+#: model:ir.model.fields,field_description:stock_intrastat.field_account_intrastat_report__id
+#: model:ir.model.fields,field_description:stock_intrastat.field_stock_warehouse__id
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_intrastat
+#: model:ir.model,name:stock_intrastat.model_account_intrastat_report
+msgid "Intrastat Report"
+msgstr "Instrastat rapport"
+
+#. module: stock_intrastat
+#: model:ir.model.fields,field_description:stock_intrastat.field_stock_warehouse__intrastat_region_id
+msgid "Intrastat region"
+msgstr "Instrastat region"
+
+#. module: stock_intrastat
+#: model:ir.model.fields,field_description:stock_intrastat.field_account_intrastat_report____last_update
+#: model:ir.model.fields,field_description:stock_intrastat.field_stock_warehouse____last_update
+msgid "Last Modified on"
+msgstr "Sidst ændret den"
+
+#. module: stock_intrastat
+#: model:ir.model,name:stock_intrastat.model_stock_warehouse
+msgid "Warehouse"
+msgstr "Lagerstyring"

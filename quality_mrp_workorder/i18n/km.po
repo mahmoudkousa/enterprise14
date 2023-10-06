@@ -1,0 +1,143 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quality_mrp_workorder
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: quality_mrp_workorder
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_production__check_ids
+msgid "Checks"
+msgstr "ការត្រួតពិនិត្យ"
+
+#. module: quality_mrp_workorder
+#: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_alert_view_form_inherit_mrp
+msgid "Discard"
+msgstr "បោះបង់"
+
+#. module: quality_mrp_workorder
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_production__display_name
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder__display_name
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_quality_check__display_name
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_quality_point__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: quality_mrp_workorder
+#: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.mrp_workorder_view_form_tablet_inherit_quality
+msgid "Fail"
+msgstr "អន់ថយ"
+
+#. module: quality_mrp_workorder
+#: code:addons/quality_mrp_workorder/models/quality.py:0
+#, python-format
+msgid "Failure"
+msgstr "ខូចខាត"
+
+#. module: quality_mrp_workorder
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_production__id
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder__id
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_quality_check__id
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_quality_point__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: quality_mrp_workorder
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_production____last_update
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder____last_update
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_quality_check____last_update
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_quality_point____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: quality_mrp_workorder
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder__measure
+msgid "Measure"
+msgstr "ស្ទង់"
+
+#. module: quality_mrp_workorder
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder__measure_success
+msgid "Measure Success"
+msgstr "វាស់ស្ទង់ភាពជោគជ័យ"
+
+#. module: quality_mrp_workorder
+#: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.mrp_workorder_view_form_tablet_inherit_quality
+msgid "Measure:"
+msgstr "ការស្ទង់:"
+
+#. module: quality_mrp_workorder
+#: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder__norm_unit
+msgid "Norm Unit"
+msgstr "ជាបទដ្ឋាន"
+
+#. module: quality_mrp_workorder
+#: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_alert_view_search_inherit_quality_mrp_workorder
+msgid "Operation"
+msgstr "ប្រតិបត្តិការ"
+
+#. module: quality_mrp_workorder
+#: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.mrp_workorder_view_form_tablet_inherit_quality
+msgid "Pass"
+msgstr "អនុម័ត"
+
+#. module: quality_mrp_workorder
+#: model:ir.model,name:quality_mrp_workorder.model_mrp_production
+msgid "Production Order"
+msgstr "លំដាប់ផលិតកម្ម"
+
+#. module: quality_mrp_workorder
+#: model:ir.model,name:quality_mrp_workorder.model_quality_check
+msgid "Quality Check"
+msgstr "ការត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_mrp_workorder
+#: model:ir.actions.act_window,name:quality_mrp_workorder.quality_check_action_wo
+msgid "Quality Checks"
+msgstr "ការត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_mrp_workorder
+#: model:ir.model,name:quality_mrp_workorder.model_quality_point
+msgid "Quality Control Point"
+msgstr "ចំណុចត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_mrp_workorder
+#: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.mrp_workorder_tablet_view_form_inherit_maintenance
+msgid "Quality alert"
+msgstr "ការជូនដំណឹងអំពីគុណភាព"
+
+#. module: quality_mrp_workorder
+#: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_alert_view_form_inherit_mrp
+msgid "Save"
+msgstr "រក្សាទុក"
+
+#. module: quality_mrp_workorder
+#: code:addons/quality_mrp_workorder/models/quality.py:0
+#, python-format
+msgid "Success"
+msgstr "ជោគជ័យ"
+
+#. module: quality_mrp_workorder
+#: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.mrp_workorder_view_form_tablet_inherit_quality
+msgid "Validate"
+msgstr "ធ្វើ​ឱ្យ​មាន​សុពលភាព"
+
+#. module: quality_mrp_workorder
+#: model:ir.model,name:quality_mrp_workorder.model_mrp_workorder
+msgid "Work Order"
+msgstr "លំដាប់ការងារ"

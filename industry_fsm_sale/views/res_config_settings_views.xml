@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.industry.fsm</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="industry_fsm.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <div name="module_industry_fsm_report" position="before">
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="group_industry_fsm_quotations"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="group_industry_fsm_quotations"/>
+                            <div class="text-muted">
+                                Create new quotations directly from the tasks
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </field>
+        </record>
+
+    </data>
+</odoo>

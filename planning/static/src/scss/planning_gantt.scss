@@ -1,0 +1,21 @@
+.o_planning_gantt {
+    .o_gantt_pill {
+        &:not(.decoration-danger) {
+            &:not(.decoration-warning) {
+                &.decoration-info::before {
+                    // Removes the "triangle" if .decoration-info is the only .decoration-* class set
+                    content: none !important;
+                }
+            }
+        }
+        &.o_gantt_color_0 {
+            &.decoration-info {
+                background-image: repeating-linear-gradient(-45deg, #71959e 0 10px, #83a3aa 10px 20px);
+            }
+        }
+    }
+}
+
+.o_planning_save_template {
+    text-transform: none;
+}

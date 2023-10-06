@@ -1,0 +1,520 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_enterprise
+# 
+# Translators:
+# Piia Paurson <piia@avalah.ee>, 2020
+# Martin Trigaux, 2020
+# Arma Gedonsky <armagedonsky@hot.ee>, 2020
+# Ants Peetsalu <ants@avalah.ee>, 2020
+# Rivo Zängov <eraser@eraser.ee>, 2021
+# Eneli Õigus <enelioigus@gmail.com>, 2021
+# Triine Aavik <triine@avalah.ee>, 2021
+# Algo Kärp <algokarp@gmail.com>, 2021
+# Anna, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Anna, 2023\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "(Enterprise Edition)"
+msgstr "(Enterprise Edition)"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ") with the instructions to follow"
+msgstr "koos juhistega, mida järgida"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"- Contact your sales representative to help you to unlink your previous "
+"database"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "- Login to your Odoo.com dashboard then unlink your previous database:"
+msgstr ""
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "1 month"
+msgstr "1 kuu pärast"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Action"
+msgstr "Tegevus"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/search_panel.xml:0
+#, python-format
+msgid "All"
+msgstr "Kõik"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Alt"
+msgstr "Alt"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Applications"
+msgstr "Taotlused"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#, python-format
+msgid "CLEAR"
+msgstr "TÜHJENDA"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "COMPANIES"
+msgstr "ETTEVÕTTED"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/views/view_dialogs.js:0
+#, python-format
+msgid "Clear"
+msgstr "Tühjenda"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Click here to send an email"
+msgstr "Vajutage e-kirja saatmiseks siia"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Close menu"
+msgstr "Sulge menüü"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Control"
+msgstr "Kontroll"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#, python-format
+msgid "Control panel toolbar"
+msgstr "Kontrollpaneeli tööriistariba"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Database expiration:"
+msgstr "Andmebaas aegub:"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Dismiss"
+msgstr "Loobuma"
+
+#. module: web_enterprise
+#: model:ir.model.fields,field_description:web_enterprise.field_ir_http__display_name
+msgid "Display Name"
+msgstr "Kuva nimi"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Error reason:"
+msgstr "Tõrke põhjus:"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#: code:addons/web_enterprise/static/src/xml/search_panel.xml:0
+#, python-format
+msgid "FILTER"
+msgstr "FILTER"
+
+#. module: web_enterprise
+#: model:ir.model,name:web_enterprise.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP Routing"
+
+#. module: web_enterprise
+#: model:ir.model.fields,field_description:web_enterprise.field_ir_http__id
+msgid "ID"
+msgstr "ID"
+
+#. module: web_enterprise
+#: model:ir.model.fields,field_description:web_enterprise.field_ir_http____last_update
+msgid "Last Modified on"
+msgstr "Viimati muudetud (millal)"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Log in as an administrator to correct the issue."
+msgstr "Probleemide parandamiseks logi sisse administraatorina."
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Menu"
+msgstr "Menüü"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/web_calendar.xml:0
+#, python-format
+msgid "No filter available"
+msgstr "Filtrit pole saadaval"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "No result"
+msgstr "Tulemused puuduvad"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Odoo Enterprise Edition License V1.0"
+msgstr "Odoo Enterprise Edition License V1.0"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Odoo Support"
+msgstr "Odoo tugi"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Paste code here"
+msgstr "Kleebi kood siia"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/views/relational_fields.js:0
+#, python-format
+msgid "Quick search: %s"
+msgstr "Kiirotsing: %s"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Refresh subscription status"
+msgstr "Uuenda tellimuse staatust"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/expiration_panel.js:0
+#, python-format
+msgid "Register"
+msgstr "Registreeri"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Register your subscription"
+msgstr "Registreeri oma tellimus"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/views/view_dialogs.js:0
+#, python-format
+msgid "Remove"
+msgstr "Eemalda"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Renew your subscription"
+msgstr "Uuenda oma tellimust"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/expiration_panel.js:0
+#, python-format
+msgid "Retry"
+msgstr "Proovi uuesti"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#: code:addons/web_enterprise/static/src/xml/search_panel.xml:0
+#, python-format
+msgid "SEE RESULT"
+msgstr "VAATA TULEMUSI"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Search"
+msgstr "Otsi"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Search..."
+msgstr "Otsing..."
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Sending the instructions by email ..."
+msgstr "Saadame juhendid meili teel ..."
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"Something went wrong while registering your database. You can try again or "
+"contact"
+msgstr ""
+"Midagi läks andmebaasi registreerimisel valesti. Te saate uuesti proovida "
+"või võtke ühendust"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Subscription Code:"
+msgstr "Tellimuse kood:"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"Thank you, your registration was successful! Your database is valid until"
+msgstr ""
+"Aitäh! Teie tellimuse registreerimine õnnestus! Teie andmebaas on nüüd "
+"kehtiv!"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"The instructions to unlink your subscription from the previous database(s) "
+"have been sent"
+msgstr ""
+"Juhised tellimuse lingi eemaldamisest varasema(te) andmebaasi(de)ga on "
+"saadetud"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "This database has expired."
+msgstr "See andmebaas on aegunud."
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "This database will expire in"
+msgstr "See andmebaas aegub"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "This demo database will expire in"
+msgstr "See näidisandmebaas aegub "
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "To unlink it you can either:"
+msgstr "Lingi eemaldamiseks võite teha:"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#, python-format
+msgid "Today"
+msgstr "Täna"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Toggle home menu"
+msgstr "Lülita sisse avalehe menüü"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Toggle menu"
+msgstr "Toggle menüü"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Unable to send the instructions by email, please contact the"
+msgstr "Juhiseid ei saa e-postiga saata, palun võtke ühendust"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/js/views/kanban/kanban_renderer_mobile.js:0
+#, python-format
+msgid "Undefined"
+msgstr "Määramata"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Upgrade your subscription"
+msgstr "Uuenda oma tellimust"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/control_panel.xml:0
+#, python-format
+msgid "View switcher"
+msgstr "Vaata muudatusi"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"You have more users or more apps installed than your subscription allows."
+msgstr ""
+"Teil on installitud rohkem kasutajaid või äppe, kui teie tellimus lubab."
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid ""
+"You will be able to register your database once you have installed your "
+"first app."
+msgstr ""
+"Te saate installeerida oma andmebaasi pärast esimese rakenduse "
+"installeerimist."
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Your subscription code"
+msgstr "Teie tellimuse kood"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Your subscription is already linked to a database."
+msgstr "Teie tellimus on juba andmebaasiga lingitud."
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "Your subscription was updated and is valid until"
+msgstr "Teie tellimus on uuendatud ja kehtib kuni"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "buy a subscription"
+msgstr "tee tellimus"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "days"
+msgstr "päeva pärast"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "or"
+msgstr "või"
+
+#. module: web_enterprise
+#. openerp-web
+#: code:addons/web_enterprise/static/src/xml/base.xml:0
+#, python-format
+msgid "to the subscription owner (email:"
+msgstr "tellimuse omanikule (e-post:"

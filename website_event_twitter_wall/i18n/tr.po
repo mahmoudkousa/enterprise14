@@ -1,0 +1,90 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_event_twitter_wall
+# 
+# Translators:
+# Levent Karakaş <levent@mektup.at>, 2020
+# Murat Kaplan <muratk@projetgrup.com>, 2020
+# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2020
+# Metin Akın <aknmetin@gmail.com>, 2020
+# Murat Durmuş <muratd@projetgrup.com>, 2020
+# Tugay Hatıl <tugayh@projetgrup.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:05+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2023\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: website_event_twitter_wall
+#: model:website.twitter.wall,description:website_event_twitter_wall.openwood_twitter_wall
+msgid "#wood"
+msgstr "#ahşap"
+
+#. module: website_event_twitter_wall
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_event_event__display_name
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_website_event_menu__display_name
+msgid "Display Name"
+msgstr "Görünüm Adı"
+
+#. module: website_event_twitter_wall
+#: model:ir.model,name:website_event_twitter_wall.model_event_event
+msgid "Event"
+msgstr "Etkinlik"
+
+#. module: website_event_twitter_wall
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_event_event__id
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_website_event_menu__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_event_twitter_wall
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_event_event____last_update
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_website_event_menu____last_update
+msgid "Last Modified on"
+msgstr "Son Düzenleme"
+
+#. module: website_event_twitter_wall
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_website_event_menu__menu_type
+msgid "Menu Type"
+msgstr "Menü Türü"
+
+#. module: website_event_twitter_wall
+#: model:website.twitter.wall,name:website_event_twitter_wall.openwood_twitter_wall
+msgid "OpenWood Wall"
+msgstr "OpenWood Wall"
+
+#. module: website_event_twitter_wall
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_event_event__social_menu
+msgid "Showcase Twitter Wall"
+msgstr "Showcase Twitter Wall"
+
+#. module: website_event_twitter_wall
+#: code:addons/website_event_twitter_wall/models/event_event.py:0
+#, python-format
+msgid "Social"
+msgstr "Sosyal"
+
+#. module: website_event_twitter_wall
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_event_event__social_menu_ids
+#: model:ir.model.fields.selection,name:website_event_twitter_wall.selection__website_event_menu__menu_type__social
+msgid "Social Menus"
+msgstr "Sosyal Menüler"
+
+#. module: website_event_twitter_wall
+#: model:ir.model.fields,field_description:website_event_twitter_wall.field_event_event__twitter_wall_id
+msgid "Twitter Wall"
+msgstr "Twitter Duvarı"
+
+#. module: website_event_twitter_wall
+#: model:ir.model,name:website_event_twitter_wall.model_website_event_menu
+msgid "Website Event Menu"
+msgstr "Web Sitesi Etkinlik Menüsü"

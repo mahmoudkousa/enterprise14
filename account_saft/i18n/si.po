@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_saft
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Language-Team: Sinhala (https://www.transifex.com/odoo/teams/41243/si/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: si\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_saft
+#: model:ir.model,name:account_saft.model_ir_attachment
+msgid "Attachment"
+msgstr ""
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_saft_report.py:0
+#, python-format
+msgid "Define `Company Registry` for your company."
+msgstr ""
+
+#. module: account_saft
+#: model:ir.model.fields,field_description:account_saft.field_account_general_ledger__display_name
+#: model:ir.model.fields,field_description:account_saft.field_ir_attachment__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_saft
+#: model:ir.model,name:account_saft.model_account_general_ledger
+msgid "General Ledger Report"
+msgstr ""
+
+#. module: account_saft
+#: model:ir.model.fields,field_description:account_saft.field_account_general_ledger__id
+#: model:ir.model.fields,field_description:account_saft.field_ir_attachment__id
+msgid "ID"
+msgstr ""
+
+#. module: account_saft
+#: model:ir.model.fields,field_description:account_saft.field_account_general_ledger____last_update
+#: model:ir.model.fields,field_description:account_saft.field_ir_attachment____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: account_saft
+#: model_terms:ir.ui.view,arch_db:account_saft.HeaderTemplate
+msgid "Odoo"
+msgstr ""
+
+#. module: account_saft
+#: model_terms:ir.ui.view,arch_db:account_saft.HeaderTemplate
+msgid "Odoo SA"
+msgstr ""
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_saft_report.py:0
+#, python-format
+msgid "Please define City/Zip for address(es) of `%s`."
+msgstr ""
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_saft_report.py:0
+#, python-format
+msgid "Please define Phone or Mobile for `%s` Contact(s)."
+msgstr ""

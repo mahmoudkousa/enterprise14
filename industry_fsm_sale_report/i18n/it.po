@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_sale_report
+# 
+# Translators:
+# Paolo Valier, 2020
+# Friederike Fasterling-Nesselbosch, 2022
+# Sergio Zanchetta <primes2h@gmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:04+0000\n"
+"PO-Revision-Date: 2020-09-07 08:21+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2022\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<span>Disc.%</span>"
+msgstr "<span>Sconto %</span>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Totale parziale</strong>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Totale parziale</strong>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Amount"
+msgstr "Importo"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_subtotal
+msgid "Delivered Subtotal"
+msgstr "Totale parziale consegnato"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_total
+msgid "Delivered Total"
+msgstr "Totale consegnato"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_tax
+msgid "Delivered Total Tax"
+msgstr "Imposta totale consegnato"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Description"
+msgstr "Descrizione"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template____last_update
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.fsm_template_field4
+msgid "Model"
+msgstr "Modello"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_product_template
+msgid "Product Template"
+msgstr "Modello prodotto"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Quantity"
+msgstr "Quantità"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Riga ordine di vendita"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Time &amp; Material"
+msgstr "Tempo e materiale"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Total Price"
+msgstr "Prezzo totale"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Unit Price"
+msgstr "Prezzo unitario"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_product__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__worksheet_template_id
+msgid "Worksheet Template"
+msgstr "Modello foglio di lavoro"

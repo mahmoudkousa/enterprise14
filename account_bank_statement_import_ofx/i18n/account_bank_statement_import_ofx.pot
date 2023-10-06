@@ -1,0 +1,55 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_bank_statement_import_ofx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-01 07:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_bank_statement_import__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_journal__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_bank_statement_import__id
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_journal__id
+msgid "ID"
+msgstr ""
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model,name:account_bank_statement_import_ofx.model_account_bank_statement_import
+msgid "Import Bank Statement"
+msgstr ""
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model,name:account_bank_statement_import_ofx.model_account_journal
+msgid "Journal"
+msgstr ""
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_bank_statement_import____last_update
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_journal____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: account_bank_statement_import_ofx
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import_ofx.account_bank_statement_import_ofx
+msgid "Open Financial Exchange (OFX)"
+msgstr ""
+
+#. module: account_bank_statement_import_ofx
+#: code:addons/account_bank_statement_import_ofx/wizard/account_bank_statement_import_ofx.py:0
+#, python-format
+msgid "The library 'ofxparse' is missing, OFX import cannot proceed."
+msgstr ""

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="assets_frontend" inherit_id="website.assets_frontend" name="Website Event Twitter Wall Assets">
+    <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" href="/website_event_twitter_wall/static/src/scss/website_event_twitter_wall.scss"/>
+    </xpath>
+    <xpath expr="//script[last()]" position="after">
+        <script type="text/javascript" src="/website_event_twitter_wall/static/src/js/website_event_twitter_wall.js"></script>
+    </xpath>
+</template>
+
+</odoo>

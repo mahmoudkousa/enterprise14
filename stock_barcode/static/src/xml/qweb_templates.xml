@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="stock_barcode_header_widget">
+        <div class="o_barcode_header navbar navbar-expand navbar-dark">
+            <nav class="navbar-nav mr-auto">
+                <button class="nav-link btn o_exit mr-4"><i class="fa fa-chevron-left"/></button>
+                <!-- keep same look and feel when in settings mode so users are less likely to get confused -->
+                <button class="nav-link btn o_close o_hidden mr-4"><i class="fa fa-chevron-left"/></button>
+                <span class="o_title navbar-text text-white" t-esc="widget.title"/>
+            </nav>
+            <nav class="navbar-nav">
+                <button class="nav-link btn o_show_information mr-4"><i class="fa fa-info-circle"/></button>
+                <button class="nav-link btn o_show_settings"><i class="fa fa-bars"/></button>
+                <button class="nav-link btn o_close o_hidden"><i class="fa fa-times"/></button>
+            </nav>
+        </div>
+    </t>
+
+    <t t-name="stock_barcode_settings_widget">
+        <div class="o_barcode_settings flex-column h100 bg-700">
+            <button t-if="widget.model == 'stock.picking'" class="btn-lg btn btn-dark text-uppercase o_print_picking">Print Picking Operations</button>
+            <button t-if="widget.model == 'stock.picking'" class="btn-lg btn btn-dark text-uppercase o_print_delivery_slip">Print Delivery Slip</button>
+            <button t-if="widget.model == 'stock.picking'" class="btn-lg btn btn-dark text-uppercase o_print_barcodes_zpl">Print Barcodes ZPL</button>
+            <button t-if="widget.model == 'stock.picking'" class="btn-lg btn btn-dark text-uppercase o_print_barcodes_pdf">Print Barcodes PDF</button>
+            <button t-if="widget.model == 'stock.picking' &amp;&amp; widget.mode == 'done'" class="btn-lg btn btn-dark text-uppercase o_return">Return</button>
+            <button t-if="widget.model == 'stock.picking' &amp;&amp; widget.allow_scrap" class="btn-lg btn btn-dark text-uppercase o_scrap">Scrap</button>
+            <button t-if="widget.model == 'stock.inventory'" class="btn-lg btn btn-dark text-uppercase o_print_inventory">Print Inventory</button>
+            <button t-if="widget.mode !== 'done' &amp;&amp; widget.mode !== 'cancel'" class="btn-lg btn btn-dark text-uppercase o_validate">Validate</button>
+            <button t-if="widget.mode !== 'done' &amp;&amp; widget.mode !== 'cancel'" class="btn-lg btn btn-dark text-uppercase o_cancel">Cancel</button>
+        </div>
+    </t>
+
+    <t t-name="stock_barcode_lines_widget">
+        <div class="o_barcode_message d-flex flex-column justify-content-center align-items-center bg-800">
+            <div class="o_barcode_pic position-relative text-center mt-2 mb-1">
+                <i class="fa fa-5x mx-auto fa-exclamation-triangle text-white d-none"/>
+                <img class="o_barcode_icon" src="/stock_barcode/static/img/barcode.svg" alt="Barcode" height="40px"/>
+            </div>
+            <div class="mb-3">
+                <span class="o_hidden o_scan_message o_scan_message_scan_products">Scan products</span>
+                <span class="o_hidden o_scan_message o_scan_message_scan_more_dest">Scan more products, or scan the destination location</span>
+                <span class="o_hidden o_scan_message o_scan_message_scan_more_src">Scan more products, or scan a new source location</span>
+                <span class="o_hidden o_scan_message o_scan_message_scan_lot">Scan the serial or lot number of the product</span>
+                <span class="o_hidden o_scan_message o_scan_message_scan_src">Scan the source location, or scan a product</span>
+                <span class="o_hidden o_scan_message o_scan_message_picking_already_done"><span class="fa fa-exclamation-triangle"/> This picking is already done</span>
+                <span class="o_hidden o_scan_message o_scan_message_picking_already_cancelled"><span class="fa fa-exclamation-triangle"/> This picking is already cancelled</span>
+                <span class="o_hidden o_scan_message o_scan_message_inv_already_done"><span class="fa fa-exclamation-triangle"/> This inventory adjustment is already done</span>
+            </div>
+        </div>
+        <div class="o_barcode_lines_header alert mb-0"></div>
+        <div class="o_barcode_lines list-group flex-grow-1 d-block position-relative"></div>
+
+        <t t-if="widget.displayOptionalButtons" t-name="optional_buttons">
+            <div t-if="widget.mode !== 'done' &amp;&amp; widget.mode !== 'cancel'" class="o_barcode_control d-flex">
+                <button class="btn btn-secondary text-uppercase o_add_line"><i class="fa fa-plus mr-1"/> Add product</button>
+                <button t-if="widget.groups.group_tracking_lot and widget.model == 'stock.picking'" class="btn btn-secondary text-uppercase o_put_in_pack"><i class="fa fa-cube mr-1"/> Put In Pack</button>
+            </div>
+        </t>
+        <div t-if="widget.displayControlButtons" class="o_barcode_control d-flex">
+            <button t-if="widget.groups.group_stock_multi_locations" class="btn btn-secondary text-uppercase o_previous_page"><i class="fa fa-angle-left mr-3"/>Previous</button>
+            <button t-if="widget.groups.group_stock_multi_locations" class="btn btn-secondary text-uppercase o_next_page">Next<i class="fa fa-angle-right ml-3"/></button>
+            <button class="btn btn-secondary text-uppercase o_validate_page"><i class="fa fa-check mr-1"/> Validate</button>
+        </div>
+    </t>
+
+    <t t-name="stock_barcode_summary_template">
+        <div class="o_barcode_page_summary" t-if="mode !== 'no_multi_locations'">
+            <div class="o_barcode_product_line d-flex justify-content-between align-items-center">
+                <span t-if="isPickingRelated" class="o_barcode_locations">
+                    <div class="d-inline-block">
+                        <span t-if="mode !== 'receipt'" class="o_barcode_location_label">From </span>
+                        <span t-if="mode !== 'receipt'" class="o_barcode_summary_location_src o_clickable">
+                            <span t-esc="locationName" class="o_current_location"/>
+                            <ul t-if="sourceLocations" class="o_barcode_list_locations o_source_locations d-none">
+                                <li t-foreach="sourceLocations" t-as="location"
+                                    class="o_list_location_lines" t-esc="location.display_name"
+                                    t-att-data-location-id="location.id"/>
+                            </ul>
+                        </span>
+                        <span t-if="mode !== 'delivery'" class="o_barcode_location_label">To </span>
+                        <span t-if="mode !== 'delivery'" class="o_barcode_summary_location_dest o_clickable">
+                            <span t-esc="locationDestName" class="o_current_dest_location"/>
+                            <ul t-if="destinationLocations" class="o_barcode_list_locations o_destination_locations d-none">
+                                <li t-foreach="destinationLocations" t-as="location"
+                                    class="o_list_location_lines" t-esc="location.display_name"
+                                    t-att-data-location-id="location.id"/>
+                            </ul>
+                        </span>
+                    </div>
+                </span>
+                <span t-if="model == 'stock.inventory'" class="o_barcode_locations">
+                    <span class="o_barcode_summary_location_src" t-esc="locationName"/>
+                </span>
+                <t t-if="nbPages">
+                    <span class="o_barcode_move_number font-weight-bold"><t t-esc="pageIndex"/>/<t t-esc="nbPages"/></span>
+                </t>
+            </div>
+        </div>
+    </t>
+
+    <t t-name="stock_barcode_lines_template">
+        <t t-if="lines">
+            <t t-foreach="lines" t-as="line">
+                <div class="o_barcode_line list-group-item d-flex flex-row flex-nowrap"
+                    t-att-data-id="line.virtual_id || line.id"
+                    t-att-data-barcode="line.product_barcode">
+                    <div class="o_barcode_line_details flex-grow-1 flex-column flex-nowrap">
+                        <div class="o_barcode_line_title pb-1">
+                            <i class="fa fa-fw fa-tags"/>
+                            <span class="product-label" t-esc="line.display_name || line.product_id.display_name"/>
+                        </div>
+                        <div name="quantity"> <!-- Name used for inheritance -->
+                            <i class="fa fa-fw fa-cube"/>
+                            <span t-attf-class="o_barcode_scanner_qty text-monospace badge #{' '}"> <!-- @SLE: Eventually add contextual classes: "badge-warning", "badge-danger", "badge-success"  -->
+                                <t t-if="isPickingRelated">
+                                    <span class="qty-done d-inline-block text-left" t-esc="line.qty_done"/>
+                                    <span t-if="line.product_uom_qty" t-esc="'/ ' + line.product_uom_qty"/>
+                                </t>
+                                <t t-if="model == 'stock.inventory'">
+                                    <span class="product_qty d-inline-block text-left" t-esc="line.product_qty"/>
+                                    <span t-if="line.theoretical_qty" t-esc="'/ ' + line.theoretical_qty"/>
+                                </t>
+                            </span>
+                            <span t-if="groups.group_uom" t-esc="line.product_uom_id[1]"/>
+                        </div>
+                        <div t-if="line.package_id || line.result_package_id" name="package">
+                            <i class="fa fa-fw fa-archive"/>
+                            <t t-if="line.package_id" t-esc="line.package_id[1]"/>
+                            <t t-if="isPickingRelated">
+                                <i class="fa fa-long-arrow-right"/>
+                                <t t-if="line.result_package_id" t-esc="line.result_package_id[1]"/>
+                            </t>
+                        </div>
+                        <div t-if="line.owner_id">
+                            <i class="fa fa-fw fa-user-o"/> <t t-esc="line.owner_id[1]"/>
+                        </div>
+                        <div t-if="line.product_id.tracking !== 'none' and requireLotNumber">
+                            <i class="fa fa-fw fa-barcode"/>
+                            <span class="o_line_lot_name" t-esc="(line.lot_id &amp;&amp; line.lot_id[1]) || (line.prod_lot_id &amp;&amp;line.prod_lot_id[1]) || line.lot_name || ''"/>
+                        </div>
+                    </div>
+                    <div t-if="line.partner_id">
+                        <i class="fa fa-fw fa-user-o"/> <t t-esc="line.partner_id[1]"/>
+                    </div>
+                    <div t-if="state != 'done' and state != 'cancel'" class="o_barcode_line_actions d-flex align-items-center pl-4">
+                        <a class="o_edit text-muted" href="#" title="Edit"><i class="fa fa-2x fa-pencil"/></a>
+                    </div>
+                    <button t-if="!isPickingRelated || (line.product_id.tracking !== 'serial')"
+                        class="o_line_button o_add_unit btn btn-primary ml-2 ml-sm-4"
+                        t-att-data-reserved="(line.product_uom_qty - line.qty_done)">
+                        + 1
+                    </button>
+                    <button t-if="istouchSupported &amp;&amp; isPickingRelated &amp;&amp; (line.product_id.tracking !== 'serial')"
+                        class="o_line_button o_add_reserved btn btn-primary ml-2 ml-sm-4"
+                        t-att-data-reserved="(line.product_uom_qty - line.qty_done)">
+                        <t t-esc="'+ ' + (line.product_uom_qty - line.qty_done)"/>
+                    </button>
+                    <button t-if="model == 'stock.inventory'" class="o_line_button o_remove_unit btn btn-primary ml-2 ml-sm-4">
+                        - 1
+                    </button>
+                </div>
+            </t>
+        </t>
+        <t t-if="packageLines">
+            <t t-foreach="packageLines" t-as="packageLine">
+                <div class="o_barcode_line list-group-item d-flex flex-row flex-nowrap py-3" t-att-data-id="packageLine.virtual_id || packageLine.id" t-att-data-barcode="packageLine.product_barcode">
+                    <div class="o_barcode_line_details flex-grow-1 flex-column flex-nowrap">
+                        <div>
+                            <i class="fa fa-fw fa-archive"/> <t t-esc="packageLine.package_id[1]"/> <i class="fa fa-long-arrow-right"/> <t t-esc="packageLine.result_package_id[1]"/>
+                        </div>
+                        <div>
+                            <i class="fa fa-fw fa-cube"/>
+                            <span t-attf-class="o_barcode_scanner_qty text-monospace badge #{' '}"> <!-- @SLE, Eventually add contextual classes: "badge-warning", "badge-danger", "badge-success"  -->
+                                <span class="d-inline-block text-left" t-if="packageLine.qty_done != 0">1</span>
+                                <span class="d-inline-block text-left" t-else="">0</span>
+                                <span t-if="packageLine.reservedPackage">/  1</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="o_barcode_line_actions d-flex align-items-center pl-4">
+                        <span><a class="fa fa-dropbox text-muted float-right o_package_content"></a></span>
+                    </div>
+                </div>
+            </t>
+        </t>
+    </t>
+
+    <!-- Form Widget templates -->
+
+    <t t-name="stock_barcode_views_widget">
+        <div class="o_barcode_generic_view"></div>
+        <div t-if="widget.mode == 'edit' &amp;&amp; widget.view_type === 'form'" class="o_barcode_control d-flex">
+            <button class="btn btn-secondary o_discard">Discard</button>
+            <button class="btn btn-primary o_save">Confirm</button>
+        </div>
+    </t>
+
+</templates>

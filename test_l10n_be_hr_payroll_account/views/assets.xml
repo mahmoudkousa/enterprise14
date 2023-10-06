@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_tests" name="Hr Contract Salary Tests Assets" inherit_id="web.assets_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/test_l10n_be_hr_payroll_account/static/tests/tours/hr_contract_salary_tour.js"></script>
+        </xpath>
+    </template>
+</odoo>

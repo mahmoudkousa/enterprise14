@@ -1,0 +1,744 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_appraisal_survey
+# 
+# Translators:
+# youring <youring@gmail.com>, 2020
+# e2f <projects@e2f.com>, 2020
+# Martin Trigaux, 2020
+# liAnGjiA <liangjia@qq.com>, 2020
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
+# Felix Yuen <fyu@odoo.com>, 2020
+# Mandy Choy <mnc@odoo.com>, 2020
+# Felix Yang <felixyangsh@aliyun.com>, 2020
+# 稀饭~~ <wangwhai@qq.com>, 2020
+# Jeffery CHEN <jeffery9@gmail.com>, 2020
+# v2exerer <9010446@qq.com>, 2020
+# e2f_cn c5 <jarvisn@ecinnovations.com>, 2020
+# bf2549c5415a9287249cba2b8a5823c7, 2020
+# inspur qiuguodong <qiuguodong@inspur.com>, 2020
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2020-09-07 08:20+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_appraisal_survey
+#: model:mail.template,report_name:hr_appraisal_survey.mail_template_appraisal_ask_feedback
+msgid "${(object.name or '').replace('/','_')}"
+msgstr "${(object.name or '').replace('/','_')}"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_1
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<data><h2>Overall Purpose Of Employee Appraisal</h2>\n"
+"            <ul>\n"
+"                <li>To initiate a clear and open communication of performance expectations</li>\n"
+"                <li>To assist employees in their professional growth, through the identification of strengths and opportunities for development</li>\n"
+"            </ul>\n"
+"\n"
+"            <h2>At the outset of the appraisal time period</h2>\n"
+"            <ul>\n"
+"                <li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the coming year, including major employee responsibilities and corresponding benchmarks against which results will be evaluated.</li>\n"
+"                <li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li>\n"
+"            </ul>\n"
+"\n"
+"            <h2>At the conclusion of the appraisal time period</h2>\n"
+"            <ul>\n"
+"                <li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion. Once the form had been filled, the employee send it to his supervisor.</li>\n"
+"                <li>It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback (internal and/or external customers, peers).</li>\n"
+"                <li>The supervisor synthesizes and integrates all input into the completed appraisal. The motivation of the evaluation is explained in the ad hoc fields.</li>\n"
+"                <li>The employee may choose to offer comments or explanation regarding the completed review.</li>\n"
+"            </ul>\n"
+"        </data>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<data><h2> 员工考核的总体目的</h2>\n"
+"            <ul>\n"
+"                <li> 启动清晰公开的绩效期望沟通</li>\n"
+"                <li> 协助员工的专业成长，通过识别优势和发展机会</li>\n"
+"            </ul>\n"
+"\n"
+"            <h2> 在评估期开始时</h2>\n"
+"            <ul>\n"
+"                <li> 员工和主管（评估师）共同负责制定下一年可行的工作计划，包括主要的员工责任和相应的基准，将根据这些基准对结果进行评估。</li>\n"
+"                <li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li>\n"
+"            </ul>\n"
+"\n"
+"            <h2> 在鉴定时间段结束</h2>\n"
+"            <ul>\n"
+"                <li> 员工将负责完成一份评估表格草稿，作为自我评估的工具和主管评估的起点。 员工可以为每个标准添加成就示例。 一旦表格填好，员工就把它寄给他的主管。</li>\n"
+"                <li> 主管的主要责任是从适当的反馈来源（内部和/或外部客户、同行)收集必要的投入）。</li>\n"
+"                <li>主管综合并将所有投入纳入已完成的考核。 评估的动机是在特设领域解释的。</li>\n"
+"                <li> 员工可选择对已完成的评审提出意见或解释。</li>\n"
+"            </ul>\n"
+"        </data>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_3
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<data><p>The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided below:</p>\n"
+"            <ol>\n"
+"                <li> Significantly exceeds standards and expectations required of the position</li>\n"
+"                <li> Exceeds standards and expectations</li>\n"
+"                <li> Meet standards and expectations</li>\n"
+"                <li> Did not meet standards and expectations</li>\n"
+"                <li> Significantly below standards and expectations</li>\n"
+"            </ol>\n"
+"        </data>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<data><p>考核者应根据以下提供的衡量标准对员工的主要工作成就和业绩进行评分。</p>\n"
+"            <ol>\n"
+"                <li>明显超过该职位所要求的标准和期望值</li>\n"
+"                <li>超过标准和预期</li>\n"
+"                <li>达到标准和期望</li>\n"
+"                <li>没有达到标准和期望</li>\n"
+"                <li>明显低于标准和预期</li>\n"
+"            </ol>\n"
+"        </data>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_5
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<p/>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<p/>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_2
+#: model:survey.survey,description:hr_appraisal_survey.opinion_form
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<p> </p>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<p> </p>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,description:hr_appraisal_survey.appraisal_4
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<p>Identify professional, performance, or project objectives you recommend for employee’s continued career development over the coming year.</p>"
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<p>确定你为员工未来一年的持续职业发展建议的专业、绩效或项目目标。</p>"
+
+#. module: hr_appraisal_survey
+#: model:survey.survey,description:hr_appraisal_survey.appraisal_feedback_template
+msgid ""
+"<?xml version=\"1.0\"?>\n"
+"<p>This survey allows you to give a feedback about your collaboration with an employee. Filling it helps us improving the appraisal process.</p>\n"
+"        "
+msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<p>此调查允许您提供有关与员工协作的反馈。填充它有助于我们改进评估过程。</p>\n"
+"        "
+
+#. module: hr_appraisal_survey
+#: model:mail.template,body_html:hr_appraisal_survey.mail_template_appraisal_ask_feedback
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                        Dear ${object.partner_id.name},\n"
+"                        <br/><br/>\n"
+"                        An appraisal feedback was requested.\n"
+"                        <br/>\n"
+"                        Please take time to fill the survey.\n"
+"                        <br/><br/>\n"
+"                        Thank you!\n"
+"                        <br/><br/>\n"
+"                        % if ctx.get('recipient_users'):\n"
+"                        <p style=\"margin: 16px 0px 16px 0px;\">\n"
+"                            <a href=\"${ctx['url']}\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
+"                                View Appraisal\n"
+"                            </a>\n"
+"                        </p>\n"
+"                        % endif\n"
+"                        <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"                            <a href=\"${(object.get_start_url()) | safe}\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"                                % if object.survey_id.certification:\n"
+"                                    Start Certification\n"
+"                                % else:\n"
+"                                    Start Survey\n"
+"                                % endif\n"
+"                            </a>\n"
+"                        </div>\n"
+"                        % if object.deadline:\n"
+"                            Please answer the survey before ${format_date(object.deadline)}.<br/><br/>\n"
+"                        % endif\n"
+"                        <br/><br/>\n"
+"                        <tr><td style=\"padding:15px 20px 10px 20px;\">${(object.signature or '')| safe}</td></tr>\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                        Dear ${object.partner_id.name},\n"
+"                        <br/><br/>\n"
+"                        要求提供评估反馈.\n"
+"                        <br/>\n"
+"                        请花点时间填写调查表.\n"
+"                        <br/><br/>\n"
+"                        谢谢!\n"
+"                        <br/><br/>\n"
+"                        % if ctx.get('recipient_users'):\n"
+"                        <p style=\"margin: 16px 0px 16px 0px;\">\n"
+"                            <a href=\"${ctx['url']}\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
+"                                查看评估\n"
+"                            </a>\n"
+"                        </p>\n"
+"                        % endif\n"
+"                        <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"                            <a href=\"${(object.get_start_url()) | safe}\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"                                % if object.survey_id.certification:\n"
+"                                    开始认证\n"
+"                                % else:\n"
+"                                    开始调查\n"
+"                                % endif\n"
+"                            </a>\n"
+"                        </div>\n"
+"                        % if object.deadline:\n"
+"                            请在 ${format_date(object.deadline)}前回答调查.<br/><br/>\n"
+"                        % endif\n"
+"                        <br/><br/>\n"
+"                        <tr><td style=\"padding:15px 20px 10px 20px;\">${(object.signature or '')| safe}</td></tr>\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.hr_appraisal_view_form
+msgid ""
+"<span class=\"o_stat_text\">Feedback</span>\n"
+"                        <span class=\"o_stat_text\">Survey</span>"
+msgstr ""
+"<span class=\"o_stat_text\">反馈</span>\n"
+"                        <span class=\"o_stat_text\">调查</span>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_1
+msgid "Ability to cope with multidisciplinarity of team"
+msgstr "能够应对团队的跨学科性"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_6
+msgid "Ability to follow and complete work as instructed"
+msgstr "能够按照指示完成工作"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_5
+msgid "Ability to manage planning resources, risks, budgets and deadlines"
+msgstr "能够管理规划资源、风险、预算和截止期限"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_13
+msgid ""
+"Adaptability: Ability to adapt oneself to organizational changes while "
+"keeping efficiency"
+msgstr "适应性：能够适应组织的变化，同时保持高效"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+msgid "Add employees..."
+msgstr "添加员工..."
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_2_3
+msgid "Additional Comments"
+msgstr "附加评语"
+
+#. module: hr_appraisal_survey
+#: code:addons/hr_appraisal_survey/wizard/appraisal_ask_feedback.py:0
+#, python-format
+msgid ""
+"An appraisal feedback was requested. Please take time to fill the <a "
+"href=\"%s\" target=\"_blank\">survey</a>"
+msgstr "要求进行一次评估反馈。请花时间填写<a href=\"%s\" target=\"_blank\">调查表</a>"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_11
+msgid "Analytical and synthetic mind"
+msgstr "分析和综合思维"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__deadline
+msgid "Answer Deadline"
+msgstr "回答截止日期"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__appraisal_id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_user_input__appraisal_id
+msgid "Appraisal"
+msgstr "评价"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__employee_id
+msgid "Appraisal Employee"
+msgstr "评估的员工"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_survey__is_appraisal
+msgid "Appraisal Managers Only"
+msgstr "仅评估经理"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_company__appraisal_survey_template_id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_config_settings__appraisal_survey_template_id
+msgid "Appraisal Survey Template"
+msgstr "评估调查模板"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_3
+msgid "Appraisal for Period"
+msgstr "期间的评价"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_5
+msgid "Appraiser"
+msgstr "评估人"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.hr_appraisal_view_form
+msgid "Ask Feedback"
+msgstr "询问反馈"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_appraisal_ask_feedback
+msgid "Ask Feedback for Appraisal"
+msgstr "征求评估反馈"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_hr_appraisal__employee_feedback_ids
+msgid "Asked Feedback"
+msgstr "询问反馈"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__attachment_ids
+msgid "Attachments"
+msgstr "附件"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__author_id
+msgid "Author"
+msgstr "作者"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,help:hr_appraisal_survey.field_appraisal_ask_feedback__author_id
+msgid "Author of the message."
+msgstr "信息的作者。"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.hr_appraisal_survey_button_form_view
+msgid "Back to the appraisal"
+msgstr "返回评估"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,help:hr_appraisal_survey.field_survey_survey__is_appraisal
+msgid "Check this option to restrict the answers to appraisal managers only."
+msgstr "选中此选项仅将答案限制为评估经理。"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_9
+msgid ""
+"Communication skills (written & verbally): clearness, concision, exactitude"
+msgstr "沟通技巧(书面和口头)：清晰，简洁，正确"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_3
+msgid ""
+"Compliance to internal rules and processes (timesheets completion, etc.)"
+msgstr "符合内部规则和程序(完成工时表等)"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__body
+msgid "Contents"
+msgstr "内容"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_14
+msgid "Creativity and forward looking aptitude"
+msgstr "创新和前瞻能力"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_8
+msgid "Customer commitment"
+msgstr "对客户的承诺"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_4
+msgid "Date of review"
+msgstr "审查日期"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_7
+msgid "Decision making"
+msgstr "决策"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.res_config_settings_view_form_hr_appraisal_survey
+msgid "Default Template"
+msgstr "默认模板"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_2
+msgid "Delegation: Ability to efficiently assign tasks to other people"
+msgstr "权限：能够高效地将任务分配给其他人"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_hr_appraisal__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_company__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_survey__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_user_input__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,help:hr_appraisal_survey.field_appraisal_ask_feedback__email_from
+msgid "Email address of the sender"
+msgstr "发件人的电子邮件地址"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_hr_appraisal
+msgid "Employee Appraisal"
+msgstr "员工评价"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1
+#: model:survey.survey,title:hr_appraisal_survey.appraisal_feedback_template
+msgid "Employee Appraisal Form"
+msgstr "员工评价表"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_5
+msgid "Employee Comments"
+msgstr "员工意见"
+
+#. module: hr_appraisal_survey
+#: model:survey.survey,title:hr_appraisal_survey.opinion_form
+msgid "Employee Opinion Form"
+msgstr "员工意见表"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_3
+msgid "Employee Performance in Key Areas"
+msgstr "员工在关键领域的绩效"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_2
+msgid "Enthusiasm & implication toward projects/assignments"
+msgstr "对项目/任务的热情和憧憬"
+
+#. module: hr_appraisal_survey
+#: code:addons/hr_appraisal_survey/wizard/appraisal_ask_feedback.py:0
+#, python-format
+msgid "Fill the feedback form on survey"
+msgstr "填写调查反馈表"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__email_from
+msgid "From"
+msgstr "从"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_hr_appraisal__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_company__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_config_settings__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_survey__id
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_user_input__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_3
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_4
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_1_5
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_2_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_2_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_2_3
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_3
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_3_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_3_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_4
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_4_1
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_4_2
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_4_3
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_5
+#: model:survey.question,comments_message:hr_appraisal_survey.appraisal_5_1
+msgid "If other, please specify:"
+msgstr "如果有其它，请指定"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_5
+msgid "Initiative and self autonomy"
+msgstr "主动性和自主性"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_hr_appraisal____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_company____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_survey____last_update
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_survey_user_input____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_3
+msgid ""
+"Leadership: create a challenging and motivating work environment aligned "
+"with the company's strategy"
+msgstr "领导力：创建符合公司战略的富有挑战性和激励性的工作环境"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_4
+msgid "Leadership: sustain subordinates in their professional growth"
+msgstr "领导力：帮助下属的专业能力持续增长"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_1
+msgid "Name"
+msgstr "名称"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_2_1
+msgid "Objectives"
+msgstr "目标"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_4_2
+msgid "Personal Performance Objectives"
+msgstr "个人的绩效目标"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_1_2
+msgid "Position Title"
+msgstr "职位名称"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_4_1
+msgid "Professional Development Objectives"
+msgstr "专业发展目标"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_4
+msgid "Professional Development and Performance Plan"
+msgstr "专业发展与绩效计划"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_4_3
+msgid "Project Objectives"
+msgstr "项目目标"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_12
+msgid "Promptness and attendance record"
+msgstr "及时考勤记录"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__employee_ids
+msgid "Recipients"
+msgstr "收件人"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_2_2
+msgid "Results"
+msgstr "结果"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_2_1
+msgid ""
+"Results of the bottom-up survey and mitigation actions to face technical, "
+"organizational, structural and/or relational issues"
+msgstr "自下而上的调查缓解表现出来的技术、组织、结构或关系而产生的结果"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+msgid "Send"
+msgstr "发送"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__subject
+#: model:survey.question,title:hr_appraisal_survey.appraisal_3_1
+msgid "Subject"
+msgstr "主题"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.appraisal_ask_feedback_view_form
+msgid "Subject..."
+msgstr "主题..."
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_3_2
+msgid "Supervisors only"
+msgstr "仅主管"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_survey_survey
+msgid "Survey"
+msgstr "调查"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__survey_template_id
+msgid "Survey Template"
+msgstr " 调查模板"
+
+#. module: hr_appraisal_survey
+#: model:ir.model,name:hr_appraisal_survey.model_survey_user_input
+msgid "Survey User Input"
+msgstr "调查用户输入"
+
+#. module: hr_appraisal_survey
+#: model:mail.template,subject:hr_appraisal_survey.mail_template_appraisal_ask_feedback
+msgid "Take part in ${ctx.get('employee_name', 'this')} appraisal"
+msgstr "参与 ${ctx.get('employee_name', 'this')} 评估"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_4
+msgid ""
+"Team spirit: ability to work efficiently with peers, manage the conflicts "
+"with diplomacy"
+msgstr "团队精神：与同事有效合作，协调外部冲突"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_10
+msgid "Technical skills regarding to the job requirements"
+msgstr "对于工作要求的技能"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_3
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_4
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1_5
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_2_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_2_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_2_3
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_3
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_3_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_3_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_4
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_4_1
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_4_2
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_4_3
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_5
+#: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_5_1
+msgid "The answer you entered is not valid."
+msgstr "您输入的答案无效。"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_3
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_4
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_1_5
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_2_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_2_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_2_3
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_3
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_3_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_3_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_4
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_4_1
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_4_2
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_4_3
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_5
+#: model:survey.question,constr_error_msg:hr_appraisal_survey.appraisal_5_1
+msgid "This question requires an answer."
+msgstr "此问题需要答案。"
+
+#. module: hr_appraisal_survey
+#: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_15
+msgid "Time management: projects/tasks are completed on time"
+msgstr "时间管理：项目/任务按时完成"
+
+#. module: hr_appraisal_survey
+#: code:addons/hr_appraisal_survey/wizard/appraisal_ask_feedback.py:0
+#, python-format
+msgid "Unable to post message, please configure the sender's email address."
+msgstr "无法发布邮件，请配置发件人的EMail地址。"
+
+#. module: hr_appraisal_survey
+#: model:ir.model.fields,field_description:hr_appraisal_survey.field_appraisal_ask_feedback__template_id
+msgid "Use template"
+msgstr "使用模版"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_5_1
+msgid ""
+"Use the following space to make any comments regarding the above performance"
+" evaluation."
+msgstr "在下方对上述绩效评估作出评论。"
+
+#. module: hr_appraisal_survey
+#: model:survey.question,title:hr_appraisal_survey.appraisal_2
+msgid "Work Plan"
+msgstr "工作计划"
+
+#. module: hr_appraisal_survey
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_survey.hr_appraisal_survey_button_form_view
+msgid "or"
+msgstr "或"

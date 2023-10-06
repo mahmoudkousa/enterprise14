@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="hr_expense_extract_assets_backend" name="HR Expense Assets Backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/hr_expense_extract/static/src/scss/hr_expense_extract.scss"/>
+            <script type="text/javascript" src="/hr_expense_extract/static/src/js/tours/expense_tour.js"/>
+        </xpath>
+    </template>
+</odoo>

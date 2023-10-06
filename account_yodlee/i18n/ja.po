@@ -1,0 +1,668 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_yodlee
+# 
+# Translators:
+# Shunho Kin <s-kin@shonan-innovation.co.jp>, 2020
+# Martin Trigaux, 2020
+# Aefgh Threenine <aefgh3962@gmail.com>, 2020
+# Shinichi TAKEUCHI <takeuchi@korabo.jp>, 2020
+# Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2020
+# Noma Yuki, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: Noma Yuki, 2021\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "(Diagnostic: %r for URL %s)"
+msgstr "(診断:URL%sの%r)"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Account"
+msgstr "勘定科目"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Already Registered (436):Your Auto-Registration could not be "
+"completed because the site reports that your account is already registered."
+"  Please log in to the site to confirm and then complete the site addition "
+"process with the correct login information."
+msgstr ""
+"登録済アカウント(436):自動登録は、アカウントがすでに登録されているため、完了できませんでした。確認のため、サイトにログインして、正しいログイン情報を持つサイトの追加処理を完了してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Locked (407): We could not update your account because it appears "
+"your account has been locked. This usually results from too many "
+"unsuccessful login attempts in a short period of time. Please visit the site"
+" or contact its customer support to resolve this issue.  Once done, please "
+"update your account credentials in case they are changed."
+msgstr ""
+"ロックされたアカウント(407):アカウントがロックされています表示されますため、、アカウントを更新できませんでした。これは通常、短期間にあまりにも多くの失敗したログイン試行に起因します。サイトをご覧いただくか、この問題を解決するため、顧客サポートに連絡してください。終わっている場合は、アカウントの資格情報を更新してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Not Found(408): We're sorry, we couldn't find any accounts for you "
+"at the site. Please log in at the site and confirm that your account is set "
+"up, then try again."
+msgstr ""
+"アカウントが見つかりませんでした(408):申し訳ありませんが、サイトでアカウントを見つけることができませんでした。サイトとアカウントが設定されていることをログインして確認し、再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Reported Closed (422): We were unable to update your account "
+"information because it appears one or more of your related accounts have "
+"been closed.  Please deactivate or delete the relevant account and try "
+"again."
+msgstr ""
+"アカウントがクローズ(422):関連アカウントの1つ以上が閉鎖されている表示されますため、アカウント情報を更新することができませんでした。無効または関連するアカウントを削除して、再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Account Type Not Supported(417):The type of account we found is not "
+"currently supported.  Please remove this site and add as a  manual account."
+msgstr ""
+"アカウントの種類がサポートされていません(417):見つかったアカウントの種類は、現在サポートされていません。このサイトを削除し、手動でアカウントとして追加してください。"
+
+#. module: account_yodlee
+#: model:ir.model.fields,help:account_yodlee.field_account_online_journal__yodlee_account_status
+msgid "Active/Inactive on Yodlee system"
+msgstr "Yodleeシステム上でアクティブ/非アクティブ"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "An Error has occurred (code %s)"
+msgstr "エラーが発生しました (コード %s)"
+
+#. module: account_yodlee
+#: model:ir.model,name:account_yodlee.model_res_company
+msgid "Companies"
+msgstr "会社"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Could not make sense of parameters: %s"
+msgstr "解読できません。パラメータ:%s"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Credential Re-Verification Required (402): We could not update your account "
+"because your username and/or password were reported to be incorrect.  Please"
+" re-verify your username and password."
+msgstr ""
+"資格証明の再検証が必要(402):ユーザー名および/またはパスワードが不正だったため、アカウントを更新できませんでした。ユーザー名とパスワードを再確認してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Credential Re-Verification Required (420):The site has merged with another. "
+"Please re-verify your credentials at the site and update the same."
+msgstr "資格証明の再検証に必要な(420):このサイトは、別サイトと合併しました。サイトでアカウント情報を再確認し、更新してください。"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal__display_name
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_provider__display_name
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__display_name
+msgid "Display Name"
+msgstr "表示名"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Error %s, message: %s"
+msgstr "エラー%s、メッセージ:%s"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Error %s, message: %s, reference code: %s"
+msgstr "エラー %s、 メッセージ: %s、参照コード: %s"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Home Value Not Found (511): The site is unable to provide home value for "
+"your property. We suggest you to delete this site."
+msgstr "ホームの値が見つかりませんでした(511):サイトはあなたの財産情報を提供することができません。このサイトを削除することをお勧めします。"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal__id
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_provider__id
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_yodlee
+#: model:ir.model,name:account_yodlee.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr "オンラインアカウントジャーナルのためのインタフェース"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Invalid Language Setting (421): The language setting for your site account "
+"is not English. Please visit the site and change the language setting to "
+"English."
+msgstr "無効な言語設定(421):サイトのアカウントの設定言語は英語ではありません。サイトを訪問し、英語に言語設定を変更してください。"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal____last_update
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_provider____last_update
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company____last_update
+msgid "Last Modified on"
+msgstr "最終更新日"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Additional Authentication Enrollment Required (521) : Please "
+"enroll in the new security authentication system, <Account Name> has "
+"introduced. Ensure your account settings in <Cobrand> are updated with this "
+"information."
+msgstr ""
+"MFAエラー:追加の認証登録に必要な(521):新しいセキュリティ認証システム、<Account Name>に登録してください導入しています。 "
+"<Cobrand>でアカウント設定を確認し、この情報で更新されます。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Expired (524):We're sorry, the "
+"authentication information you provided has expired. Please try again."
+msgstr ""
+"MFAエラー:認証情報は、(524)の期限切れ:、あなたが提供している申し訳ありませんが、認証情報の有効期限が切れています。再度やり直してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Incorrect (520):We're sorry, the site "
+"indicates that the additional authentication information you provided is "
+"incorrect. Please try updating your account again."
+msgstr ""
+"MFAエラー:認証情報が不正(520):申し訳ありませんが、サイトでは、提供される追加の認証情報が不正であることを示しています。再度、アカウントを更新してみてください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Incorrect (523):We're sorry, the "
+"authentication information you  provided is incorrect. Please try again."
+msgstr "MFAエラー:認証情報が正しくない(523):申し訳ありませんが、提供された認証情報が間違っています。再度やり直してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Required (519): Your account was not "
+"updated as your authentication information like security question and answer"
+" was unavailable or incomplete. Please update your account settings."
+msgstr ""
+"MFAエラー:認証情報が利用できない(519):セキュリティの質問と答えのような認証情報が利用できないか、不完全であったとしてアカウントが更新されませんでした。アカウント設定を更新してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Authentication Information Unavailable (518):Your account was not"
+" updated as the required additional authentication information was "
+"unavailable. Please try now."
+msgstr ""
+"MFAエラー:認証情報を使用できません(518):必要な追加の認証情報を利用できなかったとしてアカウントは更新されませんでした。今すぐリトライしてください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Credential Re-Verification Required (526): We could not update "
+"your account because your username/password or additional security "
+"credentials are incorrect. Please try again."
+msgstr ""
+"MFAエラー: 資格証明の再検証が必要(526): "
+"ユーザー名/パスワードまたは追加のセキュリティ資格情報が正しくないため、アカウントを更新できませんでした。再度やり直してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Problem Updating Account (525): We could not update your account "
+"for technical reasons. This type of error is usually resolved in a few days."
+" We apologize for the inconvenience. Please try again later."
+msgstr ""
+"MFAエラー:アカウント更新の問題(525):、技術的な理由のためアカウントを更新できませんでした。このタイプのエラーは、通常は数日で解決されます。ご不便をおかけして申し訳ございません。後ほど再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Request Timed Out (522) :Your request has timed out as the "
+"required security information was unavailable or was not provided within the"
+" expected time. Please try again."
+msgstr ""
+"MFAエラー:要求がタイムアウト(522):必要なセキュリティ情報が利用できないか、想定された時間内に提供されていなかったとして、要求がタイムアウトしました。再度やり直してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"MFA error: Site Device Information Expired(509): We're sorry, we can't "
+"update your account because your token is no longer valid at the site. "
+"Please update your information and try again, or contact customer support."
+msgstr ""
+"MFAエラー:サイトデバイス情報が期限切れ(509):トークンがサイトで有効でないため、申し訳ありませんが、アカウントを更新することはできません。情報を更新して再試行、またはカスタマー・サポートに連絡してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Multiple User Logins(416): We attempted to update your account, but another "
+"session was already established at the same time.  If you are currently "
+"logged on to this account directly, please log off and try after some time"
+msgstr ""
+"複数のユーザログイン(416):、アカウントを更新しようとしましたが、別のセッションがすでに同時に設立されていました。現在、このアカウントにログオンしている場合は、ログオフしてしばらくしてからお試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"New Login Information Required(506):We're sorry, to log in to this site, you"
+" need to provide additional information. Please update your account and try "
+"again."
+msgstr ""
+"新規ログイン必要な情報は、(506):申し訳ありませんが、このサイトにログインするには、追加情報を提供する必要があります。アカウントを更新して、再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"No Account Found (423): We were unable to detect an account. Please verify "
+"that you account information is available at this time and If the problem "
+"persists, please contact customer support at online@odoo.com for further "
+"assistance."
+msgstr ""
+"アカウントが見つかりません(423):アカウントを検出できませんでした。情報は、この時点で利用可能であり、問 "
+"題解決しない場合は、さらなる支援のためonline@odoo.comで顧客サポートに確認してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"No Payees Found(512):Your request cannot be completed as no payees were "
+"found in your account."
+msgstr "支払い先が見つかりません(512):受取人がアカウントに見つからなかったため、要求を完了することができません。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Online institution"
+msgstr "オンライン機関"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Please configure an email in the company settings."
+msgstr "会社の設定でメールを設定してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account (406): We could not update your account because the"
+" site requires you to perform some additional action. Please visit the site "
+"or contact its customer support to resolve this issue. Once done, please "
+"update your account credentials in case they are changed else try again."
+msgstr ""
+"アカウント(406)の更新問題:サイトがいくつかの追加のアクションを実行する必要がありますため、アカウントを更新できませんでした。サイトをご覧いただくか、この問題を解決するため、顧客サポートに連絡してください。行われた後、彼らは再度試して他の変更された場合には、アカウントの資格情報を更新してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account (517): We are sorry, there was a technical problem "
+"updating your account. Please try again."
+msgstr "アカウント更新にて問題(517):申し訳ありません、アカウントを更新する技術的な問題がありました。再度やり直してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(401):We're sorry, your request timed out. Please "
+"try again."
+msgstr "問題の更新アカウント(401):申し訳ありませんが、要求がタイムアウトしましたています。再度やり直してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(403):We're sorry, there was a technical problem "
+"updating your account. This kind of error is usually resolved in a few days."
+" Please try again later."
+msgstr ""
+"アカウント更新にて問題(403):申し訳ありませんが、アカウントを更新する技術的な問題があったしています。この種のエラーは、通常は数日で解決されます。後ほど再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(404):We're sorry, there was a technical problem "
+"updating your account. Please try again later."
+msgstr "アカウント更新にて問題(404):申し訳ありませんが、アカウントを更新する技術的な問題があったしています。後ほど再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(409): We could not update your account because the "
+"end site is experiencing technical difficulties."
+msgstr "アカウント更新にて問題(409):エンドサイトに技術的な問題が発生しており、アカウントを更新できませんでした。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(412): We could not update your account because the "
+"site is experiencing technical difficulties."
+msgstr "アカウント更新にて問題(412):サイトに技術的な問題が発生しており、アカウントを更新できませんでした。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(413):We're sorry, we couldn't update your account "
+"at the site because of a technical issue. This type of problem is usually "
+"resolved in a few days. Please try again later."
+msgstr ""
+"アカウント更新にて問題(413):申し訳ありませんが、技術的問題があるためサイトでアカウントを更新できませんでした。この種の問題は、通常は数日で解決されます。後ほど再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(415): We could not update your account because the "
+"site is experiencing technical difficulties."
+msgstr "アカウント更新にて問題(415):サイトに技術的な問題が発生しており、アカウントを更新できませんでした。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(418): We could not update your account because the "
+"site is experiencing technical difficulties. Please try later."
+msgstr "アカウント(418)を更新する問題:サイトに技術的な問題が発生しており、アカウントを更新できませんでした。後でお試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(419):We're sorry, we couldn't update your account "
+"because of unexpected variations at the site. This kind of problem is "
+"usually resolved in a few days. Please try again later."
+msgstr ""
+"アカウント更新にて問題(419):申し訳ありませんが、サイトの予期せぬvariationの理由でアカウントを更新できませんでしたしています。この種の問題は、通常は数日で解決されます。後ほど再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(425): We could not update your account because the "
+"site is experiencing technical difficulties. Please try later."
+msgstr "アカウント更新にて問題(425):サイトに技術的な問題が発生しており、アカウントを更新できませんでした。後ほどお試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(426): We could not update your account for "
+"technical reasons. This type of error is usually resolved in a few days. We "
+"apologize for the inconvenience."
+msgstr ""
+"アカウント更新にて問題(426):技術的な理由のため、アカウントを更新できませんでした。このタイプのエラーは、通常は数日で解決されます。ご不便をおかけして申し訳ございません。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Problem Updating Account(507):We're sorry, Yodlee has just started providing"
+" data updates for this site, and it may take a few days to be successful as "
+"we get started. Please try again later."
+msgstr ""
+"アカウント更新にて問題(507):Yodleeはちょうどこのサイトのデータ更新を提供開始しています、それは我々が始めるとして成功するためは数日かかる場合があります。後ほど再度お試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Property Record Not Found (510): The site is unable to find any property "
+"information for your address. Please verify if the property address you have"
+" provided is correct."
+msgstr ""
+"見つからないプロパティのレコード(510):サイトがアドレスのいずれかのプロパティ情報を見つけることができません。あなたが提供したプロパティアドレスが正しいかどうか確認してください。"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "プロバイダーの種類"
+
+#. module: account_yodlee
+#: model:ir.model,name:account_yodlee.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "オンラインアカウントの同期のためのプロバイダ"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Re-Verification Required (429): We could not update your account due to the "
+"site requiring you to verify your personal information. Please log in to the"
+" site and update the fields required."
+msgstr ""
+"再認証が必要(429):個人情報を確認する必要があるため、サイトにアカウントを更新できませんでした。サイトにログインし、必要なフィールドを更新してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Re-verification Required (427): We could not update your account due to the "
+"site requiring you to view a new promotion. Please log in to the site and "
+"click through to your account overview page to update the account.  We "
+"apologize for the inconvenience."
+msgstr ""
+"再認証が必要(427):、原因新しいプロモーションを表示することができ要求するサイトに、アカウントを更新できませんでした。サイトにログインし、アカウントを更新するため、アカウントの概要ページにクリックスルーしてください。ご不便をおかけして申し訳ございません。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Re-verification Required (428): We could not update your account due to the "
+"site requiring you to accept a new Terms & Conditions. Please log in to the "
+"site and read and accept the T&C."
+msgstr ""
+"再認証が必要(428):原因の新しい利用規約に同意するあなたを必要とするサイトに、アカウントを更新できませんでした。サイトにログインして、T＆Cを読み、同意してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Registration Requires Attention (433): Auto registration is not complete. "
+"Please complete your registration at the end site. Once completed, please "
+"complete adding this account."
+msgstr ""
+"登録は注意が必要です(433):自動登録は未完です。エンドサイトでご登録を完了してください。完了したら、このアカウントの追加を完了してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Registration Requires Attention (434): Your Auto-Registration could not be "
+"completed and requires further input from you.  Please re-verify your "
+"registration information to complete the process."
+msgstr "登録は注意が必要です(434):自動登録は未完であり、さらなる入力が必要です。プロセスを完了するため、登録情報を再確認してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Registration Requires Attention (435): Your Auto-Registration could not be "
+"completed and requires further input from you.  Please re-verify your "
+"registration information to complete the process."
+msgstr "登録は注意が必要です(435):自動登録は未完であり、さらなる入力が必要です。プロセスを完了するため、登録情報を再確認してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Request Timed Out (508): We are sorry, your request timed out due to "
+"technical reasons. Please try again."
+msgstr "要求がタイムアウト(508):申し訳ありません、要求は、技術的な理由によりタイムアウトしました。再度やり直してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Requested Account Type Not Found (414): We could not find your requested "
+"account. You may have selected a similar site under a different category by "
+"accident in which case you should select the correct site."
+msgstr ""
+"要求されたアカウントの種類が見つかりませんでした(414):要求されたアカウントを見つけることができませんでした。正しいサイトを選択する必要があり、また正しい場合でも異なるカテゴリの下の似たようなサイトを選択している場合があります。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Server not reachable, please try again later"
+msgstr "サーバーに到達できません、後ほど再度お試しください"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Site Down for Maintenance(424):We were unable to update your account as the "
+"site is temporarily down for maintenance. We apologize for the "
+"inconvenience.  This problem is typically resolved in a few hours. Please "
+"try later."
+msgstr ""
+"メンテナンスによるサイトダウン(424):サイトがメンテナンスのため一時的にダウンのためアカウントを更新することができませんでした。ご不便をおかけして申し訳ございません。この問題は通常、数時間で解決されます。後でお試しください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Site No Longer Available (411):The site no longer provides online services "
+"to its customers.  Please delete this account."
+msgstr "サイトは利用不可(411):サイトは、顧客にオンラインサービスを提供していません。このアカウントを削除してください。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Site No Longer Supported (430):This site is no longer supported for data "
+"updates. Please deactivate or delete your account. We apologize for the "
+"inconvenience."
+msgstr ""
+"サイトサポートの終了(430):このサイトは、データの更新がサポートされていません。無効化するか、アカウントを削除してください。ご不便をおかけして申し訳ございません。"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Site Not Supported (505): We currently does not support the security system "
+"used by this site. We apologize for any inconvenience. Check back "
+"periodically if this situation has changed."
+msgstr ""
+"サイトサポートされていない(505):現在、このサイトで使用されるセキュリティシステムをサポートしていません。ご不便をおかけして申し訳ございません。この状況が変化した場合には、定期的に確認してください。"
+
+#. module: account_yodlee
+#: model:ir.actions.client,name:account_yodlee.yodlee_widget
+msgid "Synchronization process completed"
+msgstr "同期プロセスが完了"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#: code:addons/account_yodlee/models/yodlee.py:0
+#: code:addons/account_yodlee/models/yodlee.py:0
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 30s"
+msgstr "時間切れ:サーバは30秒以内に応答しなかった"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid ""
+"Update Request Canceled(405):Your account was not updated because you "
+"canceled the request."
+msgstr "キャンセルの更新要求(405):あなたが要求をキャンセルしたためアカウントが更新されませんでした。"
+
+#. module: account_yodlee
+#: model:ir.model.fields.selection,name:account_yodlee.selection__account_online_provider__provider_type__yodlee
+msgid "Yodlee"
+msgstr "Yodlee"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal__yodlee_account_status
+msgid "Yodlee Account Status"
+msgstr "Yodleeアカウントステータス"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_account_online_journal__yodlee_status_code
+msgid "Yodlee Status Code"
+msgstr "Yodleeステータスコード"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__yodlee_user_access_token
+msgid "Yodlee access token"
+msgstr "Yodleeアクセストークン"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__yodlee_user_login
+msgid "Yodlee login"
+msgstr "Yodleeログイン"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__yodlee_user_password
+msgid "Yodlee password"
+msgstr "Yodleeパスワード"
+
+#. module: account_yodlee
+#: model:ir.model.fields,field_description:account_yodlee.field_res_company__yodlee_access_token
+msgid "access_token"
+msgstr "アクセストークン"
+
+#. module: account_yodlee
+#: code:addons/account_yodlee/models/yodlee.py:0
+#, python-format
+msgid "message: %s"
+msgstr "メッセージ:%s"

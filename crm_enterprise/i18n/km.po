@@ -1,0 +1,292 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* crm_enterprise
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Samkhann Seang <seangsamkhann@gmail.com>, 2020
+# AN Souphorn <ansouphorn@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "% Opportunities"
+msgstr "% ឪកាស"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Archived"
+msgstr "ទុកជាឯកសារ"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Average Deal Size"
+msgstr "ទំហំស្តុកមធ្យម"
+
+#. module: crm_enterprise
+#: model:ir.model,name:crm_enterprise.model_crm_activity_report
+msgid "CRM Activity Analysis"
+msgstr "CRM ការវិភាគសកម្មភាព"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Campaign"
+msgstr "យុទ្ធនាការ"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "City"
+msgstr "ក្រុង"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Closed Date"
+msgstr "កាលបរិច្ឆេទបិទ"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Company"
+msgstr "ក្រុមហ៊ុន"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Conversion Date"
+msgstr "កាលបរិច្ឆេទបម្លែង"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Country"
+msgstr "ប្រទេស"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Creation Date"
+msgstr "ថ្ងៃបង្កើត"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_map
+msgid "Customer"
+msgstr "អតិថិជន"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_to_convert
+msgid "Days To Convert"
+msgstr "ថ្ងៃដើម្បីបម្លែង"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "Days To Opportunity"
+msgstr "ថ្ងៃដើម្បីឱកាស"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Days to Assign"
+msgstr "ថ្ងៃដើម្បីចាត់តាំង"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Days to Close"
+msgstr "កាលបរិច្ឆេទបិទ"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_activity_report__display_name
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_exceeding_closing
+msgid "Exceeded Closing Days"
+msgstr "ហួសថ្ងៃបិទ"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Exceeding Close Days"
+msgstr "ហួសថ្ងៃបិទ"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Expected Closing Date"
+msgstr "កាលបរិច្ឆេទឈប់សំរាកដែលរំពឹងទុក"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Expected Revenue"
+msgstr "ចំណូល បានរំពឹងទុក"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Extended Filters"
+msgstr "តម្រងដែលបានបន្ថែម"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Group By"
+msgstr "ជា​ក្រុម​តាម"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_activity_report__id
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_activity_report__won_status
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__won_status
+msgid "Is Won"
+msgstr "ជាការឈ្មេះ"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_activity_report____last_update
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: crm_enterprise
+#: model:ir.model,name:crm_enterprise.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Leads/ឱកាស"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_pivot
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Leads"
+msgstr "Lead"
+
+#. module: crm_enterprise
+#: model:ir.actions.act_window,name:crm_enterprise.crm_lead_action_dashboard
+msgid "Leads Analysis"
+msgstr "វិភាគ Lead"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__lost
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__lost
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_activity_report_view_search
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Lost"
+msgstr "ខាត"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Lost Reason"
+msgstr "ហេតុខាត"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Medium"
+msgstr "Medium"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "My Pipeline"
+msgstr "My Pipeline"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_cohort
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_graph
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Opportunities"
+msgstr "ឪកាស"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Opportunities Analysis"
+msgstr "ការវិភាគឧកាស"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__pending
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__pending
+msgid "Pending"
+msgstr "ការបង្ខំាទុក"
+
+#. module: crm_enterprise
+#: model:ir.actions.act_window,name:crm_enterprise.crm_opportunity_action_dashboard
+msgid "Pipeline Analysis"
+msgstr "ការវិភាគបំពង់បង្ហូរ"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Prorated Revenue"
+msgstr "ចំណូលប្រាក់ចំណូល"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Sales Team"
+msgstr "ក្រុមលក់"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "Sales Teams"
+msgstr "ក្រុមលក់"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Salesperson"
+msgstr "អ្នកលក់ផ្ទាល់"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Show only lead"
+msgstr "បង្ហាញពីការដឹកនំា"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Show only opportunity"
+msgstr "ឪកាសបង្ហាញត្រឹមតែម្តង"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Source"
+msgstr "ធនធាន"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Stage"
+msgstr "ដំណាក់កាល"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Win/Loss Ratio"
+msgstr "ខាតចំណេញ អត្រា"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__won
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__won
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Won"
+msgstr "ឈ្នះ"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "days"
+msgstr "ថ្ងៃ"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_graph
+msgid "leads"
+msgstr "នាំ"

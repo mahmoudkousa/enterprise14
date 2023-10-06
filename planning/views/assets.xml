@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="planning_backend_assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/planning/static/src/js/planning_gantt_controller.js"/>
+            <script type="text/javascript" src="/planning/static/src/js/planning_gantt_row.js"/>
+            <script type="text/javascript" src="/planning/static/src/js/planning_gantt_renderer.js"/>
+            <script type="text/javascript" src="/planning/static/src/js/planning_gantt_model.js"/>
+            <script type="text/javascript" src="/planning/static/src/js/planning_gantt_view.js"/>
+            <script type="text/javascript" src="/planning/static/src/js/planning_calendar.js"/>
+
+            <link rel="stylesheet" type="text/scss" href="/planning/static/src/scss/planning_gantt.scss"/>
+            <script type="text/javascript" src="/planning/static/src/js/tours/planning.js"/>
+        </xpath>
+    </template>
+
+    <template id="assets_frontend" name="Planning Own Assets Frontend" inherit_id="web.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/planning/static/src/scss/planning_calendar_report.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/web/static/src/scss/form_view.scss"/>
+            <script type="text/javascript" src="/planning/static/src/js/planning_calendar_front.js"/>
+        </xpath>
+    </template>
+
+    <template id="qunit_suite" name="planning tests" inherit_id="web.qunit_suite_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/planning/static/tests/planning_gantt_tests.js"></script>
+        </xpath>
+    </template>
+</odoo>

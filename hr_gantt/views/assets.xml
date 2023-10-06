@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="hr_gantt_backend_assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/hr_gantt/static/src/js/hr_gantt_row.js"/>
+            <script type="text/javascript" src="/hr_gantt/static/src/js/hr_gantt_renderer.js"/>
+            <script type="text/javascript" src="/hr_gantt/static/src/js/hr_gantt_view.js"/>
+        </xpath>
+    </template>
+
+    <template id="qunit_suite" name="hr_gantt_tests" inherit_id="web.qunit_suite_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/hr_gantt/static/tests/hr_gantt_tests.js"/>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="social_facebook_backend_assets" inherit_id="web.assets_backend">
+        <xpath expr="//script[contains(@src, '/social/static/src/js/social_post_formatter_mixin.js')]" position="after">
+            <script type="text/javascript" src="/social_facebook/static/src/js/social_post_formatter_mixin.js"/>
+        </xpath>
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/social_facebook/static/src/scss/social_facebook.scss"/>
+            <script type="text/javascript" src="/social_facebook/static/src/js/stream_post_facebook_comments.js"/>
+            <script type="text/javascript" src="/social_facebook/static/src/js/stream_post_kanban_controller.js"/>
+        </xpath>
+    </template>
+    <template id="qunit_suite" name="social_facebook_qunit_tests" inherit_id="web.qunit_suite_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/social_facebook/static/src/js/tests/social_facebook_test_comments.test.js"></script>
+        </xpath>
+    </template>
+</odoo>

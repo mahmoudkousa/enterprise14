@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_be_hr_payroll.cp200_employees_salary_withholding_taxes" model="hr.salary.rule">
+        <field name="condition_select">python</field>
+        <field name="condition_python">result=not contract.no_withholding_taxes</field>
+    </record>
+
+    <record id="l10n_be_hr_payroll.cp200_employees_double_holiday_onss_rule" model="hr.salary.rule">
+        <field name="condition_select">python</field>
+        <field name="condition_python">result=not contract.no_onss</field>
+    </record>
+
+    <record id="l10n_be_hr_payroll.cp200_employees_salary_onss_rule" model="hr.salary.rule">
+        <field name="condition_select">python</field>
+        <field name="condition_python">result=not contract.no_onss</field>
+    </record>
+
+    <record id="l10n_be_hr_payroll.cp200_employees_termination_fees_termination_ONSS" model="hr.salary.rule">
+        <field name="condition_select">python</field>
+        <field name="condition_python">result=not contract.no_onss</field>
+    </record>
+
+    <record id="l10n_be_hr_payroll.cp200_employees_termination_n1_rules_onss_termination" model="hr.salary.rule">
+        <field name="condition_select">python</field>
+        <field name="condition_python">result=not contract.no_onss</field>
+    </record>
+
+    <record id="l10n_be_hr_payroll.cp200_employees_termination_n_rules_onss_termination" model="hr.salary.rule">
+        <field name="condition_select">python</field>
+        <field name="condition_python">result=not contract.no_onss</field>
+    </record>
+
+    <record id="l10n_be_hr_payroll.cp200_employees_thirteen_month_onss_rule" model="hr.salary.rule">
+        <field name="condition_select">python</field>
+        <field name="condition_python">result=not contract.no_onss</field>
+    </record>
+
+    <record id="l10n_be_hr_payroll.hr_salary_rule_student_regular_pay_solidarity_cotisation" model="hr.salary.rule">
+        <field name="condition_select">python</field>
+        <field name="condition_python">result=not contract.no_onss</field>
+    </record>
+</odoo>

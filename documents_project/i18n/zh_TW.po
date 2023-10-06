@@ -1,0 +1,141 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_project
+# 
+# Translators:
+# sejun huang <sejun.huang@gmail.com>, 2020
+# Mandy Choy <mnc@odoo.com>, 2021
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Tony Ng, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:19+0000\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_documents_workflow_rule
+msgid ""
+"A set of condition and actions which will be available to all attachments "
+"matching the conditions"
+msgstr "一組條件和操作，可用於與條件匹配的所有附件"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Centralize files attached to projects and tasks"
+msgstr "集中附加到專案和任務的文件"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置設定"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__create_model
+msgid "Create"
+msgstr "創建"
+
+#. module: documents_project
+#: model:documents.workflow.rule,name:documents_project.documents_project_rule
+msgid "Create a Task"
+msgstr "建立待辦任務"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Default Tags"
+msgstr "默認標籤"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__display_name
+#: model:ir.model.fields,field_description:documents_project.field_project_project__display_name
+#: model:ir.model.fields,field_description:documents_project.field_project_task__display_name
+#: model:ir.model.fields,field_description:documents_project.field_res_company__display_name
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__documents_project_settings
+msgid "Documents Project Settings"
+msgstr "文件專案設定"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__has_business_option
+msgid "Has Business Option"
+msgstr ""
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule__id
+#: model:ir.model.fields,field_description:documents_project.field_project_project__id
+#: model:ir.model.fields,field_description:documents_project.field_project_task__id
+#: model:ir.model.fields,field_description:documents_project.field_res_company__id
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_documents_workflow_rule____last_update
+#: model:ir.model.fields,field_description:documents_project.field_project_project____last_update
+#: model:ir.model.fields,field_description:documents_project.field_project_task____last_update
+#: model:ir.model.fields,field_description:documents_project.field_res_company____last_update
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "最後修改於"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_project_project
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__documents_project_settings
+msgid "Project"
+msgstr "專案"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__project_tags
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__project_tags
+msgid "Project Tags"
+msgstr "專案標籤"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_company__project_folder
+msgid "Project Workspace"
+msgstr "專案工作區"
+
+#. module: documents_project
+#: model:ir.model,name:documents_project.model_project_task
+#: model:ir.model.fields.selection,name:documents_project.selection__documents_workflow_rule__create_model__project_task
+msgid "Task"
+msgstr "任務"
+
+#. module: documents_project
+#: model_terms:ir.ui.view,arch_db:documents_project.res_config_settings_view_form
+msgid "Workspace"
+msgstr "Workspace"
+
+#. module: documents_project
+#: model:ir.model.fields,field_description:documents_project.field_res_config_settings__project_folder
+msgid "project default workspace"
+msgstr "項目預設工作區"

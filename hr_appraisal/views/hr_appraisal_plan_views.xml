@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record model="ir.ui.view" id="view_hr_appraisal_plan_tree">
+        <field name="name">hr.appraisal.plan.tree</field>
+        <field name="model">hr.appraisal.plan</field>
+        <field name="arch" type="xml">
+            <tree string="Appraisal Plan" editable="bottom">
+                <field name="duration"/>
+                <field name="event"/>
+                <field name="company_id" invisible="1"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_hr_appraisal_plan" model="ir.actions.act_window">
+        <field name="name">Appraisal Plans</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.appraisal.plan</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_appraisal_plan" name="Appraisal Plans"
+        action="hr_appraisal.action_hr_appraisal_plan"
+        parent="menu_hr_appraisal_configuration" sequence="4"
+        groups="hr_appraisal.group_hr_appraisal_manager"/>
+
+</odoo>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="stock_enterprise_assets_backend" name="stock_enterprise assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/stock_enterprise/static/src/js/report_grid_controller.js"></script>
+            <script type="text/javascript" src="/stock_enterprise/static/src/js/report_grid_view.js"></script>
+        </xpath>
+    </template>
+</odoo>

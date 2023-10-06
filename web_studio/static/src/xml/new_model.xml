@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+
+<t t-name="web_studio.NewModel">
+    <li>
+        <a href="#" class="o_web_create_new_model" role="button"><i class="fa fa-fw fa-plus"/> New Model</a>
+    </li>
+</t>
+
+<div t-name="web_studio.NewModel.Dialog">
+    <div>
+        <label for="name">Name</label>
+        <input class="o_input" name="name" placeholder="My Model" type="text"/>
+    </div>
+</div>
+
+</templates>

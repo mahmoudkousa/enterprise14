@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="planning_slot_template_view_form" model="ir.ui.view">
+        <field name="name">planning.slot.template.form</field>
+        <field name="model">planning.slot.template</field>
+        <field name="inherit_id" ref="planning.planning_slot_template_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="project_id"/>
+                <field name="task_id"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="planning_slot_template_view_tree" model="ir.ui.view">
+        <field name="name">planning.slot.template.tree</field>
+        <field name="model">planning.slot.template</field>
+        <field name="inherit_id" ref="planning.planning_slot_template_view_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="project_id"/>
+                <field name="task_id"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

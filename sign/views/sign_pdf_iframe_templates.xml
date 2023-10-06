@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="compiled_assets_pdf_iframe" name="Sign PDF IFrame Viewer">
+        <t t-call-assets="sign.assets_pdf_iframe"/>
+    </template>
+
+    <template id="assets_pdf_iframe" name="Sign PDF IFrame Viewer Assets">
+
+        <!-- lib -->
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/fontawesome/css/font-awesome.css"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/jquery.ui/jquery-ui.css"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/select2/select2.css"/>
+
+        <!-- odoo utils -->
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/_functions.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/_variables.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/mixins/_breakpoints.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/mixins/_grid-framework.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/mixins/_grid.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/utilities/_display.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/_grid.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/utilities/_flex.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/src/scss/bs_mixins_overrides.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/mixins/_deprecate.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/lib/bootstrap/scss/mixins/_size.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/src/scss/utils.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web/static/src/scss/primary_variables.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web_enterprise/static/src/scss/primary_variables.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web_tour/static/src/scss/tip.scss"/>
+        <link rel="stylesheet" type="text/css" href="/web_tour/static/src/scss/keyframes.scss"/>
+
+        <!-- integration -->
+        <link rel="stylesheet" type="text/css" href="/sign/static/src/css/iframe.css"/>
+
+    </template>
+</odoo>

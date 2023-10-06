@@ -1,0 +1,111 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_account_enterprise
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:24+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_account_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
+msgid ""
+"Defines how many times the stock is sold during a period. It is computed by "
+"dividing the outgoing inventory value by the inventory value."
+msgstr ""
+"កំណត់ចំនួនភាគហ៊ុនប៉ុន្មានដងដែលត្រូវបានលក់ក្នុងរយៈពេលមួយ។ "
+"វាត្រូវបានគណនាដោយបែងចែកតម្លៃសារពើភ័ណ្ឌដែលចេញដោយតម្លៃសារពើភ័ណ្ឌ។"
+
+#. module: stock_account_enterprise
+#: model:ir.model.fields,field_description:stock_account_enterprise.field_stock_report__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: stock_account_enterprise
+#: model:ir.model.fields,field_description:stock_account_enterprise.field_stock_report__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: stock_account_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
+msgid "Incoming Inventory Value"
+msgstr "តម្លៃសារពើភ័ណ្ឌចូល"
+
+#. module: stock_account_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
+msgid "Inventory Turnover"
+msgstr "ចំណូល​សារពើ​ភ័​ណ្ឌ"
+
+#. module: stock_account_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
+msgid "Inventory Value"
+msgstr "តម្លៃសារពើភ័ណ្ឌ"
+
+#. module: stock_account_enterprise
+#: model:ir.model.fields,field_description:stock_account_enterprise.field_stock_report____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: stock_account_enterprise
+#: model:ir.model.fields,help:stock_account_enterprise.field_stock_report__valuation
+msgid ""
+"Note that you can only access this value in the read_group, only the sum "
+"operator is supported"
+msgstr ""
+"ចំណាំថាអ្នកអាចចូលបានតែតម្លៃនេះក្នុងក្រុមអានមានតែប្រតិបត្តិករផលបូកប៉ុណ្ណោះដែលត្រូវបានគាំទ្រ"
+
+#. module: stock_account_enterprise
+#: model:ir.model.fields,help:stock_account_enterprise.field_stock_report__stock_value
+msgid ""
+"Note that you can only access this value in the read_group, only the sum "
+"operator is supported and only date_done is used from the domain"
+msgstr ""
+"ចំណាំថាអ្នកអាចចូលបានតែតម្លៃនេះក្នុងក្រុមអានប៉ុណ្ណោះមានតែប្រតិបត្តិករផលបូកប៉ុណ្ណោះដែលត្រូវបានគាំទ្រហើយមានតែកាលបរិច្ឆេទដែលបានប្រើពីដែនប៉ុណ្ណោះ"
+
+#. module: stock_account_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
+msgid "Outgoing Inventory Value"
+msgstr "តម្លៃសារពើភ័ណ្ឌចេញ"
+
+#. module: stock_account_enterprise
+#: model:ir.model,name:stock_account_enterprise.model_stock_report
+msgid "Stock Report"
+msgstr "របាយការណ៍ភាគហ៊ុន"
+
+#. module: stock_account_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
+msgid "The total value of what you have in stock."
+msgstr "តម្លៃសរុបនៃអ្វីដែលអ្នកមានក្នុងស្តុក។"
+
+#. module: stock_account_enterprise
+#: model:ir.model.fields,field_description:stock_account_enterprise.field_stock_report__stock_value
+msgid "Total Valuation of Inventory"
+msgstr "ការវាយតម្លៃសរុបនៃសារពើភ័ណ្ឌ"
+
+#. module: stock_account_enterprise
+#: model:ir.model.fields,field_description:stock_account_enterprise.field_stock_report__valuation
+msgid "Valuation of Inventory using a Domain"
+msgstr "ការវាយតំលៃនៃតម្លៃសារពើភ័ណ្ឌដោយប្រើដែន"
+
+#. module: stock_account_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
+msgid "Value of all incoming stock moves."
+msgstr "តម្លៃនៃការផ្លាស់ប្តូរភាគហ៊ុនចូលទាំងអស់។"
+
+#. module: stock_account_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
+msgid "Value of all outgoing stock moves."
+msgstr "តម្លៃនៃការផ្លាស់ប្តូរភាគហ៊ុនចេញទាំងអស់។"

@@ -1,0 +1,53 @@
+<odoo>
+    <record id="l10n_be_withholding_tax_ip_declaration_view_form" model="ir.ui.view">
+        <field name="name">l10n.be.withholding.tax.ip.declaration.view.form</field>
+        <field name="model">l10n.be.withholding.tax.ip.declaration</field>
+        <field name="arch" type="xml">
+            <form string="273S Sheet">
+                <sheet>
+                    <group>
+                        <field name="period"/>
+                        <field name="company_id" invisible="1" />
+                        <field name="currency_id" invisible="1" />
+                        <field name="state" invisible="1" />
+                        <field name="xml_filename" invisible="1" />
+                    </group>
+                </sheet>
+                <div states="waiting,done">
+                    <h2 attrs="{'invisible': [('xml_file', '=', False), ('pdf_file', '=', False)]}">Generation Complete</h2>
+                    <p attrs="{'invisible': [('pdf_file', '=', False)]}">
+                        Download the 273S PDF file: <field name="pdf_file" readonly="1" filename="pdf_filename"/>
+                    </p>
+                    <p attrs="{'invisible': [('xml_file', '=', False)]}" class="oe_inline">
+                        Download the XML Export file: <field name="xml_file" readonly="1" filename="xml_filename"/>
+                        <!-- Payment Structured Communication: <field name="payment_reference" attrs="{'invisible': [('payment_reference', '=', False)]}" readonly="1"/> -->
+                        <field name="xml_validation_state" widget="state_selection" nolabel="1"/>
+                        <field name="error_message" attrs="{'invisible': [('xml_validation_state', '!=', 'invalid')]}" nolabel="1"/>
+                    </p>
+                </div>
+                <footer states="draft,waiting">
+                    <button string="Export XML file" name="action_generate_xml" type="object" class="btn-primary"/>
+                    <button string="Export PDF file" name="action_generate_pdf" type="object" class="btn-primary"/>
+                </footer>
+                <footer states="done">
+                    <button name="action_validate" string="Validate" type="object" class="btn-primary"/>
+                    <button special="cancel" string="Close" type="object" class="btn-primary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="l10n_be_withholding_tax_ip_declaration_action" model="ir.actions.act_window">
+        <field name="name">273S Sheet</field>
+        <field name="res_model">l10n.be.withholding.tax.ip.declaration</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem
+        id="menu_l10n_be_withholding_tax_ip_declaration"
+        name="273S Sheet"
+        action="l10n_be_withholding_tax_ip_declaration_action"
+        parent="hr_payroll.menu_hr_payroll_report"
+    />
+</odoo>

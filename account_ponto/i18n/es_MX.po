@@ -1,0 +1,161 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_ponto
+# 
+# Translators:
+# Cécile Collart <cco@odoo.com>, 2021
+# Daniela Cervantes <dace@odoo.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: Daniela Cervantes <dace@odoo.com>, 2021\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid ""
+"Access to ponto using token is being deprecated. Please follow migration "
+"process on "
+"https://docs.google.com/document/d/1apzAtCgZl5mfEz5-Z8iETqd6WXGbV0R2KuAvEL87rBI"
+msgstr ""
+"El token para acceso a Ponto no es valido. Por favor haga el proceso de "
+"migración en "
+"https://docs.google.com/document/d/1apzAtCgZl5mfEz5-Z8iETqd6WXGbV0R2KuAvEL87rBI"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "An error has occurred: %s"
+msgstr "Se ha producido un error: %s"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "An error occurred during online synchronization"
+msgstr "Ha ocurrido un error durante la sincronización"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal__display_name
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__display_name
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Fetching transactions took too much time."
+msgstr "Obtener transacciones tomó demasiado tiempo."
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal__id
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__id
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_wizard__id
+msgid "ID"
+msgstr "Identificación"
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr "Interfaz para el diario en línea de cuentas"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Invalid access keys"
+msgstr "Clave de acceso invalida"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal____last_update
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider____last_update
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Link your Ponto account"
+msgstr "Vincula tu cuenta de Ponto"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#: model:ir.model.fields.selection,name:account_ponto.selection__account_online_provider__provider_type__ponto
+#, python-format
+msgid "Ponto"
+msgstr "Ponto"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal__ponto_last_synchronization_identifier
+msgid "Ponto Last Synchronization Identifier"
+msgstr "Identificador de la última sincronización de Ponto"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__ponto_token
+msgid "Ponto Token"
+msgstr "Token Ponto"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "Tipo de proveedor"
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "Proveedor de sincronización de cuenta en línea"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Server not reachable, please try again later"
+msgstr ""
+"No se puede acceder al servidor, por favor intente otra vez más tarde. "
+
+#. module: account_ponto
+#: model:ir.model.fields,help:account_ponto.field_account_online_provider__ponto_token
+msgid "Technical field that contains the ponto token"
+msgstr "Campo técnico que contiene el token de ponto"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "The following error happened during the synchronization: %s"
+msgstr "El siguiente error sucedió durante la sincronización: %s"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 60s"
+msgstr "Se agotó el tiempo: el servidor no ha respondido en 60s"
+
+#. module: account_ponto
+#: model_terms:ir.ui.view,arch_db:account_ponto.ponto_online_provider_account_form_view
+msgid "Update Accounts"
+msgstr "Actualizar cuentas"
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_wizard
+msgid "Wizard to link synchronized accounts to journal"
+msgstr "Asistente para vincular las cuentas sincronizadas con el diario"
+
+#. module: account_ponto
+#: model:ir.model.fields,help:account_ponto.field_account_online_journal__ponto_last_synchronization_identifier
+msgid "id of ponto synchronization"
+msgstr "identificación de sincronización de ponto"

@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quality_mrp
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: quality_mrp
+#: model_terms:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
+msgid ""
+"<span class=\"o_stat_text text-success\" attrs=\"{'invisible': [('quality_check_fail', '=', True)]}\">Quality Checks</span>\n"
+"                    <span class=\"o_stat_text text-danger\" attrs=\"{'invisible': [('quality_check_fail', '!=', True)]}\">Quality Checks</span>"
+msgstr ""
+"<span class=\"o_stat_text text-success\" attrs=\"{'invisible': [('quality_check_fail', '=', True)]}\">ការត្រួតពិនិត្យគុណភាព</span>\n"
+"<span class=\"o_stat_text text-danger\" attrs=\"{'invisible': [('quality_check_fail', '!=', True)]}\">ការត្រួតពិនិត្យគុណភាព</span>"
+
+#. module: quality_mrp
+#: model_terms:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
+msgid "<span class=\"o_stat_text\">Quality Alerts</span>"
+msgstr ""
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__quality_alert_ids
+msgid "Alerts"
+msgstr "ការជូនដំណឹង"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__check_ids
+msgid "Checks"
+msgstr "ការត្រួតពិនិត្យ"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__display_name
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_alert__display_name
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check__display_name
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point__display_name
+#: model:ir.model.fields,field_description:quality_mrp.field_stock_move__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_alert__id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check__id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point__id
+#: model:ir.model.fields,field_description:quality_mrp.field_stock_move__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production____last_update
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_alert____last_update
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check____last_update
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_point____last_update
+#: model:ir.model.fields,field_description:quality_mrp.field_stock_move____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_mrp_production
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_alert__production_id
+#: model:ir.model.fields,field_description:quality_mrp.field_quality_check__production_id
+msgid "Production Order"
+msgstr "លំដាប់ផលិតកម្ម"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_quality_alert
+#: model_terms:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
+msgid "Quality Alert"
+msgstr "ការដាស់តឿនគុណភាព"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__quality_alert_count
+msgid "Quality Alert Count"
+msgstr "រាប់ការដាស់តឿនគុណភាព"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_quality_check
+msgid "Quality Check"
+msgstr "ការត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__quality_check_fail
+msgid "Quality Check Fail"
+msgstr "បរាជ័យក្នុងការត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_mrp
+#: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__quality_check_todo
+msgid "Quality Check Todo"
+msgstr "ការត្រួតពិនិត្យគុណភាព ត្រូវធ្វើ"
+
+#. module: quality_mrp
+#: model:ir.actions.act_window,name:quality_mrp.quality_check_action_mo
+#: model_terms:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
+msgid "Quality Checks"
+msgstr "ការត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_quality_point
+msgid "Quality Control Point"
+msgstr "ចំណុចត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_mrp
+#: model:ir.model,name:quality_mrp.model_stock_move
+msgid "Stock Move"
+msgstr "ឃ្លំាងត្រូវបានផ្លាស់ប្តូរ"
+
+#. module: quality_mrp
+#: code:addons/quality_mrp/models/mrp_production.py:0
+#, python-format
+msgid "You still need to do the quality checks!"
+msgstr "អ្នកនៅតែត្រូវធ្វើការត្រួតពិនិត្យគុណភាព! "

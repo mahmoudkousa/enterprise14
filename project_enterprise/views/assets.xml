@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="project_enterprise_backend_assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/project_enterprise/static/src/js/task_gantt_view.js" />
+            <script type="text/javascript" src="/project_enterprise/static/src/js/task_gantt_model.js" />
+        </xpath>
+    </template>
+
+    <template id="qunit_suite" name="project enterprise tests" inherit_id="web.qunit_suite_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/project_enterprise/static/tests/gantt_tests.js"/>
+        </xpath>
+    </template>
+</odoo>

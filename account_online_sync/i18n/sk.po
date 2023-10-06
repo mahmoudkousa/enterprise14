@@ -1,0 +1,895 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_online_sync
+# 
+# Translators:
+# Martin Trigaux, 2020
+# gebri <gebri@inmail.sk>, 2020
+# Michal Matus <misko.matus@gmail.com>, 2020
+# Jan Prokop, 2020
+# Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2020
+# karolína schusterová <karolina.schusterova@vdp.sk>, 2020
+# Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-25 09:27+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: Rastislav Brencic <rastislav.brencic@azet.sk>, 2021\n"
+"Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: sk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Ooops</strong> It would seems that the process to"
+msgstr "<strong>Ooops</strong> zdá sa, že proces"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Ooops</strong> We could not"
+msgstr "<strong>Ooops</strong> nemohli sme"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Success!</strong> Your account has been succesfully refreshed."
+msgstr "<strong>Úspech!</strong> Váš účet bol úspešne obnovený."
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Success!</strong> Your account has been succesfully updated."
+msgstr "<strong>Úspech!</strong>Váš účet bol úspešne aktualizovaný."
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "<strong>Well done!</strong>"
+msgstr "<strong>Výborne!</strong>"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__account_number
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__account_number
+msgid "Account Number"
+msgstr "Číslo účtu"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__account_online_journal_id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__account_online_journal_ids
+msgid "Account Online Journal"
+msgstr "Online denník účtu"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__account_online_provider_id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__account_online_provider_id
+msgid "Account Online Provider"
+msgstr "Poskytovateľ online účtu"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__account_online_wizard_id
+msgid "Account Online Wizard"
+msgstr "Sprievodca online účtom"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__name
+msgid "Account name"
+msgstr "Názov účtu"
+
+#. module: account_online_sync
+#: model:ir.actions.server,name:account_online_sync.online_sync_cron_ir_actions_server
+#: model:ir.cron,cron_name:account_online_sync.online_sync_cron
+#: model:ir.cron,name:account_online_sync.online_sync_cron
+msgid "Account: Journal online sync"
+msgstr "Účet: Online synchronizácia denníka"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/company.py:0
+#, python-format
+msgid "Accounting Settings"
+msgstr "Nastavenia účtovníctva"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__action
+msgid "Action"
+msgstr "Akcia"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_needaction
+msgid "Action Needed"
+msgstr "Potrebná akcia"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__action_required
+msgid "Action Required"
+msgstr "Vyžaduje sa akcia"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Add a Bank Account"
+msgstr "Pridať bankový účet"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
+msgid "Additional information"
+msgstr "Ďalšie informácie"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "An error occurred during online synchronization"
+msgstr "Počas online synchronizácie sa vyskytla chyba"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_attachment_count
+msgid "Attachment Count"
+msgstr "Počet príloh"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Automated Bank Synchronization"
+msgstr "Automatizovaná synchronizácia banky"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__balance
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__balance
+msgid "Balance"
+msgstr "Bilancia"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
+msgid "Bank Accounts"
+msgstr "Bankové účty"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "Bankový výpis"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "Riadok bankového výpisu"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "Cancel"
+msgstr "Zrušené"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__status__cancelled
+msgid "Cancelled"
+msgstr "Zrušené"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__status_code
+msgid "Code to identify problem"
+msgstr "Kód na identifikáciu problému"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_res_company
+msgid "Companies"
+msgstr "Spoločnosti"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__company_id
+msgid "Company"
+msgstr "Spoločnosť"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create a Bank Account"
+msgstr "Vytvorte bankový účet"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create bi-monthly statements"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create daily statements"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create monthly statements"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_link_wizard__action__create
+msgid "Create new journal"
+msgstr "vytvoriť novú účtovnú knihu"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create one statement per synchronization"
+msgstr ""
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Create weekly statements"
+msgstr ""
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__create_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__create_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__create_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__create_uid
+msgid "Created by"
+msgstr "Vytvoril"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__create_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__create_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__create_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__create_date
+msgid "Created on"
+msgstr "Vytvorené"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__bank_statement_creation
+msgid "Creation of Bank Statements"
+msgstr "Tvorba bankových výpisov"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_journal__bank_statement_creation
+msgid ""
+"Defines when a new bank statement\n"
+"                                               will be created when fetching new transactions\n"
+"                                               from your bank account."
+msgstr ""
+"Definuje, kedy sa má nový bankový výpis\n"
+"sa vytvorí pri načítaní nových transakcií\n"
+"z vášho bankového účtu."
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Zobrazovaný názov"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_link_wizard__action__drop
+msgid "Do not link"
+msgstr "Nespájať"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "Done"
+msgstr "Hotové"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__status__failed
+msgid "Failed"
+msgstr "Zlyhalo"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__sync_date
+msgid "Fetch transactions from"
+msgstr "Načítať transakcie z"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_follower_ids
+msgid "Followers"
+msgstr "Odberatelia"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Odberatelia (kanály)"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Odberatelia (partneri)"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__hide_table
+msgid "Hide Table"
+msgstr "Skryť tabuľku"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__id
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__id
+#: model:ir.model.fields,field_description:account_online_sync.field_res_company__id
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__provider_identifier
+msgid ""
+"ID of the banking institution in third party server used for debugging "
+"purpose"
+msgstr ""
+"ID bankovej inštitúcie na serveri tretej strany, ktoré sa používa na účely "
+"ladenia"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__provider_account_identifier
+msgid "ID used to identify provider account in third party server"
+msgstr ""
+"ID používané na identifikáciu účtu poskytovateľa na serveri tretej strany"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_needaction
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Ak označené, potom nové správy vyžadujú vašu pozornosť."
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_has_error
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Ak označené, potom majú niektoré správy chybu dodania."
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__name
+msgid "Institution"
+msgstr "Inštitúcia"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr "Rozhranie pre online denník účtov"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_is_follower
+msgid "Is Follower"
+msgstr "Odberateľ"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/company.py:0
+#, python-format
+msgid "It looks like a bank account is missing."
+msgstr "Zdá sa, že chýba bankový účet."
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#: model:ir.model,name:account_online_sync.model_account_journal
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__journal_ids
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__journal_id
+#, python-format
+msgid "Journal"
+msgstr "Účtovný denník"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__name
+msgid "Journal Name"
+msgstr "Názov účtovného denníka"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Posledná úprava"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__last_refresh
+msgid "Last Refresh"
+msgstr "Posledná aktualizácia"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__write_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__write_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__write_uid
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Naposledy upravoval"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__write_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__write_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__write_date
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__write_date
+msgid "Last Updated on"
+msgstr "Naposledy upravované"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__last_sync
+msgid "Last synchronization"
+msgstr "Posledná synchronizácia"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_online_link_wizard
+msgid "Link synchronized account to a journal"
+msgstr "Prepojte synchronizovaný účet s denníkom"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_link_wizard__action__link
+msgid "Link to existing journal"
+msgstr "Odkaz na existujúci denník"
+
+#. module: account_online_sync
+#: model_terms:ir.actions.act_window,help:account_online_sync.action_online_provider_account
+msgid "List of bank(s) providing online synchronization"
+msgstr "Zoznam bánk poskytujúcich online synchronizáciu"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Hlavná príloha"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
+msgid "Manual Refresh"
+msgstr "Ručné obnovenie"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__message
+msgid "Message"
+msgstr "Správa"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_has_error
+msgid "Message Delivery error"
+msgstr "Chyba zobrazovania správ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_ids
+msgid "Messages"
+msgstr "Správy"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__method
+msgid "Method"
+msgstr "Metóda"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+msgid "Next sync:"
+msgstr "Ďalšia synchronizácia:"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__next_synchronization
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__next_refresh
+msgid "Next synchronization"
+msgstr "Ďalšia synchronizácia:"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "No new transactions have been loaded in the system."
+msgstr "V systéme neboli načítané žiadne nové transakcie."
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__number_added
+msgid "Number Added"
+msgstr "Číslo pridané"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Počet akcií"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_has_error_counter
+msgid "Number of errors"
+msgstr "Počet chýb"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Počet správ, ktoré vyžadujú akciu"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Počet doručených správ s chybou"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Počet neprečítaných správ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__online_account_id
+msgid "Online Account"
+msgstr "Online účet"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__online_identifier
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__online_identifier
+msgid "Online Identifier"
+msgstr "Online identifikátor"
+
+#. module: account_online_sync
+#: model:ir.actions.act_window,name:account_online_sync.action_online_provider_account
+msgid "Online Institution Accounts"
+msgstr "Účty inštitúcií online"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__online_partner_bank_account
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner__online_partner_bank_account
+#: model:ir.model.fields,field_description:account_online_sync.field_res_users__online_partner_bank_account
+msgid "Online Partner Bank Account"
+msgstr "Online partnerský bankový účet"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_bank_statement_line__online_partner_vendor_name
+#: model:ir.model.fields,field_description:account_online_sync.field_res_partner__online_partner_vendor_name
+#: model:ir.model.fields,field_description:account_online_sync.field_res_users__online_partner_vendor_name
+msgid "Online Partner Vendor Name"
+msgstr "Meno dodávateľa online partnera"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#: model:ir.ui.menu,name:account_online_sync.menu_action_online_provider_account
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+#, python-format
+msgid "Online Synchronization"
+msgstr "Online synchronizácia"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Online synchronization from %s to %s"
+msgstr "Online synchronizácia z %sdo %s"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Online synchronization of %s"
+msgstr "Online synchronizácia služby%s"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Opening statement"
+msgstr "Úvodné vyhlásenie"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Opening statement: first synchronization"
+msgstr "Úvodné vyhlásenie: prvá synchronizácia"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Please enter at least a character for the search"
+msgstr "Zadajte aspoň znak pre hľadanie"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid ""
+"Please link your accounts to a journal or select \"do not link\" as action "
+"to do"
+msgstr ""
+"Prepojte svoje účty s denníkom alebo ako akciu vyberte možnosť „neprepájať“"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+msgid "Problem during synchronization"
+msgstr "Problém počas synchronizácie"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_journal__provider_name
+msgid "Provider"
+msgstr "Poskytovateľ"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__provider_account_identifier
+msgid "Provider Account Identifier"
+msgstr "Identifikátor účtu poskytovateľa"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__provider_identifier
+msgid "Provider Identifier"
+msgstr "Identifikátor poskytovateľa"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "Typ poskytovateľa"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "Poskytovateľ online synchronizácie účtov"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Chyba doručenia SMS"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Server not reachable, please try again later"
+msgstr "Server nie je dostupný, skúste to znova neskôr"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid ""
+"Statement has been reset to draft because some transactions from online "
+"synchronization were added to it."
+msgstr ""
+"Výpis bol obnovený na návrh, pretože boli doň pridané niektoré transakcie z "
+"online synchronizácie."
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__status
+msgid "Status"
+msgstr "Stav"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__status_code
+msgid "Status Code"
+msgstr "Stavový kód"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__status__success
+msgid "Success"
+msgstr "Úspech"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_form_inherit_online_sync
+msgid "Synchronization Frequency"
+msgstr "Frekvencia synchronizácie"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__journal_statements_creation
+msgid "Synchronization frequency"
+msgstr "Frekvencia synchronizácie"
+
+#. module: account_online_sync
+#: model:ir.actions.act_window,name:account_online_sync.action_account_online_wizard_form
+msgid "Synchronization result"
+msgstr "Výsledok synchronizácie"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_journal__synchronization_status
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__status
+msgid "Synchronization status"
+msgstr "Stav synchronizácie"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid "Synchronize now"
+msgstr "Synchronizovať teraz"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__account_ids
+msgid "Synchronized accounts"
+msgstr "Synchronizované účty"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message
+msgid "Techhnical message from third party provider that can help debugging"
+msgstr ""
+"Technická správa od poskytovateľa tretej strany, ktorá môže pomôcť pri "
+"ladení"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_wizard__hide_table
+msgid "Technical field to hide table in view"
+msgstr "Technické pole na skrytie tabuľky v zobrazení"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_bank_statement_line__online_partner_bank_account
+#: model:ir.model.fields,help:account_online_sync.field_res_partner__online_partner_bank_account
+#: model:ir.model.fields,help:account_online_sync.field_res_users__online_partner_bank_account
+msgid ""
+"Technical field used to store information from plaid/yodlee to match partner"
+msgstr ""
+"Technické pole používané na ukladanie informácií z pléd / yodlee k "
+"zodpovedajúcemu partnerovi"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_bank_statement_line__online_partner_vendor_name
+#: model:ir.model.fields,help:account_online_sync.field_res_partner__online_partner_vendor_name
+#: model:ir.model.fields,help:account_online_sync.field_res_users__online_partner_vendor_name
+msgid ""
+"Technical field used to store information from plaid/yodlee to match partner"
+" (used when a purchase is made)"
+msgstr ""
+"Technické pole používané na ukladanie informácií z kocky / yodlee k "
+"zodpovedajúcemu partnerovi (použité pri nákupe)"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "The following error happened during the synchronization: %s"
+msgstr "Počas synchronizácie sa vyskytla nasledujúca chyba: %s"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "The following transactions have been loaded in the system."
+msgstr "Do systému boli načítané nasledujúce transakcie."
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 60s"
+msgstr "Časový limit: server neodpovedal do 60 s"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_wizard__transactions
+msgid "Transactions"
+msgstr "Transakcie"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__action_required
+msgid "True if user needs to take action by updating account"
+msgstr "Pravda, ak používateľ potrebuje prijať opatrenia aktualizáciou účtu"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Unimplemented"
+msgstr "Neimplementované"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "Unknown reason"
+msgstr "Neznámy dôvod"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_unread
+msgid "Unread Messages"
+msgstr "Neprečítané správy"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Počítadlo neprečítaných správ"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
+msgid "Update Credentials"
+msgstr "Aktualizujte poverenia"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_journal__synchronization_status
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__status
+msgid "Update status of provider account"
+msgstr "Aktualizujte stav účtu poskytovateľa"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.account_journal_dashboard_inherit_online_sync
+msgid "View problem"
+msgstr "Zobraziť problém"
+
+#. module: account_online_sync
+#: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__website_message_ids
+msgid "Website Messages"
+msgstr "Správy webstránok"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__website_message_ids
+msgid "Website communication history"
+msgstr "História komunikácie webstránok"
+
+#. module: account_online_sync
+#: model:ir.model,name:account_online_sync.model_account_online_wizard
+msgid "Wizard to link synchronized accounts to journal"
+msgstr "Sprievodca prepojením synchronizovaných účtov s denníkom"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "You can not link two accounts to the same journal"
+msgstr "Nemôžete prepojiť dva účty s rovnakým denníkom"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/company.py:0
+#, python-format
+msgid "You should install a fiscal localization first."
+msgstr "Najskôr by ste si mali nainštalovať fiškálnu lokalizáciu."
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__method__add
+msgid "add"
+msgstr "pridať"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_journal__balance
+#: model:ir.model.fields,help:account_online_sync.field_account_online_link_wizard__balance
+msgid "balance of the account sent by the third party provider"
+msgstr "zostatok na účte zaslaný poskytovateľom tretej strany"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid ""
+"bank accounts have been found.<br/>To finalize, please associate each bank "
+"account with an accounting journal and choose the synchronization frequency "
+"<span title=\"The first synchronization collects all transactions in a "
+"unique bank statement\"> <i class=\"fa fa-info-circle\" aria-"
+"label=\"0\"/></span>"
+msgstr ""
+"boli nájdené bankové účty.<br/>Na dokončenie spojte každý bankový účet s "
+"účtovným denníkom a zvoľte frekvenciu synchronizácie <span title=\"The first"
+" synchronization collects all transactions in a unique bank statement\"> <i "
+"class=\"fa fa-info-circle\" aria-label=\"0\"/></span>"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__method__edit
+msgid "edit"
+msgstr "upraviť"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_journal__online_identifier
+msgid "id use to identify account in provider system"
+msgstr "id použiť na identifikáciu účtu v systéme poskytovateľa"
+
+#. module: account_online_sync
+#: model:ir.model.fields,help:account_online_sync.field_account_online_journal__provider_name
+#: model:ir.model.fields,help:account_online_sync.field_account_online_provider__name
+msgid "name of the banking institution"
+msgstr "názov bankovej inštitúcie"
+
+#. module: account_online_sync
+#: model:ir.model.fields.selection,name:account_online_sync.selection__account_online_wizard__method__refresh
+msgid "refresh"
+msgstr "odbnoviť"
+
+#. module: account_online_sync
+#: code:addons/account_online_sync/models/online_sync.py:0
+#, python-format
+msgid "transactions loaded"
+msgstr "načítané transakcie"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid ""
+"your account because of the following\n"
+"                    error during the process:"
+msgstr ""
+"z nasledujúceho dôvodu\n"
+"                    chyba počas procesu:"
+
+#. module: account_online_sync
+#: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
+msgid ""
+"your account was not\n"
+"                    thoroughly completed. You can try to manually update your account by clicking the refresh button on the dashboard\n"
+"                    or in the online synchronization menu."
+msgstr ""
+"váš účet nebol\n"
+"                    dôkladne dokončený. Môžete sa pokúsiť ručne aktualizovať svoj účet kliknutím na tlačidlo obnovenia na hlavnom paneli\n"
+"                    alebo v ponuke online synchronizácie."

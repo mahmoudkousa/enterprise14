@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quality_iot
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: quality_iot
+#. openerp-web
+#: code:addons/quality_iot/static/src/js/iot_picture.js:0
+#, python-format
+msgid "Capture image..."
+msgstr ""
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_quality_point__device_id
+msgid "Device"
+msgstr "ឧបករណ៍"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device__display_name
+#: model:ir.model.fields,field_description:quality_iot.field_quality_point__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device__id
+#: model:ir.model.fields,field_description:quality_iot.field_quality_point__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: quality_iot
+#: model:ir.model,name:quality_iot.model_iot_device
+msgid "IOT Device"
+msgstr "ឧបករណ៍ IOT"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device____last_update
+#: model:ir.model.fields,field_description:quality_iot.field_quality_point____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device__qcp_test_type
+msgid "Qcp Test Type"
+msgstr "ប្រភេទតេស្ត Qcp"
+
+#. module: quality_iot
+#: model:ir.model,name:quality_iot.model_quality_point
+msgid "Quality Control Point"
+msgstr "ចំណុចត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_iot
+#: model_terms:ir.ui.view,arch_db:quality_iot.iot_device_view_form_inherit
+msgid "Quality Control Points"
+msgstr "ចំណុចត្រួតពិនិត្យគុណភាព"
+
+#. module: quality_iot
+#: model:ir.model.fields,field_description:quality_iot.field_iot_device__quality_point_ids
+msgid "Quality Point"
+msgstr "ចំណុចគុណភាព"

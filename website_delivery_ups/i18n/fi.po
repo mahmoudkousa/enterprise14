@@ -1,0 +1,129 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_delivery_ups
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Kari Lindgren <kari.lindgren@emsystems.fi>, 2020
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020
+# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2020
+# Kim Asplund <kim.asplund@gmail.com>, 2021
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.payment_delivery_methods_inherit_website_sale_delivery
+msgid "(Bill My Account)"
+msgstr "(Lasku tililleni)"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.payment_delivery_methods_inherit_website_sale_delivery
+msgid "<i class=\"fa fa-trash-o\" role=\"img\" aria-label=\"Delete\" title=\"Delete\"/>"
+msgstr "<i class=\"fa fa-trash-o\" role=\"img\" aria-label=\"Poista\" title=\"Poista\"/>"
+
+#. module: website_delivery_ups
+#: model_terms:payment.acquirer,pending_msg:website_delivery_ups.payment_acquirer_ups_cod
+msgid ""
+"<i>Pending</i>, Thanks for choosing COD(Collect on Delivery/Cash on "
+"Delivery) option. Delivery boy will collect the payment on delivery."
+msgstr ""
+"<i>Vireillä</i>, Kiitos, että valitsit postiennakon (COD, Cash on Delivery) "
+"-vaihtoehdon. Lähetti kerää maksun toimituksen yhteydessä."
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.payment_delivery_methods_inherit_website_sale_delivery
+msgid "<span>(UPS Billing will remain to the customer)</span>"
+msgstr "<span>(UPS laskutus jää asiakkaalle)</span>"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.ups_bill_my_account_dialog
+msgid "Apply"
+msgstr "Käytä"
+
+#. module: website_delivery_ups
+#: model:payment.acquirer,name:website_delivery_ups.payment_acquirer_ups_cod
+msgid "COD"
+msgstr "COD"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.ups_bill_my_account_dialog
+msgid "Cancel"
+msgstr "Peruuta"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.ups_bill_my_account_dialog
+msgid "Close"
+msgstr "Sulje"
+
+#. module: website_delivery_ups
+#: model:ir.model.fields,field_description:website_delivery_ups.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Näyttönimi"
+
+#. module: website_delivery_ups
+#: model:ir.model.fields,field_description:website_delivery_ups.field_sale_order__id
+msgid "ID"
+msgstr "Tunniste (ID)"
+
+#. module: website_delivery_ups
+#: model:ir.model.fields,field_description:website_delivery_ups.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Viimeksi muokattu"
+
+#. module: website_delivery_ups
+#: model:ir.model,name:website_delivery_ups.model_sale_order
+msgid "Sales Order"
+msgstr "Myyntitilaus"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.ups_bill_my_account_dialog
+msgid "UPS Bill My Account"
+msgstr "UPS: Laskuta tiliäni"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.property_ups_carrier_account_inherit_portal_details
+msgid "UPS Number Account"
+msgstr "UPS-numero tili"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.res_config_settings_view_form_inherit_website_delivery_ups
+msgid "UPS Shipping Methods"
+msgstr "UPS:n toimitustavat"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.payment_delivery_methods_inherit_website_sale_delivery
+msgid "Using Account"
+msgstr "Käyttäen tiliä"
+
+#. module: website_delivery_ups
+#: model_terms:ir.ui.view,arch_db:website_delivery_ups.ups_bill_my_account_dialog
+msgid "Your UPS Account Number"
+msgstr "UPS-tilinumerosi"
+
+#. module: website_delivery_ups
+#: model_terms:payment.acquirer,auth_msg:website_delivery_ups.payment_acquirer_ups_cod
+msgid "Your payment has been authorized."
+msgstr "Maksusuorituksesi on hyväksytty."
+
+#. module: website_delivery_ups
+#: model_terms:payment.acquirer,cancel_msg:website_delivery_ups.payment_acquirer_ups_cod
+msgid "Your payment has been cancelled."
+msgstr "Maksusi on peruutettu."
+
+#. module: website_delivery_ups
+#: model_terms:payment.acquirer,done_msg:website_delivery_ups.payment_acquirer_ups_cod
+msgid "Your payment has been successfully processed. Thank you!"
+msgstr "Maksusi on käsitelty onnistuneesti. Kiitos!"

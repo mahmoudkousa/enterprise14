@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_l10n_lu_generate_xml" model="ir.ui.view">
+            <field name="name">l10n_lu.generate.xml.view</field>
+            <field name="model">l10n_lu.generate.xml</field>
+            <field name="arch" type="xml">
+                <form>
+                    <label for="by_fidu" string="Declaration filled in by the fiduciary"/>
+                    <field name="by_fidu"/>
+                    <footer>
+                        <button name="get_xml" string="EXPORT XML" type="object" class="oe_highlight"/>
+                    </footer>
+               </form>
+            </field>
+        </record>
+
+        <record id="action_l10n_lu_generate_xml" model="ir.actions.act_window">
+            <field name="name">Generate report</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">l10n_lu.generate.xml</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_l10n_lu_generate_xml"/>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>

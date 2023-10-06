@@ -1,0 +1,150 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* social_demo
+# 
+# Translators:
+# Triine Aavik <triine@avalah.ee>, 2020
+# Martin Aavastik <martin@avalah.ee>, 2020
+# Andre Roomet <andreroomet@gmail.com>, 2020
+# Algo Kärp <algokarp@gmail.com>, 2021
+# Anna, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:05+0000\n"
+"PO-Revision-Date: 2020-09-07 08:24+0000\n"
+"Last-Translator: Anna, 2023\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: social_demo
+#: model:product.product,name:social_demo.product_product_4
+#: model:product.template,name:social_demo.product_product_4_product_template
+msgid "Desk"
+msgstr "Laud"
+
+#. module: social_demo
+#: model:product.product,name:social_demo.product_product_4b
+#: model:product.template,name:social_demo.product_product_4b_product_template
+msgid "Desk Variant B"
+msgstr "Laua variant variant B"
+
+#. module: social_demo
+#: model:product.product,name:social_demo.product_product_4c
+#: model:product.template,name:social_demo.product_product_4c_product_template
+msgid "Desk Variant C"
+msgstr "Laua variant C"
+
+#. module: social_demo
+#: model:product.product,name:social_demo.product_product_4d
+#: model:product.template,name:social_demo.product_product_4d_product_template
+msgid "Desk Variant D"
+msgstr "Laua variant D"
+
+#. module: social_demo
+#: model:ir.model.fields,field_description:social_demo.field_social_account__display_name
+#: model:ir.model.fields,field_description:social_demo.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:social_demo.field_social_post__display_name
+#: model:ir.model.fields,field_description:social_demo.field_social_stream__display_name
+#: model:ir.model.fields,field_description:social_demo.field_social_stream_post__display_name
+#: model:ir.model.fields,field_description:social_demo.field_utm_campaign__display_name
+msgid "Display Name"
+msgstr "Kuva nimi"
+
+#. module: social_demo
+#: model:ir.model.fields,field_description:social_demo.field_social_account__id
+#: model:ir.model.fields,field_description:social_demo.field_social_live_post__id
+#: model:ir.model.fields,field_description:social_demo.field_social_post__id
+#: model:ir.model.fields,field_description:social_demo.field_social_stream__id
+#: model:ir.model.fields,field_description:social_demo.field_social_stream_post__id
+#: model:ir.model.fields,field_description:social_demo.field_utm_campaign__id
+msgid "ID"
+msgstr "ID"
+
+#. module: social_demo
+#: model:social.stream,name:social_demo.social_stream_twitter_search
+msgid "Keyword: #mycompany"
+msgstr "Märksõna: #minuettevõte"
+
+#. module: social_demo
+#: model:social.stream,name:social_demo.social_stream_twitter_search_competitor
+msgid "Keyword: #mycompetitor"
+msgstr "Märksõna: #minukonkurent"
+
+#. module: social_demo
+#: model:ir.model.fields,field_description:social_demo.field_social_account____last_update
+#: model:ir.model.fields,field_description:social_demo.field_social_live_post____last_update
+#: model:ir.model.fields,field_description:social_demo.field_social_post____last_update
+#: model:ir.model.fields,field_description:social_demo.field_social_stream____last_update
+#: model:ir.model.fields,field_description:social_demo.field_social_stream_post____last_update
+#: model:ir.model.fields,field_description:social_demo.field_utm_campaign____last_update
+msgid "Last Modified on"
+msgstr "Viimati muudetud (millal)"
+
+#. module: social_demo
+#: model:social.stream,name:social_demo.social_stream_facebook_page
+msgid "Page Posts: My Company"
+msgstr "Postitused lehel: Minu ettevõte"
+
+#. module: social_demo
+#: model:social.stream,name:social_demo.social_stream_linkedin_page
+msgid "Posts: My Company"
+msgstr "Postitused: Minu ettevõte"
+
+#. module: social_demo
+#: model:ir.model,name:social_demo.model_social_account
+msgid "Social Account"
+msgstr "Sotsiaalmeedia konto"
+
+#. module: social_demo
+#: model:utm.campaign,name:social_demo.social_utm_campaign
+msgid "Social Campaign"
+msgstr "Sotsiaalmeedia kampaania"
+
+#. module: social_demo
+#: model:ir.model,name:social_demo.model_social_live_post
+msgid "Social Live Post"
+msgstr "Sotsiaalne otsepostitus"
+
+#. module: social_demo
+#: model:ir.model,name:social_demo.model_social_post
+msgid "Social Post"
+msgstr "Sotsiaalmeedia postitus"
+
+#. module: social_demo
+#: model:ir.model,name:social_demo.model_social_stream
+msgid "Social Stream"
+msgstr "Sotsiaalmeedia voog"
+
+#. module: social_demo
+#: model:ir.model,name:social_demo.model_social_stream_post
+msgid "Social Stream Post"
+msgstr "Sotsiaalmeedia striiming postitus"
+
+#. module: social_demo
+#: model:social.stream,name:social_demo.social_stream_twitter_account
+msgid "Tweets of: My Company"
+msgstr "Säutsud: Minu ettevõte"
+
+#. module: social_demo
+#: model:ir.model,name:social_demo.model_utm_campaign
+msgid "UTM Campaign"
+msgstr "UTM Campaign"
+
+#. module: social_demo
+#: model:product.product,uom_name:social_demo.product_product_4
+#: model:product.product,uom_name:social_demo.product_product_4b
+#: model:product.product,uom_name:social_demo.product_product_4c
+#: model:product.product,uom_name:social_demo.product_product_4d
+#: model:product.template,uom_name:social_demo.product_product_4_product_template
+#: model:product.template,uom_name:social_demo.product_product_4b_product_template
+#: model:product.template,uom_name:social_demo.product_product_4c_product_template
+#: model:product.template,uom_name:social_demo.product_product_4d_product_template
+msgid "Units"
+msgstr "Ühikud"

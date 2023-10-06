@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_backend" name="Sale Enterprise Assets" inherit_id="web.assets_backend">
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/sale_account_accountant/static/src/js/account_reconciliation.js"></script>
+        </xpath>
+    </template>
+
+</odoo>

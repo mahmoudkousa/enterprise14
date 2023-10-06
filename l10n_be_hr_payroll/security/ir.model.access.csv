@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_l10n_be_meal_voucher_report,l10n_be.meal.voucher.report.payroll.user,model_l10n_be_meal_voucher_report,hr_payroll.group_hr_payroll_user,1,0,0,0
+access_l10n_be_dmfa,l10n_be.dmfa.payroll.user,model_l10n_be_dmfa,hr_payroll.group_hr_payroll_manager,1,1,1,1
+access_l10n_be_dmfa_location_unit,l10n_be.dmfa.location.unit.payroll.manager,model_l10n_be_dmfa_location_unit,hr_payroll.group_hr_payroll_manager,1,1,1,1
+access_l10n_be_attachment_salary,l10n_be.attachment.salary.contract.manager,model_l10n_be_attachment_salary,hr_contract.group_hr_contract_manager,1,1,1,1
+access_l10n_be_attachment_report_salary,l10n_be.attachment.salary.report.payroll.user,model_l10n_be_attachment_salary_report,hr_payroll.group_hr_payroll_user,1,0,0,0
+access_hr_payslip_employee_depature_holiday_attests,access.hr.payslip.employee.depature.holiday.attests,model_hr_payslip_employee_depature_holiday_attests,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_hr_payslip_employee_depature_notice,access.hr.payslip.employee.depature.notice,model_hr_payslip_employee_depature_notice,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_l10n_be_individual_account_wizard,access.l10n_be.individual.account.wizard,model_l10n_be_individual_account_wizard,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_l10n_be_hr_payroll_credit_time_wizard,access.l10n_be.hr.payroll.credit.time.wizard,model_l10n_be_hr_payroll_credit_time_wizard,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_l10n_be_hr_payroll_exit_credit_time_wizard,access.l10n_be.hr.payroll.exit.credit.time.wizard,model_l10n_be_hr_payroll_exit_credit_time_wizard,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_hr_payroll_281_10_wizard,access.hr.payroll.281.10.wizard,model_hr_payroll_281_10_wizard,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_hr_payroll_281_45_wizard,access.hr.payroll.281.45.wizard,model_hr_payroll_281_45_wizard,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_hr_payroll_alloc_paid_leave,access.hr.payroll.alloc.paid.leave,model_hr_payroll_alloc_paid_leave,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_hr_payroll_alloc_employee,access.hr.payroll.alloc.employee,model_hr_payroll_alloc_employee,hr_payroll.group_hr_payroll_user,1,1,1,0

@@ -1,0 +1,162 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_ponto
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Matus Krnac <matus.krnac@gmail.com>, 2020
+# Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
+# karolína schusterová <karolina.schusterova@vdp.sk>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: karolína schusterová <karolina.schusterova@vdp.sk>, 2020\n"
+"Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: sk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid ""
+"Access to ponto using token is being deprecated. Please follow migration "
+"process on "
+"https://docs.google.com/document/d/1apzAtCgZl5mfEz5-Z8iETqd6WXGbV0R2KuAvEL87rBI"
+msgstr ""
+"Podpora prístupu k pontu pomocou tokenu sa ukončuje. Postupujte podľa "
+"migračného procesu na "
+"https://docs.google.com/document/d/1apzAtCgZl5mfEz5-Z8iETqd6WXGbV0R2KuAvEL87rBI"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Account"
+msgstr "Účet"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "An error has occurred: %s"
+msgstr "Došlo k chybe:%s"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "An error occurred during online synchronization"
+msgstr "Počas online synchronizácie sa vyskytla chyba"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal__display_name
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__display_name
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_wizard__display_name
+msgid "Display Name"
+msgstr "Zobrazovaný názov"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Fetching transactions took too much time."
+msgstr "Načítavanie transakcií trvalo príliš dlho."
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal__id
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__id
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr "Rozhranie pre online denník účtov"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Invalid access keys"
+msgstr "Neplatné prístupové kľúče"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal____last_update
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider____last_update
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_wizard____last_update
+msgid "Last Modified on"
+msgstr "Posledná úprava"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Link your Ponto account"
+msgstr "Prepojte svoj účet Ponto"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#: model:ir.model.fields.selection,name:account_ponto.selection__account_online_provider__provider_type__ponto
+#, python-format
+msgid "Ponto"
+msgstr "Ponto"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal__ponto_last_synchronization_identifier
+msgid "Ponto Last Synchronization Identifier"
+msgstr "Identifikátor poslednej synchronizácie Ponto"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__ponto_token
+msgid "Ponto Token"
+msgstr "Tokio Ponto"
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "Typ poskytovateľa"
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "Poskytovateľ online synchronizácie účtov"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Server not reachable, please try again later"
+msgstr "Server nie je dostupný, skúste to znova neskôr"
+
+#. module: account_ponto
+#: model:ir.model.fields,help:account_ponto.field_account_online_provider__ponto_token
+msgid "Technical field that contains the ponto token"
+msgstr "Technické pole, ktoré obsahuje token Ponto"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "The following error happened during the synchronization: %s"
+msgstr "Počas synchronizácie sa vyskytla nasledujúca chyba: %s"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 60s"
+msgstr "Časový limit: server neodpovedal do 60 s"
+
+#. module: account_ponto
+#: model_terms:ir.ui.view,arch_db:account_ponto.ponto_online_provider_account_form_view
+msgid "Update Accounts"
+msgstr "Aktualizácia účtov"
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_wizard
+msgid "Wizard to link synchronized accounts to journal"
+msgstr "Sprievodca prepojením synchronizovaných účtov s denníkom"
+
+#. module: account_ponto
+#: model:ir.model.fields,help:account_ponto.field_account_online_journal__ponto_last_synchronization_identifier
+msgid "id of ponto synchronization"
+msgstr "ID synchronizácie Ponta"

@@ -1,0 +1,398 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mail_github
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Chan Nath <channath@gmail.com>, 2020
+# Samkhann Seang <seangsamkhann@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:48+0000\n"
+"PO-Revision-Date: 2020-09-07 08:21+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "(with"
+msgstr "(ជាមួយ"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid ") on repository"
+msgstr ") នៅលើឃ្លាំងទុក"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid ", by"
+msgstr ", ដោយ"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "<b>State :</b>"
+msgstr "<b>បញ្ចេញ :</b>"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "<b>Title :</b>"
+msgstr "<b>ចំណងជើង :</b>"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_needaction
+msgid "Action Needed"
+msgstr "តម្រូវការសកម្មភាព"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid ""
+"After that you can choose the events you want to follow in the channels. Be "
+"careful, only <i>Commit comment, Issues, Issue comment, Gollum, Pull "
+"request, Pull request review, Pull request review comment</i> and "
+"<i>Push</i> events are supported."
+msgstr ""
+"បន្ទាប់ពីនោះអ្នកអាចជ្រើសរើសព្រឹត្តិការណ៍ដែលអ្នកចង់តាមដាននៅក្នុងប៉ុស្តិ៍។ "
+"ប្រយ័ត្នតែប៉ុណ្ណឹង<i>ផ្តល់មតិយោបល់បញ្ហានានាសេចក្តីអត្ថាធិប្បាយបញ្ហាហ្គូរូមសំណើរទាញសំណើរទាញសំណើរមតិយោបល់ទាញសំណើពិនិត្យឡើងវិញ</i>"
+" ហើយនឹង <i>ជំរុញ</i>ព្រឹត្តិការណ៍ត្រូវបានគាំទ្រ។"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_attachment_count
+msgid "Attachment Count"
+msgstr "ចំនួនឯកសារភ្ជាប់"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__channel_ids
+msgid "Channels"
+msgstr "ឆានែល"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid "Channels allowed to follow repositories."
+msgstr "ឆានែលត្រូវបានអនុញ្ញាតឱ្យតាមដានឃ្លាំង"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "Commit"
+msgstr "ការប្តេជ្ញាចិត្"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__name
+msgid ""
+"Complete name of the github repository. e.i.: my-username/my-public-repo"
+msgstr "ឈ្មោះពេញនៃឃ្លាំងgithub e.i.: my-username/my-public-repo"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__create_uid
+msgid "Created by"
+msgstr "បង្កើតដោយ"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__create_date
+msgid "Created on"
+msgstr "បង្កើតនៅ"
+
+#. module: mail_github
+#: model:ir.model,name:mail_github.model_mail_channel
+msgid "Discussion Channel"
+msgstr "ប៉ុស្តិ៍ពិភាក្សា"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel__display_name
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__display_name
+#: model:ir.model.fields,field_description:mail_github.field_res_users__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: mail_github
+#: model:ir.model,name:mail_github.model_mail_channel_github
+msgid "Email Github Channel"
+msgstr "Email Github Channel"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel__github_enabled
+msgid "Enable listening to Github repositories"
+msgstr "Enable listening to Github repositories"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_follower_ids
+msgid "Followers"
+msgstr "អ្នកតាម"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "អ្នកតាម (ឆានែល)"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "អ្នកដើរតាម (ដៃគូរ)"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_res_users__github_login
+msgid "GitHub Login"
+msgstr "ការចូលទៅក្នុងGitHub "
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.mail_channel_view_form
+msgid "Github"
+msgstr "Github"
+
+#. module: mail_github
+#: model:ir.actions.act_window,name:mail_github.mail_channel_github_action
+#: model:ir.ui.menu,name:mail_github.mail_channel_menu_github
+msgid "Github Repositories"
+msgstr "ឃ្លាំងGithub"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel__id
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__id
+#: model:ir.model.fields,field_description:mail_github.field_res_users__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__message_needaction
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "ប្រសិនបើបានគូសធីកសារថ្មីទាមទារការយកចិត្តទុកដាក់របស់អ្នក។"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__message_has_error
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ប្រសិនបើបានគូសធីកសារខ្លះមានកំហុសបញ្ជូន។"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_is_follower
+msgid "Is Follower"
+msgstr "ត្រូវតាមអ្នក"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "Issue"
+msgstr "តម្លៃហ៊ុនដំបូង"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel____last_update
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github____last_update
+#: model:ir.model.fields,field_description:mail_github.field_res_users____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__write_uid
+msgid "Last Updated by"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__write_date
+msgid "Last Updated on"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "ឯកសារភ្ជាប់សំខាន់"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_has_error
+msgid "Message Delivery error"
+msgstr "កំហុសក្នុងការផ្ញើសារ"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_ids
+msgid "Messages"
+msgstr "សារ"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ចំនួនសកម្មភាព"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "ចំនួនសារដែលទាមទារសកម្មភាព"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ចំនួនសារដែលមានកំហុសឆ្គងនៃការដឹកជញ្ជូន"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__message_unread_counter
+msgid "Number of unread messages"
+msgstr "ចំនួនសារមិនទាន់អាន"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid ""
+"Once the repository is created in Odoo, create it on Github. Then, copy "
+"'Payload URL' and 'Secret' in Github interface."
+msgstr ""
+"នៅពេលឃ្លាំងត្រូវបានបង្កើតឡើងនៅក្នុងOdoo,វាបង្កើតទៅលើGithub។ "
+"បន្ទាប់មកកូពី'Payload URL'ហើយនឹង'Secret' "
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "PR"
+msgstr "PR"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__url_token
+msgid "Payload URL"
+msgstr "បន្ទុក URL"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel__github_repo_ids
+msgid "Repositories"
+msgstr "ឃ្លាំង"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__github_repository_id
+msgid "Repository ID"
+msgstr "លេខកម្គាល់ឃ្លាំង"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid "Repository full name: user/repository."
+msgstr "ឈ្មោះពេញរបស់ឃ្លាំង: អ្នក​ប្រើ/ឃ្លាំង។"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__name
+msgid "Repository name"
+msgstr "ឈ្មោះឃ្លាំង"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__secret
+msgid "Secret"
+msgstr "អាថ៌កំបាំង"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel__github_repo_ids
+msgid "The Github repositories the channel will follow"
+msgstr "ឃ្លាំង Github ឆានែលនឹងតាមដាន"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid "The signature to be pasted when setting up the webhook on Github"
+msgstr "ហត្ថលេខាដែលត្រូវបានបិទភ្ជាប់នៅពេលបង្កើតគេហទំព័រនៅលើហ្គីប៊ូប"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.mail_channel_github_view_form
+msgid ""
+"The webhook 'Content Type' should be set to <b>application/x-www-form-"
+"urlencoded</b>."
+msgstr ""
+"គេហទំព័រប្រភេទមាតិកាគួរត្រូវបានកំណត់<b>application/x-www-form-"
+"urlencoded</b>."
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__url_token
+msgid "URL to put as the payload target when configuring GitHub webhook"
+msgstr "URL ដើម្បីដាក់ជាគោលដៅបន្ទុកនៅពេលដែលតំឡើងវេបសាយ GitHub"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_unread
+msgid "Unread Messages"
+msgstr "សារមិនទាន់អាន"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "រាប់សារមិនទាន់អាន"
+
+#. module: mail_github
+#: model:ir.model,name:mail_github.model_res_users
+msgid "Users"
+msgstr "អ្នកប្រើ"
+
+#. module: mail_github
+#: model:ir.model.fields,field_description:mail_github.field_mail_channel_github__website_message_ids
+msgid "Website Messages"
+msgstr "សារវែបសាយ"
+
+#. module: mail_github
+#: model:ir.model.fields,help:mail_github.field_mail_channel_github__website_message_ids
+msgid "Website communication history"
+msgstr "ប្រវត្តិទំនាក់ទំនងវែបសាយ"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "commented"
+msgstr "បានផ្តល់យោបល់"
+
+#. module: mail_github
+#: code:addons/mail_github/controllers/main.py:0
+#, python-format
+msgid "commit"
+msgstr "ការប្តេជ្ញា"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "commit(s) on"
+msgstr "ប្តេជ្ញា(s) ទៅលើ"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "created a new"
+msgstr "ការបង្កើតថ្មី"
+
+#. module: mail_github
+#: code:addons/mail_github/controllers/main.py:0
+#: code:addons/mail_github/controllers/main.py:0
+#, python-format
+msgid "issue"
+msgstr "កិច្ចការ"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "modified the following"
+msgstr "បានកែប្រែដូចខាងក្រោម"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "modifies wiki pages on repository"
+msgstr "កែប្រែទំព័រវីគីនៅលើឃ្លាំង"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "on repository"
+msgstr "នៅលើឃ្លាំង"
+
+#. module: mail_github
+#: code:addons/mail_github/controllers/main.py:0
+#: code:addons/mail_github/controllers/main.py:0
+#, python-format
+msgid "pull request"
+msgstr "ទាញសំណើ"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "push"
+msgstr "ជំរុញ"
+
+#. module: mail_github
+#: model_terms:ir.ui.view,arch_db:mail_github.message_github_notification
+msgid "remove the following"
+msgstr "ការដកចេញពីការជឿជាក់"

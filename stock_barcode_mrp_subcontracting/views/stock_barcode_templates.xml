@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="stock_barcode_quality_control assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/stock_barcode_mrp_subcontracting/static/src/js/client_action/lines_widget.js"></script>
+            <script type="text/javascript" src="/stock_barcode_mrp_subcontracting/static/src/js/client_action/picking_client_action.js"></script>
+            <script type="text/javascript" src="/stock_barcode_mrp_subcontracting/static/src/js/tours/tour_test_barcode_flows.js"></script>
+        </xpath>
+    </template>
+</odoo>

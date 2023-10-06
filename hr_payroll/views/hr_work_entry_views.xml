@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="payroll_hr_work_entry_type_view_form_inherit" model="ir.ui.view">
+        <field name="name">payroll.hr.work.entry.type.view.form.inherit</field>
+        <field name="model">hr.work.entry.type</field>
+        <field name="inherit_id" ref="hr_work_entry.hr_work_entry_type_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='main_group']" position="after">
+                <group string="Display in Payslip">
+                    <group>
+                        <field name="round_days"/>
+                        <field name="round_days_type" attrs="{'invisible': [('round_days', '=', 'NO')]}"/>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+    <record id="payroll_hr_work_entry_type_view_form_inherit_contract" model="ir.ui.view">
+      <field name="name">payroll.hr.work.entry.type.view.form.inherit.contract</field>
+      <field name="model">hr.work.entry.type</field>
+      <field name="inherit_id" ref="hr_work_entry_contract.hr_work_entry_contract_type_view_form_inherit"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='is_leave']" position="after">
+          <field name="is_unforeseen"/>
+        </xpath>
+      </field>
+    </record>
+
+    <record model="ir.actions.server" id="action_generate_payslips_from_work_entries">
+        <field name="name">Generate payslips</field>
+        <field name="model_id" ref="model_hr_payslip_employees"/>
+        <field name="binding_model_id" ref="model_hr_payslip_employees"/>
+        <field name="state">code</field>
+        <field name="code">
+            action = env['hr.payslip.employees'].create({}).compute_sheet()
+        </field>
+    </record>
+
+</odoo>

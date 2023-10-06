@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="273S_xml_report">
+            <ns0:withholdingTaxFile xmlns:ns0="http://withholding.minfin.fgov.be/">
+                <ns0:taxPayer>
+                    <ns0:belgianCompany t-att="{'ns0:companyNumber': company_info['identification']}"/>
+                </ns0:taxPayer>
+
+                <!--No mandatory-->
+                <ns0:declarantContact>
+                    <ns0:name><t t-esc="company_info['name']"/></ns0:name>
+                    <ns0:givenName></ns0:givenName>
+                    <ns0:phone><t t-esc="company_info['phone']"/></ns0:phone>
+                    <ns0:mail><t t-esc="company_info['email']"/></ns0:mail>
+                </ns0:declarantContact>
+
+                <ns0:initialDeclaration>
+                    <ns0:declarationType>273S</ns0:declarationType>
+                    <ns0:income>
+                        <ns0:wtDebtor>false</ns0:wtDebtor>
+                        <ns0:grossAmount><t t-esc="to_eurocent(declaration['gross_amount'])"/></ns0:grossAmount>
+                        <t t-set="deductable_costs" t-value="declaration['deductable_costs']"/>
+                        <ns0:deductableCosts><t t-esc="to_eurocent(deductable_costs['actual'] + deductable_costs['fixed'])"/></ns0:deductableCosts>
+                        <ns0:taxableAmount><t t-esc="to_eurocent(declaration['taxable_amount'])"/></ns0:taxableAmount>
+                        <ns0:rate><t t-esc="declaration['rate']"/></ns0:rate>
+                        <ns0:clarificationRate>Commentaire 500 caractères max</ns0:clarificationRate>
+                        <ns0:taxAmount><t t-esc="to_eurocent(declaration['tax_amount'])"/></ns0:taxAmount>
+
+                        <t t-foreach="beneficiaries" t-as="beneficiary">
+                            <ns0:beneficiary>
+                                <t t-set="identification" t-value="beneficiary['identification']"/>
+                                <ns0:identification>
+                                    <t t-if="identification['nationality'] == 'BE'">
+                                        <t t-if="identification['nature'] == 'Citizen'">
+                                            <ns0:belgianCitizen t-att="{'ns0:nationalNumber': identification['identification']}"/>
+                                        </t>
+                                        <t t-else="">
+                                            <ns0:belgianCompany t-att="{'ns0:companyNumber': identification['identification']}"/>
+                                        </t>
+                                    </t>
+                                    <t t-else="">
+                                        <ns0:foreignPerson>
+                                            <ns0:nature><t t-esc="identification['nature']"/></ns0:nature>
+                                            <ns0:foreignIdentification><t t-esc="identification['identification']"/></ns0:foreignIdentification>
+                                            <ns0:name><t t-esc="identification['name']"/></ns0:name>
+                                            <ns0:countryCode><t t-esc="identification['country']"/></ns0:countryCode>
+                                            <ns0:postalCode><t t-esc="identification['zip']"/></ns0:postalCode>
+                                            <ns0:city><t t-esc="identification['city']"/></ns0:city>
+                                        </ns0:foreignPerson>
+                                    </t>
+                                </ns0:identification>
+                                <ns0:taxableAmount><t t-esc="to_eurocent(beneficiary['gross_amount'])"/></ns0:taxableAmount>
+                                <ns0:taxAmount><t t-esc="to_eurocent(-beneficiary['tax_amount'])"/></ns0:taxAmount>
+                                <t t-if="beneficiary['deductable_costs']['fixed'] >= 0">
+                                    <ns0:fixedCost><t t-esc="to_eurocent(beneficiary['deductable_costs']['fixed'])"/></ns0:fixedCost>
+                                </t>
+                                <t t-else="">
+                                    <ns0:actualCost><t t-esc="to_eurocent(beneficiary['deductable_costs']['actual'])"/></ns0:actualCost>
+                                </t>
+                                <ns0:amountPayed><t t-esc="to_eurocent(-beneficiary['tax_amount'])"/></ns0:amountPayed>
+                            </ns0:beneficiary>
+                        </t>
+                        <ns0:finalTaxAmount><t t-esc="to_eurocent(declaration['tax_amount'])"/></ns0:finalTaxAmount>
+                    </ns0:income>
+                    <ns0:totalTaxAmountDue><t t-esc="to_eurocent(declaration['tax_amount'])"/></ns0:totalTaxAmountDue>
+                    <ns0:attributionDate><t t-esc="period.strftime('%Y-%m-%d')"/></ns0:attributionDate>
+                    <!-- preferredLanguage is equals to either fr, nl or de -->
+                    <ns0:preferredLanguage>fr</ns0:preferredLanguage>
+                    <ns0:declarationUniqueReference><t t-esc="unique_reference"/></ns0:declarationUniqueReference>
+                </ns0:initialDeclaration>
+
+            </ns0:withholdingTaxFile>
+        </template>
+    </data>
+</odoo>

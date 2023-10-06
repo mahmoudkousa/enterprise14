@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/pos_blackbox_be.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/WorkInButton.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/OrderReceipt.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/HeaderButton.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/NumpadWidget.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/ReprintButton.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/SaleDetailsButton.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/ProductScreen.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/PrintBillButton.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/SplitBillScreen.js"></script>
+            <script type="text/javascript" src="/pos_blackbox_be/static/src/js/PaymentScreen.js"></script>
+        </xpath>
+    </template>
+</odoo>

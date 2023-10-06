@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_l10n_lu_yearly_tax_report_manual_updated" model="ir.ui.view">
+            <field name="name">l10n_lu.yearly.tax.report.manual.view</field>
+            <field name="model">l10n_lu.yearly.tax.report.manual</field>
+            <field name="inherit_id" ref="l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual"/>
+            <field name="priority" eval="20"/>
+            <field name="arch" type="xml">
+                <header position="inside">
+                    <button name="export_pdf" string="Export PDF" type="object" class="oe_highlight"/>
+                </header>
+                <xpath expr="//field[@name='report_section_771']/.." position="after">
+                    <label for="report_section_971" string="rate of 16 %" colspan="6" attrs="{'invisible': [('other_purchases', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_purchases', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_971" string="971" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_971" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_772']/.." position="after">
+                    <label for="report_section_972" string="rate of 13 %" colspan="6" attrs="{'invisible': [('other_purchases', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_purchases', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_972" string="972" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_972" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_773']/.." position="after">
+                    <label for="report_section_973" string="rate of 7 %" colspan="6" attrs="{'invisible': [('other_purchases', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_purchases', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_973" string="973" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_973" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_776']/.." position="after">
+                    <label for="report_section_976" string="rate of 16 %" colspan="6" attrs="{'invisible': [('other_acquisitions', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_acquisitions', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_976" string="976" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_976" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_777']/.." position="after">
+                    <label for="report_section_977" string="rate of 13 %" colspan="6" attrs="{'invisible': [('other_acquisitions', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_acquisitions', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_977" string="977" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_977" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_778']/.." position="after">
+                    <label for="report_section_978" string="rate of 7 %" colspan="6" attrs="{'invisible': [('other_acquisitions', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_acquisitions', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_978" string="978" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_978" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_781']/.." position="after">
+                    <label for="report_section_981" string="rate of 16 %" colspan="6" attrs="{'invisible': [('other_imports', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_imports', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_981" string="981" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_981" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_782']/.." position="after">
+                    <label for="report_section_982" string="rate of 13 %" colspan="6" attrs="{'invisible': [('other_imports', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_imports', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_982" string="982" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_982" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_783']/.." position="after">
+                    <label for="report_section_983" string="rate of 7 %" colspan="6" attrs="{'invisible': [('other_imports', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="6" attrs="{'invisible': [('other_imports', '=', False)]}" style="display: flex;align-items: center">
+                        <label for="report_section_983" string="983" class="oe_right font-weight-bold" style="margin-right:15px"/>
+                        <field name="report_section_983" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_792']/.." position="after">
+                    <label for="report_section_991" string="rate of 16%" colspan="4" attrs="{'invisible': [('stock', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="3" style="display: flex;align-items: center" attrs="{'invisible': [('stock', '=', False)]}">
+                        <label for="report_section_991" string="991" class="oe_right" style="font-weight: bold;margin-right:15px"/>
+                        <field name="report_section_991" nolabel="1"/>
+                    </div>
+                    <div colspan="3" style="display: flex;align-items: center" attrs="{'invisible': [('stock', '=', False)]}" class="report_section_792">
+                        <label for="report_section_992" string="992" class="oe_right" style="font-weight: bold;margin-right:15px"/>
+                        <field name="report_section_992" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_794']/.." position="after">
+                    <label for="report_section_993" string="rate of 13%" colspan="4" attrs="{'invisible': [('stock', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="3" style="display: flex;align-items: center" attrs="{'invisible': [('stock', '=', False)]}">
+                        <label for="report_section_993" string="993" class="oe_right" style="font-weight: bold;margin-right:15px"/>
+                        <field name="report_section_993" nolabel="1"/>
+                    </div>
+                    <div colspan="3" style="display: flex;align-items: center" attrs="{'invisible': [('stock', '=', False)]}" class="report_section_792">
+                        <label for="report_section_994" string="994" class="oe_right" style="font-weight: bold;margin-right:15px"/>
+                        <field name="report_section_994" nolabel="1"/>
+                    </div>
+                </xpath>
+                <xpath expr="//field[@name='report_section_796']/.." position="after">
+                    <label for="report_section_995" string="rate of 7%" colspan="4" attrs="{'invisible': [('stock', '=', False)]}" style="margin-left: 10%"/>
+                    <div colspan="3" style="display: flex;align-items: center" attrs="{'invisible': [('stock', '=', False)]}">
+                        <label for="report_section_995" string="995" class="oe_right" style="font-weight: bold;margin-right:15px"/>
+                        <field name="report_section_995" nolabel="1"/>
+                    </div>
+                    <div colspan="3" style="display: flex;align-items: center" attrs="{'invisible': [('stock', '=', False)]}" class="report_section_792">
+                        <label for="report_section_996" string="996" class="oe_right" style="font-weight: bold;margin-right:15px"/>
+                        <field name="report_section_996" nolabel="1"/>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_saft
+# 
+# Translators:
+# Martin Trigaux, 2021
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2021
+# Eneko <eastigarraga@codesyntax.com>, 2021
+# 61590936fa9bf290362ee306eeabf363_944dd10 <a8bfd5a0b49b9c8455f33fc521764cc3_680674>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: 61590936fa9bf290362ee306eeabf363_944dd10 <a8bfd5a0b49b9c8455f33fc521764cc3_680674>, 2021\n"
+"Language-Team: Basque (https://app.transifex.com/odoo/teams/41243/eu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_saft
+#: model:ir.model,name:account_saft.model_ir_attachment
+msgid "Attachment"
+msgstr "Eranskin "
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_saft_report.py:0
+#, python-format
+msgid "Define `Company Registry` for your company."
+msgstr ""
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_saft_report.py:0
+#, python-format
+msgid "Define a `Phone` for your company."
+msgstr ""
+
+#. module: account_saft
+#: model:ir.model.fields,field_description:account_saft.field_account_general_ledger__display_name
+#: model:ir.model.fields,field_description:account_saft.field_ir_attachment__display_name
+msgid "Display Name"
+msgstr "Izena erakutsi"
+
+#. module: account_saft
+#: model:ir.model,name:account_saft.model_account_general_ledger
+msgid "General Ledger Report"
+msgstr "Liburu nagusi orokorraren txostena"
+
+#. module: account_saft
+#: model:ir.model.fields,field_description:account_saft.field_account_general_ledger__id
+#: model:ir.model.fields,field_description:account_saft.field_ir_attachment__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_saft
+#: model:ir.model.fields,field_description:account_saft.field_account_general_ledger____last_update
+#: model:ir.model.fields,field_description:account_saft.field_ir_attachment____last_update
+msgid "Last Modified on"
+msgstr "Azken aldaketa"
+
+#. module: account_saft
+#: model_terms:ir.ui.view,arch_db:account_saft.HeaderTemplate
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: account_saft
+#: model_terms:ir.ui.view,arch_db:account_saft.HeaderTemplate
+msgid "Odoo SA"
+msgstr ""
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_saft_report.py:0
+#, python-format
+msgid "Please define City/Zip for address(es) of `%s`."
+msgstr ""
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_saft_report.py:0
+#, python-format
+msgid "Please define Phone or Mobile for `%s` Contact(s)."
+msgstr ""

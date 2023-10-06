@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/sale_subscription_dashboard/static/src/scss/sale_subscription_dashboard.scss"/>
+            <script type="text/javascript" src="/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js"></script>
+            <script type="text/javascript" src="/sale_subscription_dashboard/static/src/js/action_sale_subscription_dashboard_dl.js"></script>
+        </xpath>
+    </template>
+    <template id="qunit_suite" inherit_id="web.qunit_suite_tests">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/sale_subscription_dashboard/static/tests/sale_subscription_dashboard_tests.js"/>
+            <script type="text/javascript" src="/sale_subscription_dashboard/static/tests/action_sale_subscription_dashboard_dl_test.js"/>
+        </xpath>
+    </template>
+
+</odoo>

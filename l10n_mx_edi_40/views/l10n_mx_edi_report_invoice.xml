@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_invoice_document_mx_40" inherit_id="account.report_invoice_document">
+        <xpath expr="//span[@t-field='o.partner_id.vat']" position="after">
+            <t t-if="o.partner_id.l10n_mx_edi_fiscal_regime">
+                <div t-att-class="o_grid_layout">
+                    <span>Fiscal Regime:</span>
+                    <p><span t-field="o.partner_id.l10n_mx_edi_fiscal_regime"/></p>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

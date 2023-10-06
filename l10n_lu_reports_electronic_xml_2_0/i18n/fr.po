@@ -1,0 +1,1396 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_lu_reports_electronic_xml_2_0
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-18 15:23+0000\n"
+"PO-Revision-Date: 2022-07-18 15:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__avg_nb_employees_with_no_salary
+msgid "  - with no salary (family members)"
+msgstr "  - sans salaire (membres de famille)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__avg_nb_employees_with_salary
+msgid "  - with salary or wage"
+msgstr "  - avec salaire ou traitement"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "001"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "002"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "003"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "004"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "005"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "007"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "008"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "009"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "010"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "011"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "013"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "077"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "078"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "079"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "081"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "082"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "083"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "085"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "086"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "087"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.l10n_lu_electronic_report_template
+msgid "2.0"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "202"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "206"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "397"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "398"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "399"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "400"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "401"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "402"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "404"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "405"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "406"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "455"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "456"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "457"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "458"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "459"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "460"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "461"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "472"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_accounts_report__bs__abr
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_accounts_report__pl__abr
+msgid "Abridged"
+msgstr "Abrégé"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_account_assets_report
+msgid "Account Assets Report"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_account_financial_html_report
+msgid "Account Report (HTML)"
+msgstr "Rapport de compte (HTML)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Accountant (A9) details"
+msgstr "Comptable (A-9.) détails"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Accountant and Lessor"
+msgstr "Comptable et Bailleur"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_company_form
+msgid "Accounting Firm Information"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_res_company__l10n_lu_agent_rcs_number
+msgid "Agent's Company Registry"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_res_company__l10n_lu_agent_ecdf_prefix
+msgid "Agent's ECDF Prefix"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_res_company__l10n_lu_agent_matr_number
+msgid "Agent's Matr Number"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_res_company__l10n_lu_agent_vat
+msgid "Agent's VAT"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_tax_report__period__a
+msgid "Annual"
+msgstr "Annuel"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.actions.act_window,name:l10n_lu_reports_electronic_xml_2_0.action_l10n_lu_yearly_tax_report_manual
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_l10n_lu_yearly_tax_report_manual
+#: model:ir.ui.menu,name:l10n_lu_reports_electronic_xml_2_0.menu_action_l10n_lu_yearly_tax_report_manual
+msgid "Annual Tax Report"
+msgstr "Déclaration TVA annuelle"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__submitted_rcs
+msgid "Annual accounts submitted to the Trade and Companies Register (RCS)"
+msgstr ""
+"Comptes annuels - Dépôt effectué au Registre de Commerce et des Sociétés "
+"(RCS)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Appendix F. Names and addresses to be specified"
+msgstr "Annexe F. Noms et adresses à spécifier"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Application for the purpose of business of goods produced in the course of "
+"the business (009)"
+msgstr "Affectation à l'entreprise de biens produits dans l'entreprise (009)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Application of goods for non-business use and for business purposes (455)"
+msgstr ""
+"Affectation de biens à des fins non commerciales et à des fins commerciales "
+"(455)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Application of goods for non-business use and for business purposes (455): "
+"amount still to be allocated"
+msgstr ""
+"Affectation de biens à des fins non commerciales et à des fins commerciales "
+"(455): montant restant à allouer"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Application of goods for private use or for that of the staff (008)"
+msgstr "Prélèvement de biens pour l'usage privé ou celui du personnel"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_ir_attachment
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__attachment_id
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.l10n_lu_stored_intra_report_view_tree
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__avg_nb_employees
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__avg_nb_employees
+msgid "Average number of employees for the fiscal year"
+msgstr "Nombre de personnes occupées (moyenne de l'année)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_accounts_report
+msgid "Balance sheet version"
+msgstr "Version du Bilan"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__books_records_documents
+msgid "Books, records and documents"
+msgstr "Livres et documents"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__bs
+msgid "Bs"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_financial_report.py:0
+#, python-format
+msgid "Cannot export them."
+msgstr "Impossible de les exporter."
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_account_coa_report
+msgid "Chart of Account Report"
+msgstr "Rapport de plan comptable"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_coa_report.py:0
+#, python-format
+msgid "CoA report for Luxembourg not supported for years previous to 2019."
+msgstr ""
+"Rapport de plan comptable pour le Luxembourg non pris en charge pour les "
+"années antérieures à 2019."
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__coa_only
+msgid "Coa Only"
+msgstr "Seulement le plan comptable"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__codes
+msgid "Codes"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__company_id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__company_id
+msgid "Company"
+msgstr "Entreprise"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__create_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__create_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__create_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__create_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__create_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__create_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__create_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__create_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__create_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__create_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Custom:"
+msgstr "Autre :"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__by_fidu
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__by_fidu
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__by_fidu
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__by_fidu
+msgid "Declaration Filled in by Fiduciary"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_accounts_report
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_xml
+msgid "Declaration filled in by the fiduciary"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_assets_report__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_coa_report__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_financial_html_report__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_generic_tax_report__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_ir_attachment__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_report_partner_vat_intra__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__display_name
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_res_company__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Disposal of tangible and intangible capital assets for ancillary "
+"transactions"
+msgstr ""
+"Cessions de biens d'investissements corporels ou incorporels qui constituent"
+" des opérations accessoires"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Due in respect of Intra-Community acquistions of goods (459): amount still "
+"to be allocated"
+msgstr ""
+"Taxe déclarée ou payée sur des acquisitions intracommunautaires de biens "
+"(459) : montant restant à allouer"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Due in respect of intra-Community acquisitions of goods (459)"
+msgstr ""
+"Taxe déclarée ou payée sur des acquisitions intracommunautaires de biens "
+"(459)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Due or paid in respect of importation of goods (460)"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Due or paid in respect of mportation of goods (460): amount still to be "
+"allocated"
+msgstr ""
+"Taxe déclarée ou payée sur des biens importés (460) : montant restant à "
+"allouer"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Due under the reverse charge (461)"
+msgstr "Taxe déclarée comme débiteur (461)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Due under the reverse charge (461): amount still to be allocated"
+msgstr "Taxe déclarée comme débiteur (461) : montant restant à allouer"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_assets_report.py:0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_financial_report.py:0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_generic_tax_report.py:0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_partner_vat_intra_report.py:0
+#, python-format
+msgid "EXPORT ECDF DECLARATION"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_accounts_report
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_tax_report
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_vat_intra_report
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_xml
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual_export
+msgid "EXPORT XML"
+msgstr "EXPORTER XML"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_partner_vat_intra_report.py:0
+#, python-format
+msgid "Error in file "
+msgstr "Erreur dans le fichier "
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_assets_report.py:0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_financial_report.py:0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_generic_tax_report.py:0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_partner_vat_intra_report.py:0
+#, python-format
+msgid "Export"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__filename
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__filename
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__filename
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__filename
+msgid "Filename"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_accounts_report__bs__full
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_accounts_report__pl__full
+msgid "Full"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "General Information"
+msgstr "Informations générales"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_l10n_lu_generate_accounts_report
+msgid "Generate Accounts Report"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_l10n_lu_generate_tax_report
+msgid "Generate Annual VAT Report"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_accounts_report
+msgid ""
+"Generate Chart of Accounts only (Non-automated generation of the balance "
+"sheet and the profit and loss account)"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_l10n_lu_generate_vat_intra_report
+msgid "Generate VAT Intra Report"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.actions.act_window,name:l10n_lu_reports_electronic_xml_2_0.action_l10n_lu_generate_vat_intra_report
+msgid "Generate VAT Intra report"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_l10n_lu_generate_xml
+msgid "Generate Xml 2.0"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.actions.act_window,name:l10n_lu_reports_electronic_xml_2_0.action_l10n_lu_generate_accounts_report
+msgid "Generate accounts report"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.actions.act_window,name:l10n_lu_reports_electronic_xml_2_0.action_l10n_lu_generate_xml
+msgid "Generate report"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_account_generic_tax_report
+msgid "Generic Tax Report"
+msgstr "Déclaration d'impôts générique"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"IC supply of goods to persons identified for VAT purposes in another Member "
+"State (MS) (013)"
+msgstr ""
+"Livraisons intracommunautaires de biens à des personnes identifiées à la TVA"
+" dans un autre Etat membre (013)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"IC supply of new means of transport (Art. 43(1)(e)) to persons not "
+"identified for VAT purposes who are established or reside in an other MS "
+"(202)"
+msgstr ""
+"Livraisons intracommunautaires de transport neufs (art.43/1/e) effectuées à "
+"des personnes non identifiées à la TVA établies ou domiciliées dans un autre"
+" Etat membre (202)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_assets_report__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_coa_report__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_financial_html_report__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_generic_tax_report__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_ir_attachment__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_report_partner_vat_intra__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__id
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_res_company__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__import_notes_as_references
+msgid "Import Notes As References"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Intra-Community"
+msgstr "Intracommunautaire"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Intra-Community supply (457)"
+msgstr "Livraisons intracommunautaires (457)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Intra-Community supply (457): amount still to be allocated"
+msgstr "Livraisons intracommunautaires (457): montant encore à allouer"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Invoiced by other taxable persons for goods or services supplied (458)"
+msgstr ""
+"Facturée par d'autres assujettis pour des biens et des services fournis "
+"(458)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Invoiced by other taxable persons for goods or services supplied (458): "
+"amount still to be allocated"
+msgstr ""
+"Facturée par d'autres assujettis pour des biens et des services fournis "
+"(458): montant encore à allouer"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__l10n_lu_stored_report_ids
+msgid "L10N Lu Stored Report"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_accounts_report__size__large
+msgid "Large-Sized Undertaking"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_assets_report____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_coa_report____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_financial_html_report____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_account_generic_tax_report____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_ir_attachment____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_report_partner_vat_intra____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual____last_update
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_res_company____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__write_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__write_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__write_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__write_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__write_uid
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__write_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__write_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__write_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__write_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__write_date
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Lessor (A18a) details"
+msgstr "Détails du bailleur (A18a)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_accounts_report__size__medium
+msgid "Medium-Sized Undertaking"
+msgstr "Entreprise de taille moyenne"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_tax_report__period__m
+msgid "Monthly"
+msgstr "Mensuel"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,help:l10n_lu_reports_electronic_xml_2_0.field_res_company__l10n_lu_agent_matr_number
+msgid ""
+"National ID number of the accounting firm (agent company) acting as the "
+"declarer in eCDF declarations"
+msgstr ""
+"Numéro d'identification de l'entreprise de comptabilité (agent d'entreprise)"
+" actant comme déclarant dans les déclarations eCDF"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Net profit margin (special arrangement: Art. 56ter-1 and 56ter-2)"
+msgstr ""
+"Marge bénéficiaire nette (régime particulier: art. 56ter-1 et 56ter-2)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Non-business use of goods and supply of services free of charge (456)"
+msgstr ""
+"Prestations de services effectuées à des fins étrangères à l'entreprise "
+"(456)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Non-business use of goods and supply of services free of charge (456): "
+"amount still to be allocated"
+msgstr ""
+"Prestations de services effectuées à des fins étrangères à l'entreprise "
+"(456): montant restant à allouer"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_vat_intra_report
+msgid "Old declarations to update/correct"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_assets_report.py:0
+#, python-format
+msgid ""
+"Only assets having EUR currency for companies using EUR currency can be "
+"reported."
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/l10n_lu_yearly_tax_report_manual.py:0
+#: model:ir.model.constraint,message:l10n_lu_reports_electronic_xml_2_0.constraint_l10n_lu_yearly_tax_report_manual_year_unique
+#, python-format
+msgid "Only one tax report data record per year (per company) is allowed!"
+msgstr ""
+"Un seul enregistrement de données de rapport de taxe par an (par entreprise)"
+" est autorisé!"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__optional_remarks
+msgid "Optional Remarks"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Other assimilated supplies"
+msgstr "Autres opérations assimilées"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Other Assimilated Supplies"
+msgstr "Autres opérations assimilées"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_l10n_lu_report_partner_vat_intra
+msgid "Partner VAT Intra"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.actions.act_window,name:l10n_lu_reports_electronic_xml_2_0.action_l10n_lu_stored_intra_report
+#: model:ir.ui.menu,name:l10n_lu_reports_electronic_xml_2_0.menu_action_l10n_lu_stored_intra_report
+msgid "Partner VAT Intra - Stored Reports"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__period
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__period
+msgid "Period"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__phone_number
+msgid "Phone number for contacting the declaring person"
+msgstr "N° téléphone où le déclarant peut être contacté en cas de besoin"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__pl
+msgid "Pl"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_accounts_report
+msgid "Profit and loss report version"
+msgstr "Version du rapport de Compte de Résultat"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_tax_report__period__t
+msgid "Quarterly"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,help:l10n_lu_reports_electronic_xml_2_0.field_res_company__l10n_lu_agent_rcs_number
+msgid ""
+"RCS (Régistre de Commerce et des Sociétés) of the accounting firm (agent "
+"company) acting as the declarer in eCDF declarations"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Repartition fields for the annual tax report"
+msgstr "Champs de répartition pour le Déclaration TVA Annuelle"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_001
+msgid "Report Section 001"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_002
+msgid "Report Section 002"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_003
+msgid "Report Section 003"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_004
+msgid "Report Section 004"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_005
+msgid "Report Section 005"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_007
+msgid "Report Section 007"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_008
+msgid "Report Section 008"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_009
+msgid "Report Section 009"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_010
+msgid "Report Section 010"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_011
+msgid "Report Section 011"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_013
+msgid "Report Section 013"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_077
+msgid "Report Section 077"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_078
+msgid "Report Section 078"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_079
+msgid "Report Section 079"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_081
+msgid "Report Section 081"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_082
+msgid "Report Section 082"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_083
+msgid "Report Section 083"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_085
+msgid "Report Section 085"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_086
+msgid "Report Section 086"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_087
+msgid "Report Section 087"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_202
+msgid "Report Section 202"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_206
+msgid "Report Section 206"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_397
+msgid "Report Section 397"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_398
+msgid "Report Section 398"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_399
+msgid "Report Section 399"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_400
+msgid "Report Section 400"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_401
+msgid "Report Section 401"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_402
+msgid "Report Section 402"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_404
+msgid "Report Section 404"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_405
+msgid "Report Section 405"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_406
+msgid "Report Section 406"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_455
+msgid "Report Section 455"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_455_rest
+msgid "Report Section 455 Rest"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_456
+msgid "Report Section 456"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_456_rest
+msgid "Report Section 456 Rest"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_457
+msgid "Report Section 457"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_457_rest
+msgid "Report Section 457 Rest"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_458
+msgid "Report Section 458"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_458_rest
+msgid "Report Section 458 Rest"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_459
+msgid "Report Section 459"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_459_rest
+msgid "Report Section 459 Rest"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_460
+msgid "Report Section 460"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_460_rest
+msgid "Report Section 460 Rest"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_461
+msgid "Report Section 461"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_461_rest
+msgid "Report Section 461 Rest"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_472
+msgid "Report Section 472"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__report_section_472_rest
+msgid "Report Section 472 Rest"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__report_data
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__report_data
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__report_data
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_xml__report_data
+msgid "Report file"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.l10n_lu_stored_intra_report_view_tree
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.l10n_lu_yearly_tax_report_manual_view_tree
+msgid "Reports"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Sales / Receipts (472): amount still to be allocated"
+msgstr "Ventes / Recettes (472): montant encore à allouer"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Sales and Receipts"
+msgstr "Ventes et Recettes"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__simplified_declaration
+msgid "Simplified Declaration"
+msgstr "Déclaration simplifiée"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_accounts_report__size
+msgid "Size"
+msgstr "Taille"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_generate_accounts_report
+msgid ""
+"Size (criteria specified by Articles 35 and 47 of the amended law of "
+"December 19th 2002)"
+msgstr ""
+"Taille (critère spécifié par les articles 35 et 47 de la loi amendée de "
+"décembre 2002)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_generate_accounts_report__size__small
+msgid "Small-Sized Undertaking"
+msgstr "Entreprise de petite taille"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_partner_vat_intra_report.py:0
+#, python-format
+msgid ""
+"Some problems with the comparison declarations occured. The comparison "
+"declarations must refer to earlier periods."
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_financial_report.py:0
+#, python-format
+msgid "Some references are not in the requested format (max. 10 characters):"
+msgstr ""
+"Certaines références ne sont pas dans le format demandé (max. 10 "
+"caractères):"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_vat_intra_report__save_report
+msgid "Store generated report"
+msgstr "Sauvegarder le rapport généré"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_stored_intra_report__codes__lts
+msgid ""
+"Supply of goods (normal/in the context of triangular operations) and supply "
+"of services"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_stored_intra_report__codes__lt
+msgid ""
+"Supply of goods and supply of goods made in the context of triangular "
+"operations"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Supply of goods not manufactured inhouse"
+msgstr "Ventes de marchandises revendues en l'état"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Supply of inhouse manufactured goods"
+msgstr "Ventes de produits fabriqués dans l'entreprise"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields.selection,name:l10n_lu_reports_electronic_xml_2_0.selection__l10n_lu_stored_intra_report__codes__s
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Supply of services"
+msgstr "Prestations de services"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Supply of services carried out free of charge for purposes other than those "
+"of the business (011)"
+msgstr ""
+"Prestations de services effectuées à des fins étrangères à l'entreprise "
+"(011)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/wizard/l10n_lu_generate_tax_report.py:0
+#, python-format
+msgid "Tax Report Data"
+msgstr "Données du rapport de taxe"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,help:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__books_records_documents
+msgid ""
+"Taxable persons established in Luxembourg: place of storage of books, "
+"records and documents the keeping, drafting and issuing of which are "
+"required by the modified VAT law of 12 February 1979 and its implementing "
+"provisions, when this place of storage is outside of the territory of "
+"Luxemburg (Art. 65)"
+msgstr ""
+"Assujettis établis au Grand-Duché du Luxembourg: lieu de stockage des livres"
+" et documents dont la tenue, la rédaction ou la délivrance sont prescrites "
+"par la loi modifiée du 12 février 1979 concernant la taxe sur la valeur "
+"ajoutée ou les dispositions prises en exécution de celle-ci, lorsque ce lieu"
+" de stockage est situé en dehors du territoire luxembourgeois (art. 65)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,help:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_generate_tax_report__period
+msgid "Technical field used to show the correct button in the view"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/res_company.py:0
+#, python-format
+msgid ""
+"The Agent's ECDF Prefix is not valid. There should be exactly 6 characters."
+msgstr ""
+"Le préfixe de l'ECDF Agent n'est pas valide. Il doit contenir exactement 6 "
+"caractères."
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/res_company.py:0
+#, python-format
+msgid ""
+"The Agent's Matr. Number is not valid. There should be between 11 and 13 "
+"digits."
+msgstr ""
+"Le numéro de matricule de l'Agent n'est pas valide. Il doit contenir entre "
+"11 et 13 chiffres."
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/wizard/l10n_lu_generate_xml.py:0
+#, python-format
+msgid ""
+"The ECDF Prefix hasn't been defined. Please add the ECDF prefix in the "
+"company's information."
+msgstr ""
+"Le préfixe de l'ECDF n'a pas été défini. Veuillez ajouter le préfixe de "
+"l'ECDF dans les informations de l'entreprise."
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/wizard/l10n_lu_generate_xml.py:0
+#, python-format
+msgid ""
+"The accouning firm's ECDF Prefix still hasn't been defined! Either uncheck "
+"'Declarations and Filings done by the Accounting Firm' or add the accounting"
+" firm's information in the company's information."
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/wizard/l10n_lu_generate_xml.py:0
+#, python-format
+msgid ""
+"The accouning firm's Matr. Number still hasn't been defined! Either uncheck "
+"'Declarations and Filings done by the Accounting Firm' or add the accounting"
+" firm's information in the company's information."
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/wizard/l10n_lu_generate_xml.py:0
+#, python-format
+msgid ""
+"The company's Matr. Number still hasn't been defined! Add it in the "
+"company's information."
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/wizard/l10n_lu_generate_tax_report.py:0
+#, python-format
+msgid "The following monthly fields haven't been completely allocated yet: "
+msgstr "Les champs mensuels suivants n'ont pas encore été complétement : "
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_partner_vat_intra_report.py:0
+#, python-format
+msgid "The provided comparison file is not a proper eCDF XML declaration!"
+msgstr ""
+"Le fichier de comparaison fourni n'est pas une déclaration XML eCDF valide !"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_partner_vat_intra_report.py:0
+#, python-format
+msgid "The provided comparison file is not a properly formatted XML."
+msgstr ""
+"Le fichier de comparaison fourni n'est pas un XML correctement formaté."
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/wizard/l10n_lu_generate_vat_intra_report.py:0
+#, python-format
+msgid ""
+"The report can't be saved, because it isn't a valid eCDF declaration. Either"
+" both 'L' and 'T' codes should be selected, or none of them"
+msgstr ""
+"Le rapport ne peut pas être enregistré, car il n'est pas une déclaration "
+"eCDF valide. Soit les codes 'L' et 'T' doivent être sélectionnés, soit aucun"
+" de les deux"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/account_partner_vat_intra_report.py:0
+#, python-format
+msgid ""
+"There are no Intracommunity VAT declarations for the declaring company in "
+"the provided file!"
+msgstr ""
+"Il n'y a pas de déclarations de TVA Intracommunautaire pour la société "
+"déclarante dans le fichier fourni !"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Total Input Tax"
+msgstr "Total de la taxe en amont"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "Total Sales / Receipts (472)"
+msgstr "Total des Ventes / Recettes"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid ""
+"Use of goods considered business assets for purposes other than those of the"
+" business (010)"
+msgstr ""
+"Utilisation de biens de l'entreprise à des fins étrangères à l'entreprise "
+"(010)"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,help:l10n_lu_reports_electronic_xml_2_0.field_res_company__l10n_lu_agent_vat
+msgid ""
+"VAT number of the accounting firm (agent company) acting as the declarer in "
+"eCDF declarations"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "VAT on capital expenditures"
+msgstr "Taxe en amont sur acquisitions d'immobilisations"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "VAT on operational expenditures"
+msgstr "Taxe en amont sur frais généraux"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "VAT on stock entries"
+msgstr "Taxe en amont sur entrées de marchandises"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model,name:l10n_lu_reports_electronic_xml_2_0.model_l10n_lu_stored_intra_report
+msgid "Wrapper for an attachment, adds the financial report data"
+msgstr ""
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_stored_intra_report__year
+#: model:ir.model.fields,field_description:l10n_lu_reports_electronic_xml_2_0.field_l10n_lu_yearly_tax_report_manual__year
+msgid "Year"
+msgstr "Année"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: code:addons/l10n_lu_reports_electronic_xml_2_0/models/l10n_lu_yearly_tax_report_manual.py:0
+#, python-format
+msgid "Yearly Tax Report Manual Data"
+msgstr "Données du Déclaration TVA annuelle"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "a) Name"
+msgstr "a) Nom"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model_terms:ir.ui.view,arch_db:l10n_lu_reports_electronic_xml_2_0.view_l10n_lu_yearly_tax_report_manual
+msgid "b) Address"
+msgstr "b) Adresse"
+
+#. module: l10n_lu_reports_electronic_xml_2_0
+#: model:ir.model.fields,help:l10n_lu_reports_electronic_xml_2_0.field_res_company__l10n_lu_agent_ecdf_prefix
+msgid ""
+"eCDF prefix (identifier) of the accounting firm (agent company) acting as "
+"the declarer in eCDF declarations"
+msgstr ""
+"Préfixe eCDF (identifiant) de l'entreprise (agent) qui agit comme déclarant "
+"dans les déclarations eCDF"

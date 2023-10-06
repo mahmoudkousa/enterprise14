@@ -1,0 +1,74 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_enterprise
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Sanne Kristensen <sanne@vkdata.dk>, 2020
+# Ejner Sønniksen <ejner@vkdata.dk>, 2020
+# lhmflexerp <lhm@flexerp.dk>, 2020
+# Mads Søndergaard, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: Mads Søndergaard, 2020\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: purchase_enterprise
+#: model_terms:ir.ui.view,arch_db:purchase_enterprise.purchase_report_view_dashboard
+msgid "Average Days to Purchase"
+msgstr "Gennemsnitlige Dage til Køb"
+
+#. module: purchase_enterprise
+#: model_terms:ir.ui.view,arch_db:purchase_enterprise.purchase_report_view_dashboard
+msgid "Average Order"
+msgstr "Gennemsnitlig ordre"
+
+#. module: purchase_enterprise
+#: model_terms:ir.actions.act_window,help:purchase_enterprise.purchase_report_action_dashboard
+msgid "Create a new purchase order"
+msgstr "Opret en ny købsordre"
+
+#. module: purchase_enterprise
+#: model_terms:ir.actions.act_window,help:purchase_enterprise.purchase_report_action_dashboard
+msgid "No data yet!"
+msgstr "Ingen data endnu!"
+
+#. module: purchase_enterprise
+#: model_terms:ir.ui.view,arch_db:purchase_enterprise.purchase_report_view_dashboard
+msgid "Orders"
+msgstr "Ordre"
+
+#. module: purchase_enterprise
+#: model:ir.actions.act_window,name:purchase_enterprise.purchase_report_action_dashboard
+msgid "Purchase Analysis"
+msgstr "Indkøbsanalyse"
+
+#. module: purchase_enterprise
+#: model_terms:ir.ui.view,arch_db:purchase_enterprise.purchase_report_view_dashboard
+msgid "Total Purchased"
+msgstr "Total indkøbt"
+
+#. module: purchase_enterprise
+#: model_terms:ir.ui.view,arch_db:purchase_enterprise.purchase_report_view_dashboard
+msgid "Total, Tax Included"
+msgstr "Total, inkl. moms"
+
+#. module: purchase_enterprise
+#: model_terms:ir.ui.view,arch_db:purchase_enterprise.purchase_report_view_dashboard
+msgid "Untaxed Total"
+msgstr "Total før moms"
+
+#. module: purchase_enterprise
+#: model_terms:ir.ui.view,arch_db:purchase_enterprise.purchase_report_view_dashboard
+msgid "days"
+msgstr "dage"

@@ -1,0 +1,77 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reports_tax
+# 
+# Translators:
+# Kristoffer Grundström <lovaren@gmail.com>, 2021
+# Martin Trigaux, 2021
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2021
+# Simon S, 2021
+# Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-02 13:14+0000\n"
+"PO-Revision-Date: 2021-03-14 17:25+0000\n"
+"Last-Translator: Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2023\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid ""
+"<span class=\"fa fa-book\"/>\n"
+"                Tax Report:"
+msgstr ""
+"<span class=\"fa fa-book\"/>\n"
+"                Skatterapport:"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.template_tax_report
+msgid ""
+"<span>Please note that the report may include some rounding differences "
+"towards the bookings.</span>"
+msgstr ""
+"<span>Observera att rapporten kan innehålla vissa avrundningsdifferenser i "
+"samband med bokningarna.</span>"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report__display_name
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#. module: account_reports_tax
+#: model:ir.model,name:account_reports_tax.model_account_generic_tax_report
+msgid "Generic Tax Report"
+msgstr "Generisk skatterapport"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Global Summary"
+msgstr "Global sammanfattning"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Group by: Account &gt; Tax"
+msgstr "Grupperad efter: Konto &gt; Skatt"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Group by: Tax &gt; Account"
+msgstr "Grupperad efter: Skatt &gt; Konto"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report____last_update
+msgid "Last Modified on"
+msgstr "Senast redigerad"

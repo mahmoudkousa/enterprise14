@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="assets_backend" name="documents assets backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/documents/static/src/js/documents_controller_mixin.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_model_mixin.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_utils.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_view_mixin.js"/>
+
+            <script type="text/javascript" src="/documents/static/src/bugfix/bugfix.js"></script>
+
+            <script type="text/javascript" src="/documents/static/src/js/documents_document_viewer.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_kanban_color_widget.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_kanban_controller.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_kanban_controller_mobile.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_kanban_model.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_kanban_record.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_kanban_renderer.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_kanban_view.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_list_controller.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_list_model.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_list_renderer.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_list_view.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_search_panel.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_search_panel_model_extension.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_inspector.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/documents_inspector_mobile.js"/>
+            <script type="text/javascript" src="/documents/static/src/owl/components/pdf_manager/pdf_manager.js"/>
+            <script type="text/javascript" src="/documents/static/src/owl/components/pdf_page/pdf_page.js"/>
+            <script type="text/javascript" src="/documents/static/src/owl/components/pdf_group_name/pdf_group_name.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/systray_activity_menu.js"/>
+            <script type="text/javascript" src="/documents/static/src/js/tours/documents.js"></script>
+
+            <link rel="stylesheet" type="text/scss" href="/documents/static/src/bugfix/bugfix.scss"/>
+
+            <link rel="stylesheet" type="text/scss" href="/documents/static/src/scss/documents_views.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/documents/static/src/scss/documents_kanban_view.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/documents/static/src/scss/documents_kanban_view_mobile.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/documents/static/src/scss/documents_document_viewer.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/documents/static/src/owl/components/pdf_manager/pdf_manager.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/documents/static/src/owl/components/pdf_page/pdf_page.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/documents/static/src/owl/components/pdf_group_name/pdf_group_name.scss"/>
+        </xpath>
+    </template>
+
+    <template id="public_page_assets" name="public page assets">
+        <t t-call="web._assets_helpers">
+            <t t-call="web._assets_backend_helpers"/>
+        </t>
+        <t t-call="web._assets_bootstrap"/>
+
+        <link rel="stylesheet" type="text/scss" href="/documents/static/src/scss/documents_public_pages.scss"/>
+
+        <script type="text/javascript" src="/documents/static/src/js/documents_public_pages.js"/>
+    </template>
+
+    <template id="qunit_suite" name="documents test suite" inherit_id="web.qunit_suite_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/documents/static/src/bugfix/bugfix_tests.js"></script>
+
+            <script type="text/javascript" src="/documents/static/tests/documents_test_utils.js"></script>
+            <script type="text/javascript" src="/documents/static/tests/documents_kanban_tests.js"></script>
+            <script type="text/javascript" src="/documents/static/tests/documents_pdf_manager_tests.js"></script>
+            <script type="text/javascript" src="/documents/static/tests/documents_systray_activity_menu_tests.js"></script>
+            <script type="text/javascript" src="/documents/static/tests/mock_server.js"></script>
+        </xpath>
+    </template>
+
+    <template id="qunit_mobile_suite" name="lunch mobile tests" inherit_id="web.qunit_mobile_suite_tests">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/documents/static/tests/documents_test_utils.js"></script>
+            <script type="text/javascript" src="/documents/static/tests/documents_kanban_mobile_tests.js"></script>
+            <script type="text/javascript" src="/documents/static/tests/mock_server.js"></script>
+        </xpath>
+    </template>
+
+    <template id="pdf_js_assets" name="Documents pdf js assets" groups="base.group_user">
+        <t t-call-assets="web.pdf_js_lib"/>
+    </template>
+</odoo>

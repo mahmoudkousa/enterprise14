@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_backend" name="l10n_uk_reports_backend_assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/l10n_uk_reports/static/src/js/send_hmrc.js"/>
+        </xpath>
+    </template>
+
+</odoo>

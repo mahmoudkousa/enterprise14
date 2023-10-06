@@ -1,0 +1,8 @@
+<odoo>
+    <template id="assets_backend" name="hr_appraisal_assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/hr_appraisal/static/src/js/appraisal_kanban.js"></script>
+            <link rel="stylesheet" type="text/scss" href="/hr_appraisal/static/src/scss/hr_appraisal.scss"/>
+        </xpath>
+    </template>
+</odoo>

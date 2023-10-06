@@ -1,0 +1,51 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_forecast
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Sergio Zanchetta <primes2h@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:21+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2021\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,field_description:industry_fsm_forecast.field_project_project__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,help:industry_fsm_forecast.field_project_project__allow_forecast
+msgid "Enable planning tasks on the project."
+msgstr "Abilita la pianificazione dei lavori sul progetto."
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,field_description:industry_fsm_forecast.field_project_project__id
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,field_description:industry_fsm_forecast.field_project_project____last_update
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: industry_fsm_forecast
+#: model:ir.model.fields,field_description:industry_fsm_forecast.field_project_project__allow_forecast
+msgid "Planning"
+msgstr "Pianificazione"
+
+#. module: industry_fsm_forecast
+#: model:ir.model,name:industry_fsm_forecast.model_project_project
+msgid "Project"
+msgstr "Progetto"

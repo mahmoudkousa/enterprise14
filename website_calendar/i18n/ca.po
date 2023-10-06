@@ -1,0 +1,1090 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_calendar
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2020
+# RGB Consulting <odoo@rgbconsulting.com>, 2020
+# Quim - eccit <quim@eccit.com>, 2020
+# Sandra Franch <sandra.franch@upc.edu>, 2020
+# Manel Fernandez Ramirez <manelfera@outlook.com>, 2020
+# M Palau <mpalau@tda.ad>, 2020
+# Arnau Ros, 2020
+# Carles Antoli <carlesantoli@hotmail.com>, 2020
+# Susanna Pujol, 2020
+# José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
+# jabelchi, 2021
+# Harcogourmet, 2022
+# AncesLatino2004, 2022
+# marcescu, 2022
+# CristianCruzParra, 2022
+# jabiri7, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2020-09-07 08:25+0000\n"
+"Last-Translator: jabiri7, 2022\n"
+"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: website_calendar
+#: code:addons/website_calendar/models/calendar_appointment.py:0
+#, python-format
+msgid " (copy)"
+msgstr " (còpia)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_count
+msgid "# Appointments"
+msgstr "# Cites"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "#{day['today_cls'] and 'Today' or ''}"
+msgstr "#{day['today_cls'] and 'Avui' or ''}"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "%s with %s"
+msgstr "%s amb %s"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "(timezone:"
+msgstr "(timezone:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "+1 (650) 691-3277"
+msgstr "+1 (650) 691-3277"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid ", All Day"
+msgstr ", Tot el dia"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "-- select a country --"
+msgstr "-- seleccioneu un país --"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid ""
+"<br/>\n"
+"                            It's too late to cancel online, please contact the attendees another way if you really can't make it."
+msgstr ""
+"<br/>\n"
+"                            És massa tard per cancel·lar en línia; si us plau, poseu-vos en contacte amb els assistents d’una altra manera."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Add to Google Calendar"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Afegir al calendari de Google"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Add to iCal/Outlook"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Afegir a iCal/Outlook"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-times\"/>Cancel / Reschedule"
+msgstr "<i class=\"fa fa-fw fa-times\"/>Cancel·la / Reprograma"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> days</span>"
+msgstr "<span> dies</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> hours before</span>"
+msgstr "<span> hores abans</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> hours</span>"
+msgstr "<span> hores</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>and not after </span>"
+msgstr "<span>i no després </span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>at least </span>"
+msgstr "<span>al menys </span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>until </span>"
+msgstr "<span>fins a </span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid ""
+"<strong>Appointment canceled!</strong>\n"
+"                            You can schedule another appointment from here."
+msgstr ""
+"<strong>La cita s'ha cancel·lat!</strong>\n"
+"                            Pots programar una altra cita des d'aquí."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid ""
+"<strong>Appointment failed!</strong>\n"
+"                            The selected timeslot is not available anymore.\n"
+"                            Someone has booked the same time slot a few\n"
+"                            seconds before you."
+msgstr ""
+"<strong>La cita ha fallat!</strong>\n"
+"                            El interval de temps seleccionat ja no està disponible.\n"
+"                            Algú ha reservat la mateixa franja de temps\n"
+"                           segons abans que tu."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid ""
+"<strong>Appointment failed!</strong>\n"
+"                            The selected timeslot is not available.\n"
+"                            It appears you already have another meeting with us at that date."
+msgstr ""
+"<strong>La cita ha fallat!</strong>\n"
+"                           No hi ha disponible l'interval de temps seleccionat.\n"
+"                            Sembla que ja tens una altra reunió amb nosaltres en aquesta data."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<strong>Your appointment has been successfully booked!</strong>"
+msgstr "<strong>La vostra cita s'ha reservat correctament!</strong>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "A text message reminder is sent to you before your appointment"
+msgstr "Se li envia un missatge de text recordatori abans de la seva cita"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__access_token
+msgid "Access Token"
+msgstr "Token d'accés"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_needaction
+msgid "Action Needed"
+msgstr "Cal fer alguna acció"
+
+#. module: website_calendar
+#: model:res.groups,name:website_calendar.group_calendar_manager
+msgid "Administrator"
+msgstr "Administrador"
+
+#. module: website_calendar
+#: model:ir.actions.act_window,name:website_calendar.website_calendar_report
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report_online
+msgid "All Appointments"
+msgstr "Totes les cites"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Allow Cancelling"
+msgstr "Permet cancel·lar"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_appointment_type_action
+msgid ""
+"Allow your customers to book an appointment on your website\n"
+"                by creating appointment types here."
+msgstr ""
+"Permeteu als vostres clients reservar una cita al lloc web\n"
+"                tot creant tipus de cites aquí."
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__name
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_answer_view_form
+msgid "Answer"
+msgstr "Resposta"
+
+#. module: website_calendar
+#: code:addons/website_calendar/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+#, python-format
+msgid "Appointment"
+msgstr "Cita"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Appointment Confirmation"
+msgstr "Confirmació de la cita"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_duration
+msgid "Appointment Duration"
+msgstr "Durada de la cita"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Appointment Introduction"
+msgstr "Introducció de Cites"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid "Appointment Time"
+msgstr "Hora de la cita"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__appointment_type_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__appointment_type_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__name
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_tree
+msgid "Appointment Type"
+msgstr "Tipus de cita"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Appointment:"
+msgstr "Cita:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Appointment<span class=\"chevron\"/>"
+msgstr "Cita<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_graph
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_pivot
+msgid "Appointments"
+msgstr "Cites"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__assignation_method
+msgid "Assignment Method"
+msgstr "Mètode d'assignació"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nombre d'adjunts"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Attendees:"
+msgstr "Assistents:"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__slot_ids
+msgid "Availabilities"
+msgstr "Disponibilitats"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__answer_ids
+msgid "Available Answers"
+msgstr "Respostes disponibles"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Available Employees"
+msgstr "Empleats disponibles"
+
+#. module: website_calendar
+#: model:ir.ui.menu,name:website_calendar.calendar_appointment_type_menu_action
+msgid "Calendar"
+msgstr "Calendari"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_event
+msgid "Calendar Event"
+msgstr "Esdeveniment del calendari"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__can_publish
+msgid "Can Publish"
+msgstr "Pot publicar"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__min_cancellation_hours
+msgid "Cancel Before (hours)"
+msgstr "Cancel·la abans (hores)"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__checkbox
+msgid "Checkboxes (multiple answers)"
+msgstr "Caselles de selecció (respostes múltiples)"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_type__assignation_method__chosen
+msgid "Chosen by the Customer"
+msgstr "Escollit pel client"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Confirm Appointment <span class=\"fa fa-arrow-right\"/>"
+msgstr "Confirma cita <span class=\"fa fa-arrow-right\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Confirm your details"
+msgstr "Confirmeu les vostres dades"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_confirmation
+msgid "Confirmation Message"
+msgstr "Missatge de confirmació"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Confirmation<span class=\"chevron\"/>"
+msgstr "Confirmació<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Confirmed"
+msgstr "Confirmada"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_res_partner
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/appointment_employee_url.js:0
+#, python-format
+msgid "Copied !"
+msgstr "Copiat!"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "Country: %s"
+msgstr "País: %s"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_appointment_type_action
+msgid "Create a new appointment type"
+msgstr "Creeu nou un tipus de cita"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Declined"
+msgstr "Rebutjat"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Description:"
+msgstr "Descripció:"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_res_partner__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_website__display_name
+msgid "Display Name"
+msgstr "Nom a mostrar"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__select
+msgid "Dropdown (one answer)"
+msgstr "Desplegable (una resposta)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Duration:"
+msgstr "Durada:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "Edit"
+msgstr "Editar"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "Email: %s"
+msgstr "Correu electrònic: %s"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__employee_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Employees"
+msgstr "Empleats"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_follower_ids
+msgid "Followers"
+msgstr "Seguidors"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidors (Canals)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidors (Clients)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Fri"
+msgstr "Dv"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__5
+msgid "Friday"
+msgstr "Divendres"
+
+#. module: website_calendar
+#: model_terms:calendar.appointment.type,message_intro:website_calendar.calendar_appointment
+msgid ""
+"Get a <strong>customized demo</strong> and an <strong>analysis of your "
+"needs</strong>."
+msgstr ""
+"Obtenir <strong>demostració personalitzada</strong> i un<strong>anàlisi de "
+"les seves necessitats</strong>."
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__assignation_method
+msgid ""
+"How employees will be assigned to meetings customers book on your website."
+msgstr ""
+"Com s'assignaran els empleats al llibre de clients de reunions del vostre "
+"lloc web."
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__id
+#: model:ir.model.fields,field_description:website_calendar.field_res_partner__id
+#: model:ir.model.fields,field_description:website_calendar.field_website__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_needaction
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si està marcat, els nous missatges requereixen la vostra atenció."
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_error
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si està marcat, alguns missatges tenen un error d'entrega."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.setup
+msgid ""
+"In order to configure your first appointment, go\n"
+"                        to the \"Calendar\" application in Odoo and create\n"
+"                        an online appointment."
+msgstr ""
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Individual Appointment Link"
+msgstr ""
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_intro
+msgid "Introduction Message"
+msgstr "Missatge d'introducció"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_is_follower
+msgid "Is Follower"
+msgstr "És seguidor"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__is_published
+msgid "Is Published"
+msgstr "Està publicat"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__country_ids
+msgid ""
+"Keep empty to allow visitors from any country, otherwise you only allow "
+"visitors from selected countries"
+msgstr ""
+"Mantingueu-ho buit per permetre visitants de qualsevol país; en cas contrari"
+" només permeteu visitants de països seleccionats"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_res_partner____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_website____last_update
+msgid "Last Modified on"
+msgstr "Última modificació el "
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__location
+msgid "Location"
+msgstr "Ubicació"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__location
+msgid "Location of the appointments"
+msgstr "Ubicació de les cites"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Location:"
+msgstr "Ubicació:"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjunt principal"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_error
+msgid "Message Delivery error"
+msgstr "Error d'entrega del missatge"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Messages"
+msgstr "Missatges"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "Mobile: %s"
+msgstr "Mòbil: %s"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Mon"
+msgstr "Dl"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__1
+msgid "Monday"
+msgstr "Dilluns"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__text
+msgid "Multi-line text"
+msgstr "Text multilínia"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/website_calendar.editor.js:0
+#, python-format
+msgid "Name"
+msgstr "Nom"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/website_calendar.editor.js:0
+#, python-format
+msgid "New Appointment Type"
+msgstr "Nou tipus de cita"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.setup
+msgid "No appointments available!"
+msgstr "No hi ha cites disponibles."
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_event_action_reporting
+#: model_terms:ir.actions.act_window,help:website_calendar.website_calendar_report
+msgid "No data yet!"
+msgstr "Encara no hi han dades!"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'accions"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'errors"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de missatges que requereixen una acció"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de missatges amb error d'entrega"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de missatges no llegits"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__appointment_type_id
+msgid "Online Appointment"
+msgstr "Cita online"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_answer
+msgid "Online Appointment : Answers"
+msgstr "Cita en línia : Respostes"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_question
+msgid "Online Appointment : Questions"
+msgstr "Cita en línia: Preguntes"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_slot
+msgid "Online Appointment : Time Slot"
+msgstr "Cita en línia : Ranura del temps"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_type
+msgid "Online Appointment Type"
+msgstr ""
+
+#. module: website_calendar
+#: model:ir.actions.act_window,name:website_calendar.calendar_appointment_type_action
+#: model:ir.actions.act_window,name:website_calendar.calendar_event_action_reporting
+#: model:ir.module.category,name:website_calendar.module_category_calendar
+#: model:ir.ui.menu,name:website_calendar.appointment_type_menu
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report_all
+#: model:ir.ui.menu,name:website_calendar.website_appointment_type_menu
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_search_inherit_website_calendar
+msgid "Online Appointments"
+msgstr "Cites en línia"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__placeholder
+msgid "Placeholder"
+msgstr "Indicador de posició"
+
+#. module: website_calendar
+#: code:addons/website_calendar/models/calendar_appointment.py:0
+#, python-format
+msgid "Please enter a valid hour between 0:00 and 24:00 for your slots."
+msgstr ""
+"Introduïu una hora vàlida entre les 0:00 i les 24:00 per a les vostres "
+"ranures."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid "Please, select another date."
+msgstr "Si us plau, seleccioneu una altra data."
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__name
+msgid "Question"
+msgstr "Qüestió"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__question_type
+msgid "Question Type"
+msgstr "Tipus de pregunta"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__question_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__question_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Questions"
+msgstr "Preguntes"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__radio
+msgid "Radio (one answer)"
+msgstr "Ràdio (una resposta)"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_type__assignation_method__random
+msgid "Random"
+msgstr "Aleatori"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__reminder_ids
+msgid "Reminders"
+msgstr "Recordatoris "
+
+#. module: website_calendar
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report
+msgid "Reporting"
+msgstr "Informes"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__question_required
+msgid "Required Answer"
+msgstr "Resposta requerida"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__country_ids
+msgid "Restrict Countries"
+msgstr "Restringeix els països"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "SCHEDULED"
+msgstr "PROGRAMAT"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__is_seo_optimized
+msgid "SEO optimized"
+msgstr "Optimització SEO"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de lliurament SMS"
+
+#. module: website_calendar
+#: model:calendar.alarm,name:website_calendar.calendar_alarm_data_1h_sms
+msgid "SMS Text Message - 1 Hours"
+msgstr "Missatge de text SMS - 1 hores"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Sat"
+msgstr "Ds"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__6
+msgid "Saturday"
+msgstr "Dissabte"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Schedule Appointment"
+msgstr "Programar cita"
+
+#. module: website_calendar
+#: model:calendar.appointment.type,name:website_calendar.calendar_appointment
+msgid "Schedule a Demo"
+msgstr "Programi una demostració"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Schedule an Appointment"
+msgstr "Programar una cita"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_event_action_reporting
+#: model_terms:ir.actions.act_window,help:website_calendar.website_calendar_report
+msgid "Schedule appointments to get statistics"
+msgstr "Programar cites per a obtenir estadístiques"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__min_schedule_hours
+msgid "Schedule before (hours)"
+msgstr "Planifica abans (hores)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__max_schedule_days
+msgid "Schedule not after (days)"
+msgstr "Planifica no després (dies)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Scheduling & Availability"
+msgstr ""
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__seo_name
+msgid "Seo name"
+msgstr "Nom SEO"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__sequence
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__sequence
+msgid "Sequence"
+msgstr "Seqüència"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__char
+msgid "Single line text"
+msgstr "Text d'una sola línia"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Slots"
+msgstr "Espais"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__hour
+msgid "Starting Hour"
+msgstr "Hora d'inici"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Starting Hour (0:00 - 24:00)"
+msgstr ""
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Sun"
+msgstr "Dg"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__7
+msgid "Sunday"
+msgstr "Diumenge"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__website_url
+msgid "The full URL to access the document through the website."
+msgstr "URL completa per accedir al document a través del lloc web."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Thu"
+msgstr "Dj"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__4
+msgid "Thursday"
+msgstr "Dijous"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Time"
+msgstr "Temps"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Time displayed in"
+msgstr "Temps representat a"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_select_timezone
+msgid "Time zone:"
+msgstr "Zona horària:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Time<span class=\"chevron\"/>"
+msgstr "Hora<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_tz
+msgid "Timezone"
+msgstr "Zona horària"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__appointment_tz
+msgid "Timezone where appointment take place"
+msgstr "Zona horària en la qual té lloc la cita"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Tue"
+msgstr "Dt"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__2
+msgid "Tuesday"
+msgstr "Dimarts"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_unread
+msgid "Unread Messages"
+msgstr "Missatges pendents de llegir"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Comptador de missatges no llegits"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "View Availabilities <span class=\"fa fa-arrow-right\"/>"
+msgstr "Visualitza les disponibilitats<span class=\"fa fa-arrow-right\"/>"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_published
+msgid "Visible on current website"
+msgstr "Visible al lloc web actual"
+
+#. module: website_calendar
+#: model_terms:calendar.appointment.type,message_confirmation:website_calendar.calendar_appointment
+msgid ""
+"We thank you for your interest in our products!<br>\n"
+"               Please make sure to arrive <strong>10 minutes</strong> before your appointment."
+msgstr ""
+"¡Li agraïm el seu interès pels nostres productes!<br>\n"
+"               Assegureu-vos d'arribar <strong>10 minuts</strong> abans de la teva cita."
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_website
+msgid "Website"
+msgstr "Lloc web"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_message_ids
+msgid "Website Messages"
+msgstr "Missatges del lloc web"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_url
+msgid "Website URL"
+msgstr "URL del lloc web"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicacions del lloc web"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_description
+msgid "Website meta description"
+msgstr "Meta descripció del lloc web"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "Meta paraules del lloc web"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_title
+msgid "Website meta title"
+msgstr "Mata títol del lloc web"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "Imatge del lloc web"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Wed"
+msgstr "Dc"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__3
+msgid "Wednesday"
+msgstr "Dimecres"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__weekday
+msgid "Week Day"
+msgstr "Dia de la setmana"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "When:"
+msgstr "Quan:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.employee_select
+msgid "With:"
+msgstr "Amb:"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Country"
+msgstr ""
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Email"
+msgstr "El vostre correu electrònic"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Name"
+msgstr "El vostre nom"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Phone"
+msgstr ""
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Your appointment is in less than"
+msgstr "La vostra cita està en menys de"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "e.g. Schedule a demo"
+msgstr "p. ex. programar una demostració"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "hour"
+msgstr "hora"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "hours from now!"
+msgstr "¡hores a partir d'ara!"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "on"
+msgstr "en"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "timezone"
+msgstr "zona horària"

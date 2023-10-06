@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quality_mrp_workorder_iot
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Language-Team: Esperanto (https://www.transifex.com/odoo/teams/41243/eo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: quality_mrp_workorder_iot
+#: model:ir.model.fields,field_description:quality_mrp_workorder_iot.field_iot_trigger__action
+msgid "Action"
+msgstr ""
+
+#. module: quality_mrp_workorder_iot
+#: model:ir.model.fields,field_description:quality_mrp_workorder_iot.field_iot_trigger__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: quality_mrp_workorder_iot
+#: model:ir.model.fields.selection,name:quality_mrp_workorder_iot.selection__iot_trigger__action__fail
+msgid "Fail"
+msgstr ""
+
+#. module: quality_mrp_workorder_iot
+#: model:ir.model.fields,field_description:quality_mrp_workorder_iot.field_iot_trigger__id
+msgid "ID"
+msgstr ""
+
+#. module: quality_mrp_workorder_iot
+#: model:ir.model,name:quality_mrp_workorder_iot.model_iot_trigger
+msgid "IOT Trigger"
+msgstr ""
+
+#. module: quality_mrp_workorder_iot
+#: model:ir.model.fields,field_description:quality_mrp_workorder_iot.field_iot_trigger____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: quality_mrp_workorder_iot
+#: model:ir.model.fields.selection,name:quality_mrp_workorder_iot.selection__iot_trigger__action__pass
+msgid "Pass"
+msgstr ""
+
+#. module: quality_mrp_workorder_iot
+#: model:ir.model.fields.selection,name:quality_mrp_workorder_iot.selection__iot_trigger__action__measure
+msgid "Take Measure"
+msgstr ""

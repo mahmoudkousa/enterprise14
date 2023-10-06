@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="event_view_gantt" model="ir.ui.view">
+        <field name="name">event.event.gantt</field>
+        <field name="model">event.event</field>
+        <field name="arch" type="xml">
+            <gantt
+                plan="0"
+                color="stage_id"
+                date_start="date_begin"
+                date_stop="date_end"
+                default_group_by="address_id"
+                default_scale="year">
+                <field name="name"/>
+                <field name="stage_id"/>
+                <templates>
+                    <div t-name="gantt-popover">
+                        <div class="d-flex flex-row">
+                            <div class="col-2 px-0 text-nowrap"><strong>Name:</strong></div>
+                            <div class="col pl-2 pr-0"> <span t-esc="display_name"/></div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="col-2 px-0 text-nowrap"><strong>Start:</strong></div>
+                            <div class="col pl-2 pr-0"> <span t-esc="userTimezoneStartDate.format('DD MMM, LT')"/></div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="col-2 px-0 text-nowrap"><strong>Stop:</strong></div>
+                            <div class="col pl-2 pr-0"> <span t-esc="userTimezoneStopDate.format('DD MMM, LT')"/></div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="col-2 px-0 text-nowrap"><strong>Stage:</strong></div>
+                            <div class="col pl-2 pr-0"> <span t-esc="stage_id[1]"/></div>
+                        </div>
+                    </div>
+                </templates>
+            </gantt>
+        </field>
+    </record>
+
+    <record id="event_event_view_map" model="ir.ui.view">
+        <field name="name">event.event.view.map</field>
+        <field name="model">event.event</field>
+        <field name="arch" type="xml">
+            <map res_partner="address_id" hide_name="true">
+                <field name="name" string="Name"/>
+                <field name="address_id" string="Venue"/>
+            </map>
+        </field>
+    </record>
+
+    <record id="event.action_event_view" model="ir.actions.act_window">
+        <field name="view_mode">kanban,calendar,tree,gantt,form,pivot,graph,map</field>
+    </record>
+
+</odoo>

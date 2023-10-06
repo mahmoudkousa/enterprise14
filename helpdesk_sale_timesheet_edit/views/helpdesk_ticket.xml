@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!-- TODO: [XBO] This view can be removed to change only if it is needed in the inherit view in helpdesk_sale_timesheet -->
+<record id="helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet_edit" model="ir.ui.view">
+    <field name="name">helpdesk.ticket.form.inherit.sale.timesheet.edit</field>
+    <field name="model">helpdesk.ticket</field>
+    <field name="inherit_id" ref="helpdesk_sale_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='timesheet_ids']" position="attributes">
+            <attribute name="widget">so_line_one2many</attribute>
+        </xpath>
+        <xpath expr="//field[@name='timesheet_ids']/tree" position="inside">
+            <field name="is_so_line_edited" invisible="1"/>
+        </xpath>
+        <xpath expr="//field[@name='timesheet_ids']/tree/field[@name='so_line']" position="attributes">
+            <attribute name="domain">[('is_service', '=', True), ('order_partner_id', 'child_of', parent.commercial_partner_id), ('is_expense', '=', False), ('state', 'in', ['sale', 'done']), ('order_id', '=?', parent.project_sale_order_id)]</attribute>
+            <attribute name="readonly">0</attribute>
+        </xpath>
+    </field>
+</record>
+
+<!--
+    TODO: [XBO] In master, add this view in the helpdesk_sale_timesheet when we will merge of the both modules
+    Don't forget to change the inherit_id to have the correct view in helpdesk_sale_timesheet,
+    since the view above can be merge with helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet view.
+ -->
+<record id="helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet_editable" model="ir.ui.view">
+    <field name="name">helpdesk.ticket.form.inherit.sale.timesheet.editable</field>
+    <field name="model">helpdesk.ticket</field>
+    <field name="inherit_id" ref="helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet_edit"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='timesheet_ids']/tree/field[@name='so_line']" position="attributes">
+            <attribute name="options">{"no_create": True}</attribute>
+        </xpath>
+    </field>
+    <field name="groups_id" eval="[(4, ref('sales_team.group_sale_salesman'))]"/>
+</record>
+
+</odoo>

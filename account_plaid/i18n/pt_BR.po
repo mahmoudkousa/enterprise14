@@ -1,0 +1,113 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_plaid
+# 
+# Translators:
+# Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
+# Raphael Mendonça, 2020
+# Mateus Lopes <mateus1@gmail.com>, 2020
+# grazziano <gra.negocia@gmail.com>, 2020
+# André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
+# mariana rodrigues <mariana12v@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:18+0000\n"
+"Last-Translator: mariana rodrigues <mariana12v@gmail.com>, 2020\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: account_plaid
+#: model:ir.model.fields,help:account_plaid.field_account_online_provider__plaid_error_type
+msgid "Additional information on error"
+msgstr ""
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_journal__display_name
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider__display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: account_plaid
+#: code:addons/account_plaid/models/plaid.py:0
+#, python-format
+msgid "Get %s status code for call to %s. Content message: %s"
+msgstr ""
+"Obtém o código de status %s para chamadas para %s. Conteúdo da mensagem: %s"
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_journal__id
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_plaid
+#: model:ir.model,name:account_plaid.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr ""
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_journal____last_update
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: account_plaid
+#: code:addons/account_plaid/models/plaid.py:0
+#, python-format
+msgid "Only an Accountant is allowed to perform this operation."
+msgstr ""
+
+#. module: account_plaid
+#: model:ir.model.fields.selection,name:account_plaid.selection__account_online_provider__provider_type__plaid
+msgid "Plaid"
+msgstr "Plaid"
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider__plaid_error_type
+msgid "Plaid Error Type"
+msgstr ""
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider__plaid_item_id
+msgid "Plaid Item"
+msgstr ""
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "Tipo de provedor"
+
+#. module: account_plaid
+#: model:ir.model,name:account_plaid.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "Provedor para sincronização de contas online"
+
+#. module: account_plaid
+#: code:addons/account_plaid/models/plaid.py:0
+#, python-format
+msgid ""
+"There was en error with Plaid Services!\n"
+"{message: %s,\n"
+"error code: %s,\n"
+"error type: %s,\n"
+"request id: %s}"
+msgstr ""
+
+#. module: account_plaid
+#: code:addons/account_plaid/models/plaid.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 60s"
+msgstr ""
+
+#. module: account_plaid
+#: model:ir.model.fields,help:account_plaid.field_account_online_provider__plaid_item_id
+msgid "item id in plaid database"
+msgstr ""

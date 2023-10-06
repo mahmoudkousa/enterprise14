@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hr_payroll_281_45_wizard_view_form" model="ir.ui.view">
+        <field name="name">hr.payroll.281.45.wizard.form</field>
+        <field name="model">hr.payroll.281.45.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Generate 281.45">
+                <field name="state" invisible="1"/>
+                <field name="pdf_filename" invisible="1"/>
+                <field name="employee_ids" invisible="1"/>
+                <group states="generate">
+                    <field name="year" options="{'format': false}"/>
+                </group>
+                <div states="get">
+                    <h2>Generation Complete</h2>
+                    <p>Download the 281.45 file: <field name="pdf_file" readonly="1" filename="pdf_filename"/></p>
+                </div>
+                <p name="save_warning" states="generate">The PDF is not saved into Odoo if you don't have the Documents app.</p>
+                <footer states="generate">
+                    <button name="action_generate_file_281_45" class="btn-primary" string="Generate PDF" type="object"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                </footer>
+                <footer states="get">
+                    <button special="cancel" string="Close" type="object" class="btn-primary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="hr_payroll_281_45_wizard_action" model="ir.actions.act_window">
+        <field name="name">Create 281.45 Form</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.payroll.281.45.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="hr.model_hr_employee"/>
+    </record>
+</odoo>

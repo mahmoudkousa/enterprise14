@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_l10n_be_work_entry_daily_benefit,l10n_be.work.entry.daily.benefit.payroll.user,model_l10n_be_work_entry_daily_benefit_report,hr_payroll.group_hr_payroll_user,1,0,0,0

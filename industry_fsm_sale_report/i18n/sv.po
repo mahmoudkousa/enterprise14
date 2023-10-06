@@ -1,0 +1,124 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_sale_report
+# 
+# Translators:
+# Martin Trigaux, 2021
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2021
+# Jonathan S <jonathan.c.strom@gmail.com>, 2021
+# Daniel Osser <danielosser@gmail.com>, 2021
+# Simon S, 2021
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-29 14:04+0000\n"
+"PO-Revision-Date: 2020-09-07 08:21+0000\n"
+"Last-Translator: Chrille Hedberg <hedberg.chrille@gmail.com>, 2021\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<span>Disc.%</span>"
+msgstr "<span>Rabatt %</span>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Delsumma</strong>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Delsumma</strong>"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Amount"
+msgstr "Belopp"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_subtotal
+msgid "Delivered Subtotal"
+msgstr "Levererad delsumma"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_total
+msgid "Delivered Total"
+msgstr "Totalt levererat"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__delivered_price_tax
+msgid "Delivered Total Tax"
+msgstr "Moms totalt levererat"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Description"
+msgstr "Beskrivning"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template____last_update
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "Senast redigerad"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.fsm_template_field4
+msgid "Model"
+msgstr "Modell"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_product_template
+msgid "Product Template"
+msgstr "Produktmall"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Quantity"
+msgstr "Antal"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Orderrad"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Time &amp; Material"
+msgstr "Tid &amp; material"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Total Price"
+msgstr "Totalt pris"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.worksheet_custom_page
+msgid "Unit Price"
+msgstr "Enhetspris"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_product__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__worksheet_template_id
+msgid "Worksheet Template"
+msgstr "Mall kalkylblad"

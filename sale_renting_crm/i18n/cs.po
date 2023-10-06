@@ -1,0 +1,105 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_renting_crm
+# 
+# Translators:
+# Martin Trigaux, 2020
+# Jan Horzinka <jan.horzinka@centrum.cz>, 2020
+# Michal Veselý <michal@veselyberanek.net>, 2020
+# Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
+# Jiří Podhorecký, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Jiří Podhorecký, 2021\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "<span class=\"o_stat_text\"> Rental Orders</span>"
+msgstr ""
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Zobrazované jméno"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__id
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Naposled změněno"
+
+#. module: sale_renting_crm
+#: model:ir.model,name:sale_renting_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Potenciální zákazník / příležitost"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "New Rental"
+msgstr "Nový pronájem"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_order_count
+msgid "Number of Rental Orders"
+msgstr "Počet objednávek pronájmu"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_quotation_count
+msgid "Number of Rental Quotations"
+msgstr "Počet nabídek k pronájmu"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__opportunity_id
+msgid "Opportunity"
+msgstr "Příležitost"
+
+#. module: sale_renting_crm
+#: code:addons/sale_renting_crm/models/crm_lead.py:0
+#, python-format
+msgid "Please select or create a customer before creating a quote."
+msgstr ""
+
+#. module: sale_renting_crm
+#: code:addons/sale_renting_crm/models/crm_lead.py:0
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_order_ids
+#, python-format
+msgid "Rental Orders"
+msgstr "Objednávky pronájmu"
+
+#. module: sale_renting_crm
+#: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
+msgid "Rental Quotations"
+msgstr "Nabídky pronájmu"
+
+#. module: sale_renting_crm
+#: model:ir.model,name:sale_renting_crm.model_sale_order
+msgid "Sales Order"
+msgstr "Prodejní objednávka"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_amount_total
+msgid "Sum of Rental Orders"
+msgstr "Součet objednávek na pronájem"
+
+#. module: sale_renting_crm
+#: model:ir.model.fields,help:sale_renting_crm.field_crm_lead__rental_amount_total
+msgid "Untaxed Total of Confirmed Orders"
+msgstr "Nezdaněný součet potvrzených objednávek"

@@ -1,0 +1,74 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reports_tax
+# 
+# Translators:
+# Martin Trigaux, 2021
+# 稀饭~~ <wangwhai@qq.com>, 2021
+# Daniel Yang <daniel.yang.zhenyu@gmail.com>, 2021
+# liAnGjiA <liangjia@qq.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-02 13:14+0000\n"
+"PO-Revision-Date: 2021-03-14 17:25+0000\n"
+"Last-Translator: liAnGjiA <liangjia@qq.com>, 2021\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid ""
+"<span class=\"fa fa-book\"/>\n"
+"                Tax Report:"
+msgstr ""
+"<span class=\"fa fa-book\"/>\n"
+"                税务报告："
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.template_tax_report
+msgid ""
+"<span>Please note that the report may include some rounding differences "
+"towards the bookings.</span>"
+msgstr "<span>请注意，报告中可能包含一些对预订的舍入差异。</span>"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: account_reports_tax
+#: model:ir.model,name:account_reports_tax.model_account_generic_tax_report
+msgid "Generic Tax Report"
+msgstr "通用税务报告"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Global Summary"
+msgstr "全局摘要"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Group by: Account &gt; Tax"
+msgstr "排序: 账 &gt; 税"
+
+#. module: account_reports_tax
+#: model_terms:ir.ui.view,arch_db:account_reports_tax.search_template_tax_report_choser
+msgid "Group by: Tax &gt; Account"
+msgstr "排序: 税 &gt; 账"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_reports_tax
+#: model:ir.model.fields,field_description:account_reports_tax.field_account_generic_tax_report____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"

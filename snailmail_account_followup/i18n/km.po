@@ -1,0 +1,221 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* snailmail_account_followup
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: snailmail_account_followup
+#: code:addons/snailmail_account_followup/wizard/followup_send.py:0
+#, python-format
+msgid ""
+"%s of the selected partner(s) had an invalid address. The corresponding "
+"followups were not sent"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid ""
+"<i class=\"fa fa-info-circle\" role=\"img\" aria-label=\"Warning\" title=\"                         The letter will be sent using the IAP service from Odoo.&#10;Make sure you have enough credits on your account or proceed to a recharge.                         \"/>\n"
+"                        <br/>"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid ""
+"<span attrs=\"{'invisible': [('letters_qty', '&gt;', 1)]}\"> Sending this "
+"document will cost </span>"
+msgstr ""
+"<span attrs=\"{'invisible': [('letters_qty', '&gt;', "
+"1)]}\">ការផ្ញើឯកសារនេះនឹងត្រូវចំណាយ</span> "
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid ""
+"<span class=\"text-danger\" attrs=\"{'invisible': [('letters_qty', '&gt;', 1)]}\">\n"
+"                                The recipient's address is incomplete.\n"
+"                            </span>"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid ""
+"<span class=\"text-danger\">\n"
+"                                    Some customer addresses are not complete.\n"
+"                                </span>"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "Cancel"
+msgstr "លុបចោល"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__create_uid
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup__create_uid
+msgid "Created by"
+msgstr "បង្កើតដោយ"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__create_date
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup__create_date
+msgid "Created on"
+msgstr "បង្កើតនៅ"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_account_followup_followup_line__display_name
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_account_followup_report__display_name
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__display_name
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: snailmail_account_followup
+#: model:ir.model,name:snailmail_account_followup.model_account_followup_followup_line
+msgid "Follow-up Criteria"
+msgstr "លក្ខណៈវិនិច្ឆ័យតាមដាន"
+
+#. module: snailmail_account_followup
+#: model:ir.model,name:snailmail_account_followup.model_account_followup_report
+msgid "Follow-up Report"
+msgstr "របាយការណ៍បន្ត"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup__followup_id
+msgid "Followup"
+msgstr "តាមដាន"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_account_followup_followup_line__id
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_account_followup_report__id
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__id
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: snailmail_account_followup
+#: code:addons/snailmail_account_followup/wizard/followup_send.py:0
+#: code:addons/snailmail_account_followup/wizard/followup_send.py:0
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__invalid_partner_ids
+#, python-format
+msgid "Invalid Addresses"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__invalid_addresses
+msgid "Invalid Addresses Count"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_account_followup_followup_line____last_update
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_account_followup_report____last_update
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send____last_update
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__write_uid
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup__write_uid
+msgid "Last Updated by"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__write_date
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup__write_date
+msgid "Last Updated on"
+msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_snailmail_confirm_followup__model_name
+msgid "Model Name"
+msgstr "ឈ្មោះម៉ូដែល"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__letters_qty
+msgid "Number of letters"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__partner_ids
+msgid "Recipients"
+msgstr "អ្នកទទួល"
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "Send Follow-Ups"
+msgstr "ផ្ញើការតាមដាន "
+
+#. module: snailmail_account_followup
+#: model:ir.model,name:snailmail_account_followup.model_followup_send
+msgid "Send Follow-ups"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_account_followup_followup_line__send_letter
+msgid "Send a Letter"
+msgstr "ផ្ញើលិខិតមួយ "
+
+#. module: snailmail_account_followup
+#. openerp-web
+#: code:addons/snailmail_account_followup/static/src/xml/account_followup_template.xml:0
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+#, python-format
+msgid "Send by Post"
+msgstr "ផ្ញើតាមប្រៃសណីយ៍ "
+
+#. module: snailmail_account_followup
+#: model:ir.actions.act_window,name:snailmail_account_followup.followup_send
+msgid "Send by post"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "Sending these"
+msgstr "ការផ្ញើទាំងនេះ "
+
+#. module: snailmail_account_followup
+#: model:ir.model,name:snailmail_account_followup.model_snailmail_confirm_followup
+msgid "Snailmail Confirm Followup"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__snailmail_cost
+msgid "Stamp(s)"
+msgstr "តែម(ច្រើន)"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,help:snailmail_account_followup.field_account_followup_followup_line__send_letter
+msgid "When processing, it will send a letter by Post"
+msgstr "នៅពេលដំណើរការវានឹងផ្ញើលិខិតមួយដោយប៉ុស្តិ៍"
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "customers"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "documents will cost"
+msgstr "ឯកសារនឹងត្រូវចំណាយ "
+
+#. module: snailmail_account_followup
+#: code:addons/snailmail_account_followup/wizard/followup_send.py:0
+#, python-format
+msgid "follow-up report"
+msgstr ""

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo><data>
+    <record id="crm_opportunity_view_dashboard" model="ir.ui.view">
+        <field name="name">crm.lead.view.dashboard.inherit</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm_enterprise.crm_opportunity_view_dashboard"/>
+        <field name="arch" type="xml">
+            <xpath expr="//aggregate[@name='days_exceeding_closing']" position="after">
+                <aggregate name="average_score" string="Score" field="score" group_operator="avg"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="crm_lead_view_dashboard" model="ir.ui.view">
+        <field name="name">crm.lead.view.dashboard.lead.inherit</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm_enterprise.crm_lead_dashboard_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//aggregate[@name='days_to_assign']" position="after">
+                <aggregate name="average_score" string="Score" field="score" group_operator="avg"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="lead_tree_view">
+        <field name="name">crm.lead.tree.inherit</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_tree_view_leads" />
+        <field name="arch" type="xml">
+            <field name="priority" position="after">
+                <field name="score" optional="hide"/>
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="lead_score_form">
+        <field name="name">crm.lead.form.inherit</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_lead_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='lead_priority']/field[@name='priority']" position="after">
+                <field name="score" />
+            </xpath>
+            <xpath expr="//page[@name='extra']/group" position="inside">
+                <group string="Scoring">
+                    <field name="score_ids"
+                        widget="many2many_tags"
+                        context="{'object_name': 'crm.lead'}"
+                        readonly="1"
+                    />
+                </group>
+            </xpath>
+            <xpath expr="//group[@name='Misc']" position="after">
+                <group string="Scoring">
+                    <field name="score_ids"
+                        widget="many2many_tags"
+                        context="{'object_name': 'crm.lead'}"
+                        readonly="1"
+                    />
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="score_opp_tree_view">
+        <field name="name">crm.lead.tree.opp.score.inherit</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_tree_view_oppor" />
+        <field name="arch" type="xml">
+            <field name="company_id" position="after">
+                <field name="score" optional="hide"/>
+            </field>
+        </field>
+    </record>
+
+    <menuitem id="crm.crm_menu_leads" name="Leads" parent="crm.crm_menu_root" groups="sales_team.group_sale_manager" sequence="5"/>
+    <menuitem id="menu_crm_leads" name="Leads" parent="crm.crm_menu_leads" sequence="1" action="crm.crm_lead_all_leads" groups="crm.group_use_lead"/>
+
+</data>
+</odoo>

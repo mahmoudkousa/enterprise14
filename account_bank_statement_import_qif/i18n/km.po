@@ -1,0 +1,156 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_bank_statement_import_qif
+# 
+# Translators:
+# Sengtha Chay <sengtha@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2020-09-07 08:17+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,help:account_bank_statement_import_qif.field_account_bank_statement_import__journal_id
+msgid ""
+"Accounting journal related to the bank statement you're importing. It has to"
+" be manually chosen for statement formats which doesn't allow automatic "
+"journal detection (QIF for example)."
+msgstr ""
+"ទិនានុប្បវត្តិគណនេយ្យទាក់ទងទៅនឹងរបាយការណ៍ធនាគារដែលអ្នកកំពុងនាំចូល។ "
+"វាមមិនត្រូវបានដាក់ចូលជាទម្រង់របាយការណ៌វាដែលមិនអនុញ្ញាតរួមបញ្ជូលទិនានុប្បវត្តិស្វ័យប្រវត្ឡើយតិ"
+" (ឧទាហរណ៍ QIF) ។"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,help:account_bank_statement_import_qif.field_account_bank_statement_import__qif_date_format
+msgid ""
+"Although the historic QIF date format is month-first (mm/dd/yy), many "
+"financial institutions use the local format.Therefore, it is frequent "
+"outside the US to have QIF date formated day-first (dd/mm/yy)."
+msgstr ""
+"ទោះបីជាទ្រង់ទ្រាយកាលបរិច្ឆេទ QIF ប្រវត្តិសាស្រ្តគឺជាខែដំបូង (ខែ / ថ្ងៃ / "
+"ឆ្នាំ) គ្រឹះស្ថានហិរញ្ញវត្ថុជាច្រើនប្រើទម្រង់ក្នុងស្រុក។ "
+"ដូច្នេះហើយវាជាញឹកញាប់នៅខាងក្រៅសហរដ្ឋអាមេរិចដើម្បីកំណត់កាលបរិច្ឆេទ QIF "
+"ជារៀងរាល់ការចុះបញ្ជីត្រូវដាក់មុនខែ ឆ្នំា ( ថ្ងៃ/ ខែ/ ឆ្នាំ) ។"
+
+#. module: account_bank_statement_import_qif
+#: code:addons/account_bank_statement_import_qif/wizard/account_bank_statement_import_qif.py:0
+#, python-format
+msgid "Could not decipher the QIF file."
+msgstr "មិនអាចដាក់លេខកូដនៅលើកកម្មវិធី QIF បានទេ"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__qif_date_format
+msgid "Dates format"
+msgstr "ទម្រង់ជាថ្ងៃ"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__qif_decimal_point
+msgid "Decimal Separator"
+msgstr "សញ្ញាបំបែកទសភាគ"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_journal__display_name
+msgid "Display Name"
+msgstr "ឈ្មោះសំរាប់បង្ហាញ"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,help:account_bank_statement_import_qif.field_account_bank_statement_import__qif_decimal_point
+msgid "Field used to avoid conversion issues."
+msgstr ""
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__hide_journal_field
+msgid "Hide the journal field in the view"
+msgstr "លាក់វាលទិនានុប្បវត្តិក្នុងទិដ្ឋភាព"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__id
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_journal__id
+msgid "ID"
+msgstr "អត្តសញ្ញាណ"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model,name:account_bank_statement_import_qif.model_account_bank_statement_import
+msgid "Import Bank Statement"
+msgstr "ទាញបញ្ជូលរបាយការណ៍ធនាគារ"
+
+#. module: account_bank_statement_import_qif
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import_qif.account_bank_statement_import_view_inherited
+msgid ""
+"In order to avoid conversion errors, please specify the decimal separator "
+"you wish to use."
+msgstr ""
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model,name:account_bank_statement_import_qif.model_account_journal
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__journal_id
+msgid "Journal"
+msgstr "ទិនានុប្បវត្តិ"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import____last_update
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_journal____last_update
+msgid "Last Modified on"
+msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោយ"
+
+#. module: account_bank_statement_import_qif
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import_qif.account_bank_statement_import_qif
+msgid "Quicken Interchange Format (QIF)"
+msgstr ""
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__show_qif_date_format
+msgid "Show Qif Date Format"
+msgstr "ការបង្ហាញពីទម្រង់ថ្ងៃ"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields,help:account_bank_statement_import_qif.field_account_bank_statement_import__show_qif_date_format
+msgid ""
+"Technical field used to ask the user for the date format used in the QIF "
+"file, as this format is ambiguous."
+msgstr ""
+"ឯកសារបច្ចេកទេសដែលត្រូវបានប្រើប្រាសើ សម្រាប់បញ្ជាក់អំពីកាលបរិច្ឆេទ "
+"នៅក្នុង​ការប្រើប្រាស់ដែលបានប្រើនៅក្នុងឯកសារ QIF "
+"ជាទ្រង់ទ្រាយនេះមិនច្បាស់លាស់។"
+
+#. module: account_bank_statement_import_qif
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import_qif.account_bank_statement_import_view_inherited
+msgid ""
+"The QIF format is ambiguous about dates: please check with your financial "
+"institution whether they format it with month or day first.<br/>"
+msgstr ""
+"ទម្រង់បែបបទ QIF មិនច្បាស់លាស់អំពីកាលបរិច្ឆេទ: "
+"សូមឆែកជាមួយស្ថាប័នហិរញ្ញវត្ថុរបស់អ្នកថាតើពួកគេធ្វើទ្រង់ទ្រាយវាជាមួយខែឬថ្ងៃ<br/>"
+
+#. module: account_bank_statement_import_qif
+#: code:addons/account_bank_statement_import_qif/wizard/account_bank_statement_import_qif.py:0
+#, python-format
+msgid "This file is either not a bank statement or is not correctly formed."
+msgstr "ឯកសារនេះមិនមែនជារបាយការណ៍ធនាគារឬមិនត្រូវបានបង្កើតត្រឹមត្រូវទេ។"
+
+#. module: account_bank_statement_import_qif
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import_qif.account_bank_statement_import_view_inherited
+msgid "Upload"
+msgstr "បន្ថែមឯកសារ"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields.selection,name:account_bank_statement_import_qif.selection__account_bank_statement_import__qif_date_format__day_first
+msgid "dd/mm/yy"
+msgstr "ថ្ងៃ/ខែ/ឆ្នំា"
+
+#. module: account_bank_statement_import_qif
+#: model:ir.model.fields.selection,name:account_bank_statement_import_qif.selection__account_bank_statement_import__qif_date_format__month_first
+msgid "mm/dd/yy"
+msgstr "ខែ/ថ្ងៃ/ឆ្នំា"

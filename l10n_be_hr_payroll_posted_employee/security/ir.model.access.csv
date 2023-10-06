@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_create_company_global_time_off,access_create_company_global_time_off,model_create_company_global_time_off,hr_payroll.group_hr_payroll_user,1,1,1,0

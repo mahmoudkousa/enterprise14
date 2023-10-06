@@ -1,0 +1,462 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mass_mailing_themes
+# 
+# Translators:
+# Samkhann Seang <seangsamkhann@gmail.com>, 2020
+# Lux Sok <sok.lux@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:22+0000\n"
+"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2020\n"
+"Language-Team: Khmer (https://app.transifex.com/odoo/teams/41243/km/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid "$20"
+msgstr "$20"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "1958 Royal"
+msgstr "1958 Royal"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "20%"
+msgstr "20%"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "21 Jul"
+msgstr "21 Jul"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "<i>DG Connect, UE</i>"
+msgstr "<i>DG ការភ្ជាប់, UE</i>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "<i>DOE Studio, USA</i>"
+msgstr "<i>DOE Studio, USA</i>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "<i>Web Designer, ES</i>"
+msgstr "<i>អ្នករចនាគេហទំព័រ, ES</i>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "<small>Step 1:</small>"
+msgstr "<small>ជំហានទី 1:</small>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "<small>Step 2:</small>"
+msgstr "<small>ជំហានទី 2:</small>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "<small>Step 3:</small>"
+msgstr "<small>ជំហានទី 3:</small>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid ""
+"<span class=\"fa fa-compass fa-2x text-o-color-4\" aria-label=\"Choose\" "
+"title=\"Choose\"/>"
+msgstr ""
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid ""
+"<span class=\"fa fa-credit-card fa-2x text-o-color-4\" aria-label=\"Order\" "
+"title=\"Order\"/>"
+msgstr ""
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid ""
+"<span class=\"fa fa-smile-o fa-2x text-o-color-4\" aria-label=\"Enjoy!\" "
+"title=\"Enjoy!\"/>"
+msgstr ""
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid ""
+"<span style=\"line-height: 30px;\"><small>CODE: </small></span><strong "
+"class=\"o_code h3\">45A9E77DGW8455</strong>"
+msgstr ""
+"<span style=\"line-height: 30px;\"><small>កូដ: </small></span><strong "
+"class=\"o_code h3\">45A9E77DGW8455</strong>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
+msgid "<strong>2017</strong>"
+msgstr "<strong>2017</strong>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "<strong>Anna Smith</strong>"
+msgstr "<strong>Anna Smith</strong>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "<strong>Clark Hans</strong>"
+msgstr "<strong>Clark Hans</strong>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "<strong>John Doe</strong>"
+msgstr "<strong>John Doe</strong>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
+msgid "<strong>N°258</strong>"
+msgstr "<strong>N°258</strong>"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid ""
+"A delicious soup made of one or more seasonal vegetables, without added fat,"
+" starches and lactose."
+msgstr ""
+"ស៊ុបដែលឆ្ងាញ់ធ្វើពីបន្លែតាមរដូវមួយឬច្រើនដោយមិនបន្ថែមជាតិខ្លាញ់ផ្កាយនិង "
+"lactose ទេ។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "ALL DAY"
+msgstr "ថ្ងៃទាំងអស់"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "BBQ Mix"
+msgstr "BBQ Mix"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "Call for Speakers"
+msgstr "អំពាវនាវឱ្យអ្នកនិយាយ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Captain’s Salad"
+msgstr "សាឡាដរបស់ប្រធានក្រុម"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "Check the top electric guitar brands and their models!"
+msgstr "ពិនិត្យម៉ាកហ្គីតាអគ្គិសនីកំពូលនិងម៉ូដែលរបស់ពួកគេ!"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Choose"
+msgstr "ជ្រើសរើស"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "Classic D8 Skate"
+msgstr "Classic D8 Skate"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid ""
+"Cyber-threats continue to increase.<br/>\n"
+"                                    The discussion will examine how to develop new norms and integrate them into EU"
+msgstr ""
+"ការគំរាមកំហែងតាមអ៊ីនធឺណិតបន្តកើនឡើង។<br/>\n"
+"                                    កិច្ចពិភាក្សានេះនឹងពិនិត្យមើលវិធីដើម្បីអភិវឌ្ឍបទដ្ឋានថ្មីនិងបញ្ចូលវាទៅក្នុងសហគមន៍អ៊ឺរ៉ុប។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "Cybersecurity"
+msgstr "សន្តិសុខ​តាម​ប្រព័ន្ធ​អ៊ីនធឺណិត"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "Discover"
+msgstr "ស្វែងយល់"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid ""
+"Discover the new version of our software, with a great overview on all the "
+"new features."
+msgstr ""
+"ស្វែងយល់ពីសូហ្វវែរសូហ្វវែរជំនាន់ថ្មីរបស់យើងជាមួយនឹងទិដ្ឋភាពទូទៅល្អ ៗ "
+"លើមុខងារថ្មីៗទាំងអស់។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid "Ecologically sustainable"
+msgstr "មាននិរន្តរភាពបរិស្ថានវិទ្យា"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Enjoy!"
+msgstr "ការចូលរួម!"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "FROM YOUR NEXT ORDER!"
+msgstr "ពីបទបញ្ជាបន្ទាប់របស់អ្នក!"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "Gibson Les Paul Junior"
+msgstr "Gibson Les Paul Junior"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid "Greatly suits any need"
+msgstr "សាកសមនឹងតំរូវការណាមួយ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "Heat up the popcorn and get ready for an immersive experience."
+msgstr "កំដៅពោតលីងញ៉ាំនិងត្រៀមខ្លួនសម្រាប់បទពិសោធដ៏ជ្រាលជ្រៅ។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "Hi there!"
+msgstr "សួស្តី!"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "KEYNOTE SPEAKERS"
+msgstr "អ្នកនិយាយសំខាន់"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod no\n"
+"                                tempor incididunt ut labore et dolore magna aliqua.\n"
+"                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n"
+"                                aliquip ex ea commodo consequat."
+msgstr ""
+"ការ៉ុតទំព័រដើម, ការបង្វិលប្រាក់ប្រសើរឡើងនោះទេប៉ុន្តែពួកគេបានផ្តល់ឱ្យនោះទេ occaecat\n"
+"                                ការងារនិងការឈឺចុកចាប់និងទិន្នន័យសំខាន់, ដូច្នេះថានៅអ្វីដែលសំខាន់មួយចំនួនដើម្បី។\n"
+"                                ប៉ុន្មានឆ្នាំមកនេះបានមក, ការធ្វើលំហាត់ប្រាណដែល nostrud សាលារៀនអាចមិនដំណើរការ\n"
+"                                aliquip ចេញពីនាងអត្ថប្រយោជន៍នៃបង្កាន់ដៃនេះ។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Mains"
+msgstr "ជោគជ័យ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Mini Hamburgers"
+msgstr "Mini Hamburgers"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "More Info"
+msgstr "ព័​ត៍​មាន​បន្ថែម"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
+msgid "New 45Hc-270A laptop"
+msgstr "New 45Hc-270A laptop"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
+msgid ""
+"Normally mirrorless cameras have always sat slightly above entry-level in "
+"terms of price.."
+msgstr ""
+"ជាធម្មតាកាមេរ៉ាដែលមិនមានកញ្ចក់តែងតែអង្គុយខ្ពស់ជាងកម្រិតធាតុចូលទៅក្នុងតម្លៃ "
+"។."
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "OFF"
+msgstr "បិទ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid "OFF YOUR NEXT ORDER!"
+msgstr "បិទការបញ្ជាទិញបន្ទាប់របស់អ្នក!"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "Odoo Experience is the place to be to showcase your expertize."
+msgstr "បទពិសោធន៍អូដូគឺជាកន្លែងដែលត្រូវបង្ហាញជំនាញរបស់អ្នក។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Order"
+msgstr "បញ្ជាទិញ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
+msgid "Photo"
+msgstr "រូបថត"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid "Precision engineered"
+msgstr "វិស្វកម្មភាពជាក់លាក់"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "Premium Pass"
+msgstr "ប័ណ្ណបុព្វលាភ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "Puccini Jar"
+msgstr "Puccini Jar"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "Read More"
+msgstr "ការអានបន្ថែម"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
+msgid "Read More..."
+msgstr "ការអានបន្ថែម"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Recipe of the day"
+msgstr "រូបមន្តនៃថ្ងៃ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "Register Now!"
+msgstr "ចុះឈ្មោះ​ឥឡូវនេះ!"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "Registration"
+msgstr "ការចុះឈ្មោះ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid "Sony BDVE210"
+msgstr "Sony BDVE210"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Starters"
+msgstr "អ្នកចាប់ផ្តើមដំបូង"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Tagliatelle Boscaiola"
+msgstr "Tagliatelle Boscaiola"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
+msgid "The Rise Of The Drone"
+msgstr "ការកើនឡើងនៃយន្តហោះដ្រូន"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
+msgid ""
+"The new laptops look nearly identical to the original models, but closer "
+"inspection reveals a refined design."
+msgstr ""
+"កុំព្យូទ័រយួរដៃស៊េរីថ្មីមើលទៅស្រដៀងនឹងម៉ូឌែលដើមប៉ុន្តែការត្រួតពិនិត្យកាន់តែជិតបង្ហាញពីការរចនាចម្រាញ់។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid ""
+"The next edition of Odoo Experience looks very promising. More than 150 talks are scheduled during those 3 days!\n"
+"                                    Find below some stand-out talks for the Business tracks."
+msgstr ""
+"បទពិសោធន៍បន្ទាប់របស់ Odoo បទពិសោធន៍មើលទៅមានជោគជ័យណាស់។ កិច្ចពិភាក្សាជាង ១៥០ ត្រូវបានគ្រោងទុកក្នុងរយៈពេល 3 ថ្ងៃនោះ! \n"
+"                                    រកមើលនៅខាងក្រោមការជជែកលេចធ្លោមួយចំនួនសម្រាប់បទអាជីវកម្ម។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
+msgid ""
+"They sit at terminals at Holloman Air Force Base, watching grainy images "
+"from a drone video feed."
+msgstr ""
+"ពួកគេអង្គុយនៅឯស្ថានីយនៅឯមូលដ្ឋានទ័ពអាកាសហូឡង់ដោយមើលរូបភាពដ៏ស្រស់ស្អាតពីចំណីវីដេអូយន្តហោះគ្មានមនុស្សបើក។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "This pass gives you access to the catering and evening activities!"
+msgstr ""
+"លិខិតឆ្លងដែននេះផ្តល់ឱ្យអ្នកនូវការចូលដំណើរការម្ហូបអាហារនិងសកម្មភាពពេលល្ងាច!"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid ""
+"To stir up your curiosity, have a look at all the great talks scheduled and "
+"highlighted in our agenda!"
+msgstr ""
+"ដើម្បីធ្វើឱ្យមានការចង់ដឹងចង់ឃើញរបស់អ្នកមើលការជជែកដ៏អស្ចារ្យទាំងអស់ដែលបានគ្រោងនិងគូសបញ្ជាក់នៅក្នុងរបៀបវារៈរបស់យើង!"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
+msgid "Tomato Soup"
+msgstr "ស៊ុប​ប៉េងប៉ោះ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
+msgid "Two-lens phone cameras"
+msgstr "កាមេរ៉ាទូរស័ព្ទមានកញ្ចក់ពីរ។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid "Use This Promo Code BEFORE 1st of August"
+msgstr "ប្រើលេខកូដហើរនេះមុនថ្ងៃទី 1 ខែសីហា"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid "Use now"
+msgstr "ការប្រើប្រាស់ឥឡូវ"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
+msgid "WORKSHOPS"
+msgstr "រោងជាង"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
+msgid ""
+"We are continuing to grow and we miss seeing you be a part of it! We've "
+"increased store hours and have lot's of new brands available.<br/>To welcome"
+" you back please accept this 20% discount on you next purchase by clicking "
+"the button."
+msgstr ""
+"យើងកំពុងបន្តរីកចម្រើនហើយយើងខកខានឃើញអ្នកគឺជាផ្នែករបស់វា! "
+"យើងបានបង្កើនម៉ោងហាងហើយមានម៉ាកថ្មីៗជាច្រើន។<br/>ដើម្បីស្វាគមន៍អ្នកត្រឡប់មកវិញសូមទទួលយកការបញ្ចុះតំលៃ"
+" ២០% នេះលើការទិញបន្ទាប់ដោយចុចប៊ូតុង។"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
+msgid "and save $20 on your next order!"
+msgstr "ហើយសន្សំ 20ដុល្លារតាមការបញ្ជាទិញបន្ទាប់របស់អ្នក!"

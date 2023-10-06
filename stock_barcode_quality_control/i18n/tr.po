@@ -1,0 +1,65 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_barcode_quality_control
+# 
+# Translators:
+# Levent Karakaş <levent@mektup.at>, 2020
+# Murat Kaplan <muratk@projetgrup.com>, 2020
+# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2020
+# abc Def <hdogan1974@gmail.com>, 2020
+# Nadir Gazioglu <nadirgazioglu@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:24+0000\n"
+"Last-Translator: Nadir Gazioglu <nadirgazioglu@gmail.com>, 2021\n"
+"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: stock_barcode_quality_control
+#. openerp-web
+#: code:addons/stock_barcode_quality_control/static/src/js/client_action/picking_client_action.js:0
+#, python-format
+msgid "All the quality checks have been done"
+msgstr "Tüm kalite kontrolleri yapıldı"
+
+#. module: stock_barcode_quality_control
+#: model:ir.model.fields,field_description:stock_barcode_quality_control.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "Görünüm Adı"
+
+#. module: stock_barcode_quality_control
+#: model:ir.model.fields,field_description:stock_barcode_quality_control.field_stock_picking__id
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_barcode_quality_control
+#: model:ir.model.fields,field_description:stock_barcode_quality_control.field_stock_picking____last_update
+msgid "Last Modified on"
+msgstr "Son Düzenleme"
+
+#. module: stock_barcode_quality_control
+#. openerp-web
+#: code:addons/stock_barcode_quality_control/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Quality Checks"
+msgstr "Nitelik Denetimleri"
+
+#. module: stock_barcode_quality_control
+#: model:ir.model,name:stock_barcode_quality_control.model_stock_picking
+msgid "Transfer"
+msgstr "Aktarım"
+
+#. module: stock_barcode_quality_control
+#. openerp-web
+#: code:addons/stock_barcode_quality_control/static/src/xml/qweb_templates.xml:0
+#, python-format
+msgid "Validate"
+msgstr "Doğrula"
